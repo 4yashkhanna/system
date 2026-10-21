@@ -1,0 +1,2886 @@
+{
+ "1": {
+  "title": "Visitors park farther and walk",
+  "boxes": [
+   "CONGESTION NEAR DAGDUSHETH",
+   "GAP TO EASY ACCESS",
+   "VISITORS PARKING FARTHER AND WALKING",
+   "VEHICLES REACHING THE CORE",
+   "GOAL: easy access to darshan (visitors)",
+   "Two-wheeler ban near the mandal (#18)"
+  ],
+  "edges": [
+   [
+    "CONGESTION NEAR DAGDUSHETH",
+    "GAP TO EASY ACCESS",
+    "+ E"
+   ],
+   [
+    "GAP TO EASY ACCESS",
+    "VISITORS PARKING FARTHER AND WALKING",
+    "+ E"
+   ],
+   [
+    "VEHICLES REACHING THE CORE",
+    "CONGESTION NEAR DAGDUSHETH",
+    "+ H"
+   ],
+   [
+    "VISITORS PARKING FARTHER AND WALKING",
+    "VEHICLES REACHING THE CORE",
+    "− H"
+   ],
+   [
+    "GOAL: easy access to darshan (visitors)",
+    "GAP TO EASY ACCESS",
+    ""
+   ],
+   [
+    "Two-wheeler ban near the mandal (#18)",
+    "VISITORS PARKING FARTHER AND WALKING",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "VEHICLES REACHING THE CORE",
+     "CONGESTION NEAR DAGDUSHETH",
+     "GAP TO EASY ACCESS",
+     "VISITORS PARKING FARTHER AND WALKING"
+    ]
+   }
+  ],
+  "epH": [
+   "A visitor parks away from Dagdusheth and walks to the festival area.",
+   "During busy festival periods, visitors repeatedly park farther from the main destination and walk the remaining distance.",
+   "Visitors may choose to park farther away because congestion, restricted vehicle access and limited nearby parking make driving directly to the destination less convenient."
+  ],
+  "alone": {
+   "R": "",
+   "B": "congestion near Dagdusheth is pulled toward the goal as the gap shrinks."
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself. Also covers: visitors use transport, parking and walking routes.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "2": {
+  "title": "Visitors take the metro",
+  "boxes": [
+   "WORD OF MOUTH AND NEXT-YEAR HABIT",
+   "TRIPS THAT FELT PREDICTABLE",
+   "VISITORS TAKING THE METRO",
+   "CROWDING AT STATIONS NEAR THE CORE",
+   "GAP BEYOND A BEARABLE CROWD",
+   "VISITORS SWITCHING BACK TO CARS OR OTHER TIMES",
+   "CAPACITY: trains and stations (Pune Metro)",
+   "Road closures and two-wheeler ban",
+   "Extra trains and late services"
+  ],
+  "edges": [
+   [
+    "TRIPS THAT FELT PREDICTABLE",
+    "WORD OF MOUTH AND NEXT-YEAR HABIT",
+    "+ H"
+   ],
+   [
+    "VISITORS TAKING THE METRO",
+    "TRIPS THAT FELT PREDICTABLE",
+    "+ H"
+   ],
+   [
+    "WORD OF MOUTH AND NEXT-YEAR HABIT",
+    "VISITORS TAKING THE METRO",
+    "+ H"
+   ],
+   [
+    "VISITORS TAKING THE METRO",
+    "CROWDING AT STATIONS NEAR THE CORE",
+    "+ E"
+   ],
+   [
+    "CROWDING AT STATIONS NEAR THE CORE",
+    "GAP BEYOND A BEARABLE CROWD",
+    "+ H"
+   ],
+   [
+    "VISITORS SWITCHING BACK TO CARS OR OTHER TIMES",
+    "VISITORS TAKING THE METRO",
+    "− H"
+   ],
+   [
+    "GAP BEYOND A BEARABLE CROWD",
+    "VISITORS SWITCHING BACK TO CARS OR OTHER TIMES",
+    "+ H"
+   ],
+   [
+    "CAPACITY: trains and stations (Pune Metro)",
+    "GAP BEYOND A BEARABLE CROWD",
+    ""
+   ],
+   [
+    "Road closures and two-wheeler ban",
+    "TRIPS THAT FELT PREDICTABLE",
+    "+ E"
+   ],
+   [
+    "Extra trains and late services",
+    "VISITORS SWITCHING BACK TO CARS OR OTHER TIMES",
+    "− ?"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "VISITORS TAKING THE METRO",
+     "TRIPS THAT FELT PREDICTABLE",
+     "WORD OF MOUTH AND NEXT-YEAR HABIT"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "VISITORS TAKING THE METRO",
+     "CROWDING AT STATIONS NEAR THE CORE",
+     "GAP BEYOND A BEARABLE CROWD",
+     "VISITORS SWITCHING BACK TO CARS OR OTHER TIMES"
+    ]
+   }
+  ],
+  "epH": [
+   "A visitor uses the metro to travel towards the festival area.",
+   "Public transport use may increase during festival periods when road congestion and access restrictions make private transport less convenient.",
+   "Visitors may prefer the metro because it offers a more predictable journey and reduces the difficulty of navigating congested roads. This needs validation through visitor interviews or transport data."
+  ],
+  "alone": {
+   "R": "visitors taking the metro keeps growing, faster each round (visitors taking the metro → trips that felt predictable → word of mouth and next-year habit).",
+   "B": "visitors taking the metro rises, then levels off at the limit (trains and stations (Pune Metro))."
+  },
+  "note": "R and B share one box: visitors taking the metro.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Pune Metro ridership crossed 4.78 lakh on 19 Sep 2026 (E). Hawkers: visitors expected congestion and took the metro (D06, E)."
+ },
+ "4": {
+  "title": "People slow down near a pandal",
+  "boxes": [
+   "CURIOSITY: WHAT IS HAPPENING THERE?",
+   "BUNCHING IN FRONT OF THE PANDAL",
+   "PEOPLE SLOWING NEAR THE PANDAL",
+   "BLOCKED PEDESTRIAN FLOW",
+   "GAP TO A MOVING FOOTPATH",
+   "VOLUNTEERS AND GUARDS KEEPING PEOPLE MOVING",
+   "GOAL: footpath keeps moving (organisers, police)",
+   "Lights, decoration and sound",
+   "Volunteers on duty"
+  ],
+  "edges": [
+   [
+    "BUNCHING IN FRONT OF THE PANDAL",
+    "CURIOSITY: WHAT IS HAPPENING THERE?",
+    "+ H"
+   ],
+   [
+    "PEOPLE SLOWING NEAR THE PANDAL",
+    "BUNCHING IN FRONT OF THE PANDAL",
+    "+ E"
+   ],
+   [
+    "CURIOSITY: WHAT IS HAPPENING THERE?",
+    "PEOPLE SLOWING NEAR THE PANDAL",
+    "+ H"
+   ],
+   [
+    "PEOPLE SLOWING NEAR THE PANDAL",
+    "BLOCKED PEDESTRIAN FLOW",
+    "+ E"
+   ],
+   [
+    "BLOCKED PEDESTRIAN FLOW",
+    "GAP TO A MOVING FOOTPATH",
+    "+ H"
+   ],
+   [
+    "VOLUNTEERS AND GUARDS KEEPING PEOPLE MOVING",
+    "PEOPLE SLOWING NEAR THE PANDAL",
+    "− H"
+   ],
+   [
+    "GAP TO A MOVING FOOTPATH",
+    "VOLUNTEERS AND GUARDS KEEPING PEOPLE MOVING",
+    "+ E"
+   ],
+   [
+    "GOAL: footpath keeps moving (organisers, police)",
+    "GAP TO A MOVING FOOTPATH",
+    ""
+   ],
+   [
+    "Lights, decoration and sound",
+    "BUNCHING IN FRONT OF THE PANDAL",
+    "+ E"
+   ],
+   [
+    "Volunteers on duty",
+    "VOLUNTEERS AND GUARDS KEEPING PEOPLE MOVING",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "GAP TO A MOVING FOOTPATH",
+     "VOLUNTEERS AND GUARDS KEEPING PEOPLE MOVING",
+     "PEOPLE SLOWING NEAR THE PANDAL",
+     "BLOCKED PEDESTRIAN FLOW"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "BUNCHING IN FRONT OF THE PANDAL",
+     "CURIOSITY: WHAT IS HAPPENING THERE?",
+     "PEOPLE SLOWING NEAR THE PANDAL"
+    ]
+   }
+  ],
+  "epH": [
+   "A pedestrian slows down while passing a pandal.",
+   "Pedestrian movement repeatedly slows near pandals, particularly where the display is visible or activity is taking place.",
+   "Visual attraction, curiosity and religious interest may draw pedestrians' attention away from their original destination and reduce their walking speed."
+  ],
+  "alone": {
+   "R": "people slowing near the pandal keeps growing, faster each round (people slowing near the pandal → bunching in front of the pandal → curiosity: what is happening there?).",
+   "B": "blocked pedestrian flow is pulled toward the goal. As the gap closes, the action (volunteers and guards keeping people moving) eases off."
+  },
+  "note": "R and B share one box: people slowing near the pandal.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Primary research 13 and 20: the metres before a pandal are a decision zone; a rope, light or chair changes how a large space is used (E)."
+ },
+ "5": {
+  "title": "Passers-by stop to watch performances",
+  "boxes": [
+   "MANDAL PROGRAMMING MORE PERFORMANCES",
+   "AUDIENCE AT ROADSIDE PLAYS",
+   "PASSERS-BY STOPPING TO WATCH",
+   "CROWD SPILLING ONTO THE CARRIAGEWAY",
+   "GAP TO A CLEAR ROAD",
+   "POLICE AND VOLUNTEERS DISPERSING THE AUDIENCE",
+   "GOAL: road kept clear (traffic police)",
+   "Pandal on a main road",
+   "Evening restrictions from 5 pm"
+  ],
+  "edges": [
+   [
+    "AUDIENCE AT ROADSIDE PLAYS",
+    "MANDAL PROGRAMMING MORE PERFORMANCES",
+    "+ H"
+   ],
+   [
+    "PASSERS-BY STOPPING TO WATCH",
+    "AUDIENCE AT ROADSIDE PLAYS",
+    "+ E"
+   ],
+   [
+    "MANDAL PROGRAMMING MORE PERFORMANCES",
+    "PASSERS-BY STOPPING TO WATCH",
+    "+ ?"
+   ],
+   [
+    "PASSERS-BY STOPPING TO WATCH",
+    "CROWD SPILLING ONTO THE CARRIAGEWAY",
+    "+ H"
+   ],
+   [
+    "CROWD SPILLING ONTO THE CARRIAGEWAY",
+    "GAP TO A CLEAR ROAD",
+    "+ H"
+   ],
+   [
+    "POLICE AND VOLUNTEERS DISPERSING THE AUDIENCE",
+    "PASSERS-BY STOPPING TO WATCH",
+    "− H"
+   ],
+   [
+    "GAP TO A CLEAR ROAD",
+    "POLICE AND VOLUNTEERS DISPERSING THE AUDIENCE",
+    "+ E"
+   ],
+   [
+    "GOAL: road kept clear (traffic police)",
+    "GAP TO A CLEAR ROAD",
+    ""
+   ],
+   [
+    "Pandal on a main road",
+    "AUDIENCE AT ROADSIDE PLAYS",
+    "+ E"
+   ],
+   [
+    "Evening restrictions from 5 pm",
+    "POLICE AND VOLUNTEERS DISPERSING THE AUDIENCE",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "PASSERS-BY STOPPING TO WATCH",
+     "AUDIENCE AT ROADSIDE PLAYS",
+     "MANDAL PROGRAMMING MORE PERFORMANCES"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "PASSERS-BY STOPPING TO WATCH",
+     "CROWD SPILLING ONTO THE CARRIAGEWAY",
+     "GAP TO A CLEAR ROAD",
+     "POLICE AND VOLUNTEERS DISPERSING THE AUDIENCE"
+    ]
+   }
+  ],
+  "epH": [
+   "A passer-by stops to watch a performance at a roadside pandal.",
+   "Performances repeatedly create temporary groups of stationary spectators along pedestrian routes.",
+   "Performances may attract people because they provide entertainment and cultural participation without requiring visitors to have planned a formal visit."
+  ],
+  "alone": {
+   "R": "passers-by stopping to watch keeps growing, faster each round (passers-by stopping to watch → audience at roadside plays → mandal programming more performances).",
+   "B": "crowd on the carriageway is pulled toward the goal. As the gap closes, the action (police and volunteers dispersing the audience) eases off."
+  },
+  "note": "R and B share one box: passers-by stopping to watch. Also covers: visitors stop for roadside performances unplanned.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Observation: on roads, crowds come to watch plays rather than the puja (E). Police start patrolling a pandal when its crowd slows traffic (E)."
+ },
+ "6": {
+  "title": "Pandals as social meeting points",
+  "boxes": [
+   "FRIENDS SAYING \"MEET AT THE PANDAL\"",
+   "PANDAL KNOWN AS A MEETING SPOT",
+   "GROUPS MEETING AND WAITING AT THE PANDAL",
+   "STANDING CROWD AROUND THE PANDAL",
+   "GAP TO ROOM TO STAND AND PASS",
+   "GROUPS MOVING ON TO THE NEXT PANDAL",
+   "GOAL: room to stand and pass (visitors, organisers)",
+   "Pandal at the same spot every year (#28)",
+   "Other pandals within walking distance"
+  ],
+  "edges": [
+   [
+    "PANDAL KNOWN AS A MEETING SPOT",
+    "FRIENDS SAYING \"MEET AT THE PANDAL\"",
+    "+ H"
+   ],
+   [
+    "GROUPS MEETING AND WAITING AT THE PANDAL",
+    "PANDAL KNOWN AS A MEETING SPOT",
+    "+ E"
+   ],
+   [
+    "FRIENDS SAYING \"MEET AT THE PANDAL\"",
+    "GROUPS MEETING AND WAITING AT THE PANDAL",
+    "+ H"
+   ],
+   [
+    "GROUPS MEETING AND WAITING AT THE PANDAL",
+    "STANDING CROWD AROUND THE PANDAL",
+    "+ H"
+   ],
+   [
+    "STANDING CROWD AROUND THE PANDAL",
+    "GAP TO ROOM TO STAND AND PASS",
+    "+ H"
+   ],
+   [
+    "GROUPS MOVING ON TO THE NEXT PANDAL",
+    "GROUPS MEETING AND WAITING AT THE PANDAL",
+    "− H"
+   ],
+   [
+    "GAP TO ROOM TO STAND AND PASS",
+    "GROUPS MOVING ON TO THE NEXT PANDAL",
+    "+ H"
+   ],
+   [
+    "GOAL: room to stand and pass (visitors, organisers)",
+    "GAP TO ROOM TO STAND AND PASS",
+    ""
+   ],
+   [
+    "Pandal at the same spot every year (#28)",
+    "PANDAL KNOWN AS A MEETING SPOT",
+    "+ E"
+   ],
+   [
+    "Other pandals within walking distance",
+    "GROUPS MOVING ON TO THE NEXT PANDAL",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "PANDAL KNOWN AS A MEETING SPOT",
+     "FRIENDS SAYING \"MEET AT THE PANDAL\"",
+     "GROUPS MEETING AND WAITING AT THE PANDAL"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "GROUPS MEETING AND WAITING AT THE PANDAL",
+     "STANDING CROWD AROUND THE PANDAL",
+     "GAP TO ROOM TO STAND AND PASS",
+     "GROUPS MOVING ON TO THE NEXT PANDAL"
+    ]
+   }
+  ],
+  "epH": [
+   "A group gathers around a pandal to meet, wait or socialise.",
+   "People repeatedly use pandal surroundings for social interaction beyond scheduled religious activities.",
+   "Pandals may function as familiar, recognisable landmarks that make convenient meeting points for friends, relatives and community members."
+  ],
+  "alone": {
+   "R": "pandal used as a meeting landmark keeps growing, faster each round (groups meeting and waiting at the pandal → pandal known as a meeting spot → friends saying \"meet at the pandal\").",
+   "B": "standing crowd around the pandal is pulled toward the goal. As the gap closes, the action (groups moving on to the next pandal) eases off."
+  },
+  "note": "R and B share one box: groups meeting and waiting at the pandal. Also covers: people meet and regroup at pandals.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Primary research 07: people around a pandal are often meeting friends or family, not waiting for darshan (E)."
+ },
+ "8": {
+  "title": "Roadside vs neighbourhood pandal visits",
+  "boxes": [
+   "ATTACHMENT TO \"OUR\" PANDAL",
+   "NEIGHBOURS MEETING AT THE LOCAL PANDAL",
+   "TIME SPENT AT THE PANDAL",
+   "CROWD STANDING ON THE ROAD",
+   "GAP TO A PASSABLE ROAD",
+   "POLICE MOVING PEOPLE ALONG",
+   "GOAL: road stays passable (traffic police)",
+   "Pandal set inside the gali",
+   "Pandal on a main road"
+  ],
+  "edges": [
+   [
+    "NEIGHBOURS MEETING AT THE LOCAL PANDAL",
+    "ATTACHMENT TO \"OUR\" PANDAL",
+    "+ H"
+   ],
+   [
+    "TIME SPENT AT THE PANDAL",
+    "NEIGHBOURS MEETING AT THE LOCAL PANDAL",
+    "+ E"
+   ],
+   [
+    "ATTACHMENT TO \"OUR\" PANDAL",
+    "TIME SPENT AT THE PANDAL",
+    "+ H"
+   ],
+   [
+    "TIME SPENT AT THE PANDAL",
+    "CROWD STANDING ON THE ROAD",
+    "+ H"
+   ],
+   [
+    "CROWD STANDING ON THE ROAD",
+    "GAP TO A PASSABLE ROAD",
+    "+ H"
+   ],
+   [
+    "POLICE MOVING PEOPLE ALONG",
+    "TIME SPENT AT THE PANDAL",
+    "− H"
+   ],
+   [
+    "GAP TO A PASSABLE ROAD",
+    "POLICE MOVING PEOPLE ALONG",
+    "+ E"
+   ],
+   [
+    "GOAL: road stays passable (traffic police)",
+    "GAP TO A PASSABLE ROAD",
+    ""
+   ],
+   [
+    "Pandal set inside the gali",
+    "NEIGHBOURS MEETING AT THE LOCAL PANDAL",
+    "+ E"
+   ],
+   [
+    "Pandal on a main road",
+    "POLICE MOVING PEOPLE ALONG",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "POLICE MOVING PEOPLE ALONG",
+     "TIME SPENT AT THE PANDAL",
+     "CROWD STANDING ON THE ROAD",
+     "GAP TO A PASSABLE ROAD"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "TIME SPENT AT THE PANDAL",
+     "NEIGHBOURS MEETING AT THE LOCAL PANDAL",
+     "ATTACHMENT TO \"OUR\" PANDAL"
+    ]
+   }
+  ],
+  "epH": [
+   "A visitor stops briefly at a roadside pandal, while another spends longer at a neighbourhood pandal.",
+   "Visit duration and participation may vary between pandals according to their setting, activities and visitors' intentions.",
+   "Roadside pandals may attract incidental visits, while neighbourhood pandals may encourage more sustained social or community participation. This distinction needs direct comparison across sites."
+  ],
+  "alone": {
+   "R": "time spent at a neighbourhood pandal keeps growing, faster each round (time spent at the pandal → neighbours meeting at the local pandal → attachment to \"our\" pandal).",
+   "B": "crowd standing on the road (roadside pandal) is pulled toward the goal. As the gap closes, the action (police moving people along) eases off."
+  },
+  "note": "R and B share one box: time spent at the pandal.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Observations: main roads attract passers-by; neighbourhood pandals attract the neighbourhood (E). KP 07: residents have a favourite local pandal (E). Direct comparison still needed."
+ },
+ "10": {
+  "title": "Flower vendors see demand rise",
+  "boxes": [
+   "FLOWERS AVAILABLE FOR MANDAL DECOR",
+   "VENDORS STOCKING UP FOR KEY DAYS",
+   "FLOWER AND GARLAND SALES",
+   "FLOWER PRICES",
+   "GAP BEYOND WHAT BUYERS WILL PAY",
+   "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+   "GOAL: affordable puja flowers (households, mandals)",
+   "Key worship days ahead",
+   "Artificial flowers on sale"
+  ],
+  "edges": [
+   [
+    "VENDORS STOCKING UP FOR KEY DAYS",
+    "FLOWERS AVAILABLE FOR MANDAL DECOR",
+    "+ E"
+   ],
+   [
+    "FLOWER AND GARLAND SALES",
+    "VENDORS STOCKING UP FOR KEY DAYS",
+    "+ H"
+   ],
+   [
+    "FLOWERS AVAILABLE FOR MANDAL DECOR",
+    "FLOWER AND GARLAND SALES",
+    "+ H"
+   ],
+   [
+    "FLOWER AND GARLAND SALES",
+    "FLOWER PRICES",
+    "+ E"
+   ],
+   [
+    "FLOWER PRICES",
+    "GAP BEYOND WHAT BUYERS WILL PAY",
+    "+ H"
+   ],
+   [
+    "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+    "FLOWER AND GARLAND SALES",
+    "− H"
+   ],
+   [
+    "GAP BEYOND WHAT BUYERS WILL PAY",
+    "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+    "+ H"
+   ],
+   [
+    "GOAL: affordable puja flowers (households, mandals)",
+    "GAP BEYOND WHAT BUYERS WILL PAY",
+    ""
+   ],
+   [
+    "Key worship days ahead",
+    "VENDORS STOCKING UP FOR KEY DAYS",
+    "+ E"
+   ],
+   [
+    "Artificial flowers on sale",
+    "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+    "+ ?"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "FLOWER PRICES",
+     "GAP BEYOND WHAT BUYERS WILL PAY",
+     "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+     "FLOWER AND GARLAND SALES"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "VENDORS STOCKING UP FOR KEY DAYS",
+     "FLOWERS AVAILABLE FOR MANDAL DECOR",
+     "FLOWER AND GARLAND SALES"
+    ]
+   }
+  ],
+  "epH": [
+   "A flower vendor reports increased demand during Ganesh Chaturthi.",
+   "Flower vendors experience a recurring seasonal increase in demand during the festival, if supported by evidence across multiple vendors or years.",
+   "The increased demand may result from households and mandals purchasing flowers for puja, decoration and offerings. Comparing festival and non-festival sales would help validate this explanation."
+  ],
+  "alone": {
+   "R": "flower and garland sales keeps growing, faster each round (flower and garland sales → vendors stocking up for key days → flowers available for mandal decor).",
+   "B": "flower prices is pulled toward the goal. As the gap closes, the action (buyers cutting back or using artificial decor) eases off."
+  },
+  "note": "R and B share one box: flower and garland sales. Also covers: flower vendors supply the festival; flower vendors stock up for festive demand.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). D03: vendors report higher demand; the Vrindavan theme drew flowers from this market (E). Dadar 2024: marigold went from Rs 80 to Rs 180 per kg (E, Mumbai)."
+ },
+ "11": {
+  "title": "Shopkeepers adapt to the festival",
+  "boxes": [
+   "SHOPKEEPER'S CONFIDENCE IN FESTIVAL TRADE",
+   "SALES FROM FESTIVAL FOOTFALL",
+   "SHOP HOURS SHIFTED TO FESTIVAL TIMES",
+   "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+   "GAP TO NORMAL TRADE",
+   "CHANGING STAFF, STOCK AND SERVICE ROUTINES",
+   "GOAL: normal trade (shopkeepers)",
+   "Footfall near the pandal",
+   "Road restrictions and barricades"
+  ],
+  "edges": [
+   [
+    "SALES FROM FESTIVAL FOOTFALL",
+    "SHOPKEEPER'S CONFIDENCE IN FESTIVAL TRADE",
+    "+ H"
+   ],
+   [
+    "SHOP HOURS SHIFTED TO FESTIVAL TIMES",
+    "SALES FROM FESTIVAL FOOTFALL",
+    "+ ?"
+   ],
+   [
+    "SHOPKEEPER'S CONFIDENCE IN FESTIVAL TRADE",
+    "SHOP HOURS SHIFTED TO FESTIVAL TIMES",
+    "+ H"
+   ],
+   [
+    "SHOP HOURS SHIFTED TO FESTIVAL TIMES",
+    "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+    "− H"
+   ],
+   [
+    "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+    "GAP TO NORMAL TRADE",
+    "+ H"
+   ],
+   [
+    "CHANGING STAFF, STOCK AND SERVICE ROUTINES",
+    "SHOP HOURS SHIFTED TO FESTIVAL TIMES",
+    "+ H"
+   ],
+   [
+    "GAP TO NORMAL TRADE",
+    "CHANGING STAFF, STOCK AND SERVICE ROUTINES",
+    "+ H"
+   ],
+   [
+    "GOAL: normal trade (shopkeepers)",
+    "GAP TO NORMAL TRADE",
+    ""
+   ],
+   [
+    "Footfall near the pandal",
+    "SALES FROM FESTIVAL FOOTFALL",
+    "+ E"
+   ],
+   [
+    "Road restrictions and barricades",
+    "CHANGING STAFF, STOCK AND SERVICE ROUTINES",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+     "GAP TO NORMAL TRADE",
+     "CHANGING STAFF, STOCK AND SERVICE ROUTINES",
+     "SHOP HOURS SHIFTED TO FESTIVAL TIMES"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "SHOPKEEPER'S CONFIDENCE IN FESTIVAL TRADE",
+     "SHOP HOURS SHIFTED TO FESTIVAL TIMES",
+     "SALES FROM FESTIVAL FOOTFALL"
+    ]
+   }
+  ],
+  "epH": [
+   "A shopkeeper changes a business routine in response to altered access or customer movement during the festival.",
+   "Businesses near festival activity repeatedly adjust their operations as customer access, footfall and street conditions change.",
+   "Shopkeepers may adapt because festival activity can create both commercial opportunities, through increased visitor numbers, and operational challenges, through restricted access or congestion."
+  ],
+  "alone": {
+   "R": "sales from festival footfall keeps growing, faster each round (shop hours shifted to festival times → sales from festival footfall → shopkeeper's confidence in festival trade).",
+   "B": "customers turned away is pulled toward the goal. As the gap closes, the action (changing staff, stock and service routines) eases off."
+  },
+  "note": "R and B share one box: shop hours shifted to festival times. Also covers: shopkeepers adjust operating routines.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). D04: a licensed shop owner said her income went up somewhat (E). Primary research 15: the same footfall helps some shops and blocks others (E)."
+ },
+ "12": {
+  "title": "Shopkeepers reluctant to discuss economic effects",
+  "boxes": [
+   "ECONOMIC EFFECTS MISSING FROM PLANNING",
+   "SHOPKEEPERS SILENT ON ECONOMIC EFFECTS",
+   "TOPIC TREATED AS TOO SENSITIVE",
+   "Cultural importance of the festival"
+  ],
+  "edges": [
+   [
+    "SHOPKEEPERS SILENT ON ECONOMIC EFFECTS",
+    "ECONOMIC EFFECTS MISSING FROM PLANNING",
+    "+ H"
+   ],
+   [
+    "TOPIC TREATED AS TOO SENSITIVE",
+    "SHOPKEEPERS SILENT ON ECONOMIC EFFECTS",
+    "+ ?"
+   ],
+   [
+    "ECONOMIC EFFECTS MISSING FROM PLANNING",
+    "TOPIC TREATED AS TOO SENSITIVE",
+    "+ H"
+   ],
+   [
+    "Cultural importance of the festival",
+    "SHOPKEEPERS SILENT ON ECONOMIC EFFECTS",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "ECONOMIC EFFECTS MISSING FROM PLANNING",
+     "TOPIC TREATED AS TOO SENSITIVE",
+     "SHOPKEEPERS SILENT ON ECONOMIC EFFECTS"
+    ]
+   }
+  ],
+  "epH": [
+   "A licensed shopkeeper declines to discuss or gives limited information about the festival's economic effects.",
+   "Some interviews may produce limited information about commercial impacts when respondents perceive the topic as sensitive.",
+   "Shopkeepers may be concerned that discussing financial effects could be interpreted as criticism of a culturally significant event. This is a possible explanation for our interview experience, not a general conclusion about shopkeepers."
+  ],
+  "alone": {
+   "R": "shopkeepers silent on economic effects keeps growing, and nothing yet pulls it back.",
+   "B": ""
+  },
+  "note": "Reinforcing loop only. The focal behaviour, in blue, feeds on itself and no goal or limit pushes back yet.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "18": {
+  "title": "Two-wheelers restricted near Dagdusheth",
+  "boxes": [
+   "TWO-WHEELERS NEAR THE MANDAL",
+   "CONFLICTS WITH WALKING CROWDS",
+   "GAP TO A SAFE WALKING ZONE",
+   "TWO-WHEELER BAN IN THE CORE",
+   "GOAL: safe walking zone (police)",
+   "Peak darshan days"
+  ],
+  "edges": [
+   [
+    "TWO-WHEELERS NEAR THE MANDAL",
+    "CONFLICTS WITH WALKING CROWDS",
+    "+ H"
+   ],
+   [
+    "CONFLICTS WITH WALKING CROWDS",
+    "GAP TO A SAFE WALKING ZONE",
+    "+ H"
+   ],
+   [
+    "TWO-WHEELER BAN IN THE CORE",
+    "TWO-WHEELERS NEAR THE MANDAL",
+    "− E"
+   ],
+   [
+    "GAP TO A SAFE WALKING ZONE",
+    "TWO-WHEELER BAN IN THE CORE",
+    "+ H"
+   ],
+   [
+    "GOAL: safe walking zone (police)",
+    "GAP TO A SAFE WALKING ZONE",
+    ""
+   ],
+   [
+    "Peak darshan days",
+    "CONFLICTS WITH WALKING CROWDS",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "TWO-WHEELERS NEAR THE MANDAL",
+     "CONFLICTS WITH WALKING CROWDS",
+     "GAP TO A SAFE WALKING ZONE",
+     "TWO-WHEELER BAN IN THE CORE"
+    ]
+   }
+  ],
+  "epH": [
+   "Authorities restrict two-wheeler access in the immediate Dagdusheth area.",
+   "Vehicle access restrictions may recur around high-density festival locations during specified periods.",
+   "Authorities may restrict two-wheelers to reduce conflicts between vehicles and pedestrians and to preserve space for crowd movement. Confirm the restriction's location, timing and stated purpose."
+  ],
+  "alone": {
+   "R": "",
+   "B": "two-wheelers near the mandal is pulled toward the goal as the gap shrinks."
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "22": {
+  "title": "Visitors pause before a pandal to decide",
+  "boxes": [
+   "CROWD VISIBLE AT THE ENTRANCE",
+   "GAP BEYOND A WORTHWHILE WAIT",
+   "VISITORS SKIPPING OR WAITING",
+   "PEOPLE ENTERING THE PANDAL",
+   "GOAL: a visit worth the wait (visitors)",
+   "Pull of the idol and theme"
+  ],
+  "edges": [
+   [
+    "CROWD VISIBLE AT THE ENTRANCE",
+    "GAP BEYOND A WORTHWHILE WAIT",
+    "+ H"
+   ],
+   [
+    "GAP BEYOND A WORTHWHILE WAIT",
+    "VISITORS SKIPPING OR WAITING",
+    "+ H"
+   ],
+   [
+    "PEOPLE ENTERING THE PANDAL",
+    "CROWD VISIBLE AT THE ENTRANCE",
+    "+ E"
+   ],
+   [
+    "VISITORS SKIPPING OR WAITING",
+    "PEOPLE ENTERING THE PANDAL",
+    "− H"
+   ],
+   [
+    "GOAL: a visit worth the wait (visitors)",
+    "GAP BEYOND A WORTHWHILE WAIT",
+    ""
+   ],
+   [
+    "Pull of the idol and theme",
+    "VISITORS SKIPPING OR WAITING",
+    "− H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "PEOPLE ENTERING THE PANDAL",
+     "CROWD VISIBLE AT THE ENTRANCE",
+     "GAP BEYOND A WORTHWHILE WAIT",
+     "VISITORS SKIPPING OR WAITING"
+    ]
+   }
+  ],
+  "epH": [
+   "A visitor pauses near a pandal entrance and assesses the crowd before proceeding.",
+   "Visitors may repeatedly pause at entrances or approach routes where they need to assess crowd density and access.",
+   "Visitors may use these pauses to judge whether the expected experience is worth the waiting time or physical effort."
+  ],
+  "alone": {
+   "R": "",
+   "B": "crowd at the entrance is pulled toward the goal as the gap shrinks."
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself. Also covers: people decide to stop or continue.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "25": {
+  "title": "Crowds gather at aarti and performance times",
+  "boxes": [
+   "PEOPLE PLANNING VISITS FOR THAT TIME",
+   "ATMOSPHERE AT THAT TIME",
+   "CROWD AT AARTI AND PERFORMANCE TIMES",
+   "CROWD OVERFLOW ONTO ROADS",
+   "GAP TO SAFE CLEARANCE",
+   "POLICE RESTRICTIONS FROM 5 PM",
+   "GOAL: safe evening crowd (traffic police)",
+   "Loudspeakers till midnight on 5 days",
+   "Big procession days"
+  ],
+  "edges": [
+   [
+    "ATMOSPHERE AT THAT TIME",
+    "PEOPLE PLANNING VISITS FOR THAT TIME",
+    "+ H"
+   ],
+   [
+    "CROWD AT AARTI AND PERFORMANCE TIMES",
+    "ATMOSPHERE AT THAT TIME",
+    "+ H"
+   ],
+   [
+    "PEOPLE PLANNING VISITS FOR THAT TIME",
+    "CROWD AT AARTI AND PERFORMANCE TIMES",
+    "+ H"
+   ],
+   [
+    "CROWD AT AARTI AND PERFORMANCE TIMES",
+    "CROWD OVERFLOW ONTO ROADS",
+    "+ E"
+   ],
+   [
+    "CROWD OVERFLOW ONTO ROADS",
+    "GAP TO SAFE CLEARANCE",
+    "+ H"
+   ],
+   [
+    "POLICE RESTRICTIONS FROM 5 PM",
+    "CROWD AT AARTI AND PERFORMANCE TIMES",
+    "− ?"
+   ],
+   [
+    "GAP TO SAFE CLEARANCE",
+    "POLICE RESTRICTIONS FROM 5 PM",
+    "+ E"
+   ],
+   [
+    "GOAL: safe evening crowd (traffic police)",
+    "GAP TO SAFE CLEARANCE",
+    ""
+   ],
+   [
+    "Loudspeakers till midnight on 5 days",
+    "ATMOSPHERE AT THAT TIME",
+    "+ E"
+   ],
+   [
+    "Big procession days",
+    "POLICE RESTRICTIONS FROM 5 PM",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "PEOPLE PLANNING VISITS FOR THAT TIME",
+     "CROWD AT AARTI AND PERFORMANCE TIMES",
+     "ATMOSPHERE AT THAT TIME"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "CROWD AT AARTI AND PERFORMANCE TIMES",
+     "CROWD OVERFLOW ONTO ROADS",
+     "GAP TO SAFE CLEARANCE",
+     "POLICE RESTRICTIONS FROM 5 PM"
+    ]
+   }
+  ],
+  "epH": [
+   "A crowd gathers before or during a scheduled ritual or performance.",
+   "Crowd size may rise and fall around recurring programme timings, creating predictable arrival and dispersal cycles.",
+   "Shared schedules and the desire to attend particular activities may synchronise visitors' arrival times."
+  ],
+  "alone": {
+   "R": "crowd at aarti and performance times keeps growing, faster each round (crowd at aarti and performance times → atmosphere at that time → people planning visits for that time).",
+   "B": "crowd overflow onto roads is pulled toward the goal. As the gap closes, the action (police restrictions from 5 pm) eases off."
+  },
+  "note": "R and B share one box: crowd at aarti and performance times.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Observation: puja and celebrations happen at set times, changing the relation between celebration, traffic and homes (E). Traffic police add restrictions every evening from 5 pm (E)."
+ },
+ "27": {
+  "title": "Businesses add staff and stock in advance",
+  "boxes": [
+   "SHORTFALL AGAINST EXPECTED DEMAND",
+   "GAP TO ENOUGH STOCK, LITTLE WASTE",
+   "EXTRA STOCK AND STAFF ARRANGED",
+   "STOCK AND STAFF ON HAND",
+   "GOAL: enough stock, little waste (businesses)",
+   "Last year's festival sales"
+  ],
+  "edges": [
+   [
+    "SHORTFALL AGAINST EXPECTED DEMAND",
+    "GAP TO ENOUGH STOCK, LITTLE WASTE",
+    "+ H"
+   ],
+   [
+    "GAP TO ENOUGH STOCK, LITTLE WASTE",
+    "EXTRA STOCK AND STAFF ARRANGED",
+    "+ H"
+   ],
+   [
+    "STOCK AND STAFF ON HAND",
+    "SHORTFALL AGAINST EXPECTED DEMAND",
+    "− H"
+   ],
+   [
+    "EXTRA STOCK AND STAFF ARRANGED",
+    "STOCK AND STAFF ON HAND",
+    "+ H"
+   ],
+   [
+    "GOAL: enough stock, little waste (businesses)",
+    "GAP TO ENOUGH STOCK, LITTLE WASTE",
+    ""
+   ],
+   [
+    "Last year's festival sales",
+    "SHORTFALL AGAINST EXPECTED DEMAND",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "SHORTFALL AGAINST EXPECTED DEMAND",
+     "GAP TO ENOUGH STOCK, LITTLE WASTE",
+     "EXTRA STOCK AND STAFF ARRANGED",
+     "STOCK AND STAFF ON HAND"
+    ]
+   }
+  ],
+  "epH": [
+   "A business increases stock or changes staffing ahead of an expected busy period.",
+   "Businesses may make recurring seasonal adjustments to staffing and inventory before the festival.",
+   "Past sales, customer expectations and anticipated footfall may influence how much additional stock or labour businesses prepare."
+  ],
+  "alone": {
+   "R": "",
+   "B": "shortfall against expected demand is pulled toward the goal as the gap shrinks."
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "31": {
+  "title": "Visitors switch to public transport or walking",
+  "boxes": [
+   "WORD OF MOUTH AND HABIT",
+   "TRIPS THAT FELT PREDICTABLE",
+   "VISITORS ON METRO, BUS OR FOOT",
+   "CROWDING AT STATIONS AND FOOTPATHS",
+   "GAP BEYOND A BEARABLE CROWD",
+   "VISITORS SWITCHING BACK TO CARS",
+   "CAPACITY: trains, stations and footpaths",
+   "Road closures and two-wheeler bans",
+   "Extra trains and late services"
+  ],
+  "edges": [
+   [
+    "TRIPS THAT FELT PREDICTABLE",
+    "WORD OF MOUTH AND HABIT",
+    "+ H"
+   ],
+   [
+    "VISITORS ON METRO, BUS OR FOOT",
+    "TRIPS THAT FELT PREDICTABLE",
+    "+ H"
+   ],
+   [
+    "WORD OF MOUTH AND HABIT",
+    "VISITORS ON METRO, BUS OR FOOT",
+    "+ H"
+   ],
+   [
+    "VISITORS ON METRO, BUS OR FOOT",
+    "CROWDING AT STATIONS AND FOOTPATHS",
+    "+ E"
+   ],
+   [
+    "CROWDING AT STATIONS AND FOOTPATHS",
+    "GAP BEYOND A BEARABLE CROWD",
+    "+ H"
+   ],
+   [
+    "VISITORS SWITCHING BACK TO CARS",
+    "VISITORS ON METRO, BUS OR FOOT",
+    "− H"
+   ],
+   [
+    "GAP BEYOND A BEARABLE CROWD",
+    "VISITORS SWITCHING BACK TO CARS",
+    "+ H"
+   ],
+   [
+    "CAPACITY: trains, stations and footpaths",
+    "GAP BEYOND A BEARABLE CROWD",
+    ""
+   ],
+   [
+    "Road closures and two-wheeler bans",
+    "TRIPS THAT FELT PREDICTABLE",
+    "+ E"
+   ],
+   [
+    "Extra trains and late services",
+    "VISITORS SWITCHING BACK TO CARS",
+    "− ?"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "VISITORS ON METRO, BUS OR FOOT",
+     "TRIPS THAT FELT PREDICTABLE",
+     "WORD OF MOUTH AND HABIT"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "VISITORS ON METRO, BUS OR FOOT",
+     "CROWDING AT STATIONS AND FOOTPATHS",
+     "GAP BEYOND A BEARABLE CROWD",
+     "VISITORS SWITCHING BACK TO CARS"
+    ]
+   }
+  ],
+  "epH": [
+   "A visitor takes public transport or walks to a festival area instead of using a private vehicle.",
+   "During busy festival periods, some visitors shift towards public transport and walking.",
+   "Visitors may choose these options to avoid congestion, parking difficulties and vehicle restrictions."
+  ],
+  "alone": {
+   "R": "visitors on metro, bus or foot keeps growing, faster each round (visitors on metro, bus or foot → trips that felt predictable → word of mouth and habit).",
+   "B": "visitors on metro, bus or foot rises, then levels off at the limit (trains, stations and footpaths)."
+  },
+  "note": "R and B share one box: visitors on metro, bus or foot.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Pune Metro ridership crossed 4.78 lakh on 19 Sep 2026 (E). Dagdusheth: visitors parked farther, walked or took the metro (D06, E). Same loop as #2."
+ },
+ "34": {
+  "title": "Authorities adjust operations to crowd conditions",
+  "boxes": [
+   "TRAFFIC SLOWED BY THE CROWD",
+   "GAP TO NORMAL FLOW",
+   "OFFICERS REPOSITIONED TO THE SPOT",
+   "CROWD AND VEHICLES UNTANGLED",
+   "GOAL: traffic keeps moving (traffic police)",
+   "Officers busy elsewhere"
+  ],
+  "edges": [
+   [
+    "TRAFFIC SLOWED BY THE CROWD",
+    "GAP TO NORMAL FLOW",
+    "+ E"
+   ],
+   [
+    "GAP TO NORMAL FLOW",
+    "OFFICERS REPOSITIONED TO THE SPOT",
+    "+ E"
+   ],
+   [
+    "CROWD AND VEHICLES UNTANGLED",
+    "TRAFFIC SLOWED BY THE CROWD",
+    "− H"
+   ],
+   [
+    "OFFICERS REPOSITIONED TO THE SPOT",
+    "CROWD AND VEHICLES UNTANGLED",
+    "+ H"
+   ],
+   [
+    "GOAL: traffic keeps moving (traffic police)",
+    "GAP TO NORMAL FLOW",
+    ""
+   ],
+   [
+    "Officers busy elsewhere",
+    "OFFICERS REPOSITIONED TO THE SPOT",
+    "− ?"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "CROWD AND VEHICLES UNTANGLED",
+     "TRAFFIC SLOWED BY THE CROWD",
+     "GAP TO NORMAL FLOW",
+     "OFFICERS REPOSITIONED TO THE SPOT"
+    ]
+   }
+  ],
+  "epH": [
+   "Authorities reposition personnel or modify crowd-control measures as conditions change.",
+   "Traffic and crowd-management operations vary according to crowd density, congestion and event timings.",
+   "Authorities may adapt their interventions to respond to changing safety risks and maintain movement through busy areas."
+  ],
+  "alone": {
+   "R": "",
+   "B": ""
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "36": {
+  "title": "People walk between nearby pandals",
+  "boxes": [
+   "ROUTE FEELS LIVELY AND SAFE",
+   "STALLS AND LIGHTS ALONG THE WALKING ROUTE",
+   "GROUPS WALKING BETWEEN NEARBY PANDALS",
+   "CROWDING ON NARROW FOOTPATHS",
+   "GAP TO A WALKABLE ROUTE",
+   "GROUPS TAKING AUTOS OR SKIPPING PANDALS",
+   "GOAL: walkable routes (visitors)",
+   "Several pandals within walking distance",
+   "Footpaths taken by pandals and parked bikes"
+  ],
+  "edges": [
+   [
+    "STALLS AND LIGHTS ALONG THE WALKING ROUTE",
+    "ROUTE FEELS LIVELY AND SAFE",
+    "+ H"
+   ],
+   [
+    "GROUPS WALKING BETWEEN NEARBY PANDALS",
+    "STALLS AND LIGHTS ALONG THE WALKING ROUTE",
+    "+ H"
+   ],
+   [
+    "ROUTE FEELS LIVELY AND SAFE",
+    "GROUPS WALKING BETWEEN NEARBY PANDALS",
+    "+ H"
+   ],
+   [
+    "GROUPS WALKING BETWEEN NEARBY PANDALS",
+    "CROWDING ON NARROW FOOTPATHS",
+    "+ H"
+   ],
+   [
+    "CROWDING ON NARROW FOOTPATHS",
+    "GAP TO A WALKABLE ROUTE",
+    "+ H"
+   ],
+   [
+    "GROUPS TAKING AUTOS OR SKIPPING PANDALS",
+    "GROUPS WALKING BETWEEN NEARBY PANDALS",
+    "− H"
+   ],
+   [
+    "GAP TO A WALKABLE ROUTE",
+    "GROUPS TAKING AUTOS OR SKIPPING PANDALS",
+    "+ H"
+   ],
+   [
+    "GOAL: walkable routes (visitors)",
+    "GAP TO A WALKABLE ROUTE",
+    ""
+   ],
+   [
+    "Several pandals within walking distance",
+    "STALLS AND LIGHTS ALONG THE WALKING ROUTE",
+    "+ E"
+   ],
+   [
+    "Footpaths taken by pandals and parked bikes",
+    "GROUPS TAKING AUTOS OR SKIPPING PANDALS",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "CROWDING ON NARROW FOOTPATHS",
+     "GAP TO A WALKABLE ROUTE",
+     "GROUPS TAKING AUTOS OR SKIPPING PANDALS",
+     "GROUPS WALKING BETWEEN NEARBY PANDALS"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "GROUPS WALKING BETWEEN NEARBY PANDALS",
+     "STALLS AND LIGHTS ALONG THE WALKING ROUTE",
+     "ROUTE FEELS LIVELY AND SAFE"
+    ]
+   }
+  ],
+  "epH": [
+   "A group walks from one pandal to another during a festival visit.",
+   "Visitors create recurring pedestrian flows between nearby pandals, particularly when several destinations are accessible on foot.",
+   "Walking between pandals may be convenient, economical and easier than repeatedly arranging transport for short distances."
+  ],
+  "alone": {
+   "R": "groups walking between pandals keeps growing, faster each round (groups walking between nearby pandals → stalls and lights along the walking route → route feels lively and safe).",
+   "B": "crowding on narrow footpaths is pulled toward the goal. As the gap closes, the action (groups taking autos or skipping pandals) eases off."
+  },
+  "note": "R and B share one box: groups walking between nearby pandals. Also covers: groups plan visits to several pandals.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). KP 01: about 12 pandals in a short stretch of K.P.; residents move between several (E). Observation: clustered two-wheelers parked at most pandals (E). Cause-and-effect loop 8 (H)."
+ },
+ "42": {
+  "title": "Offerings go into nirmalya containers",
+  "boxes": [
+   "OTHERS COPYING THE HABIT",
+   "VISIBLE NIRMALYA BINS IN USE",
+   "OFFERINGS PUT IN NIRMALYA BINS",
+   "BINS FULL",
+   "GAP TO AN AVAILABLE BIN",
+   "OFFERINGS DUMPED ANYWHERE",
+   "GOAL: separate collection of nirmalya (PMC)",
+   "Clear signs on what goes where",
+   "Frequent pickups"
+  ],
+  "edges": [
+   [
+    "VISIBLE NIRMALYA BINS IN USE",
+    "OTHERS COPYING THE HABIT",
+    "+ H"
+   ],
+   [
+    "OFFERINGS PUT IN NIRMALYA BINS",
+    "VISIBLE NIRMALYA BINS IN USE",
+    "+ H"
+   ],
+   [
+    "OTHERS COPYING THE HABIT",
+    "OFFERINGS PUT IN NIRMALYA BINS",
+    "+ H"
+   ],
+   [
+    "OFFERINGS PUT IN NIRMALYA BINS",
+    "BINS FULL",
+    "+ H"
+   ],
+   [
+    "BINS FULL",
+    "GAP TO AN AVAILABLE BIN",
+    "+ H"
+   ],
+   [
+    "OFFERINGS DUMPED ANYWHERE",
+    "OFFERINGS PUT IN NIRMALYA BINS",
+    "− H"
+   ],
+   [
+    "GAP TO AN AVAILABLE BIN",
+    "OFFERINGS DUMPED ANYWHERE",
+    "+ H"
+   ],
+   [
+    "GOAL: separate collection of nirmalya (PMC)",
+    "GAP TO AN AVAILABLE BIN",
+    ""
+   ],
+   [
+    "Clear signs on what goes where",
+    "VISIBLE NIRMALYA BINS IN USE",
+    "+ ?"
+   ],
+   [
+    "Frequent pickups",
+    "OFFERINGS DUMPED ANYWHERE",
+    "− H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "VISIBLE NIRMALYA BINS IN USE",
+     "OTHERS COPYING THE HABIT",
+     "OFFERINGS PUT IN NIRMALYA BINS"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "BINS FULL",
+     "GAP TO AN AVAILABLE BIN",
+     "OFFERINGS DUMPED ANYWHERE",
+     "OFFERINGS PUT IN NIRMALYA BINS"
+    ]
+   }
+  ],
+  "epH": [
+   "A devotee places used flowers or other ritual offerings in a designated nirmalya container.",
+   "Ritual waste may increasingly pass through separate collection points where these containers are visible and accessible.",
+   "Convenient collection facilities and clear instructions may encourage people to separate ritual offerings from general waste."
+  ],
+  "alone": {
+   "R": "offerings put in nirmalya bins keeps growing, faster each round (offerings put in nirmalya bins → visible nirmalya bins in use → others copying the habit).",
+   "B": "bins full is pulled toward the goal. As the gap closes, the action (offerings dumped anywhere) eases off."
+  },
+  "note": "R and B share one box: offerings put in nirmalya bins. Also covers: residents separate ritual waste.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). PMC collected 68.6 tonnes of nirmalya in the first six days (E). Not observed directly by us."
+ },
+ "44": {
+  "title": "Volunteers collect flowers and decorations",
+  "boxes": [
+   "FLOWERS AND DECOR LEFT BEHIND",
+   "GAP TO A CLEAN PANDAL AREA",
+   "VOLUNTEERS AND ORGANISERS COLLECTING",
+   "WASTE TAKEN AWAY",
+   "GOAL: clean pandal surroundings (organisers)",
+   "Visitor numbers and offerings"
+  ],
+  "edges": [
+   [
+    "FLOWERS AND DECOR LEFT BEHIND",
+    "GAP TO A CLEAN PANDAL AREA",
+    "+ H"
+   ],
+   [
+    "GAP TO A CLEAN PANDAL AREA",
+    "VOLUNTEERS AND ORGANISERS COLLECTING",
+    "+ ?"
+   ],
+   [
+    "WASTE TAKEN AWAY",
+    "FLOWERS AND DECOR LEFT BEHIND",
+    "− H"
+   ],
+   [
+    "VOLUNTEERS AND ORGANISERS COLLECTING",
+    "WASTE TAKEN AWAY",
+    "+ H"
+   ],
+   [
+    "GOAL: clean pandal surroundings (organisers)",
+    "GAP TO A CLEAN PANDAL AREA",
+    ""
+   ],
+   [
+    "Visitor numbers and offerings",
+    "FLOWERS AND DECOR LEFT BEHIND",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "WASTE TAKEN AWAY",
+     "FLOWERS AND DECOR LEFT BEHIND",
+     "GAP TO A CLEAN PANDAL AREA",
+     "VOLUNTEERS AND ORGANISERS COLLECTING"
+    ]
+   }
+  ],
+  "epH": [
+   "Volunteers collect discarded flowers and decorations from a festival area.",
+   "Collection activity increases when ritual offerings and decorative waste accumulate during or after festival activities.",
+   "Volunteer collection may help manage waste volumes and support cleaner public spaces when municipal collection alone is insufficient or requires coordination."
+  ],
+  "alone": {
+   "R": "",
+   "B": "flowers and decor left behind is pulled toward the goal as the gap shrinks."
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself. Also covers: organisers arrange waste collection.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "45": {
+  "title": "Municipal teams clean up after processions",
+  "boxes": [
+   "MORE LITTERING",
+   "STREET FEELS ALREADY DIRTY",
+   "WASTE ON STREETS AFTER PROCESSIONS",
+   "PILES AND OVERFLOWING BINS",
+   "GAP TO CLEAN STREETS",
+   "PMC CLEAN-UP CREWS",
+   "GOAL: streets restored after processions (PMC)",
+   "Crowd size",
+   "Workers on shift"
+  ],
+  "edges": [
+   [
+    "STREET FEELS ALREADY DIRTY",
+    "MORE LITTERING",
+    "+ H"
+   ],
+   [
+    "WASTE ON STREETS AFTER PROCESSIONS",
+    "STREET FEELS ALREADY DIRTY",
+    "+ H"
+   ],
+   [
+    "MORE LITTERING",
+    "WASTE ON STREETS AFTER PROCESSIONS",
+    "+ H"
+   ],
+   [
+    "WASTE ON STREETS AFTER PROCESSIONS",
+    "PILES AND OVERFLOWING BINS",
+    "+ H"
+   ],
+   [
+    "PILES AND OVERFLOWING BINS",
+    "GAP TO CLEAN STREETS",
+    "+ H"
+   ],
+   [
+    "PMC CLEAN-UP CREWS",
+    "WASTE ON STREETS AFTER PROCESSIONS",
+    "− H"
+   ],
+   [
+    "GAP TO CLEAN STREETS",
+    "PMC CLEAN-UP CREWS",
+    "+ E"
+   ],
+   [
+    "GOAL: streets restored after processions (PMC)",
+    "GAP TO CLEAN STREETS",
+    ""
+   ],
+   [
+    "Crowd size",
+    "STREET FEELS ALREADY DIRTY",
+    "+ H"
+   ],
+   [
+    "Workers on shift",
+    "PMC CLEAN-UP CREWS",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "PMC CLEAN-UP CREWS",
+     "WASTE ON STREETS AFTER PROCESSIONS",
+     "PILES AND OVERFLOWING BINS",
+     "GAP TO CLEAN STREETS"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "WASTE ON STREETS AFTER PROCESSIONS",
+     "STREET FEELS ALREADY DIRTY",
+     "MORE LITTERING"
+    ]
+   }
+  ],
+  "epH": [
+   "Municipal workers collect waste from a street after a procession.",
+   "Clean-up activity repeatedly follows major festival events, with recovery continuing until affected public spaces are restored.",
+   "The scale and duration of clean-up may depend on crowd size, waste volume, access for collection vehicles and the availability of workers."
+  ],
+  "alone": {
+   "R": "waste on streets keeps growing, faster each round (waste on streets after processions → street feels already dirty → more littering).",
+   "B": "piles and overflowing bins is pulled toward the goal. As the gap closes, the action (pMC clean-up crews) eases off."
+  },
+  "note": "R and B share one box: waste on streets after processions. Also covers: municipal teams organise waste collection.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Team BOT \"Post-festival recovery\": civic workload peaks after visarjan, after participants leave (H). PMC's Solid Waste Management Department runs immersion and collection (E)."
+ },
+ "46": {
+  "title": "Households install Ganpati at home",
+  "boxes": [
+   "TRADITION FELT AS A DUTY TO CONTINUE",
+   "FAMILY GATHERING AND MEMORIES",
+   "SCALE OF THE HOME CELEBRATION",
+   "COST, SPACE AND EFFORT",
+   "GAP BEYOND WHAT THE HOUSEHOLD CAN MANAGE",
+   "SMALLER IDOLS OR FEWER DAYS",
+   "CAPACITY: household time, space and money",
+   "Relatives visiting for the festival",
+   "Living in a small flat"
+  ],
+  "edges": [
+   [
+    "FAMILY GATHERING AND MEMORIES",
+    "TRADITION FELT AS A DUTY TO CONTINUE",
+    "+ H"
+   ],
+   [
+    "SCALE OF THE HOME CELEBRATION",
+    "FAMILY GATHERING AND MEMORIES",
+    "+ H"
+   ],
+   [
+    "TRADITION FELT AS A DUTY TO CONTINUE",
+    "SCALE OF THE HOME CELEBRATION",
+    "+ H"
+   ],
+   [
+    "SCALE OF THE HOME CELEBRATION",
+    "COST, SPACE AND EFFORT",
+    "+ H"
+   ],
+   [
+    "COST, SPACE AND EFFORT",
+    "GAP BEYOND WHAT THE HOUSEHOLD CAN MANAGE",
+    "+ H"
+   ],
+   [
+    "SMALLER IDOLS OR FEWER DAYS",
+    "SCALE OF THE HOME CELEBRATION",
+    "− ?"
+   ],
+   [
+    "GAP BEYOND WHAT THE HOUSEHOLD CAN MANAGE",
+    "SMALLER IDOLS OR FEWER DAYS",
+    "+ H"
+   ],
+   [
+    "CAPACITY: household time, space and money",
+    "GAP BEYOND WHAT THE HOUSEHOLD CAN MANAGE",
+    ""
+   ],
+   [
+    "Relatives visiting for the festival",
+    "FAMILY GATHERING AND MEMORIES",
+    "+ H"
+   ],
+   [
+    "Living in a small flat",
+    "SMALLER IDOLS OR FEWER DAYS",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "TRADITION FELT AS A DUTY TO CONTINUE",
+     "SCALE OF THE HOME CELEBRATION",
+     "FAMILY GATHERING AND MEMORIES"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "COST, SPACE AND EFFORT",
+     "GAP BEYOND WHAT THE HOUSEHOLD CAN MANAGE",
+     "SMALLER IDOLS OR FEWER DAYS",
+     "SCALE OF THE HOME CELEBRATION"
+    ]
+   }
+  ],
+  "epH": [
+   "A household installs a Ganpati idol and prepares a worship space.",
+   "Household preparation recurs in the days leading up to Ganesh Chaturthi, followed by a period of worship and eventual farewell rituals.",
+   "Religious traditions and household customs structure preparation and worship into a recurring annual cycle."
+  ],
+  "alone": {
+   "R": "scale of the home celebration keeps growing, faster each round (scale of the home celebration → family gathering and memories → tradition felt as a duty to continue).",
+   "B": "scale of the home celebration rises, then levels off at the limit (household time, space and money)."
+  },
+  "note": "R and B share one box: scale of the home celebration. Also covers: families perform puja and aarti; families decorate their homes; families gather for farewell prayers.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Household rituals are on our list but not yet observed, so every arrow is a hypothesis. Annual cycle: preparation, worship, farewell."
+ },
+ "47": {
+  "title": "Families invite relatives and neighbours for darshan",
+  "boxes": [
+   "INVITATIONS RETURNED",
+   "PRASAD AND HOSPITALITY SHARED",
+   "DARSHAN VISITS BETWEEN HOMES",
+   "HOSTING LOAD ON THE HOUSEHOLD",
+   "GAP BEYOND WHAT HOSTS CAN MANAGE",
+   "FIXED VISITING HOURS OR FEWER INVITES",
+   "CAPACITY: host's time and space",
+   "Neighbourhood ties",
+   "Small homes"
+  ],
+  "edges": [
+   [
+    "PRASAD AND HOSPITALITY SHARED",
+    "INVITATIONS RETURNED",
+    "+ H"
+   ],
+   [
+    "DARSHAN VISITS BETWEEN HOMES",
+    "PRASAD AND HOSPITALITY SHARED",
+    "+ H"
+   ],
+   [
+    "INVITATIONS RETURNED",
+    "DARSHAN VISITS BETWEEN HOMES",
+    "+ H"
+   ],
+   [
+    "DARSHAN VISITS BETWEEN HOMES",
+    "HOSTING LOAD ON THE HOUSEHOLD",
+    "+ H"
+   ],
+   [
+    "HOSTING LOAD ON THE HOUSEHOLD",
+    "GAP BEYOND WHAT HOSTS CAN MANAGE",
+    "+ H"
+   ],
+   [
+    "FIXED VISITING HOURS OR FEWER INVITES",
+    "DARSHAN VISITS BETWEEN HOMES",
+    "− H"
+   ],
+   [
+    "GAP BEYOND WHAT HOSTS CAN MANAGE",
+    "FIXED VISITING HOURS OR FEWER INVITES",
+    "+ ?"
+   ],
+   [
+    "CAPACITY: host's time and space",
+    "GAP BEYOND WHAT HOSTS CAN MANAGE",
+    ""
+   ],
+   [
+    "Neighbourhood ties",
+    "PRASAD AND HOSPITALITY SHARED",
+    "+ H"
+   ],
+   [
+    "Small homes",
+    "FIXED VISITING HOURS OR FEWER INVITES",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "HOSTING LOAD ON THE HOUSEHOLD",
+     "GAP BEYOND WHAT HOSTS CAN MANAGE",
+     "FIXED VISITING HOURS OR FEWER INVITES",
+     "DARSHAN VISITS BETWEEN HOMES"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "INVITATIONS RETURNED",
+     "DARSHAN VISITS BETWEEN HOMES",
+     "PRASAD AND HOSPITALITY SHARED"
+    ]
+   }
+  ],
+  "epH": [
+   "A family invites relatives or neighbours to visit its Ganpati idol.",
+   "Household visits and invitations recur throughout the festival, connecting family and neighbourhood networks.",
+   "Inviting others may express hospitality, devotion and a desire to share the festival with the community."
+  ],
+  "alone": {
+   "R": "darshan visits between homes keeps growing, faster each round (darshan visits between homes → prasad and hospitality shared → invitations returned).",
+   "B": "darshan visits between homes rises, then levels off at the limit (host's time and space)."
+  },
+  "note": "R and B share one box: darshan visits between homes. Also covers: hosts distribute prasad.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Not yet observed; hypotheses from the list. Links to #69 (neighbourhood identity)."
+ },
+ "49": {
+  "title": "Idol makers increase production",
+  "boxes": [
+   "MORE ELABORATE IDOLS POSSIBLE",
+   "MAKERS SPECIALISING IN FESTIVAL WORK",
+   "IDOL PRODUCTION BEFORE THE FESTIVAL",
+   "ORDERS AGAINST WORKSHOP CAPACITY",
+   "GAP BEYOND WHAT MAKERS CAN FINISH",
+   "ORDERS TURNED AWAY OR PRICES RAISED",
+   "CAPACITY: workshop space and deadline",
+   "Festival trade growing",
+   "Advance orders from mandals"
+  ],
+  "edges": [
+   [
+    "MAKERS SPECIALISING IN FESTIVAL WORK",
+    "MORE ELABORATE IDOLS POSSIBLE",
+    "+ H"
+   ],
+   [
+    "IDOL PRODUCTION BEFORE THE FESTIVAL",
+    "MAKERS SPECIALISING IN FESTIVAL WORK",
+    "+ H"
+   ],
+   [
+    "MORE ELABORATE IDOLS POSSIBLE",
+    "IDOL PRODUCTION BEFORE THE FESTIVAL",
+    "+ H"
+   ],
+   [
+    "IDOL PRODUCTION BEFORE THE FESTIVAL",
+    "ORDERS AGAINST WORKSHOP CAPACITY",
+    "+ H"
+   ],
+   [
+    "ORDERS AGAINST WORKSHOP CAPACITY",
+    "GAP BEYOND WHAT MAKERS CAN FINISH",
+    "+ H"
+   ],
+   [
+    "ORDERS TURNED AWAY OR PRICES RAISED",
+    "IDOL PRODUCTION BEFORE THE FESTIVAL",
+    "− H"
+   ],
+   [
+    "GAP BEYOND WHAT MAKERS CAN FINISH",
+    "ORDERS TURNED AWAY OR PRICES RAISED",
+    "+ H"
+   ],
+   [
+    "CAPACITY: workshop space and deadline",
+    "GAP BEYOND WHAT MAKERS CAN FINISH",
+    ""
+   ],
+   [
+    "Festival trade growing",
+    "MAKERS SPECIALISING IN FESTIVAL WORK",
+    "+ E"
+   ],
+   [
+    "Advance orders from mandals",
+    "ORDERS TURNED AWAY OR PRICES RAISED",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "GAP BEYOND WHAT MAKERS CAN FINISH",
+     "ORDERS TURNED AWAY OR PRICES RAISED",
+     "IDOL PRODUCTION BEFORE THE FESTIVAL",
+     "ORDERS AGAINST WORKSHOP CAPACITY"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "MAKERS SPECIALISING IN FESTIVAL WORK",
+     "MORE ELABORATE IDOLS POSSIBLE",
+     "IDOL PRODUCTION BEFORE THE FESTIVAL"
+    ]
+   }
+  ],
+  "epH": [
+   "An idol maker increases production in preparation for the festival.",
+   "Production activity rises ahead of the festival as makers prepare for seasonal orders.",
+   "Anticipated demand and order deadlines encourage makers to increase production before the period when customers need their idols."
+  ],
+  "alone": {
+   "R": "idol production keeps growing, faster each round (idol production before the festival → makers specialising in festival work → more elaborate idols possible).",
+   "B": "idol production rises, then levels off at the limit (workshop space and deadline)."
+  },
+  "note": "R and B share one box: idol production before the festival.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). CAIT: festival trade may cross Rs 50,000 crore in 2026; PMC earmarked 308 idol-selling stalls (E). Cause-and-effect loop 16: seasonal skills (H)."
+ },
+ "50": {
+  "title": "Flower sellers prepare extra flowers",
+  "boxes": [
+   "FLOWERS AVAILABLE FOR DECOR",
+   "SELLERS STOCKING UP FOR KEY DAYS",
+   "FLOWER AND GARLAND SALES",
+   "FLOWER PRICES",
+   "GAP BEYOND WHAT BUYERS PAY",
+   "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+   "GOAL: affordable puja flowers (households, mandals)",
+   "Key worship days ahead",
+   "Artificial flowers on sale"
+  ],
+  "edges": [
+   [
+    "SELLERS STOCKING UP FOR KEY DAYS",
+    "FLOWERS AVAILABLE FOR DECOR",
+    "+ E"
+   ],
+   [
+    "FLOWER AND GARLAND SALES",
+    "SELLERS STOCKING UP FOR KEY DAYS",
+    "+ H"
+   ],
+   [
+    "FLOWERS AVAILABLE FOR DECOR",
+    "FLOWER AND GARLAND SALES",
+    "+ H"
+   ],
+   [
+    "FLOWER AND GARLAND SALES",
+    "FLOWER PRICES",
+    "+ E"
+   ],
+   [
+    "FLOWER PRICES",
+    "GAP BEYOND WHAT BUYERS PAY",
+    "+ H"
+   ],
+   [
+    "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+    "FLOWER AND GARLAND SALES",
+    "− H"
+   ],
+   [
+    "GAP BEYOND WHAT BUYERS PAY",
+    "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+    "+ H"
+   ],
+   [
+    "GOAL: affordable puja flowers (households, mandals)",
+    "GAP BEYOND WHAT BUYERS PAY",
+    ""
+   ],
+   [
+    "Key worship days ahead",
+    "SELLERS STOCKING UP FOR KEY DAYS",
+    "+ E"
+   ],
+   [
+    "Artificial flowers on sale",
+    "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+    "+ ?"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "FLOWERS AVAILABLE FOR DECOR",
+     "FLOWER AND GARLAND SALES",
+     "SELLERS STOCKING UP FOR KEY DAYS"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "BUYERS CUTTING BACK OR USING ARTIFICIAL DECOR",
+     "FLOWER AND GARLAND SALES",
+     "FLOWER PRICES",
+     "GAP BEYOND WHAT BUYERS PAY"
+    ]
+   }
+  ],
+  "epH": [
+   "A flower seller procures or prepares additional flowers and garlands.",
+   "Flower procurement and preparation may intensify before key worship days and during periods of high demand.",
+   "Sellers may increase preparation to meet anticipated sales while managing the risk of unsold perishable stock."
+  ],
+  "alone": {
+   "R": "flower and garland sales keeps growing, faster each round (flower and garland sales → sellers stocking up for key days → flowers available for decor).",
+   "B": "flower prices is pulled toward the goal. As the gap closes, the action (buyers cutting back or using artificial decor) eases off."
+  },
+  "note": "R and B share one box: flower and garland sales.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). D03: flower vendors near Dagdusheth sell more during the festival (E). Dadar 2024: marigold Rs 80 to Rs 180 per kg (E). Same loop as #10."
+ },
+ "51": {
+  "title": "Sweet shops prepare modaks",
+  "boxes": [
+   "ADVANCE ORDERS FROM HOUSEHOLDS",
+   "SHOP'S NAME FOR FESTIVE MODAKS",
+   "MODAKS MADE AND SOLD",
+   "KITCHEN AND STAFF LOAD",
+   "GAP BEYOND KITCHEN CAPACITY",
+   "ORDERS CAPPED OR TURNED AWAY",
+   "CAPACITY: kitchen and staff",
+   "Gifting and hospitality (#47)",
+   "Extra staff hired (#54)"
+  ],
+  "edges": [
+   [
+    "SHOP'S NAME FOR FESTIVE MODAKS",
+    "ADVANCE ORDERS FROM HOUSEHOLDS",
+    "+ H"
+   ],
+   [
+    "MODAKS MADE AND SOLD",
+    "SHOP'S NAME FOR FESTIVE MODAKS",
+    "+ H"
+   ],
+   [
+    "ADVANCE ORDERS FROM HOUSEHOLDS",
+    "MODAKS MADE AND SOLD",
+    "+ H"
+   ],
+   [
+    "MODAKS MADE AND SOLD",
+    "KITCHEN AND STAFF LOAD",
+    "+ H"
+   ],
+   [
+    "KITCHEN AND STAFF LOAD",
+    "GAP BEYOND KITCHEN CAPACITY",
+    "+ H"
+   ],
+   [
+    "ORDERS CAPPED OR TURNED AWAY",
+    "MODAKS MADE AND SOLD",
+    "− H"
+   ],
+   [
+    "GAP BEYOND KITCHEN CAPACITY",
+    "ORDERS CAPPED OR TURNED AWAY",
+    "+ H"
+   ],
+   [
+    "CAPACITY: kitchen and staff",
+    "GAP BEYOND KITCHEN CAPACITY",
+    ""
+   ],
+   [
+    "Gifting and hospitality (#47)",
+    "SHOP'S NAME FOR FESTIVE MODAKS",
+    "+ H"
+   ],
+   [
+    "Extra staff hired (#54)",
+    "ORDERS CAPPED OR TURNED AWAY",
+    "− H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "MODAKS MADE AND SOLD",
+     "SHOP'S NAME FOR FESTIVE MODAKS",
+     "ADVANCE ORDERS FROM HOUSEHOLDS"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "MODAKS MADE AND SOLD",
+     "KITCHEN AND STAFF LOAD",
+     "GAP BEYOND KITCHEN CAPACITY",
+     "ORDERS CAPPED OR TURNED AWAY"
+    ]
+   }
+  ],
+  "epH": [
+   "A sweet shop prepares or packages additional modaks for sale.",
+   "Production and packaging of festive foods increase around periods of expected seasonal demand.",
+   "Shops may expand preparation in response to household purchases, gift-giving and ritual food requirements."
+  ],
+  "alone": {
+   "R": "modaks made and sold keeps growing, faster each round (modaks made and sold → shop's name for festive modaks → advance orders from households).",
+   "B": "modaks made and sold rises, then levels off at the limit (kitchen and staff)."
+  },
+  "note": "R and B share one box: modaks made and sold. Also covers: people prepare or buy modaks.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Not yet observed; hypotheses from the list. CAIT counts sweets among the festival's trade sectors (E)."
+ },
+ "52": {
+  "title": "Vendors stock festive and devotional goods",
+  "boxes": [
+   "SHORTFALL AGAINST EXPECTED DEMAND",
+   "GAP TO ENOUGH STOCK, LITTLE WASTE",
+   "RESTOCKING AND NEW STOCK ORDERED",
+   "STOCK ON HAND",
+   "GOAL: enough stock, little waste (vendors)",
+   "Last year's sales and supplier tips"
+  ],
+  "edges": [
+   [
+    "SHORTFALL AGAINST EXPECTED DEMAND",
+    "GAP TO ENOUGH STOCK, LITTLE WASTE",
+    "+ H"
+   ],
+   [
+    "GAP TO ENOUGH STOCK, LITTLE WASTE",
+    "RESTOCKING AND NEW STOCK ORDERED",
+    "+ H"
+   ],
+   [
+    "STOCK ON HAND",
+    "SHORTFALL AGAINST EXPECTED DEMAND",
+    "− H"
+   ],
+   [
+    "RESTOCKING AND NEW STOCK ORDERED",
+    "STOCK ON HAND",
+    "+ H"
+   ],
+   [
+    "GOAL: enough stock, little waste (vendors)",
+    "GAP TO ENOUGH STOCK, LITTLE WASTE",
+    ""
+   ],
+   [
+    "Last year's sales and supplier tips",
+    "SHORTFALL AGAINST EXPECTED DEMAND",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "SHORTFALL AGAINST EXPECTED DEMAND",
+     "GAP TO ENOUGH STOCK, LITTLE WASTE",
+     "RESTOCKING AND NEW STOCK ORDERED",
+     "STOCK ON HAND"
+    ]
+   }
+  ],
+  "epH": [
+   "A vendor purchases or displays additional festive merchandise or devotional supplies.",
+   "Stocking activity increases ahead of the festival and may shift according to demand as the celebration progresses.",
+   "Vendors may use previous sales, supplier information and anticipated customer needs to decide which products to stock."
+  ],
+  "alone": {
+   "R": "",
+   "B": "shortfall against expected demand is pulled toward the goal as the gap shrinks."
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself. Also covers: people buy flowers, coconuts and puja supplies; shopkeepers restock with demand.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "54": {
+  "title": "Businesses adjust to access and footfall",
+  "boxes": [
+   "CONFIDENCE IN FESTIVAL TRADE",
+   "SALES FROM FESTIVAL FOOTFALL",
+   "SHOP HOURS AND STAFF SHIFTED TO THE FESTIVAL",
+   "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+   "GAP TO NORMAL TRADE",
+   "EXTRA STAFF, NEW HOURS, HOME DELIVERY",
+   "GOAL: normal trade (businesses)",
+   "Footfall near the pandal",
+   "Road restrictions and barricades"
+  ],
+  "edges": [
+   [
+    "SALES FROM FESTIVAL FOOTFALL",
+    "CONFIDENCE IN FESTIVAL TRADE",
+    "+ H"
+   ],
+   [
+    "SHOP HOURS AND STAFF SHIFTED TO THE FESTIVAL",
+    "SALES FROM FESTIVAL FOOTFALL",
+    "+ ?"
+   ],
+   [
+    "CONFIDENCE IN FESTIVAL TRADE",
+    "SHOP HOURS AND STAFF SHIFTED TO THE FESTIVAL",
+    "+ H"
+   ],
+   [
+    "SHOP HOURS AND STAFF SHIFTED TO THE FESTIVAL",
+    "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+    "− H"
+   ],
+   [
+    "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+    "GAP TO NORMAL TRADE",
+    "+ H"
+   ],
+   [
+    "EXTRA STAFF, NEW HOURS, HOME DELIVERY",
+    "SHOP HOURS AND STAFF SHIFTED TO THE FESTIVAL",
+    "+ H"
+   ],
+   [
+    "GAP TO NORMAL TRADE",
+    "EXTRA STAFF, NEW HOURS, HOME DELIVERY",
+    "+ H"
+   ],
+   [
+    "GOAL: normal trade (businesses)",
+    "GAP TO NORMAL TRADE",
+    ""
+   ],
+   [
+    "Footfall near the pandal",
+    "SALES FROM FESTIVAL FOOTFALL",
+    "+ E"
+   ],
+   [
+    "Road restrictions and barricades",
+    "EXTRA STAFF, NEW HOURS, HOME DELIVERY",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "EXTRA STAFF, NEW HOURS, HOME DELIVERY",
+     "SHOP HOURS AND STAFF SHIFTED TO THE FESTIVAL",
+     "CUSTOMERS TURNED AWAY BY BLOCKED ACCESS",
+     "GAP TO NORMAL TRADE"
+    ]
+   },
+   {
+    "type": "R",
+    "nodes": [
+     "SHOP HOURS AND STAFF SHIFTED TO THE FESTIVAL",
+     "SALES FROM FESTIVAL FOOTFALL",
+     "CONFIDENCE IN FESTIVAL TRADE"
+    ]
+   }
+  ],
+  "epH": [
+   "A business changes its opening hours, staffing or service arrangement because customer access has changed.",
+   "Business operations fluctuate with changes in footfall, road access and festival activity.",
+   "Businesses adapt to balance opportunities from increased visitors against disruptions caused by congestion and access restrictions."
+  ],
+  "alone": {
+   "R": "sales from festival footfall keeps growing, faster each round (shop hours and staff shifted to the festival → sales from festival footfall → confidence in festival trade).",
+   "B": "customers turned away is pulled toward the goal. As the gap closes, the action (extra staff, new hours, home delivery) eases off."
+  },
+  "note": "R and B share one box: shop hours and staff shifted to the festival. Also covers: businesses add staff or extend hours.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). D04: a shop owner said income went up somewhat (E). Primary research 15: the same footfall helps some shops and blocks others (E). Same loop as #11."
+ },
+ "58": {
+  "title": "Businesses offer festive promotions",
+  "boxes": [
+   "PRESSURE TO MATCH OFFERS",
+   "COMPETITORS' FESTIVE OFFERS",
+   "FESTIVE PROMOTIONS OFFERED",
+   "MARGIN PER SALE SQUEEZED",
+   "GAP BELOW AN ACCEPTABLE MARGIN",
+   "PULLING BACK DISCOUNTS",
+   "GOAL: acceptable margins (businesses)",
+   "Festival shopping season",
+   "Festive sales volume"
+  ],
+  "edges": [
+   [
+    "COMPETITORS' FESTIVE OFFERS",
+    "PRESSURE TO MATCH OFFERS",
+    "+ H"
+   ],
+   [
+    "FESTIVE PROMOTIONS OFFERED",
+    "COMPETITORS' FESTIVE OFFERS",
+    "+ H"
+   ],
+   [
+    "PRESSURE TO MATCH OFFERS",
+    "FESTIVE PROMOTIONS OFFERED",
+    "+ H"
+   ],
+   [
+    "FESTIVE PROMOTIONS OFFERED",
+    "MARGIN PER SALE SQUEEZED",
+    "+ H"
+   ],
+   [
+    "MARGIN PER SALE SQUEEZED",
+    "GAP BELOW AN ACCEPTABLE MARGIN",
+    "+ H"
+   ],
+   [
+    "PULLING BACK DISCOUNTS",
+    "FESTIVE PROMOTIONS OFFERED",
+    "− H"
+   ],
+   [
+    "GAP BELOW AN ACCEPTABLE MARGIN",
+    "PULLING BACK DISCOUNTS",
+    "+ H"
+   ],
+   [
+    "GOAL: acceptable margins (businesses)",
+    "GAP BELOW AN ACCEPTABLE MARGIN",
+    ""
+   ],
+   [
+    "Festival shopping season",
+    "COMPETITORS' FESTIVE OFFERS",
+    "+ E"
+   ],
+   [
+    "Festive sales volume",
+    "PULLING BACK DISCOUNTS",
+    "− ?"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "PRESSURE TO MATCH OFFERS",
+     "FESTIVE PROMOTIONS OFFERED",
+     "COMPETITORS' FESTIVE OFFERS"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "PULLING BACK DISCOUNTS",
+     "FESTIVE PROMOTIONS OFFERED",
+     "MARGIN PER SALE SQUEEZED",
+     "GAP BELOW AN ACCEPTABLE MARGIN"
+    ]
+   }
+  ],
+  "epH": [
+   "A business introduces a discount, bundle or festival-specific offer.",
+   "Promotional activity may increase during seasonal shopping periods when businesses compete for customers.",
+   "Businesses may use promotions to increase sales, attract festival visitors or differentiate their products from competitors."
+  ],
+  "alone": {
+   "R": "festive promotions keeps growing, faster each round (festive promotions offered → competitors' festive offers → pressure to match offers).",
+   "B": "margin squeeze is pulled toward the goal. As the gap closes, the action (pulling back discounts) eases off."
+  },
+  "note": "R and B share one box: festive promotions offered.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Not yet observed; hypotheses from the list. CAIT: festival trade may cross Rs 50,000 crore in 2026 (E)."
+ },
+ "64": {
+  "title": "Mandals arrange safety measures",
+  "boxes": [
+   "RISK AT THE SITE",
+   "GAP TO A SAFE SITE",
+   "SAFETY MEASURES AND TEMPORARY STRUCTURES",
+   "UNSAFE SPOTS LEFT",
+   "GOAL: a safe site (mandal, police)",
+   "Expected attendance"
+  ],
+  "edges": [
+   [
+    "RISK AT THE SITE",
+    "GAP TO A SAFE SITE",
+    "+ H"
+   ],
+   [
+    "GAP TO A SAFE SITE",
+    "SAFETY MEASURES AND TEMPORARY STRUCTURES",
+    "+ ?"
+   ],
+   [
+    "UNSAFE SPOTS LEFT",
+    "RISK AT THE SITE",
+    "+ H"
+   ],
+   [
+    "SAFETY MEASURES AND TEMPORARY STRUCTURES",
+    "UNSAFE SPOTS LEFT",
+    "− H"
+   ],
+   [
+    "GOAL: a safe site (mandal, police)",
+    "GAP TO A SAFE SITE",
+    ""
+   ],
+   [
+    "Expected attendance",
+    "RISK AT THE SITE",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "B",
+    "nodes": [
+     "GAP TO A SAFE SITE",
+     "SAFETY MEASURES AND TEMPORARY STRUCTURES",
+     "UNSAFE SPOTS LEFT",
+     "RISK AT THE SITE"
+    ]
+   }
+  ],
+  "epH": [
+   "A mandal installs temporary infrastructure or implements a safety measure.",
+   "Installation and adjustment of infrastructure recur during setup and may continue as operational needs become clearer.",
+   "Organisers may adjust infrastructure to accommodate expected attendance, the physical layout of the site and safety requirements."
+  ],
+  "alone": {
+   "R": "",
+   "B": "risk at the site is pulled toward the goal as the gap shrinks."
+  },
+  "note": "Balancing loop only. The focal behaviour, in blue, closes a gap; nothing in it grows by itself.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "66": {
+  "title": "People meet friends at pandals",
+  "boxes": [
+   "FRIENDS SAYING \"MEET AT THE PANDAL\"",
+   "PANDAL KNOWN AS A MEETING SPOT",
+   "GROUPS MEETING AT THE PANDAL",
+   "STANDING CROWD AROUND THE PANDAL",
+   "GAP TO ROOM TO STAND AND PASS",
+   "GROUPS MOVING ON TO THE NEXT PANDAL",
+   "GOAL: room to stand and pass (visitors)",
+   "Pandal at the same spot every year",
+   "Other pandals within walking distance"
+  ],
+  "edges": [
+   [
+    "PANDAL KNOWN AS A MEETING SPOT",
+    "FRIENDS SAYING \"MEET AT THE PANDAL\"",
+    "+ H"
+   ],
+   [
+    "GROUPS MEETING AT THE PANDAL",
+    "PANDAL KNOWN AS A MEETING SPOT",
+    "+ E"
+   ],
+   [
+    "FRIENDS SAYING \"MEET AT THE PANDAL\"",
+    "GROUPS MEETING AT THE PANDAL",
+    "+ H"
+   ],
+   [
+    "GROUPS MEETING AT THE PANDAL",
+    "STANDING CROWD AROUND THE PANDAL",
+    "+ H"
+   ],
+   [
+    "STANDING CROWD AROUND THE PANDAL",
+    "GAP TO ROOM TO STAND AND PASS",
+    "+ H"
+   ],
+   [
+    "GROUPS MOVING ON TO THE NEXT PANDAL",
+    "GROUPS MEETING AT THE PANDAL",
+    "− H"
+   ],
+   [
+    "GAP TO ROOM TO STAND AND PASS",
+    "GROUPS MOVING ON TO THE NEXT PANDAL",
+    "+ H"
+   ],
+   [
+    "GOAL: room to stand and pass (visitors)",
+    "GAP TO ROOM TO STAND AND PASS",
+    ""
+   ],
+   [
+    "Pandal at the same spot every year",
+    "PANDAL KNOWN AS A MEETING SPOT",
+    "+ E"
+   ],
+   [
+    "Other pandals within walking distance",
+    "GROUPS MOVING ON TO THE NEXT PANDAL",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "GROUPS MEETING AT THE PANDAL",
+     "PANDAL KNOWN AS A MEETING SPOT",
+     "FRIENDS SAYING \"MEET AT THE PANDAL\""
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "GROUPS MEETING AT THE PANDAL",
+     "STANDING CROWD AROUND THE PANDAL",
+     "GAP TO ROOM TO STAND AND PASS",
+     "GROUPS MOVING ON TO THE NEXT PANDAL"
+    ]
+   }
+  ],
+  "epH": [
+   "Friends or relatives meet during a visit to a pandal.",
+   "Pandal visits repeatedly create opportunities for social gatherings during the festival.",
+   "Shared cultural traditions and the public, familiar nature of pandals may make them convenient places for social interaction."
+  ],
+  "alone": {
+   "R": "pandal used as a meeting landmark keeps growing, faster each round (groups meeting at the pandal → pandal known as a meeting spot → friends saying \"meet at the pandal\").",
+   "B": "standing crowd around the pandal is pulled toward the goal. As the gap closes, the action (groups moving on to the next pandal) eases off."
+  },
+  "note": "R and B share one box: groups meeting at the pandal.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Primary research 07: people around a pandal are often meeting friends or family, not waiting for darshan (E). Same loop as #6."
+ },
+ "67": {
+  "title": "People share the festival on social media",
+  "boxes": [
+   "VISITORS COMING FOR THE PHOTO",
+   "MANDAL'S VISIBILITY ONLINE",
+   "PHOTOS AND POSTS SHARED",
+   "PEOPLE STOPPING TO FILM AT THE IDOL",
+   "GAP TO A MOVING QUEUE",
+   "VOLUNTEERS MOVING PEOPLE ON",
+   "GOAL: queue keeps moving (organisers)",
+   "Elaborate themed decor",
+   "Volunteers at the idol"
+  ],
+  "edges": [
+   [
+    "MANDAL'S VISIBILITY ONLINE",
+    "VISITORS COMING FOR THE PHOTO",
+    "+ H"
+   ],
+   [
+    "PHOTOS AND POSTS SHARED",
+    "MANDAL'S VISIBILITY ONLINE",
+    "+ H"
+   ],
+   [
+    "VISITORS COMING FOR THE PHOTO",
+    "PHOTOS AND POSTS SHARED",
+    "+ H"
+   ],
+   [
+    "PHOTOS AND POSTS SHARED",
+    "PEOPLE STOPPING TO FILM AT THE IDOL",
+    "+ H"
+   ],
+   [
+    "PEOPLE STOPPING TO FILM AT THE IDOL",
+    "GAP TO A MOVING QUEUE",
+    "+ H"
+   ],
+   [
+    "VOLUNTEERS MOVING PEOPLE ON",
+    "PHOTOS AND POSTS SHARED",
+    "− H"
+   ],
+   [
+    "GAP TO A MOVING QUEUE",
+    "VOLUNTEERS MOVING PEOPLE ON",
+    "+ ?"
+   ],
+   [
+    "GOAL: queue keeps moving (organisers)",
+    "GAP TO A MOVING QUEUE",
+    ""
+   ],
+   [
+    "Elaborate themed decor",
+    "MANDAL'S VISIBILITY ONLINE",
+    "+ H"
+   ],
+   [
+    "Volunteers at the idol",
+    "VOLUNTEERS MOVING PEOPLE ON",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "PHOTOS AND POSTS SHARED",
+     "MANDAL'S VISIBILITY ONLINE",
+     "VISITORS COMING FOR THE PHOTO"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "PHOTOS AND POSTS SHARED",
+     "PEOPLE STOPPING TO FILM AT THE IDOL",
+     "GAP TO A MOVING QUEUE",
+     "VOLUNTEERS MOVING PEOPLE ON"
+    ]
+   }
+  ],
+  "epH": [
+   "A person publishes a festival greeting, photograph or video on social media.",
+   "Festival-related content is shared repeatedly during the celebration, particularly around important dates and activities.",
+   "Social sharing may help people maintain relationships, express cultural identity and share experiences with people who are not physically present."
+  ],
+  "alone": {
+   "R": "photos and posts shared keeps growing, faster each round (photos and posts shared → mandal's visibility online → visitors coming for the photo).",
+   "B": "people stopping to film is pulled toward the goal. As the gap closes, the action (volunteers moving people on) eases off."
+  },
+  "note": "R and B share one box: photos and posts shared. Also covers: visitors photograph idols and decor.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). Not yet observed; hypotheses from the list. Cause-and-effect loop 1: visibility draws resources and more visibility (H)."
+ },
+ "68": {
+  "title": "Families introduce children to traditions",
+  "boxes": [
+   "MEMORIES AND ATTACHMENT",
+   "CHILDREN TAKING PART IN RITUALS",
+   "TRADITION CARRIED TO THE NEXT GENERATION",
+   "Family visits to mandals (#33)"
+  ],
+  "edges": [
+   [
+    "CHILDREN TAKING PART IN RITUALS",
+    "MEMORIES AND ATTACHMENT",
+    "+ H"
+   ],
+   [
+    "TRADITION CARRIED TO THE NEXT GENERATION",
+    "CHILDREN TAKING PART IN RITUALS",
+    "+ ?"
+   ],
+   [
+    "MEMORIES AND ATTACHMENT",
+    "TRADITION CARRIED TO THE NEXT GENERATION",
+    "+ H"
+   ],
+   [
+    "Family visits to mandals (#33)",
+    "CHILDREN TAKING PART IN RITUALS",
+    "+ H"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "CHILDREN TAKING PART IN RITUALS",
+     "MEMORIES AND ATTACHMENT",
+     "TRADITION CARRIED TO THE NEXT GENERATION"
+    ]
+   }
+  ],
+  "epH": [
+   "An adult explains a ritual to a child or brings the child to a worship activity.",
+   "Children encounter festival practices repeatedly through household worship, family visits and community celebrations.",
+   "Families may use shared participation to transmit cultural knowledge, religious meaning and traditions across generations."
+  ],
+  "alone": {
+   "R": "children taking part in rituals keeps growing, and nothing yet pulls it back.",
+   "B": ""
+  },
+  "note": "Reinforcing loop only. The focal behaviour, in blue, feeds on itself and no goal or limit pushes back yet.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ },
+ "70": {
+  "title": "Mandals run charity and public-service work",
+  "boxes": [
+   "DONATIONS OF MONEY, FOOD AND SUPPLIES",
+   "TRUST IN THE MANDAL",
+   "CHARITY AND PUBLIC-SERVICE WORK",
+   "LOAD ON VOLUNTEERS AND DONORS",
+   "GAP BEYOND WHAT THEY CAN GIVE",
+   "FEWER OR SMALLER INITIATIVES",
+   "CAPACITY: volunteer time and donations",
+   "Visible patrons and politicians",
+   "Patron funding"
+  ],
+  "edges": [
+   [
+    "TRUST IN THE MANDAL",
+    "DONATIONS OF MONEY, FOOD AND SUPPLIES",
+    "+ H"
+   ],
+   [
+    "CHARITY AND PUBLIC-SERVICE WORK",
+    "TRUST IN THE MANDAL",
+    "+ H"
+   ],
+   [
+    "DONATIONS OF MONEY, FOOD AND SUPPLIES",
+    "CHARITY AND PUBLIC-SERVICE WORK",
+    "+ H"
+   ],
+   [
+    "CHARITY AND PUBLIC-SERVICE WORK",
+    "LOAD ON VOLUNTEERS AND DONORS",
+    "+ H"
+   ],
+   [
+    "LOAD ON VOLUNTEERS AND DONORS",
+    "GAP BEYOND WHAT THEY CAN GIVE",
+    "+ H"
+   ],
+   [
+    "FEWER OR SMALLER INITIATIVES",
+    "CHARITY AND PUBLIC-SERVICE WORK",
+    "− H"
+   ],
+   [
+    "GAP BEYOND WHAT THEY CAN GIVE",
+    "FEWER OR SMALLER INITIATIVES",
+    "+ H"
+   ],
+   [
+    "CAPACITY: volunteer time and donations",
+    "GAP BEYOND WHAT THEY CAN GIVE",
+    ""
+   ],
+   [
+    "Visible patrons and politicians",
+    "TRUST IN THE MANDAL",
+    "+ ?"
+   ],
+   [
+    "Patron funding",
+    "FEWER OR SMALLER INITIATIVES",
+    "− ?"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "TRUST IN THE MANDAL",
+     "DONATIONS OF MONEY, FOOD AND SUPPLIES",
+     "CHARITY AND PUBLIC-SERVICE WORK"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "FEWER OR SMALLER INITIATIVES",
+     "CHARITY AND PUBLIC-SERVICE WORK",
+     "LOAD ON VOLUNTEERS AND DONORS",
+     "GAP BEYOND WHAT THEY CAN GIVE"
+    ]
+   }
+  ],
+  "epH": [
+   "A mandal organises a charitable activity or public-service initiative.",
+   "Some mandals undertake community-support activities alongside their festival programmes.",
+   "Mandals may use their organisational networks and community visibility to mobilise people and resources for local needs."
+  ],
+  "alone": {
+   "R": "charity and public-service work keeps growing, faster each round (charity and public-service work → trust in the mandal → donations of money, food and supplies).",
+   "B": "charity and public-service work rises, then levels off at the limit (volunteer time and donations)."
+  },
+  "note": "R and B share one box: charity and public-service work. Also covers: people donate to community initiatives.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). KP 10: mandals as latent civic networks (H). Mandals have long been a stepping stone into politics (E)."
+ },
+ "72": {
+  "title": "Timing shapes festival and city interaction",
+  "boxes": [
+   "VISITORS PLANNING FOR THOSE HOURS",
+   "EVENING ATMOSPHERE AND CROWDS",
+   "FESTIVAL ACTIVITY AT AARTI AND EVENING PEAKS",
+   "CLASH WITH TRAFFIC AND HOME LIFE AT PEAK HOURS",
+   "GAP TO SAFE, LIVEABLE STREETS",
+   "TIME-BOUND RESTRICTIONS (5 PM, SPEAKER HOURS)",
+   "GOAL: festival fits the day's rhythm (police, residents)",
+   "Atharvashirsha at 5 am draws thousands",
+   "Loudspeakers till midnight on 5 days"
+  ],
+  "edges": [
+   [
+    "EVENING ATMOSPHERE AND CROWDS",
+    "VISITORS PLANNING FOR THOSE HOURS",
+    "+ H"
+   ],
+   [
+    "FESTIVAL ACTIVITY AT AARTI AND EVENING PEAKS",
+    "EVENING ATMOSPHERE AND CROWDS",
+    "+ E"
+   ],
+   [
+    "VISITORS PLANNING FOR THOSE HOURS",
+    "FESTIVAL ACTIVITY AT AARTI AND EVENING PEAKS",
+    "+ H"
+   ],
+   [
+    "FESTIVAL ACTIVITY AT AARTI AND EVENING PEAKS",
+    "CLASH WITH TRAFFIC AND HOME LIFE AT PEAK HOURS",
+    "+ E"
+   ],
+   [
+    "CLASH WITH TRAFFIC AND HOME LIFE AT PEAK HOURS",
+    "GAP TO SAFE, LIVEABLE STREETS",
+    "+ H"
+   ],
+   [
+    "TIME-BOUND RESTRICTIONS (5 PM, SPEAKER HOURS)",
+    "FESTIVAL ACTIVITY AT AARTI AND EVENING PEAKS",
+    "− ?"
+   ],
+   [
+    "GAP TO SAFE, LIVEABLE STREETS",
+    "TIME-BOUND RESTRICTIONS (5 PM, SPEAKER HOURS)",
+    "+ E"
+   ],
+   [
+    "GOAL: festival fits the day's rhythm (police, residents)",
+    "GAP TO SAFE, LIVEABLE STREETS",
+    ""
+   ],
+   [
+    "Atharvashirsha at 5 am draws thousands",
+    "EVENING ATMOSPHERE AND CROWDS",
+    "+ E"
+   ],
+   [
+    "Loudspeakers till midnight on 5 days",
+    "TIME-BOUND RESTRICTIONS (5 PM, SPEAKER HOURS)",
+    "− E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "FESTIVAL ACTIVITY AT AARTI AND EVENING PEAKS",
+     "EVENING ATMOSPHERE AND CROWDS",
+     "VISITORS PLANNING FOR THOSE HOURS"
+    ]
+   },
+   {
+    "type": "B",
+    "nodes": [
+     "FESTIVAL ACTIVITY AT AARTI AND EVENING PEAKS",
+     "CLASH WITH TRAFFIC AND HOME LIFE AT PEAK HOURS",
+     "GAP TO SAFE, LIVEABLE STREETS",
+     "TIME-BOUND RESTRICTIONS (5 PM, SPEAKER HOURS)"
+    ]
+   }
+  ],
+  "epH": [
+   "Pandal puja and celebrations occurred at specific times of the day, changing the relationship between celebration, traffic and residents.",
+   "The interaction between festival activity and everyday life changes according to time, activity and intensity rather than remaining constant throughout the day.",
+   "The impact of a festival may depend as much on when and how intensely it operates as on its physical presence."
+  ],
+  "alone": {
+   "R": "activity at peak hours keeps growing, faster each round (festival activity at aarti and evening peaks → evening atmosphere and crowds → visitors planning for those hours).",
+   "B": "clash with traffic and home life is pulled toward the goal. As the gap closes, the action (time-bound restrictions (5 pm, speaker hours)) eases off."
+  },
+  "note": "R and B share one box: festival activity at aarti and evening peaks.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed). KP 06: pandals shut 12 to 5 pm, busy mornings and nights; restrictions every evening from 5 pm (E). Same loop as #25."
+ },
+ "75": {
+  "title": "The hidden chain behind the visible pandal",
+  "boxes": [
+   "PANDAL LOOKS SELF-RUN",
+   "BACKSTAGE ACTORS: PATRONS, PERMISSIONS, PMC",
+   "PUBLIC SCRUTINY OF BACKSTAGE ACTORS",
+   "Election season"
+  ],
+  "edges": [
+   [
+    "BACKSTAGE ACTORS: PATRONS, PERMISSIONS, PMC",
+    "PANDAL LOOKS SELF-RUN",
+    "+ E"
+   ],
+   [
+    "PUBLIC SCRUTINY OF BACKSTAGE ACTORS",
+    "BACKSTAGE ACTORS: PATRONS, PERMISSIONS, PMC",
+    "− ?"
+   ],
+   [
+    "PANDAL LOOKS SELF-RUN",
+    "PUBLIC SCRUTINY OF BACKSTAGE ACTORS",
+    "− ?"
+   ],
+   [
+    "Election season",
+    "BACKSTAGE ACTORS: PATRONS, PERMISSIONS, PMC",
+    "+ E"
+   ]
+  ],
+  "loops": [
+   {
+    "type": "R",
+    "nodes": [
+     "BACKSTAGE ACTORS: PATRONS, PERMISSIONS, PMC",
+     "PANDAL LOOKS SELF-RUN",
+     "PUBLIC SCRUTINY OF BACKSTAGE ACTORS"
+    ]
+   }
+  ],
+  "epH": [
+   "Visitors could see the idol and celebration, but permissions, patronage and immersion were handled through processes outside the visible pandal space.",
+   "The visible event is only the surface layer of a much larger chain of actors, decisions and dependencies, many of which remain invisible to participants.",
+   "The behaviour of a system may be shaped by processes and actors that participants never directly encounter."
+  ],
+  "alone": {
+   "R": "backstage actors: patrons, permissions, PMC keeps growing, and nothing yet pulls it back.",
+   "B": ""
+  },
+  "note": "Reinforcing loop only. The focal behaviour, in blue, feeds on itself and no goal or limit pushes back yet.",
+  "evidence": "Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed)."
+ }
+}

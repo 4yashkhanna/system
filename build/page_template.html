@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
-/* Layout: one-screen map app. Wide pannable map (the whole open system) + a reading panel on the right;
+/* Light theme only, by request. Layout: one-screen map app. Wide pannable map (the whole open system) + a reading panel on the right;
    on phones the panel becomes a bottom sheet. Colour carries meaning: vermilion = reinforcing,
    blue = balancing, violet = shared, marigold = where to act, yellow = goals, capacities and beliefs. */
 :root {
@@ -22,32 +22,10 @@
   --f-read: "Newsreader", Georgia, "Times New Roman", serif;
   --f-code: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
   --panel-w: 420px;
+  --z13: #e4f1f6; --z14: #f6f0e1; --z15: #f3ebe0; --z16: #f6e8f0; --z17: #ece9f4;
+  --zl13: #a9cddd; --zl14: #e0cf9d; --zl15: #dcc2a0; --zl16: #e2b8cf; --zl17: #c2bade;
+  color-scheme: light;
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #111317; --paper: #181a1f; --sunk: #1f2228; --ink: #ecebe6; --ink-2: #bcbdc2; --ink-3: #8b8e96; --line: #2d3037;
-  --rloop: #ff6a48; --bloop: #5e9cff; --both: #b47ce3; --act: #ffc233; --act-ink: #ffd879;
-  --free: #6e737b; --drv: #c8cad0; --merge-bg: #efede6; --merge-fg: #15161a; --node-bg: #23262d; --node-ink: #ecebe6;
-  --yel-bg: #3a3116; --yel-line: #b48d1b; --yel-ink: #f3d77a;
-  --f-fest: #a989e0; --f-street: #f09a4c; --f-every: #52c487; --f-plan: #6b9fe6;
-  --halo: #181a1f; --bound: #9aa0a8;
-  --z1: #2a1d25; --z2: #2a2418; --z3: #2c1f19; --z4: #2b2519; --z5: #1b271d; --z6: #231e2e; --z7: #1a271f;
-  --z8: #1a2230; --z9: #172629; --z10: #1e2129; --z11: #1d2232; --z12: #2c1c1c;
-  --zl1: #5c3a4c; --zl2: #5c4b2a; --zl3: #5e3b2c; --zl4: #5c4c2c; --zl5: #305234; --zl6: #46395f; --zl7: #2f5139;
-  --zl8: #2f4462; --zl9: #2a4f55; --zl10: #3a4052; --zl11: #364266; --zl12: #5e3533;
-  color-scheme: dark; } }
-:root[data-theme="dark"] {
-  --bg: #111317; --paper: #181a1f; --sunk: #1f2228; --ink: #ecebe6; --ink-2: #bcbdc2; --ink-3: #8b8e96; --line: #2d3037;
-  --rloop: #ff6a48; --bloop: #5e9cff; --both: #b47ce3; --act: #ffc233; --act-ink: #ffd879;
-  --free: #6e737b; --drv: #c8cad0; --merge-bg: #efede6; --merge-fg: #15161a; --node-bg: #23262d; --node-ink: #ecebe6;
-  --yel-bg: #3a3116; --yel-line: #b48d1b; --yel-ink: #f3d77a;
-  --f-fest: #a989e0; --f-street: #f09a4c; --f-every: #52c487; --f-plan: #6b9fe6;
-  --halo: #181a1f; --bound: #9aa0a8;
-  --z1: #2a1d25; --z2: #2a2418; --z3: #2c1f19; --z4: #2b2519; --z5: #1b271d; --z6: #231e2e; --z7: #1a271f;
-  --z8: #1a2230; --z9: #172629; --z10: #1e2129; --z11: #1d2232; --z12: #2c1c1c;
-  --zl1: #5c3a4c; --zl2: #5c4b2a; --zl3: #5e3b2c; --zl4: #5c4c2c; --zl5: #305234; --zl6: #46395f; --zl7: #2f5139;
-  --zl8: #2f4462; --zl9: #2a4f55; --zl10: #3a4052; --zl11: #364266; --zl12: #5e3533;
-  color-scheme: dark; }
-
 html, body { height: 100%; }
 body { background: var(--bg); color: var(--ink); font-family: var(--f-ui); margin: 0; overflow: hidden; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
@@ -87,6 +65,7 @@ main { display: grid; grid-template-columns: minmax(0, 1fr) var(--panel-w); min-
 .zone.z4 { fill: var(--z4); stroke: var(--zl4); } .zone.z5 { fill: var(--z5); stroke: var(--zl5); } .zone.z6 { fill: var(--z6); stroke: var(--zl6); }
 .zone.z7 { fill: var(--z7); stroke: var(--zl7); } .zone.z8 { fill: var(--z8); stroke: var(--zl8); } .zone.z9 { fill: var(--z9); stroke: var(--zl9); }
 .zone.z10 { fill: var(--z10); stroke: var(--zl10); } .zone.z11 { fill: var(--z11); stroke: var(--zl11); } .zone.z12 { fill: var(--z12); stroke: var(--zl12); }
+.zone.z13 { fill: var(--z13); stroke: var(--zl13); } .zone.z14 { fill: var(--z14); stroke: var(--zl14); } .zone.z15 { fill: var(--z15); stroke: var(--zl15); } .zone.z16 { fill: var(--z16); stroke: var(--zl16); } .zone.z17 { fill: var(--z17); stroke: var(--zl17); } 
 .zt { cursor: pointer; }
 .zt text { text-anchor: middle; fill: var(--ink); paint-order: stroke; stroke: var(--halo); stroke-width: 6px; stroke-linejoin: round; }
 .zt .znum { font-size: 56px; font-weight: 800; fill: var(--ink-3); opacity: .55; font-family: var(--f-ui); }
@@ -170,6 +149,7 @@ main { display: grid; grid-template-columns: minmax(0, 1fr) var(--panel-w); min-
 #mini .mz { stroke: none; } #mini .mz.z1 { fill: var(--zl1); } #mini .mz.z2 { fill: var(--zl2); } #mini .mz.z3 { fill: var(--zl3); } #mini .mz.z4 { fill: var(--zl4); }
 #mini .mz.z5 { fill: var(--zl5); } #mini .mz.z6 { fill: var(--zl6); } #mini .mz.z7 { fill: var(--zl7); } #mini .mz.z8 { fill: var(--zl8); }
 #mini .mz.z9 { fill: var(--zl9); } #mini .mz.z10 { fill: var(--zl10); } #mini .mz.z11 { fill: var(--zl11); } #mini .mz.z12 { fill: var(--zl12); }
+#mini .mz.z13 { fill: var(--zl13); } #mini .mz.z14 { fill: var(--zl14); } #mini .mz.z15 { fill: var(--zl15); } #mini .mz.z16 { fill: var(--zl16); } #mini .mz.z17 { fill: var(--zl17); } 
 #minivp { fill: none; stroke: var(--act); stroke-width: 60; }
 .zlabels { position: absolute; inset: 0; pointer-events: none; }
 .zlabels button { position: absolute; transform: translate(-50%, -50%); pointer-events: auto; border: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 90%, transparent); border-radius: 999px; padding: 4px 10px 4px 6px; font-size: 12px; font-weight: 800; letter-spacing: .02em; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgb(0 0 0 / .08); }
@@ -210,6 +190,7 @@ aside.panel { background: var(--paper); border-left: 1px solid var(--line); disp
 .zsw.z4 { background: var(--z4); border-color: var(--zl4); } .zsw.z5 { background: var(--z5); border-color: var(--zl5); } .zsw.z6 { background: var(--z6); border-color: var(--zl6); }
 .zsw.z7 { background: var(--z7); border-color: var(--zl7); } .zsw.z8 { background: var(--z8); border-color: var(--zl8); } .zsw.z9 { background: var(--z9); border-color: var(--zl9); }
 .zsw.z10 { background: var(--z10); border-color: var(--zl10); } .zsw.z11 { background: var(--z11); border-color: var(--zl11); } .zsw.z12 { background: var(--z12); border-color: var(--zl12); }
+.zsw.z13 { background: var(--z13); border-color: var(--zl13); } .zsw.z14 { background: var(--z14); border-color: var(--zl14); } .zsw.z15 { background: var(--z15); border-color: var(--zl15); } .zsw.z16 { background: var(--z16); border-color: var(--zl16); } .zsw.z17 { background: var(--z17); border-color: var(--zl17); } 
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin-bottom: 8px; }
 .seg button { border: 0; background: none; padding: 6px 12px; font-size: 12.5px; font-weight: 700; color: var(--ink-3); }
 .seg button[aria-pressed="true"] { background: var(--sunk); color: var(--ink); }
@@ -236,6 +217,17 @@ details p { font-size: 14.5px !important; margin: 6px 0 0 !important; }
 .swrow { display: grid; grid-template-columns: 40px 1fr; gap: 8px 12px; align-items: center; font-size: 13.5px; color: var(--ink-2); }
 .swrow svg { overflow: visible; }
 a { color: var(--bloop); }
+.trend { grid-template-columns: 1fr; }
+.trend .s { grid-column: 1; }
+.tchart { width: 100%; max-width: 360px; height: auto; display: block; }
+.tchart .tax { stroke: var(--line); stroke-width: 1; }
+.tchart .tlim { stroke: var(--rloop); stroke-width: 1.2; stroke-dasharray: 4 3; }
+.tchart .tl { font: 600 10px var(--f-code); fill: var(--rloop); }
+.tchart .tarea { fill: var(--bloop); opacity: .1; }
+.tchart .tline { fill: none; stroke: var(--bloop); stroke-width: 2.2; }
+.tchart .tdot { fill: var(--bloop); stroke: var(--paper); stroke-width: 1.5; }
+.tchart .tv { font: 700 11px var(--f-code); fill: var(--ink); }
+.tchart .tx, .tchart .tu { font: 500 10px var(--f-code); fill: var(--ink-3); }
 
 @media (max-width: 900px) {
   main { grid-template-columns: minmax(0, 1fr); position: relative; }
@@ -258,7 +250,7 @@ a { color: var(--bloop); }
 <div class="app">
   <header class="top">
     <div class="brand">
-      <span class="eyebrow">Pune Ganeshotsav · System map v6 · merged from v2, v3, v4 and v5</span>
+      <span class="eyebrow">Pune Ganeshotsav · System map v7 · every loop and finding on the board</span>
       <h1>Festivals <span class="x">×</span> City System Map</h1>
       <div class="stats" id="stats"></div>
     </div>
@@ -322,7 +314,7 @@ a { color: var(--bloop); }
   // ---------- stats ----------
   const nR = D.loops.filter(l => l.type === 'R').length, nB = D.loops.length - nR;
   const merges = D.nodes.filter(n => n.loops.length >= 3 && n.kind === 'var').length;
-  $('#stats').innerHTML = `<span><b>${D.loops.length}</b> loops (${nR} R · ${nB} B)</span><span><b>${D.nodes.length}</b> boxes</span><span><b>${D.edges.length}</b> signed links</span><span><b>${merges}</b> merge points</span><span><b>12</b> zones</span>`;
+  $('#stats').innerHTML = `<span><b>${D.loops.length}</b> loops (${nR} R · ${nB} B)</span><span><b>${D.nodes.length}</b> boxes</span><span><b>${D.edges.length}</b> signed links</span><span><b>${merges}</b> merge points</span><span><b>${Object.keys(D.zones).length}</b> zones</span>`;
 
   // ---------- viewport ----------
   const svg = $('#map'), wrap = $('#wrap'), root = document.documentElement;
@@ -336,7 +328,16 @@ a { color: var(--bloop); }
     svg.classList.toggle('lod-mid', s >= 0.3 && s < 0.6);
     const zl = $('#zlabels'); zl.hidden = s >= 0.3;
     if (!zl.hidden) { const r = svg.getBoundingClientRect();
-      $$('button', zl).forEach(bt => { const c = D.zc[bt.dataset.zone]; bt.style.left = ((c[0] - vb.x) / vb.w * r.width) + 'px'; bt.style.top = ((c[1] - vb.y) / vb.h * r.height) + 'px'; }); }
+      const bs = $$('button', zl).map(bt => { const c = D.zc[bt.dataset.zone]; return { bt, x: (c[0] - vb.x) / vb.w * r.width, y: (c[1] - vb.y) / vb.h * r.height, w: bt.offsetWidth + 8, h: bt.offsetHeight + 6 }; });
+      for (let pass = 0; pass < 8; pass++) {  // nudge overlapping labels apart vertically
+        let moved = false;
+        for (let i = 0; i < bs.length; i++) for (let j = i + 1; j < bs.length; j++) {
+          const a = bs[i], b = bs[j], ox = (a.w + b.w) / 2 - Math.abs(a.x - b.x), oy = (a.h + b.h) / 2 - Math.abs(a.y - b.y);
+          if (ox > 0 && oy > 0) { const d = (oy / 2 + 1) * (a.y <= b.y ? 1 : -1); a.y -= d; b.y += d; moved = true; }
+        }
+        if (!moved) break;
+      }
+      bs.forEach(o => { o.bt.style.left = o.x + 'px'; o.bt.style.top = o.y + 'px'; }); }
     const m = $('#minivp'); m.setAttribute('x', vb.x); m.setAttribute('y', vb.y); m.setAttribute('width', vb.w); m.setAttribute('height', vb.h);
   }
   function fitBox(x0, y0, x1, y1, animate = true, minW = 900) {
@@ -512,9 +513,9 @@ a { color: var(--bloop); }
     const zones = l.zones.map(z => `<div class="item" role="button" tabindex="0" data-zone="${z}" style="display:inline-flex;padding:2px 6px"><span class="zsw z${z}"></span>${esc(ZN(z))}</div>`).join(' ');
     return `<div class="dh">${loopChip(id).replace('class="code', 'class="code big')}<h2>${esc(l.name)}</h2><button class="close" data-close>Close</button></div>
       <div class="meta"><span>${l.type === 'R' ? 'Reinforcing' : 'Balancing'} · ${l.nodes.length} boxes · ${neg} negative link${neg === 1 ? '' : 's'} (${neg % 2 ? 'odd, so balancing' : 'even, so reinforcing'})</span>
-      <span>${l.src === 'v2' ? 'Restored from System Map v2 (Deep)' : 'From System Maps v4 and v5'}${l.refs_full ? ' · ' + esc(l.refs_full) : ''}</span>${l.unknown ? '<span>Contains a link whose sign we do not know yet (?)</span>' : ''}</div>
+      <span>${{ v2: 'Restored from System Map v2 (Deep)', v5: 'From System Maps v4 and v5', board: 'Added in v7 from its loop section on the board', research: 'Added in v7 from the field research' }[l.src]}${l.refs_full ? ' · ' + esc(l.refs_full) : ''}</span>${l.unknown ? '<span>Contains a link whose sign we do not know yet (?)</span>' : ''}</div>
       <h3>Read it round</h3><div class="chain">${chain}</div>
-      ${l.text ? `<p>${linkify(l.text)}</p>` : ''}
+      ${l.text ? `<p>${linkify(l.text)}</p>` : ''}${l.note ? `<p style="font-size:13.5px">${linkify(l.note)}</p>` : ''}${l.evidence ? `<p style="font-size:13.5px"><b>Evidence on the board.</b> ${esc(l.evidence)}</p>` : ''}
       <h3>Zones it runs through</h3><div>${zones}</div>
       ${ac.length ? `<h3>Where to act</h3>${ac.map(a => `<p><span class="starno">★${a.n}</span> ${linkify(a.text)}</p>`).join('')}` : ''}
       ${mm.length ? `<h3>Held in place by</h3><p>${mm.join(', ')}</p>` : ''}
@@ -556,7 +557,7 @@ a { color: var(--bloop); }
   }
 
   // ---------- panel tabs ----------
-  const TABS = { guide: 'Guide', loops: 'Loops', zones: 'Zones', act: 'Where to act', iceberg: 'Iceberg', patterns: 'Patterns', boundary: 'Open system', unknowns: 'Unknowns', method: 'Method' };
+  const TABS = { guide: 'Guide', loops: 'Loops', zones: 'Zones', act: 'Where to act', iceberg: 'Iceberg', patterns: 'Patterns', boundary: 'Open system', trends: 'Trends', unknowns: 'Unknowns', method: 'Method' };
   let tab = store.get('tab', 'guide'); if (!TABS[tab]) tab = 'guide';
   $('#tabs').innerHTML = Object.entries(TABS).map(([k, v]) => `<button role="tab" data-tab="${k}" aria-selected="${k === tab}">${v}</button>`).join('');
   $$('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; store.set('tab', tab); $$('#tabs button').forEach(x => x.setAttribute('aria-selected', x === b)); renderTab(); });
@@ -567,7 +568,7 @@ a { color: var(--bloop); }
     if (tab === 'guide') h = `
       <div class="north"><span class="eyebrow">North Star</span><p>To enable neighbourhoods and festivals to adapt to each other while maintaining a balance between celebration and everyday city life.</p></div>
       <h2>What this map is</h2>
-      <p>Every loop from the board in one connected picture. Each of the 77 feedback loops is drawn as its own ring with its name circle in the middle, and every box appears once, so where loops share a box their rings meet there. The rings sit in 12 topic zones, and the whole thing sits inside a system boundary with flows coming in and going out, because the festival is an open system that borrows people, money, rules and capacity from the city around it.</p>
+      <p>Every loop and finding from the board in one connected picture. Each of the ${D.loops.length} feedback loops is drawn as its own ring with its name circle in the middle, and every box appears once, so where loops share a box their rings meet there. The rings sit in ${Object.keys(D.zones).length} topic zones, and the whole thing sits inside a system boundary with flows coming in and going out, because the festival is an open system that borrows people, money, rules and capacity from the city around it.</p>
       <h2>How to read it</h2>
       <div class="swrow">
         ${swatch('<circle cx="20" cy="10" r="9" fill="var(--rloop)"/>')}<span><b>Reinforcing loop (R).</b> Change keeps building in the same direction. An even number of − links.</span>
@@ -585,16 +586,17 @@ a { color: var(--bloop); }
       <p>Click a loop circle to light up its ring and read it round. Click a box to see every loop it sits on and every link in and out. Click a zone title to zoom to it. Any loop code in the text, like ${loopChip('R15')}, is a link.</p>
       <h2>The system in sentences</h2><p>${linkify(D.sentences)}</p>
       <h2>How the loops merge</h2><p>${linkify(D.merge)}</p>
-      <h2>What is new in this version</h2>
-      <ul><li>Built from v4 and v5: all 63 of their loops, with v5's rings and zones and v4's single boxes (no repeats).</li>
-      <li>14 loops restored from System Map v2 (Deep) that the later maps dropped: prestige escalation, attention magnet, belonging, patronage, the festival marketplace, the transport squeeze, overloaded enforcement, noise restriction, tolerance depletion, access and revenue, volunteer capacity, media backlash, waste and bins, and the safety response (${['R30','R31','R32','R33','R34','R35','R36','B35','B36','B37','B38','B39','B40','B41'].map(loopChip).join(' ')}).</li>
-      <li>21 v2 boxes back on the map, such as political patronage, media coverage, crowd safety risk, buses and autos, seasonal vendors, DJs, resident goodwill, toilets and bins, and VIP visits.</li>
-      <li>Every loop's sign was checked: each R ring has an even number of − links and each B ring an odd number.</li>
-      <li>The open-system boundary, with what flows in from the city and out of the festival.</li></ul>`;
+      <h2>What is new in v7</h2>
+      <ul><li><b>All 86 iceberg loops are now on the map.</b> v4 and v5 drew 52 of them; the other 34 are added here from their own sections on the board, with the board's signs. Five pairs that the board drew twice (#2 and #31, #6 and #66, #10 and #50, #11 and #54, #27 and #52) are merged.</li>
+      <li><b>Five new zones:</b> getting there (parking, metro and walking), time and the daily rhythm, the supply chain and festival trade, homes and families, and mandals, patrons and civic networks.</li>
+      <li><b>Loops built from the field research</b>, each tagged with where it came from: parking spilling into residential lanes, pay-and-park, peth retail draining away, the day re-forming around the festival, events rescheduling around Visarjan, rain over drains, the street becoming the festival's, speaking up getting risky, silence zones near hospitals, mandals self-regulating, SWaCH waste pickers, civic immersion growing its own demand, capacity inviting growth, monitoring, informal patching, plans locking in early, the K.P. patron's goodwill loop, the organised side winning the street, and shops paying for scale.</li>
+      <li><b>Stakeholders the map was missing:</b> SWaCH, hospitals, MSEDCL and generators, farmers and the Market Yard, idol makers, modak kitchens, the trust's social work, the K.P. builder-patron, latent civic networks, traders' federations, vulnerable non-participants, vehicle-dependent shops, hawkers' sense of unfairness, other city events.</li>
+      <li><b>Four new places to act</b> (★12 to ★15), a Trends tab with the board's year-on-year data, more inflows and outflows, and the board's open field questions.</li>
+      <li>Light theme only. Every loop's sign was checked again: each R ring has an even number of − links and each B ring an odd number.</li></ul>`;
     else if (tab === 'loops') {
-      h = `<h2>All ${D.loops.length} loops</h2><div class="seg" role="group" aria-label="Filter loops">${['all', 'R', 'B', 'v2'].map(k => `<button data-lf="${k}" aria-pressed="${loopFilter === k}">${{ all: 'All', R: 'Reinforcing', B: 'Balancing', v2: 'Restored from v2' }[k]}</button>`).join('')}</div>`;
+      h = `<h2>All ${D.loops.length} loops</h2><div class="seg" role="group" aria-label="Filter loops">${['all', 'R', 'B', 'new'].map(k => `<button data-lf="${k}" aria-pressed="${loopFilter === k}">${{ all: 'All', R: 'Reinforcing', B: 'Balancing', new: 'New in v7' }[k]}</button>`).join('')}</div>`;
       Object.keys(D.zones).forEach(z => {
-        const ls = D.loops.filter(l => l.zone == z && (loopFilter === 'all' || l.type === loopFilter || (loopFilter === 'v2' && l.src === 'v2')));
+        const ls = D.loops.filter(l => l.zone == z && (loopFilter === 'all' || l.type === loopFilter || (loopFilter === 'new' && (l.src === 'board' || l.src === 'research'))));
         if (!ls.length) return;
         h += `<div class="zhead"><span class="zsw z${z}"></span>${z} · ${esc(ZN(z))}</div><div class="list">${ls.map(l => `<div class="item" role="button" tabindex="0" data-loop="${l.id}">${loopChip(l.id)}<span class="t">${esc(l.name)}</span><span class="s">${esc(l.nodes.map(nodeName).join(' → '))}</span></div>`).join('')}</div>`;
       });
@@ -604,7 +606,7 @@ a { color: var(--bloop); }
     } else if (tab === 'act') {
       h = `<h2>Where to act</h2><p>The ★ boxes on the map. Each one is placed on Donella Meadows' scale of leverage points (12 is the weakest place to intervene, 1 the strongest). Click one to light up the loops it works through.</p><div class="list">` +
         D.act.map(a => `<div class="item" role="button" tabindex="0" data-set="act:${a.n}"><span class="starno">★${a.n}</span><span class="t">${linkify(a.text)}</span><span class="s"><span class="lev">Leverage ${a.meadows[0]} · ${a.meadows[1]}</span></span></div>`).join('') + `</div>
-        <h3>Reading the leverage</h3><p>Most of the moves sit at information flows (6) and rules (5): letting quiet adjustment reach planners, recording lessons, putting access into the theme and site decisions. Delays (9) matter for teardown, where the three-day rule slips to weeks. The deepest lever is the mental models in the Patterns tab: "every year it should be bigger" drives the growth engines R2 to R5, and changing that goal (3) or paradigm (2) would change more than any single fix.</p>`;
+        <h3>Reading the leverage</h3><p>Most of the moves sit at information flows (6) and rules (5): letting quiet adjustment reach planners, recording lessons, putting access into the theme and site decisions. Delays (9) matter for teardown, where the three-day rule slips to weeks. The deepest lever is the mental models in the Patterns tab: "every year it should be bigger" drives the growth engines R2 to R5, and changing that goal (3) or paradigm (2) would change more than any single fix. ★12 to ★15 are new in v7, taken from proposals and asks recorded on the board.</p>`;
     } else if (tab === 'iceberg') {
       const L = (k, title, sub, cls) => `<h3>${title}</h3><p style="font-size:13.5px">${sub}</p><div class="list">${D.layers[k].map((x, i) => `<button class="item layer ${cls}" data-set="ice:${k}:${i}"><span class="t">${x.star ? '★ ' : ''}${esc(x.text)}</span><span class="s">${x.refs.map(r => `<span class="ref" title="${esc(D.iceberg[r] ? D.iceberg[r].title : '')}">${r}</span>`).join(' ')}</span></button>`).join('')}</div>`;
       h = `<h2>The iceberg</h2><p>What we saw, what keeps happening, what causes it and what holds it in place. The numbers are the 86 iceberg loops on the board; clicking an item lights up the loops on this map built from them.</p>` +
@@ -617,13 +619,17 @@ a { color: var(--bloop); }
         <h3>Inflows</h3><div class="list">${D.flows.map((f, i) => f.dir === 'in' ? `<div class="item" role="button" tabindex="0" data-flow="${i}"><span class="t">${esc(f.title)}</span><span class="s">${esc(f.detail)}</span></div>` : '').join('')}</div>
         <h3>Outflows</h3><div class="list">${D.flows.map((f, i) => f.dir === 'out' ? `<div class="item" role="button" tabindex="0" data-flow="${i}"><span class="t">${esc(f.title)}</span><span class="s">${esc(f.detail)}</span></div>` : '').join('')}</div>
         <h3>The time boundary</h3><p>The map also crosses years. Carried-over sites, reused layouts and lessons (or the lack of them) are how this year's festival shapes next year's, and most balancing loops act a season late (‖).</p>`;
+    } else if (tab === 'trends') {
+      h = `<h2>Trends over the years</h2><p>Behaviour over time from the board's rich picture. Each chart is to scale from its own baseline. Click a chart to light up the loops it bears on.</p>` +
+        D.trends.map((t, i) => `<div class="item trend" role="button" tabindex="0" data-set="trend:${i}">${trendChart(t)}<span class="t">${esc(t.title)}</span><span class="s">${esc(t.note)}</span></div>`).join('');
     } else if (tab === 'unknowns') {
       h = `<h2>What we still don't know</h2><p>Questions the map cannot answer yet. Each names the loops it would change.</p><ul>${D.unknowns.map(u => `<li>${linkify(u)}</li>`).join('')}</ul>`;
     } else if (tab === 'method') {
       h = `<h2>How this map was made</h2>
-        <p>Everything here comes from the Systems thinking FigJam board: the 86 iceberg loops, the field research at Dagdusheth and Koregaon Park, and System Maps v2 (Deep), Expanded, v3, v4 and v5.</p>
+        <p>Everything here comes from the Systems thinking FigJam board: the 86 iceberg loops and their sections, the field research at Dagdusheth and Koregaon Park, the stakeholder and ecosystem maps, the dependency map, the rich picture, the cause-and-effect chains, and System Maps v2 (Deep), Expanded, v3, v4 and v5.</p>
         <ul><li><b>Boxes and links.</b> Taken from v4 and v5 (159 boxes, 267 signed links), plus the v2 boxes and links the later maps dropped. Names that differ between versions were matched by hand, so each box appears once. Signs, evidence tags (E, H, ?), source codes and delays come from the board.</li>
         <li><b>Loops.</b> v5 draws each of the 63 loops as its own ring, so each ring's boxes were read off v5's layout. 14 more come from v2, closed through three or more boxes. Every loop was checked: an R loop has an even number of − links, a B loop an odd number.</li>
+        <li><b>v7 additions.</b> The 34 iceberg loops v4 and v5 left out were read from their own sections, with the board's signs, and joined onto boxes already on the map wherever the board means the same thing. Loops built from the field research use only links the board supports (tagged E) or proposes (tagged H); each names its source.</li>
         <li><b>Layout.</b> Each loop is held as a regular ring with its name circle at the centre, and boxes shared by several loops sit where those rings meet. Each zone keeps its boxes together, and loops that cross zones sit on the borders between them.</li>
         <li><b>Boundary.</b> The dashed line is the system boundary. The flows across it are taken from the board's evidence (visitor numbers, nirmalya tonnage, PMC and police capacity).</li></ul>
         <h2>Conventions we followed</h2>
@@ -643,10 +649,26 @@ a { color: var(--bloop); }
     }
     b.innerHTML = h; if (keep) b.prepend(keep);
   }
+  function trendChart(t) {
+    const W = 340, H = 132, pl = 30, pr = 30, pt = 30, pb = 24;
+    const xs = t.pts.map(p => p[0]), ys = t.pts.map(p => p[1]).concat(t.limit ? [t.limit] : []);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs), y1 = Math.max(...ys) * 1.08, y0 = t.limit ? 0 : 0;
+    const X = x => pl + (x1 === x0 ? 0.5 : (x - x0) / (x1 - x0)) * (W - pl - pr), Y = y => pt + (1 - (y - y0) / (y1 - y0)) * (H - pt - pb);
+    const fmt = v => v >= 1000 ? v.toLocaleString('en-IN') : String(v);
+    const path = t.pts.map((p, i) => (i ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1)).join(' ');
+    const area = path + ` L${X(x1).toFixed(1)} ${Y(0).toFixed(1)} L${X(x0).toFixed(1)} ${Y(0).toFixed(1)} Z`;
+    return `<svg class="tchart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t.title)} by year">
+      <line x1="${pl}" x2="${W - pr}" y1="${Y(0)}" y2="${Y(0)}" class="tax"/>
+      ${t.limit ? `<line x1="${pl}" x2="${W - pr}" y1="${Y(t.limit)}" y2="${Y(t.limit)}" class="tlim"/><text x="${W - pr}" y="${Y(t.limit) - 4}" class="tl" text-anchor="end">limit ${t.limit} ${esc(t.unit)}</text>` : ''}
+      <path d="${area}" class="tarea"/><path d="${path}" class="tline"/>
+      ${t.pts.map((p, i) => `<circle cx="${X(p[0])}" cy="${Y(p[1])}" r="${i === t.pts.length - 1 ? 4.5 : 3}" class="tdot"/><text x="${X(p[0])}" y="${Y(p[1]) - 8}" text-anchor="middle" class="tv">${fmt(p[1])}</text><text x="${X(p[0])}" y="${H - 8}" text-anchor="middle" class="tx">${p[0]}</text>`).join('')}
+      <text x="0" y="11" class="tu">${esc(t.unit)}</text></svg>`;
+  }
   function setLoopsFor(key) {
     const [k, a, c] = key.split(':');
     if (k === 'act') { const x = D.act.find(y => y.n == a); const starNodes = D.nodes.filter(n => n.star == a).map(n => n.id);
       return { loops: x.codes.filter(c => LOOP[c]), html: `<div class="dh"><span class="starno">★${a}</span><h2>Where to act</h2><button class="close" data-close>Close</button></div><p>${linkify(x.text)}</p><p><span class="lev">Leverage ${x.meadows[0]} · ${x.meadows[1]}</span></p>${starNodes.length ? `<h3>★ boxes</h3><div class="chain">${starNodes.map(nodeBtn).join('')}</div>` : ''}` }; }
+    if (k === 'trend') { const t = D.trends[a]; return { loops: t.loops.filter(c => LOOP[c]), html: `<div class="dh"><h2>${esc(t.title)}</h2><button class="close" data-close>Close</button></div>${trendChart(t)}<p>${esc(t.note)}</p>${t.loops.length ? `<p>Loops it bears on: ${t.loops.map(loopChip).join(' ')}</p>` : '<p>No single loop on the map carries this trend yet.</p>'}` }; }
     if (k === 'arch') { const x = D.arche[a]; return { loops: x.codes.filter(c => LOOP[c]), html: `<div class="dh"><h2>${esc(x.name)}</h2><button class="close" data-close>Close</button></div><p>${linkify(x.text)}</p>` }; }
     if (k === 'mm') { const x = D.mental[a]; return { loops: x.codes.filter(c => LOOP[c]), html: `<div class="dh"><h2>“${esc(x.belief)}”</h2><button class="close" data-close>Close</button></div><p>A belief that holds these loops in place: ${x.codes.map(loopChip).join(' ')}</p>` }; }
     if (k === 'ice') { const x = D.layers[a][c]; const ls = [...new Set(x.refs.flatMap(r => byRef[r] || []))];

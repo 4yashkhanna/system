@@ -244,6 +244,72 @@ NEWLINKS = [
 for a, b, lab in NEWLINKS:
     add_edge(a, b, lab, ['merge'])
 
+# ---------- v7 additions (board loops v4/v5 left out, field research, stakeholders) ----------
+import additions as AD
+for z, (nm, blurb) in AD.NEW_ZONES.items():
+    ZONES[z] = (nm, blurb)
+    FAM_BY_ZONE[z] = AD.ZONE_FAMILY[z]
+for c, z in AD.REHOME.items():
+    nodes[c]['zone'] = z
+B34 = json.load(open(SRC + 'loops34.json'))
+
+
+def akey(t):
+    t = t.upper()
+    return AD.ALIAS.get(t, t)
+
+
+def ensure(c, zone, raw=None):
+    if c in nodes:
+        return
+    if c in AD.NEW_NODES:
+        z, k, star = AD.NEW_NODES[c]
+        nodes[c] = dict(label=c, zone=z, star=star, kind=k, v7=True)
+        return
+    yellow = raw is not None and not raw.isupper()
+    k = kind_of(c) if kind_of(c) != 'var' else ('outside' if yellow else 'var')
+    nodes[c] = dict(label=c, zone=zone, star=None, kind=k, v7=True)
+
+
+for c in AD.NEW_NODES:
+    ensure(c, None)
+ADD_LOOPS = []
+board_home = {}
+for n, typ, nm, z, extra in AD.BOARD_LOOPS:
+    board_home.setdefault(n, z)
+for n, sec in B34.items():
+    n = int(n)
+    z = board_home.get(n) or board_home.get(AD.MERGED_SAME.get(n))
+    for a, b, lab in sec['edges']:
+        ka, kb = akey(a), akey(b)
+        ensure(ka, z, a)
+        ensure(kb, z, b)
+        add_edge(ka, kb, lab or None, ['board'])
+for n, typ, nm, z, extra in AD.BOARD_LOOPS:
+    sec = B34[str(n)]
+    cyc = [l for l in sec['loops'] if l['type'] == typ]
+    assert len(cyc) == 1, (n, typ)
+    ns = [akey(x) for x in cyc[0]['nodes']]
+    text = sec['alone'][typ] or (sec['epH'][-1] if sec['epH'] else '')
+    text = text[0].upper() + text[1:] if text else ''
+    ADD_LOOPS.append(dict(type=typ, name=nm, zone=z, nodes=ns, refs=['#%d' % n] + extra, unknown=False, src='board',
+                          text=text, note=sec['note'], evidence=sec['evidence'].replace('Arrow tags: E evidence, H hypothesis, ? sign not known (red dashed).', '').strip()))
+for typ, nm, z, chain, refs, text in AD.RESEARCH_LOOPS:
+    ns = chain[0::2]
+    labs = chain[1::2]
+    for i, c in enumerate(ns):
+        ensure(c, z)
+        add_edge(c, ns[(i + 1) % len(ns)], labs[i], ['research'])
+    ADD_LOOPS.append(dict(type=typ, name=nm, zone=z, nodes=ns, refs=[], unknown=False,
+                          src='research', text=text, note='Built for v7 from the board: ' + refs, evidence=''))
+for a, b, lab in AD.LINKS:
+    for c in (a, b):
+        assert c in nodes, c
+    add_edge(a, b, lab, ['research'])
+for c, n in nodes.items():
+    if c in AD.NEW_NODES or n.get('v7'):
+        n.setdefault('kind', 'var')
+
 # black (driver) arrows from yellow boxes carry no loop sign
 for (a, b), d in E.items():
     if nodes[a]['kind'] in ('goal', 'capacity', 'mental', 'outside') and not d['sign']:
@@ -317,6 +383,12 @@ V2LOOPS = [
 for code, nm, z, ns, d in V2LOOPS:
     loops.append(dict(id=code, type=code[0], name=nm, zone=z, nodes=ns, refs=[], unknown=False, src='v2', text=d))
 
+nxt = {'R': 37, 'B': 42}
+for l in ADD_LOOPS:
+    l['id'] = '%s%d' % (l['type'], nxt[l['type']])
+    nxt[l['type']] += 1
+    loops.append(l)
+
 # attach v4 descriptions
 for l in loops:
     if l['src'] == 'v5':
@@ -343,7 +415,7 @@ assert len(set(ids.values())) == len(ids)
 out_nodes = []
 for c, n in nodes.items():
     out_nodes.append(dict(id=ids[c], label=RENAME.get(c, c), zone=n['zone'], kind=n['kind'], star=n['star'],
-                          fam=FAM_OVERRIDE.get(c, FAM_BY_ZONE[n['zone']]), v2=n.get('v2', False)))
+                          fam=FAM_OVERRIDE.get(c, FAM_BY_ZONE[n['zone']]), v2=n.get('v2', False), v7=n.get('v7', False)))
 out_edges = []
 for (a, b), d in E.items():
     out_edges.append(dict(s=ids[a], t=ids[b], sign=d['sign'], ev=d['ev'], src=d['src'], delay=d['delay'],

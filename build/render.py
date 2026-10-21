@@ -133,7 +133,7 @@ def wrap(label, width_chars):
 
 out = []
 # ---------- zones ----------
-ZCOL = {1: 'z1', 2: 'z2', 3: 'z3', 4: 'z4', 5: 'z5', 6: 'z6', 7: 'z7', 8: 'z8', 9: 'z9', 10: 'z10', 11: 'z11', 12: 'z12', 13: 'z13'}
+ZCOL = {z: 'z%d' % z for z in range(1, 18)}
 zg = ['<g id="zones">']
 zt = ['<g id="ztitles">']
 for z, b in LY['zones'].items():

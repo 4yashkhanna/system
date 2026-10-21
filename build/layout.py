@@ -38,12 +38,14 @@ def radius(n):
     return CHORD / (2 * math.sin(math.pi / n))
 
 
-ROWS = json.loads(sys.argv[8]) if len(sys.argv) > 8 else [[10, 5, 3, 4], [6, 1, 2, 11], [9, 12, 7, 8]]
-GRIDPOS = {}
-for r, row in enumerate(ROWS):
-    off = (5 - len(row)) / 2
-    for c, z in enumerate(row):
-        GRIDPOS[z] = (c + off, r)
+GRID = {8: (0, 0), 11: (1, 0), 7: (2, 0),
+        17: (0, 1), 2: (1, 1), 12: (2, 1), 9: (3, 1),
+        1: (0, 2), 6: (1, 2), 3: (2, 2), 10: (3, 2),
+        14: (0, 3), 5: (1, 3), 13: (2, 3), 4: (3, 3),
+        16: (0, 4), 15: (1, 4)}
+if len(sys.argv) > 8:
+    GRID = {int(k): tuple(v) for k, v in json.loads(sys.argv[8]).items()}
+GRIDPOS = {z: (c + 0.0, r * 0.9) for z, (c, r) in GRID.items()}
 ZONES = sorted(GRIDPOS)
 NZ = len(ZONES)
 
@@ -79,7 +81,7 @@ for e in M['edges']:
     a, b = idx[e['s']], idx[e['t']]
     if (a, b) not in inloop and (b, a) not in inloop:
         add(a, b, 240.0 if e['driver'] else 330.0, 2)
-SPREAD = 2300.0
+SPREAD = float(os.environ.get('SPREAD', 2900))
 for z in ZONES:
     mem = np.where(zone == z)[0]
     rz = 190 * math.sqrt(len(mem))
@@ -111,7 +113,7 @@ zsize = {z: 190 * math.sqrt((zone == z).sum()) * 2 for z in ZONES}
 zcap = np.array([zsize[z] for z in zall])
 D = np.where(unrel & same, np.minimum(D, np.maximum(zcap[:, None], 400)), D)
 Wt = 1.0 / np.maximum(D, 1.0) ** 2
-Wt[kind == 1] *= 8
+Wt[kind == 1] *= float(os.environ.get('RINGW', 16))
 Wt[kind == 2] *= 2
 Wt[kind == 3] *= 0.6 * HUBK
 Wt[unrel & same] *= 1.5
@@ -140,7 +142,7 @@ def smacof(X, iters):
 
 
 best = None
-for trial in range(4):
+for trial in range(int(os.environ.get('TRIALS', 2))):
     X0 = np.zeros((n_all, 2))
     for i in range(n_all):
         if i < N:

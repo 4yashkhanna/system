@@ -1,5 +1,7 @@
 """Assemble the interactive system map page from model.json, layout.json and render.json."""
 import os, json, re, math, html, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import additions as AD
 from shapely.geometry import Polygon, Point
 from shapely.ops import nearest_points
 from shapely.geometry import LineString
@@ -103,6 +105,10 @@ FLOWS = [
     ('out', 'Thinner services elsewhere in the city', 'Officers and PMC staff borrowed from routine work.', ids('ROUTINE CIVIC AND POLICE', 'STAFF AND SERVICES DIVERTED')),
     ('out', 'Image and coverage', 'Media and social media carry the festival, and its harms, to the whole city.', ids('MEDIA AND SOCIAL MEDIA', 'PUBLIC AND POLITICAL PRESSURE')),
     ('out', 'Precedent carried into next year', 'The time boundary: sites, layouts and lessons (or their absence) roll over.', ids('SITE CARRY-OVER', 'LESSONS CARRIED', 'CHANGES TO FESTIVAL ARRANGEMENTS')),
+    ('in', 'Flowers from farms across the region', 'Solapur, Satara, Sangli and Karnataka, through the Market Yard (APMC) at Gultekdi.', ids('FLOWERS SENT IN BY FARMERS', 'FLOWER PRICES')),
+    ('in', 'Power from the grid', 'Temporary MSEDCL connections and generators for lights, sound and decor.', ids('TEMPORARY CONNECTIONS (MSEDCL)', 'POWER DEMAND')),
+    ('in', 'Other events in the same season', 'Eid-e-Milad, Navratri, the Wari: the city calendar competes for routes and police.', ids('OTHER CITY EVENTS', 'EVENTS OVERLAPPING')),
+    ('out', 'Customers and traders leaving the peths', 'Congestion and parking push shoppers away; traders talk of relocating.', ids('CUSTOMERS AVOIDING THE PETHS', 'TRADERS RELOCATING')),
 ]
 bpoly = Polygon(LY['boundary_pts'])
 bc = bpoly.centroid
@@ -171,26 +177,68 @@ loops = []
 for l in M['loops']:
     loops.append(dict(id=l['id'], type=l['type'], name=l['name'], zone=l['zone'],
                       zones=sorted(set(zone_of[n] for n in l['nodes'])), nodes=l['nodes'], text=l.get('text', ''),
-                      refs=l.get('refs', []), refs_full=l.get('refs_full', ''), src=l['src'], unknown=l['unknown']))
+                      refs=l.get('refs', []), refs_full=l.get('refs_full', ''), src=l['src'], unknown=l['unknown'],
+                      note=l.get('note', ''), evidence=l.get('evidence', '')))
+BYNAME = {l['name']: l['id'] for l in M['loops']}
+for n, text, lev, levname in AD.NEW_ACT:
+    act.append(dict(n=n, text=text, codes=[], meadows=(lev, levname), added=True))
+STAR_CODES = {12: ['Two-wheeler ban clears the core', 'Narrow footpaths push groups to autos'],
+              13: ['The day re-forms around the festival', 'Peak-hour clash brings time limits', 'Evening peaks draw evening visits'],
+              14: ['Pay-and-park answers parking pressure', 'No-parking zones push cars back out', 'Peth retail drains away'],
+              15: ['Waste pickers close the loop']}
+for a in act:
+    if a['n'] in STAR_CODES:
+        a['codes'] = [BYNAME[x] for x in STAR_CODES[a['n']]]
+        a['text'] += ' ' + ', '.join(a['codes']) + '.'
+for belief, names in [('Talking money about the festival is disrespectful', ['Money stays unspoken']),
+                      ('A good festival looks self-run', ['The backstage stays unseen']),
+                      ('Vighnaharta: an auspicious time to begin', ['Shops shift to festival hours']),
+                      ('Better to adjust quietly than to complain', ['Speaking up gets risky', 'Silent adaptation']),
+                      ('Tradition must be done fully, whatever it costs', ['Tradition felt as a duty', 'Smaller idols, fewer days'])]:
+    mental.append(dict(belief=belief, codes=[BYNAME[x] for x in names if x in BYNAME], added=True))
+for nm, t, names in [
+    ('Limits to growth', 'Added in v7: home celebrations grow on duty and memory until cost, space and time cut them to smaller idols and fewer days; the metro habit grows until stations fill; idol and modak orders grow until workshops and kitchens run out.',
+     ['Tradition felt as a duty', 'Smaller idols, fewer days', 'Predictable trips build the metro habit', 'Crowded stations send people back to cars', 'Idol makers specialise', 'Workshop capacity caps orders', 'Kitchen capacity caps orders']),
+    ('Fixes that fail', 'Added in v7: parking pushed a kilometre out fills residential lanes, and no-parking zones push it on again; the two-wheeler ban clears the core but costs vehicle-dependent shops their customers.',
+     ['No-parking zones push cars back out', 'Visitors park farther and walk', 'Two-wheeler ban clears the core']),
+    ('Shifting the burden', 'Added in v7: volunteers, the chowki and residents patch gaps no agency owns, so ownership is never settled; civic immersion grows its own demand as the residents\' role shrinks.',
+     ['Informal patching keeps the gaps', 'Civic immersion builds its own demand']),
+    ('Success to the successful', 'Added in v7: the organised side wins the street against people coping one by one; the more a pandal is photographed, the more people come for the photo.',
+     ['Organised side wins the street', 'Photos bring visitors for the photo']),
+    ('Eroding goals', 'Added in v7: when speaking up risks confrontation, residents stop asking, and the tolerable level quietly moves.',
+     ['Speaking up gets risky'])]:
+    arche.append(dict(name=nm, text=t, codes=[BYNAME[x] for x in names if x in BYNAME], added=True))
+for q, names in [
+    ('Does the local pandal compete with the big mandals, or act as a warm-up that feeds them?', ['Time at "our" pandal']),
+    ('Does the builder-patron fund every K.P. pandal or only some, and why?', ['Goodwill loop (K.P. patron)']),
+    ('Where do idols handed over in K.P. end up: river, iron tank or collection centre?', ['Civic immersion builds its own demand']),
+    ('What happens to drains under pandals when late-monsoon rain falls?', ['Rain exposes the drains']),
+    ('How loud do the galis get at night? Decibel readings at two or three pandals would settle it.', ['Mandals self-regulate']),
+    ('What does the hourly activity curve of each pandal look like against aarti times, work hours and the 5 pm regime?', ['The day re-forms around the festival']),
+    ('Where do displaced hawkers go for the 10 days, how much notice do they get and how much income do they lose?', ['Hawkers follow the crowd']),
+    ('Who decides when a pandal comes down, and what delayed it this year?', ['The festival ends before the system does']),
+    ('Did gali shops and vendors gain or lose during the 10 days, and does it depend on whether their customers walk or drive?', ['Shops shift to festival hours', 'Blocked access pushes new routines'])]:
+    unknowns.append(q + ' (' + ', '.join(BYNAME[x] for x in names if x in BYNAME) + ')')
 edges = R['edges']
 DATA = dict(zones=M['zones'], nodes=nodes, loops=loops, edges=edges, iceberg=iceberg, layers=layers, act=act,
             mental=mental, arche=arche, unknowns=unknowns, sentences=T['THE SYSTEM IN SENTENCES'],
-            merge=T['HOW THE LOOPS MERGE'], flows=flows,
+            merge=T['HOW THE LOOPS MERGE'], flows=flows, trends=AD.TRENDS,
             pos={k: [round(v['x']), round(v['y'])] for k, v in NP.items()},
             lpos={k: [round(v['cx']), round(v['cy'])] for k, v in LY['loops'].items()},
             zb={k: v['bounds'] for k, v in LY['zones'].items()},
             zc={str(z): [round(sum(NP[n['id']]['x'] for n in M['nodes'] if n['zone'] == z) / max(1, sum(1 for n in M['nodes'] if n['zone'] == z))),
-                         round(sum(NP[n['id']]['y'] for n in M['nodes'] if n['zone'] == z) / max(1, sum(1 for n in M['nodes'] if n['zone'] == z)))] for z in range(1, 13)},
+                         round(sum(NP[n['id']]['y'] for n in M['nodes'] if n['zone'] == z) / max(1, sum(1 for n in M['nodes'] if n['zone'] == z)))] for z in range(1, 18)},
             zshort={'1': 'Local pandals', '2': 'Space and the site', '3': 'Crowds and emergency access', '4': 'Traffic and transport',
                     '5': 'Shops and street trade', '6': 'Festival engine', '7': 'Residents who absorb it', '8': 'Permissions and coordination',
-                    '9': 'Immersion and the river', '10': 'Police capacity', '11': 'After the festival', '12': 'Noise and the rules'},
+                    '9': 'Immersion and the river', '10': 'Police capacity', '11': 'After the festival', '12': 'Noise and the rules',
+                    '13': 'Parking, metro and walking', '14': 'Time and daily rhythm', '15': 'Supply chain and trade', '16': 'Homes and families', '17': 'Patrons and civic networks'},
             bounds=[bx0 - 760, by0 - 300, bx1 + 760, by1 + 300])
 
 defs = '<defs>' + ''.join(
     f'<marker id="ah-{k}" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="{s}" markerHeight="{s}" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="ah ah-{k}"/></marker>'
     for k, s in [('r', 6.2), ('b', 6.2), ('both', 6.2), ('free', 7), ('drv', 7), ('turn-r', 5), ('turn-b', 5), ('flow', 5)]) + '</defs>'
 W, H = LY['width'], LY['height']
-svg = (f'<svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="System map: 77 feedback loops across 12 zones">'
+svg = (f'<svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="System map: {len(loops)} feedback loops across {len(M['zones'])} zones">'
        f'{defs}<g id="world">{bound_svg}{R["svg"]}<g id="flows">{"".join(fsvg)}</g></g></svg>')
 minisvg = (f'<svg id="mini" viewBox="0 0 {W:.0f} {H:.0f}" aria-hidden="true"><path class="mbound" d="{LY["boundary"]}"/>'
            + ''.join(f'<path class="mz z{z}" d="{b["path"]}"/>' for z, b in LY['zones'].items())
