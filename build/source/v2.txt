@@ -1,0 +1,202 @@
+## Organisers and patrons
+  [664:7915] POLITICAL PATRONAGE
+  [664:7919] MANDAL RIVALRY
+  [664:7923] MONEY RAISED (VARGANI, SPONSORS)
+  [664:7951] HIRED CREWS AND PRIVATE SECURITY
+  [665:8332] R4 Patronage
+## Residents who celebrate
+  [664:7927] BELONGING AND CULTURAL PRIDE
+  [664:7931] HOUSEHOLD PARTICIPATION
+  [664:7935] VOLUNTEERS MOBILISED
+## The celebration
+  [664:7939] Usable open ground nearby
+  [664:7943] SAME ROADSIDE SITE AS LAST YEAR
+  [664:7947] SCALE OF THE CELEBRATION
+  [664:7955] AMPLIFIED SOUND AND DJ USE
+  [664:7959] PROCESSIONS AND IMMERSION
+  [664:7963] CROWD ON THE STREET
+  [665:8323] R1 Prestige escalation
+  [665:8326] R2 Attention magnet
+  [665:8338] R6 Site lock-in
+## Street and mobility
+  [664:7971] CROWD SAFETY RISK
+  [664:7975] ROAD AND FOOTPATH TAKEN
+  [664:7979] POLICE BARRICADES AND DIVERSIONS
+  [664:7983] GOAL: traffic keeps moving (police)
+  [664:7987] CONGESTION AT THE SITE
+  [664:7991] CONGESTION ON SURROUNDING ROUTES
+  [664:7995] BUSES REROUTED, STOPS SHIFTED
+  [664:7999] AUTOS AND CABS CIRCLING
+  [665:8341] R7 Diversion ripple
+  [665:8344] R8 Transport squeeze
+  [665:8350] B1 Crowd control
+  [665:8353] B2 Noise complaint and restriction
+  [665:8359] B4 Access and revenue
+  [665:8362] B5 Volunteer capacity
+  [665:8383] B12 Safety response
+## Crowd care and emergency
+  [664:8003] CROWD MANAGEMENT ON THE GROUND
+  [664:8007] VOLUNTEER FATIGUE
+  [664:8011] EMERGENCY TRAVEL TIME
+  [664:8015] PROTECTED EMERGENCY CORRIDORS
+  [664:8019] GOAL: ambulances get through in time
+## Trade and shops
+  [664:7967] SEASONAL VENDORS ON THE STREET
+  [664:8027] SEASONAL VENDOR INCOME
+  [664:8031] DISPLACEMENT OF HAWKERS
+  [664:8035] CUSTOMER ACCESS TO SHOPS
+  [664:8039] ESTABLISHED SHOP REVENUE
+## Residents who absorb it
+  [664:8043] EVERYDAY ACCESS (HOMES, PARKING, DELIVERIES)
+  [664:8047] NOISE AND SLEEP LOSS
+  [664:8051] DISRUPTION FELT BY NON-PARTICIPANTS
+  [664:8055] RESIDENT TOLERANCE AND GOODWILL
+  [664:8059] PRIVATE ADAPTATION (REROUTING, STAYING IN, LEAVING)
+  [664:8063] COMPLAINTS ORGANISED (GROUPS, POLICE, PMC)
+  [664:8067] Familiarity: years the festival has run here
+  [664:8071] GOAL: a normal routine (residents)
+  [665:8347] R9 Silent adaptation
+## Media and opinion
+  [664:8075] MEDIA AND SOCIAL MEDIA COVERAGE
+  [664:8079] PUBLIC AND POLITICAL PRESSURE
+## Rules and enforcement
+  [664:8083] RULES AND COURT ORDERS
+  [664:8091] PERMISSION LOAD ACROSS AUTHORITIES
+  [664:8095] ENFORCEMENT ON THE GROUND
+  [664:8119] VIP visits on peak evenings
+## Planning and learning
+  [664:8087] DISRUPTION VISIBLE TO PLANNERS
+  [664:8099] COORDINATION: MANDALS, POLICE, PMC
+  [664:8103] ADVANCE NOTICE TO AFFECTED PEOPLE
+  [664:8107] Responsibility split across agencies
+  [664:8111] LOCAL PLANNING CHANGES (SITE, LAYOUT, TIMINGS)
+  [664:8115] LESSONS CARRIED INTO NEXT YEAR
+## Waste and clean-up
+  [664:8023] WASTE, NIRMALYA AND RIVER POLLUTION
+  [664:8123] CLEAN-UP AND RESTORATION DONE
+  [664:8127] TOILETS, WATER AND BINS PROVIDED
+  [665:8380] B11 Clean-up
+[665:8329] R3 Belonging
+[665:8335] R5 Festival marketplace
+[665:8356] B3 Tolerance depletion
+[665:8365] B6 Media backlash
+[665:8368] B7 Coordinated response
+[665:8371] B8 Emergency access
+[665:8374] B9 Year-to-year learning
+[665:8377] B10 Immersion regulation
+T: SYSTEM MAP v2 (DEEP): FESTIVALS x EVERYDAY CITY LIFE
+T: 54 variables, 104 signed links and 21 loops across eleven sub-systems. Merges our board map (v1), the complex system map and the stakeholder map, kept with the field evidence from Dagdusheth and Koregaon Park. Read it left to right: who sets the festival in motion, what gets built, what happens on the street, who absorbs it, and what comes back as rules, media and planning (blue arrows). Claims stay provisional.
+[665:8388] NORTH STAR To enable neighbourhoods and festivals to adapt to each other while maintaining a balance between celebration and everyday city life.
+T: WHAT THE DEEPER MAP ADDS
+T: The festival side now has six engines that grow it: prestige (R1), attention (R2), belonging (R3), patronage (R4), the marketplace (R5) and site lock-in (R6). Almost every brake runs through one route: harm to residents becomes complaints, complaints and media become rules, and rules arrive a season late (B2, B3, B5, B6). Residents who adapt quietly (R9) and enforcement that bends to patronage, VIP visits and permission load keep those brakes weak. That is the gap between this map and the North Star.
+T: THE 21 LOOPS
+T: R1 Prestige escalation: Mandal rivalry → scale of the celebration → media and social media coverage → money raised → mandal rivalry R2 Attention magnet: Scale of the celebration → media and social media coverage → crowd on the street → scale of the celebration R3 Belonging: Household participation → scale of the celebration → belonging and cultural pride → household participation R4 Patronage: Political patronage → mandal rivalry → political patronage R5 Festival marketplace: Crowd on the street → seasonal vendors on the street → crowd on the street R6 Site lock-in: Same roadside site as last year → scale of the celebration → crowd on the street → same roadside site as last year R7 Diversion ripple: Police barricades and diversions → congestion on surrounding routes → police barricades and diversions R8 Transport squeeze: Congestion on surrounding routes → buses rerouted, stops shifted → autos and cabs circling → congestion on surrounding routes R9 Silent adaptation: Disruption felt by non-participants → private adaptation → disruption visible to planners → local planning changes → road and footpath taken → everyday access → disruption felt by non-participants B1 Crowd control: Congestion at the site → police barricades and diversions → congestion at the site B2 Noise complaint and restriction: Amplified sound and DJ use → noise and sleep loss → complaints organised → rules and court orders → amplified sound and DJ use B3 Tolerance depletion: Scale of the celebration → road and footpath taken → everyday access → disruption felt by non-participants → resident tolerance and goodwill → complaints organised → rules and court orders → scale of the celebration B4 Access and revenue: Scale of the celebration → road and footpath taken → customer access to shops → established shop revenue → money raised → scale of the celebration B5 Volunteer capacity: Scale of the celebration → crowd on the street → volunteer fatigue → crowd management on the ground → complaints organised → rules and court orders → scale of the celebration B6 Media backlash: Scale of the celebration → media and social media coverage → public and political pressure → rules and court orders → scale of the celebration B7 Coordinated response: Disruption felt by non-participants → disruption visible to planners → coordination: mandals, police, PMC → advance notice to affected people → disruption felt by non-participants B8 Emergency access: Congestion at the site → emergency travel time → protected emergency corridors → road and footpath taken → congestion at the site B9 Year-to-year learning: Disruption felt by non-participants → disruption visible to planners → lessons carried into next year → local planning changes → road and footpath taken → everyday access → disruption felt by non-participants B10 Immersion regulation: Processions and immersion → waste, nirmalya and river pollution → rules and court orders → processions and immersion B11 Clean-up: Waste, nirmalya and river pollution → clean-up and restoration done → waste, nirmalya and river pollution B12 Safety response: Crowd safety risk → police barricades and diversions → crowd safety risk
+T: WHERE TO ACT (WEAKEST TO STRONGEST, AFTER MEADOWS)
+T: Numbers: more barricades and police (B1, B12) help on the night but push congestion onto other roads (R7). Delays: rules land a year after the harm (B2, B3, B6). An in-season review would let the brakes work sooner. Information: give private adaptation a channel to planners (R9) and send advance notice (B7). Cheap, and it serves near stars 2 and 6. Rules: make the site a yearly decision instead of a carry-over (R6), and treat enforcement as the hinge it is. Goals and mindsets: "every year it should be bigger" and "the festival comes first" drive R1 to R3. Shared responsibility between organisers, communities and authorities is the alternative goal.
+T: KEY
+T: Shaded areas are sub-systems. White boxes are variables, yellow boxes are goals or outside pushes (not counted in a loop sign). Grey arrows: influence moving forward. Blue arrows: feedback from rules, media and planning back onto the festival and the street. Red dashed: sign not known yet. Black: goal or outside push. + same direction, − opposite direction. E evidence on the board, H our hypothesis, ? unknown. ‖ delay. R (red circle) reinforcing, B (blue circle) balancing.
+---CONNECTORS
+MANDAL RIVALRY -> POLITICAL PATRONAGE | O1→O5 + H | caps NONE/ARROW_EQUILATERAL
+POLITICAL PATRONAGE -> MANDAL RIVALRY | O5→O1 + H | caps NONE/ARROW_EQUILATERAL
+MONEY RAISED (VARGANI, SPONSORS) -> MANDAL RIVALRY | O2→O1 + H | caps NONE/ARROW_EQUILATERAL
+MONEY RAISED (VARGANI, SPONSORS) -> HIRED CREWS AND PRIVATE SECURITY | O2→CR + H | caps NONE/ARROW_EQUILATERAL
+BELONGING AND CULTURAL PRIDE -> HOUSEHOLD PARTICIPATION | P2→P1 + H | caps NONE/ARROW_EQUILATERAL
+HOUSEHOLD PARTICIPATION -> VOLUNTEERS MOBILISED | P1→VOL + H | caps NONE/ARROW_EQUILATERAL
+BELONGING AND CULTURAL PRIDE -> MONEY RAISED (VARGANI, SPONSORS) | P2→O2 + H | caps NONE/ARROW_EQUILATERAL
+Usable open ground nearby -> SAME ROADSIDE SITE AS LAST YEAR | OG→L1 − H | caps NONE/ARROW_EQUILATERAL
+SAME ROADSIDE SITE AS LAST YEAR -> SCALE OF THE CELEBRATION | L1→C1 + H | caps NONE/ARROW_EQUILATERAL
+SCALE OF THE CELEBRATION -> AMPLIFIED SOUND AND DJ USE | C1→C3 + H | caps NONE/ARROW_EQUILATERAL
+SCALE OF THE CELEBRATION -> PROCESSIONS AND IMMERSION | C1→C4 + H | caps NONE/ARROW_EQUILATERAL
+CROWD ON THE STREET -> SAME ROADSIDE SITE AS LAST YEAR | C7→L1 + E ‖ | caps NONE/ARROW_EQUILATERAL
+CROWD ON THE STREET -> SCALE OF THE CELEBRATION | C7→C1 + H ‖ | caps NONE/ARROW_EQUILATERAL
+SCALE OF THE CELEBRATION -> CROWD ON THE STREET | C1→C7 + E | caps NONE/ARROW_EQUILATERAL
+SCALE OF THE CELEBRATION -> BELONGING AND CULTURAL PRIDE | C1→P2 + H | caps NONE/ARROW_EQUILATERAL
+HOUSEHOLD PARTICIPATION -> SCALE OF THE CELEBRATION | P1→C1 + H | caps NONE/ARROW_EQUILATERAL
+MONEY RAISED (VARGANI, SPONSORS) -> SCALE OF THE CELEBRATION | O2→C1 + H | caps NONE/ARROW_EQUILATERAL
+MANDAL RIVALRY -> SCALE OF THE CELEBRATION | O1→C1 + H | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> CROWD SAFETY RISK | BD→RISK − H | caps NONE/ARROW_EQUILATERAL
+CROWD SAFETY RISK -> POLICE BARRICADES AND DIVERSIONS | RISK→BD + H | caps NONE/ARROW_EQUILATERAL
+GOAL: traffic keeps moving (police) -> POLICE BARRICADES AND DIVERSIONS | YTR→BD | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> CONGESTION AT THE SITE | BD→CAS − E | caps NONE/ARROW_EQUILATERAL
+CONGESTION AT THE SITE -> POLICE BARRICADES AND DIVERSIONS | CAS→BD + E | caps NONE/ARROW_EQUILATERAL
+ROAD AND FOOTPATH TAKEN -> CONGESTION AT THE SITE | RT→CAS + E | caps NONE/ARROW_EQUILATERAL
+CONGESTION ON SURROUNDING ROUTES -> POLICE BARRICADES AND DIVERSIONS | CS→BD + H | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> CONGESTION ON SURROUNDING ROUTES | BD→CS + E | caps NONE/ARROW_EQUILATERAL
+CONGESTION ON SURROUNDING ROUTES -> BUSES REROUTED, STOPS SHIFTED | CS→BUS + H | caps NONE/ARROW_EQUILATERAL
+AUTOS AND CABS CIRCLING -> CONGESTION ON SURROUNDING ROUTES | AUTO→CS + H | caps NONE/ARROW_EQUILATERAL
+BUSES REROUTED, STOPS SHIFTED -> AUTOS AND CABS CIRCLING | BUS→AUTO + H | caps NONE/ARROW_EQUILATERAL
+CROWD ON THE STREET -> CROWD SAFETY RISK | C7→RISK + H | caps NONE/ARROW_EQUILATERAL
+CROWD ON THE STREET -> CONGESTION AT THE SITE | C7→CAS + E | caps NONE/ARROW_EQUILATERAL
+PROCESSIONS AND IMMERSION -> CONGESTION ON SURROUNDING ROUTES | C4→CS + E | caps NONE/ARROW_EQUILATERAL
+SCALE OF THE CELEBRATION -> ROAD AND FOOTPATH TAKEN | C1→RT + E | caps NONE/ARROW_EQUILATERAL
+SAME ROADSIDE SITE AS LAST YEAR -> ROAD AND FOOTPATH TAKEN | L1→RT + E | caps NONE/ARROW_EQUILATERAL
+VOLUNTEER FATIGUE -> CROWD MANAGEMENT ON THE GROUND | FAT→CM − H | caps NONE/ARROW_EQUILATERAL
+CROWD MANAGEMENT ON THE GROUND -> EMERGENCY TRAVEL TIME | CM→ETT − H | caps NONE/ARROW_EQUILATERAL
+EMERGENCY TRAVEL TIME -> PROTECTED EMERGENCY CORRIDORS | ETT→COR + ? | caps NONE/ARROW_EQUILATERAL
+GOAL: ambulances get through in time -> PROTECTED EMERGENCY CORRIDORS | YAM→COR | caps NONE/ARROW_EQUILATERAL
+CROWD MANAGEMENT ON THE GROUND -> CONGESTION AT THE SITE | CM→CAS − H | caps NONE/ARROW_EQUILATERAL
+CROWD ON THE STREET -> VOLUNTEER FATIGUE | C7→FAT + H | caps NONE/ARROW_EQUILATERAL
+PROTECTED EMERGENCY CORRIDORS -> ROAD AND FOOTPATH TAKEN | COR→RT − H | caps NONE/ARROW_EQUILATERAL
+CONGESTION AT THE SITE -> EMERGENCY TRAVEL TIME | CAS→ETT + E | caps NONE/ARROW_EQUILATERAL
+HIRED CREWS AND PRIVATE SECURITY -> CROWD MANAGEMENT ON THE GROUND | CR→CM + H | caps NONE/ARROW_EQUILATERAL
+VOLUNTEERS MOBILISED -> CROWD MANAGEMENT ON THE GROUND | VOL→CM + E | caps NONE/ARROW_EQUILATERAL
+SEASONAL VENDOR INCOME -> SEASONAL VENDORS ON THE STREET | VI→S1 + H ‖ | caps NONE/ARROW_EQUILATERAL
+SEASONAL VENDORS ON THE STREET -> SEASONAL VENDOR INCOME | S1→VI + E | caps NONE/ARROW_EQUILATERAL
+CUSTOMER ACCESS TO SHOPS -> ESTABLISHED SHOP REVENUE | CA→REV + H | caps NONE/ARROW_EQUILATERAL
+ESTABLISHED SHOP REVENUE -> MONEY RAISED (VARGANI, SPONSORS) | REV→O2 + H ‖ | caps NONE/ARROW_EQUILATERAL
+ROAD AND FOOTPATH TAKEN -> CUSTOMER ACCESS TO SHOPS | RT→CA − E | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> DISPLACEMENT OF HAWKERS | BD→HAW + E | caps NONE/ARROW_EQUILATERAL
+SEASONAL VENDORS ON THE STREET -> ROAD AND FOOTPATH TAKEN | S1→RT + H | caps NONE/ARROW_EQUILATERAL
+SEASONAL VENDORS ON THE STREET -> CROWD ON THE STREET | S1→C7 + H | caps NONE/ARROW_EQUILATERAL
+CROWD ON THE STREET -> SEASONAL VENDORS ON THE STREET | C7→S1 + E | caps NONE/ARROW_EQUILATERAL
+NOISE AND SLEEP LOSS -> DISRUPTION FELT BY NON-PARTICIPANTS | NS→DF + H | caps NONE/ARROW_EQUILATERAL
+EVERYDAY ACCESS (HOMES, PARKING, DELIVERIES) -> DISRUPTION FELT BY NON-PARTICIPANTS | ACC→DF − H | caps NONE/ARROW_EQUILATERAL
+DISRUPTION FELT BY NON-PARTICIPANTS -> RESIDENT TOLERANCE AND GOODWILL | DF→TOL − H | caps NONE/ARROW_EQUILATERAL
+DISRUPTION FELT BY NON-PARTICIPANTS -> PRIVATE ADAPTATION (REROUTING, STAYING IN, LEAVING) | DF→AD + E | caps NONE/ARROW_EQUILATERAL
+NOISE AND SLEEP LOSS -> COMPLAINTS ORGANISED (GROUPS, POLICE, PMC) | NS→CO + H | caps NONE/ARROW_EQUILATERAL
+RESIDENT TOLERANCE AND GOODWILL -> COMPLAINTS ORGANISED (GROUPS, POLICE, PMC) | TOL→CO − H | caps NONE/ARROW_EQUILATERAL
+Familiarity: years the festival has run here -> RESIDENT TOLERANCE AND GOODWILL | FAM→TOL + H | caps NONE/ARROW_EQUILATERAL
+GOAL: a normal routine (residents) -> PRIVATE ADAPTATION (REROUTING, STAYING IN, LEAVING) | YRO→AD | caps NONE/ARROW_EQUILATERAL
+CROWD MANAGEMENT ON THE GROUND -> COMPLAINTS ORGANISED (GROUPS, POLICE, PMC) | CM→CO − H | caps NONE/ARROW_EQUILATERAL
+BUSES REROUTED, STOPS SHIFTED -> EVERYDAY ACCESS (HOMES, PARKING, DELIVERIES) | BUS→ACC − H | caps NONE/ARROW_EQUILATERAL
+ROAD AND FOOTPATH TAKEN -> EVERYDAY ACCESS (HOMES, PARKING, DELIVERIES) | RT→ACC − E | caps NONE/ARROW_EQUILATERAL
+AMPLIFIED SOUND AND DJ USE -> NOISE AND SLEEP LOSS | C3→NS + E | caps NONE/ARROW_EQUILATERAL
+MEDIA AND SOCIAL MEDIA COVERAGE -> PUBLIC AND POLITICAL PRESSURE | M1→PR + H | caps NONE/ARROW_EQUILATERAL
+PUBLIC AND POLITICAL PRESSURE -> POLITICAL PATRONAGE | PR→O5 − H | caps NONE/ARROW_EQUILATERAL
+EMERGENCY TRAVEL TIME -> PUBLIC AND POLITICAL PRESSURE | ETT→PR + H | caps NONE/ARROW_EQUILATERAL
+MEDIA AND SOCIAL MEDIA COVERAGE -> CROWD ON THE STREET | M1→C7 + E | caps NONE/ARROW_EQUILATERAL
+MEDIA AND SOCIAL MEDIA COVERAGE -> MONEY RAISED (VARGANI, SPONSORS) | M1→O2 + H | caps NONE/ARROW_EQUILATERAL
+SCALE OF THE CELEBRATION -> MEDIA AND SOCIAL MEDIA COVERAGE | C1→M1 + E | caps NONE/ARROW_EQUILATERAL
+RULES AND COURT ORDERS -> ENFORCEMENT ON THE GROUND | RULES→ENF + H | caps NONE/ARROW_EQUILATERAL
+PERMISSION LOAD ACROSS AUTHORITIES -> ENFORCEMENT ON THE GROUND | PERM→ENF − H | caps NONE/ARROW_EQUILATERAL
+VIP visits on peak evenings -> ENFORCEMENT ON THE GROUND | VIP→ENF − H | caps NONE/ARROW_EQUILATERAL
+ENFORCEMENT ON THE GROUND -> ROAD AND FOOTPATH TAKEN | ENF→RT − H | caps NONE/ARROW_EQUILATERAL
+ENFORCEMENT ON THE GROUND -> AMPLIFIED SOUND AND DJ USE | ENF→C3 − H | caps NONE/ARROW_EQUILATERAL
+VIP visits on peak evenings -> CONGESTION ON SURROUNDING ROUTES | VIP→CS + H | caps NONE/ARROW_EQUILATERAL
+POLITICAL PATRONAGE -> ENFORCEMENT ON THE GROUND | O5→ENF − H | caps NONE/ARROW_EQUILATERAL
+RULES AND COURT ORDERS -> PROCESSIONS AND IMMERSION | RULES→C4 − E | caps NONE/ARROW_EQUILATERAL
+RULES AND COURT ORDERS -> SCALE OF THE CELEBRATION | RULES→C1 − H | caps NONE/ARROW_EQUILATERAL
+RULES AND COURT ORDERS -> AMPLIFIED SOUND AND DJ USE | RULES→C3 − E | caps NONE/ARROW_EQUILATERAL
+PUBLIC AND POLITICAL PRESSURE -> RULES AND COURT ORDERS | PR→RULES + H ‖ | caps NONE/ARROW_EQUILATERAL
+COMPLAINTS ORGANISED (GROUPS, POLICE, PMC) -> RULES AND COURT ORDERS | CO→RULES + H ‖ | caps NONE/ARROW_EQUILATERAL
+SCALE OF THE CELEBRATION -> PERMISSION LOAD ACROSS AUTHORITIES | C1→PERM + H | caps NONE/ARROW_EQUILATERAL
+DISRUPTION VISIBLE TO PLANNERS -> COORDINATION: MANDALS, POLICE, PMC | VIS→COORD + H | caps NONE/ARROW_EQUILATERAL
+COORDINATION: MANDALS, POLICE, PMC -> ADVANCE NOTICE TO AFFECTED PEOPLE | COORD→NOT + H | caps NONE/ARROW_EQUILATERAL
+Responsibility split across agencies -> COORDINATION: MANDALS, POLICE, PMC | SPLIT→COORD − H | caps NONE/ARROW_EQUILATERAL
+DISRUPTION VISIBLE TO PLANNERS -> LOCAL PLANNING CHANGES (SITE, LAYOUT, TIMINGS) | VIS→LPC + H | caps NONE/ARROW_EQUILATERAL
+LESSONS CARRIED INTO NEXT YEAR -> LOCAL PLANNING CHANGES (SITE, LAYOUT, TIMINGS) | LES→LPC + H | caps NONE/ARROW_EQUILATERAL
+DISRUPTION VISIBLE TO PLANNERS -> LESSONS CARRIED INTO NEXT YEAR | VIS→LES + ? ‖ | caps NONE/ARROW_EQUILATERAL
+LOCAL PLANNING CHANGES (SITE, LAYOUT, TIMINGS) -> SAME ROADSIDE SITE AS LAST YEAR | LPC→L1 − H | caps NONE/ARROW_EQUILATERAL
+LOCAL PLANNING CHANGES (SITE, LAYOUT, TIMINGS) -> ROAD AND FOOTPATH TAKEN | LPC→RT − H | caps NONE/ARROW_EQUILATERAL
+ADVANCE NOTICE TO AFFECTED PEOPLE -> DISRUPTION FELT BY NON-PARTICIPANTS | NOT→DF − ? | caps NONE/ARROW_EQUILATERAL
+DISRUPTION FELT BY NON-PARTICIPANTS -> DISRUPTION VISIBLE TO PLANNERS | DF→VIS + H | caps NONE/ARROW_EQUILATERAL
+COMPLAINTS ORGANISED (GROUPS, POLICE, PMC) -> DISRUPTION VISIBLE TO PLANNERS | CO→VIS + H | caps NONE/ARROW_EQUILATERAL
+PRIVATE ADAPTATION (REROUTING, STAYING IN, LEAVING) -> DISRUPTION VISIBLE TO PLANNERS | AD→VIS − H | caps NONE/ARROW_EQUILATERAL
+CLEAN-UP AND RESTORATION DONE -> WASTE, NIRMALYA AND RIVER POLLUTION | CLEAN→WASTE − H | caps NONE/ARROW_EQUILATERAL
+WASTE, NIRMALYA AND RIVER POLLUTION -> CLEAN-UP AND RESTORATION DONE | WASTE→CLEAN + E | caps NONE/ARROW_EQUILATERAL
+TOILETS, WATER AND BINS PROVIDED -> WASTE, NIRMALYA AND RIVER POLLUTION | TBP→WASTE − H | caps NONE/ARROW_EQUILATERAL
+ENFORCEMENT ON THE GROUND -> TOILETS, WATER AND BINS PROVIDED | ENF→TBP + H | caps NONE/ARROW_EQUILATERAL
+WASTE, NIRMALYA AND RIVER POLLUTION -> RULES AND COURT ORDERS | WASTE→RULES + E ‖ | caps NONE/ARROW_EQUILATERAL
+CLEAN-UP AND RESTORATION DONE -> EVERYDAY ACCESS (HOMES, PARKING, DELIVERIES) | CLEAN→ACC + E ‖ | caps NONE/ARROW_EQUILATERAL
+CROWD ON THE STREET -> WASTE, NIRMALYA AND RIVER POLLUTION | C7→WASTE + E | caps NONE/ARROW_EQUILATERAL
+PROCESSIONS AND IMMERSION -> WASTE, NIRMALYA AND RIVER POLLUTION | C4→WASTE + E | caps NONE/ARROW_EQUILATERAL

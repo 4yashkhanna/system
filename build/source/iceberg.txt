@@ -1,0 +1,177 @@
+<rounded-rectangle Rectangle>
+<rounded-rectangle Rectangle>
+<rounded-rectangle Rectangle>
+T: Iceberg: 86 loops mapped to the North Star
+T: Read top to bottom: what happened, what keeps happening, what causes it, and the beliefs that hold it in place. ★ marks where acting would move us toward the North Star.
+T: EVENTS
+T: What we saw or found in sources. React.
+T: PATTERNS
+T: All 86 loops, by loop type. Anticipate.
+T: STRUCTURES
+T: Rules, layouts and routines behind the loops. Design.
+T: MENTAL MODELS
+T: Beliefs that keep the structures in place. Shift.
+T: water line
+[554:6496] D01: pandal still being dismantled 2 to 3 weeks after the festival → #19, #65, #86
+[554:6500] D02: a hawker told to pack up and leave for the 10 days → #9, #57
+[554:6504] D03: flower vendors sell more; the Vrindavan theme uses their flowers → #10, #50
+[554:6508] D04: a shop owner calls the topic sensitive and declines to talk → #12
+[554:6512] D05: heavy congestion and police still deployed weeks later → #15, #86
+[554:6516] D06: visitors parked farther, walked or took the metro; two-wheelers kept out → #1, #2, #18
+[554:6520] D07: trust president and others decide the theme on site → #17
+[554:6524] Police begin patrolling once a crowd slows traffic → #15, #34, #73
+[554:6528] Crowds stop to watch plays at roadside pandals → #5
+[554:6532] Organisers use ropes and volunteers to manage crowds → #13, #61
+[554:6536] Metal barricades compact crowds into set spaces → #14, #60
+[554:6540] Metro ridership crosses 4.78 lakh on 19 Sep 2026 → #2, #31
+[554:6544] Laxmi, Shivaji and Bajirao roads closed round the clock, 18 to 25 Sep → #20, #32, #77
+[554:6548] Over 15 lakh devotees in the central peths by 21 Sep → #16, #33
+[554:6552] 11,331 idols at collection centres; 42,521 in tanks in six days → #40, #41
+[554:6556] 68.6 tonnes of nirmalya collected in six days → #42
+[554:6560] Police warn mandals against loud DJs and plasma speakers → #48, #69
+[554:6564] 150 mandals denied entry to the main procession → #63
+[554:6568] PMC launches a single-window permission portal → #59, #71
+[554:6572] Pandals set over drains and on crosswalks in K.P. → #62, #76
+[554:6576] Residents hand idols to PMC workers → #40, #80
+[554:6580] Pandals shut 12 to 5 pm, busy mornings and nights → #72
+[554:6584] Non-celebrating residents changed routes instead of complaining → #7, #82
+[554:6588] Dagdusheth looked settled; K.P. reacted case by case → #83
+[554:6592] Ambulances used the same barricaded routes as everyone → #38, #85
+[554:6596] #1 Visitors park farther and walk [B]
+[554:6600] #2 Visitors take the metro [R+B]
+[554:6604] ★ #3 Visitors anticipate congestion and adapt [B]
+[554:6608] #4 People slow down near a pandal [R+B]
+[554:6612] #5 Passers-by stop to watch performances [R+B]
+[554:6616] #6 Pandals as social meeting points [R+B]
+[554:6620] ★ #7 People change routes around festival activity [R+B]
+[554:6624] #8 Roadside vs neighbourhood pandal visits [R+B]
+[554:6628] #9 Hawkers vacate their spots when told to [B]
+[554:6632] #10 Flower vendors see demand rise [R+B]
+[554:6636] #11 Shopkeepers adapt to the festival [R+B]
+[554:6640] #12 Shopkeepers reluctant to discuss economic effects [R]
+[554:6644] #13 Organisers use ropes and volunteers [R+B]
+[554:6648] #14 Traffic police deploy barricades [B]
+[554:6652] #15 Police patrol where crowds slow traffic [B]
+[554:6656] #16 Police patrol known big-celebration sites [R+B]
+[554:6660] #17 Theme chosen after assessing the site [R+B]
+[554:6664] #18 Two-wheelers restricted near Dagdusheth [B]
+[554:6668] ★ #19 Dismantling continues weeks later [B]
+[554:6672] #20 Drivers follow alternative routes [R+B]
+[554:6676] #21 Visitors follow other people's route choices [R+B]
+[554:6680] #22 Visitors pause before a pandal to decide [B]
+[554:6684] ★ #23 Residents and delivery workers adjust plans [B]
+[554:6688] #24 Visitors choose a different pandal [R+B]
+[554:6692] #25 Crowds gather at aarti and performance times [R+B]
+[554:6696] #26 Vendors move to where visitors are [R+B]
+[554:6700] #27 Businesses add staff and stock in advance [B]
+[554:6704] ★ #28 Pandal sites follow tradition [R]
+[554:6708] ★ #29 Organisers and authorities coordinate [R+B]
+[554:6712] ★ #30 Lessons from previous years change plans [B]
+[554:6716] #31 Visitors switch to public transport or walking [R+B]
+[554:6720] #32 Motorists follow diversions [R+B]
+[554:6724] #33 Visitors travel to prominent mandals [R+B]
+[554:6728] #34 Authorities adjust operations to crowd conditions [B]
+[554:6732] ★ #35 Visitors check traffic and parking advisories [R+B]
+[554:6736] #36 People walk between nearby pandals [R+B]
+[554:6740] #37 Personnel deployed at congestion hotspots [R+B]
+[554:6744] #38 Medical support along procession routes [B]
+[554:6748] ★ #39 Visitors ask volunteers for directions [R+B]
+[554:6752] #40 Households donate idols instead of immersing [R+B]
+[554:6756] #41 Devotees use artificial immersion tanks [R+B]
+[554:6760] #42 Offerings go into nirmalya containers [R+B]
+[554:6764] #43 Households choose clay or other eco idols [R+B]
+[554:6768] #44 Volunteers collect flowers and decorations [B]
+[554:6772] #45 Municipal teams clean up after processions [R+B]
+[554:6776] #46 Households install Ganpati at home [R+B]
+[554:6780] #47 Families invite relatives and neighbours for darshan [R+B]
+[554:6784] #48 Mandals organise devotional and cultural activities [R+B]
+[554:6788] #49 Idol makers increase production [R+B]
+[554:6792] #50 Flower sellers prepare extra flowers [R+B]
+[554:6796] #51 Sweet shops prepare modaks [R+B]
+[554:6800] #52 Vendors stock festive and devotional goods [B]
+[554:6804] #53 Temporary workers for decor, sound and lights [R+B]
+[554:6808] #54 Businesses adjust to access and footfall [R+B]
+[554:6812] #55 Mandals raise donations and sponsorship [R+B]
+[554:6816] #56 Shopkeepers reschedule deliveries [B]
+[554:6820] #57 Vendors change selling spots and timings [R+B]
+[554:6824] #58 Businesses offer festive promotions [R+B]
+[554:6828] ★ #59 Mandals obtain permissions and coordinate [R+B]
+[554:6832] #60 Police deploy barricades around busy mandals [B]
+[554:6836] #61 Mandals coordinate volunteers [R+B]
+[554:6840] ★ #62 Pandal placement planned around site constraints [R+B]
+[554:6844] ★ #63 Authorities coordinate procession routes [R+B]
+[554:6848] #64 Mandals arrange safety measures [B]
+[554:6852] ★ #65 Temporary structures dismantled after celebrations [B]
+[554:6856] #66 People meet friends at pandals [R+B]
+[554:6860] #67 People share the festival on social media [R+B]
+[554:6864] #68 Families introduce children to traditions [R]
+[554:6868] ★ #69 Residents join neighbourhood celebrations [R+B]
+[554:6872] #70 Mandals run charity and public-service work [R+B]
+[554:6876] #71 Governance lived through the police chowki [R+B]
+[554:6880] #72 Timing shapes festival and city interaction [R+B]
+[554:6884] #73 Police intervention scales with disruption [R+B]
+[554:6888] #74 Benefits and costs spread unevenly [R+B]
+[554:6892] #75 The hidden chain behind the visible pandal [R]
+[554:6896] #76 Many small pandals: growth by multiplying [R+B]
+[554:6900] #77 Roads change priority during the festival [R+B]
+[554:6904] #78 Local belonging and city-scale pull side by side [R+B]
+[554:6908] ★ #79 City systems switch on in sequence [R+B]
+[554:6912] ★ #80 Community tasks move into formal systems [R+B]
+[554:6916] #81 Existing capacity reallocated, not new systems [R+B]
+[554:6920] ★ #82 Non-participants absorb disruption silently [R+B]
+[554:6924] ★ #83 Familiarity lowers felt disruption [B]
+[554:6928] ★ #84 Site choice locks in the consequences [R+B]
+[554:6932] #85 Emergency services share the constrained system [B]
+[554:6936] ★ #86 The festival ends before the system does [B]
+T: Colour = source list (see Read me). [R+B], [B] or [R] = loop type.
+[554:6941] ★ No channel for private adaptation to reach planners → #7, #11, #23, #56, #82
+[554:6945] Police respond after traffic stalls and deploy where crowds have been → #14, #15, #16, #34, #37, #60, #73
+[554:6949] Evening restriction regime from 5 pm and round-the-clock closures → #5, #20, #25, #32, #35, #56, #72
+[554:6953] Two-wheeler ban pushes parking outward → #1, #18
+[554:6957] ★ Volunteers and ropes stand in for signs and staff → #4, #13, #21, #39, #61
+[554:6961] Hawkers removed with no alternative spot or notice → #9, #26, #57
+[554:6965] ★ Carry-over permissions (2019 to 2026) lock sites in → #6, #28, #62, #76, #84
+[554:6969] ★ Theme decided on site; access and traffic not visibly part of it → #17
+[554:6973] ★ Three-day removal rule with no crew capacity or follow-up → #19, #53, #65, #86
+[554:6977] Metro and parking as the access system → #1, #2, #3, #31
+[554:6981] Programme timings: aarti, performances, loudspeaker days → #5, #25, #48, #72
+[554:6985] ★ No record of lessons from year to year → #3, #30, #83
+[554:6989] Police chowki as the front door; PMC single window on paper → #29, #59, #71
+[554:6993] Festival supply chain: flower market, idol makers, sweet shops, crews → #10, #27, #49, #50, #51, #53
+[554:6997] Main road or gali: placement decides how far the crowd spills → #8, #24, #84
+[554:7001] ★ PMC immersion system takes over community tasks → #40, #41, #80
+[554:7005] Separate nirmalya collection and pickup rounds → #42, #44, #45
+[554:7009] POP rules and the price of clay idols → #43
+[554:7013] ★ Procession size capped by one day of security and traffic → #63
+[554:7017] Noise rules: 55 and 45 dB, midnight exceptions on 5 days → #48, #69
+[554:7021] Patron and sponsor funding; state festival grants → #55, #70, #75, #76
+[554:7025] Household cycle: install, worship, farewell, immersion → #46, #47, #68
+[554:7029] Medical points by expected crowd; no kept-clear corridor → #38, #85
+[554:7033] ★ Each agency acts at its own stage; capacity borrowed, not added → #79, #81
+[554:7037] Festival use of roads overrides everyday access → #74, #77
+[554:7041] "This is where we always do it." Organisers → #28, #62, #84
+[554:7045] "The festival comes first; the city fits around it." → #7, #20, #23, #77, #82
+[554:7049] "Every year it should be bigger." → #17, #24, #49, #55, #63
+[554:7053] "The crowd is part of the fun." Visitors → #4, #5, #21, #25
+[554:7057] "Better to adjust quietly than to complain." Residents → #7, #23, #82
+[554:7061] "Order means police and barricades." → #14, #15, #16, #34, #37, #60
+[554:7065] "Talking money about the festival is disrespectful." → #12
+[554:7069] "The festival is good for business." Shops, vendors → #10, #11, #26, #27, #50, #51, #54, #58
+[554:7073] "Hawkers are in the way." Authorities → #9, #57
+[554:7077] "A proper darshan means the famous mandal." → #24, #33, #78
+[554:7081] "Ask a volunteer, not a sign." → #39, #61
+[554:7085] "Immersion is PMC's job now." Residents → #40, #41, #80
+[554:7089] "Tradition must be done fully, whatever it costs." → #46, #47
+[554:7093] "Noise is part of the celebration." → #48, #69
+[554:7097] "Once it ends, the street fixes itself." → #19, #45, #65, #86
+[554:7101] "The police chowki is the government." → #59, #71
+[554:7105] "A good festival looks self-run." → #75
+[554:7109] "We manage it as it comes." Agencies → #73, #79, #81
+[554:7113] "Every neighbourhood will learn to live with it." → #83
+[554:7117] "Children must learn it the way we did." Families → #68
+<rounded-rectangle Rectangle>
+T: NORTH STAR
+T: To enable neighbourhoods and festivals to adapt to each other while maintaining a balance between celebration and everyday city life.
+T: WHERE TO ACT (★)
+T: 1. Give private adjustment a voice, so changes made by residents, shops and delivery workers reach planners (#7, #23, #35, #82). 2. Make site choice a yearly decision that weighs access and traffic, not only carry-over (#17, #28, #62, #84). 3. One plan for the whole cycle, setup to clean-up, shared by police and PMC (#19, #79, #86). 4. Plan teardown crews and dates together with setup (#19, #53, #65). 5. Record lessons each year so learning does not reset with new staff (#3, #30, #83). 6. Size the procession to capacity before the day, with clear rules for who joins (#63). 7. Put up signs as well as volunteers (#39, #61). 8. Keep a community role in rituals alongside civic services (#80). 9. A kept-clear emergency corridor near big pandals, with response time measured (#38, #85).
+---CONNECTORS

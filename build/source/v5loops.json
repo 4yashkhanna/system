@@ -1,0 +1,1159 @@
+{
+ "R8 Small pandals multiply #76": {
+  "zone": 1,
+  "score": [
+   0,
+   5.853009369176478
+  ],
+  "nodes": [
+   "EASIER TO SET UP ANOTHER PANDAL",
+   "NUMBER OF SMALL PANDALS IN THE AREA",
+   "SHARED SUPPLIERS, WORKERS AND KNOW-HOW"
+  ],
+  "ids": [
+   "854:12427",
+   "854:12419",
+   "854:12423"
+  ]
+ },
+ "B4 Street space holds pandals down #76": {
+  "zone": 1,
+  "score": [
+   0,
+   15.596548557931195
+  ],
+  "nodes": [
+   "ENFORCEMENT OF ROAD AND FOOTPATH RULES \u25c7 ZONE 2",
+   "NUMBER OF SMALL PANDALS IN THE AREA",
+   "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+   "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) \u25c7 ZONE 7",
+   "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+   "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ZONE 12"
+  ],
+  "ids": [
+   "854:12447",
+   "854:12419",
+   "854:12431",
+   "854:12435",
+   "854:12439",
+   "854:12443"
+  ]
+ },
+ "R14 Neighbourhood belonging #69 C&E 11": {
+  "zone": 1,
+  "score": [
+   0,
+   20.945394791954016
+  ],
+  "nodes": [
+   "ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL",
+   "NUMBER OF SMALL PANDALS IN THE AREA",
+   "RESIDENTS TAKING PART IN LOCAL CELEBRATIONS",
+   "NEIGHBOURS MEETING AT THE CELEBRATION"
+  ],
+  "ids": [
+   "854:12459",
+   "854:12419",
+   "854:12451",
+   "854:12455"
+  ]
+ },
+ "R9 Site lock-in #28 #62 #84": {
+  "zone": 2,
+  "score": [
+   0,
+   0.0001677695974884623
+  ],
+  "nodes": [
+   "\u26052 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026)",
+   "FESTIVAL SCALE AND SPECTACLE \u25c7 ZONE 6",
+   "STREET SPACE TAKEN BY THE FESTIVAL"
+  ],
+  "ids": [
+   "854:12559",
+   "854:12563",
+   "854:12567"
+  ]
+ },
+ "B9 Rules enforced on the street #62 #76": {
+  "zone": 2,
+  "score": [
+   0,
+   0.003125381446401581
+  ],
+  "nodes": [
+   "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) \u25c7 ZONE 7",
+   "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+   "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ZONE 12",
+   "ENFORCEMENT OF ROAD AND FOOTPATH RULES",
+   "STREET SPACE TAKEN BY THE FESTIVAL"
+  ],
+  "ids": [
+   "854:12579",
+   "854:12583",
+   "854:12587",
+   "854:12591",
+   "854:12567"
+  ]
+ },
+ "R21 Sites follow tradition #28": {
+  "zone": 2,
+  "score": [
+   0,
+   0.005210875844418889
+  ],
+  "nodes": [
+   "SITE TREATED AS THE MANDAL'S OWN",
+   "\u26052 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026)",
+   "RESIDENTS AND VISITORS EXPECTING IT THERE"
+  ],
+  "ids": [
+   "854:12599",
+   "854:12559",
+   "854:12595"
+  ]
+ },
+ "R22 Layout reused, precedent hardens #62": {
+  "zone": 2,
+  "score": [
+   0,
+   0.00016276041662877105
+  ],
+  "nodes": [
+   "SAME LAYOUT REUSED EACH YEAR",
+   "\u26052 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026)",
+   "PANDAL LAYOUT PLANNED FOR THE SITE"
+  ],
+  "ids": [
+   "854:12575",
+   "854:12559",
+   "854:12571"
+  ]
+ },
+ "B22 Footprint spills onto paths #62": {
+  "zone": 2,
+  "score": [
+   0,
+   0.00390625
+  ],
+  "nodes": [
+   "FOOTPRINT ON ROAD, DRAINS AND CROSSWALKS",
+   "GAP TO CLEAR PATHS (GOAL: PMC, NGT 2022)",
+   "LAYOUT TRIMMED TO THE SITE",
+   "PANDAL LAYOUT PLANNED FOR THE SITE"
+  ],
+  "ids": [
+   "854:12603",
+   "854:12607",
+   "854:12611",
+   "854:12571"
+  ]
+ },
+ "R23 Visible spot pulls crowds #84": {
+  "zone": 2,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "PASSERS-BY AND ROADSIDE CROWDS",
+   "MANDAL VALUING THE VISIBLE SPOT",
+   "\u26052 PANDAL PLACED ON A MAIN ROAD"
+  ],
+  "ids": [
+   "854:12619",
+   "854:12623",
+   "854:12615"
+  ]
+ },
+ "B23 Site choice locks in closures #84": {
+  "zone": 2,
+  "score": [
+   0,
+   0.000244140625
+  ],
+  "nodes": [
+   "GAP TO NORMAL MOVEMENT",
+   "SITES MOVED TO GROUNDS OR COMPOUNDS",
+   "\u26052 PANDAL PLACED ON A MAIN ROAD",
+   "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3"
+  ],
+  "ids": [
+   "854:12631",
+   "854:12635",
+   "854:12615",
+   "854:12627"
+  ]
+ },
+ "R1 Volunteers become the signage #39 #61": {
+  "zone": 3,
+  "score": [
+   0,
+   0.005208333333257542
+  ],
+  "nodes": [
+   "\u26058 INVESTMENT IN CLEAR SIGNS",
+   "VISITORS ASKING VOLUNTEERS FOR DIRECTIONS",
+   "VOLUNTEERS ACTING AS THE SIGNAGE"
+  ],
+  "ids": [
+   "854:12819",
+   "854:12811",
+   "854:12815"
+  ]
+ },
+ "B1 Volunteers overloaded #13 #39": {
+  "zone": 3,
+  "score": [
+   0,
+   0.0003255208334849158
+  ],
+  "nodes": [
+   "VISITORS ASKING VOLUNTEERS FOR DIRECTIONS",
+   "VOLUNTEER WORKLOAD AT JUNCTIONS",
+   "VISITORS GUESSING OR FOLLOWING OTHERS"
+  ],
+  "ids": [
+   "854:12811",
+   "854:12823",
+   "854:12827"
+  ]
+ },
+ "B5 Crowd control #14 #15 #73": {
+  "zone": 3,
+  "score": [
+   0,
+   1.0172526003771054e-05
+  ],
+  "nodes": [
+   "POLICE BARRICADES AND DIVERSIONS",
+   "CROWD CHANNELLED INTO BARRICADED LANES",
+   "CONGESTION AT THE SITE"
+  ],
+  "ids": [
+   "854:12791",
+   "854:12795",
+   "854:12771"
+  ]
+ },
+ "B6 Emergency access #38 #85 ?": {
+  "zone": 3,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+   "CONGESTION AT THE SITE",
+   "EMERGENCY TRAVEL TIME THROUGH THE AREA",
+   "\u260510 PROTECTED EMERGENCY CORRIDORS"
+  ],
+  "ids": [
+   "854:12783",
+   "854:12771",
+   "854:12775",
+   "854:12779"
+  ]
+ },
+ "B24 Barricades compact the crowd #14 #60": {
+  "zone": 3,
+  "score": [
+   0,
+   1.6547995590192128
+  ],
+  "nodes": [
+   "POLICE BARRICADES AND DIVERSIONS",
+   "DEDICATED SPACE FOR THE CROWD",
+   "CROWD SPILLING ONTO THE CARRIAGEWAY",
+   "GAP TO SEPARATED FLOWS (CROWD AND VEHICLES)"
+  ],
+  "ids": [
+   "854:12791",
+   "854:12799",
+   "854:12803",
+   "854:12807"
+  ]
+ },
+ "B27 Corridors keep junctions open #85": {
+  "zone": 3,
+  "score": [
+   0,
+   139.49210256474674
+  ],
+  "nodes": [
+   "BLOCKED JUNCTIONS ON KEY ROUTES",
+   "EMERGENCY TRAVEL TIME THROUGH THE AREA",
+   "\u260510 PROTECTED EMERGENCY CORRIDORS"
+  ],
+  "ids": [
+   "854:12787",
+   "854:12775",
+   "854:12779"
+  ]
+ },
+ "R7 Advisories build trust #35": {
+  "zone": 4,
+  "score": [
+   0,
+   0.005208333333371229
+  ],
+  "nodes": [
+   "TRUST IN TRAFFIC ADVISORIES",
+   "VISITORS SHIFTING TIME, ROUTE OR MODE \u25c7 ALSO IN B3, R13, B26",
+   "JAMS AVOIDED BY THOSE WHO CHECKED"
+  ],
+  "ids": [
+   "854:13032",
+   "854:13024",
+   "854:13028"
+  ]
+ },
+ "B3 Visitors anticipate and adapt #3": {
+  "zone": 4,
+  "score": [
+   0,
+   3.196923967194551
+  ],
+  "nodes": [
+   "CONGESTION ON SURROUNDING ROUTES",
+   "CONGESTION VISITORS EXPECT",
+   "GAP TO A BEARABLE TRIP (VISITORS)",
+   "VISITORS SHIFTING TIME, ROUTE OR MODE"
+  ],
+  "ids": [
+   "854:12964",
+   "854:12968",
+   "854:12972",
+   "854:12976"
+  ]
+ },
+ "R11 Diversion ripple #20 #32 #37": {
+  "zone": 4,
+  "score": [
+   0,
+   4.26249747480551
+  ],
+  "nodes": [
+   "CONGESTION ON SURROUNDING ROUTES",
+   "POLICE PULLED TO NEW HOTSPOTS",
+   "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3"
+  ],
+  "ids": [
+   "854:12964",
+   "854:13000",
+   "854:13004"
+  ]
+ },
+ "R13 Everyone takes the same detour #21 VoC": {
+  "zone": 4,
+  "score": [
+   0,
+   59.605235105092284
+  ],
+  "nodes": [
+   "CROWDING ON THE SAME ALTERNATIVE ROUTES",
+   "CONGESTION VISITORS EXPECT \u25c7 ALSO IN B3",
+   "GAP TO A BEARABLE TRIP (VISITORS)",
+   "VISITORS SHIFTING TIME, ROUTE OR MODE"
+  ],
+  "ids": [
+   "854:12980",
+   "854:12984",
+   "854:12972",
+   "854:12976"
+  ]
+ },
+ "R24 Diversions spread the jam #20 #32": {
+  "zone": 4,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "NEW BOTTLENECKS ON SIDE ROADS",
+   "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3",
+   "DRIVERS ON ALTERNATIVE ROUTES"
+  ],
+  "ids": [
+   "854:13012",
+   "854:13004",
+   "854:13008"
+  ]
+ },
+ "B25 Drivers divert to save time #20 #32": {
+  "zone": 4,
+  "score": [
+   0,
+   0.00016276041662877105
+  ],
+  "nodes": [
+   "CONGESTION AT THE SITE \u25c7 ZONE 3",
+   "GAP TO AN ACCEPTABLE TRAVEL TIME",
+   "DRIVERS ON ALTERNATIVE ROUTES"
+  ],
+  "ids": [
+   "854:13016",
+   "854:13020",
+   "854:13008"
+  ]
+ },
+ "B26 Advisories ease the peak #35": {
+  "zone": 4,
+  "score": [
+   0,
+   2.9202800722398523
+  ],
+  "nodes": [
+   "CARS ARRIVING AT THE PEAK",
+   "GAP TO A BEARABLE TRIP (VISITORS) \u25c7 ALSO IN B3, R13",
+   "ADVISORIES ISSUED BY TRAFFIC POLICE",
+   "VISITORS SHIFTING TIME, ROUTE OR MODE"
+  ],
+  "ids": [
+   "854:12988",
+   "854:12992",
+   "854:12996",
+   "854:12976"
+  ]
+ },
+ "R6 Benefits spread unevenly #74": {
+  "zone": 5,
+  "score": [
+   0,
+   0.005208333333257542
+  ],
+  "nodes": [
+   "INCOME FOR SHOPS AND FLOWER VENDORS",
+   "SHOPS FACING THE CROWD BACKING THE FESTIVAL",
+   "VISITOR FOOTFALL AT THE SITE \u25c7 ZONE 6"
+  ],
+  "ids": [
+   "854:13168",
+   "854:13172",
+   "854:13164"
+  ]
+ },
+ "R10 Hawkers follow the crowd #9 #26 #57 ?": {
+  "zone": 5,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "CONGESTION AT THE SITE \u25c7 ZONE 3",
+   "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3",
+   "DISPLACEMENT OF HAWKERS",
+   "HAWKERS SETTING UP AT THE CROWD'S EDGE"
+  ],
+  "ids": [
+   "854:13188",
+   "854:13176",
+   "854:13180",
+   "854:13184"
+  ]
+ },
+ "R2 Procession raises visibility #63": {
+  "zone": 6,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "FESTIVAL VISIBILITY ACROSS THE CITY",
+   "MANDALS APPLYING TO JOIN THE PROCESSION",
+   "MANDALS IN THE MAIN PROCESSION"
+  ],
+  "ids": [
+   "854:13233",
+   "854:13261",
+   "854:13265"
+  ]
+ },
+ "B2 Procession capped by capacity #63": {
+  "zone": 6,
+  "score": [
+   0,
+   26.94915172890951
+  ],
+  "nodes": [
+   "LENGTH AND DURATION OF THE PROCESSION",
+   "\u26057 GAP BEYOND ONE DAY OF SECURITY AND TRAFFIC CAPACITY",
+   "MANDALS DENIED ENTRY TO THE PROCESSION",
+   "MANDALS APPLYING TO JOIN THE PROCESSION",
+   "MANDALS IN THE MAIN PROCESSION"
+  ],
+  "ids": [
+   "854:13269",
+   "854:13273",
+   "854:13277",
+   "854:13261",
+   "854:13265"
+  ]
+ },
+ "R27 Prestige of joining #63": {
+  "zone": 6,
+  "score": [
+   0,
+   45.462524669557666
+  ],
+  "nodes": [
+   "PRESTIGE OF JOINING THE PROCESSION",
+   "MANDALS APPLYING TO JOIN THE PROCESSION",
+   "MANDALS IN THE MAIN PROCESSION"
+  ],
+  "ids": [
+   "854:13281",
+   "854:13261",
+   "854:13265"
+  ]
+ },
+ "R3 Rising expectations #17 #24": {
+  "zone": 6,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "VISITOR EXPECTATIONS OF A \"GOOD\" FESTIVAL",
+   "ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY TRUST LEADERSHIP)",
+   "FESTIVAL SCALE AND SPECTACLE"
+  ],
+  "ids": [
+   "854:13285",
+   "854:13289",
+   "854:13229"
+  ]
+ },
+ "R4 Spectacle spiral #33 #55": {
+  "zone": 6,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "FESTIVAL VISIBILITY ACROSS THE CITY",
+   "VISITOR FOOTFALL AT THE SITE",
+   "DONATIONS AND SPONSORSHIP",
+   "FESTIVAL SCALE AND SPECTACLE"
+  ],
+  "ids": [
+   "854:13233",
+   "854:13237",
+   "854:13241",
+   "854:13229"
+  ]
+ },
+ "R5 Pull of the big mandals #78": {
+  "zone": 6,
+  "score": [
+   0,
+   46.08448055009757
+  ],
+  "nodes": [
+   "FESTIVAL VISIBILITY ACROSS THE CITY",
+   "TRIPS TO THE BIG CENTRAL MANDALS",
+   "VISITOR FOOTFALL AT THE SITE \u25c7 ALSO IN R4, R12",
+   "DONATIONS AND SPONSORSHIP \u25c7 ALSO IN R4, R12",
+   "FESTIVAL SCALE AND SPECTACLE"
+  ],
+  "ids": [
+   "854:13233",
+   "854:13245",
+   "854:13249",
+   "854:13253",
+   "854:13229"
+  ]
+ },
+ "R12 Programmes draw crowds #48": {
+  "zone": 6,
+  "score": [
+   0,
+   130.2976390583784
+  ],
+  "nodes": [
+   "VISITOR FOOTFALL AT THE SITE",
+   "DONATIONS AND SPONSORSHIP",
+   "PROGRAMMES AND THEMED DISPLAYS"
+  ],
+  "ids": [
+   "854:13237",
+   "854:13241",
+   "854:13257"
+  ]
+ },
+ "R16 Pathak pride Raheja memo": {
+  "zone": 6,
+  "score": [
+   0,
+   0.005231171445346388
+  ],
+  "nodes": [
+   "DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL)",
+   "PATHAK PERFORMANCES IN PROCESSIONS",
+   "YOUTH PRIDE IN THE PATHAKS"
+  ],
+  "ids": [
+   "854:13293",
+   "854:13297",
+   "854:13301"
+  ]
+ },
+ "R15 Silent adaptation #7 #23 #82": {
+  "zone": 7,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "\u26051 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS",
+   "\u26051 DISRUPTION VISIBLE TO PLANNERS",
+   "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ZONE 11",
+   "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+   "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES)",
+   "DISRUPTION FELT BY NON-PARTICIPANTS"
+  ],
+  "ids": [
+   "854:13436",
+   "854:13440",
+   "854:13444",
+   "854:13448",
+   "854:13452",
+   "854:13432"
+  ]
+ },
+ "B10 Visible pushback #77 Raheja": {
+  "zone": 7,
+  "score": [
+   0,
+   40.550705469624
+  ],
+  "nodes": [
+   "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+   "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES)",
+   "DISRUPTION FELT BY NON-PARTICIPANTS",
+   "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ZONE 12",
+   "DISRUPTION VISIBLE TO PLANNERS \u25c7 ALSO IN R15, R29",
+   "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ZONE 11"
+  ],
+  "ids": [
+   "854:13468",
+   "854:13452",
+   "854:13432",
+   "854:13456",
+   "854:13460",
+   "854:13464"
+  ]
+ },
+ "B16 Familiarity lowers felt disruption #83": {
+  "zone": 7,
+  "score": [
+   0,
+   24.812091799479077
+  ],
+  "nodes": [
+   "DISRUPTION FELT BY NON-PARTICIPANTS",
+   "\u26056 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE)",
+   "SURPRISE DISRUPTIONS"
+  ],
+  "ids": [
+   "854:13432",
+   "854:13476",
+   "854:13480"
+  ]
+ },
+ "B19 Residents work around it #7 #82": {
+  "zone": 7,
+  "score": [
+   1,
+   247.42941399783595
+  ],
+  "nodes": [
+   "\u26051 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS",
+   "OWN DELAY AND DISCOMFORT",
+   "GAP TO A NORMAL ROUTINE (GOAL: NORMAL TRAVEL TIME)"
+  ],
+  "ids": [
+   "854:13436",
+   "854:13484",
+   "854:13488"
+  ]
+ },
+ "B20 Errands and deliveries rerouted #23 #56": {
+  "zone": 7,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "TRIPS THROUGH THE RESTRICTED AREA",
+   "DELAYS ON USUAL ROUTES (ERRANDS, DELIVERIES)",
+   "GAP TO DEADLINES AND ERRANDS",
+   "PRIVATE ADAPTATION BY RESIDENTS AND WORKERS \u25c7 ALSO IN R15, B19, R29"
+  ],
+  "ids": [
+   "854:13496",
+   "854:13500",
+   "854:13504",
+   "854:13492"
+  ]
+ },
+ "R29 Silent adaptation hides the problem #7 #82": {
+  "zone": 7,
+  "score": [
+   0,
+   143.50692211886977
+  ],
+  "nodes": [
+   "\u26051 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS",
+   "\u26051 DISRUPTION VISIBLE TO PLANNERS",
+   "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ZONE 11"
+  ],
+  "ids": [
+   "854:13436",
+   "854:13440",
+   "854:13472"
+  ]
+ },
+ "B15 Coordinated response #29 #59 ?": {
+  "zone": 8,
+  "score": [
+   0,
+   17.189542669811363
+  ],
+  "nodes": [
+   "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+   "DISRUPTION VISIBLE TO PLANNERS \u25c7 ZONE 7",
+   "COORDINATION BETWEEN MANDALS, POLICE AND PMC",
+   "ADVANCE NOTICE TO AFFECTED PEOPLE"
+  ],
+  "ids": [
+   "854:13685",
+   "854:13689",
+   "854:13653",
+   "854:13681"
+  ]
+ },
+ "R18 Each agency at its own stage #79": {
+  "zone": 8,
+  "score": [
+   0,
+   103.09651109030884
+  ],
+  "nodes": [
+   "FIREFIGHTING AT EACH STAGE",
+   "AGENCIES PLANNING STAGE BY STAGE",
+   "MISSED HAND-OFFS BETWEEN STAGES"
+  ],
+  "ids": [
+   "854:13657",
+   "854:13645",
+   "854:13649"
+  ]
+ },
+ "B17 Hand-offs push coordination #79": {
+  "zone": 8,
+  "score": [
+   0,
+   3.2474011194532895
+  ],
+  "nodes": [
+   "COORDINATION BETWEEN MANDALS, POLICE AND PMC",
+   "AGENCIES PLANNING STAGE BY STAGE",
+   "MISSED HAND-OFFS BETWEEN STAGES"
+  ],
+  "ids": [
+   "854:13653",
+   "854:13645",
+   "854:13649"
+  ]
+ },
+ "R25 Coordination builds trust #29": {
+  "zone": 8,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "SHARED PLANS: ROUTES, SOUND, PERMISSIONS",
+   "COORDINATION BETWEEN MANDALS, POLICE AND PMC \u25c7 ALSO IN B15, B17, B28",
+   "TRUST BETWEEN MANDALS AND POLICE"
+  ],
+  "ids": [
+   "854:13721",
+   "854:13713",
+   "854:13717"
+  ]
+ },
+ "B28 Clashes push joint plans #29": {
+  "zone": 8,
+  "score": [
+   0,
+   17.18152081785053
+  ],
+  "nodes": [
+   "CLASHES ON THE GROUND (SOUND, ROUTES, SPACE)",
+   "GAP TO ONE PLAN AGREED BEFORE SETUP",
+   "EXTRA MEETINGS AND FOLLOW-UPS",
+   "COORDINATION BETWEEN MANDALS, POLICE AND PMC"
+  ],
+  "ids": [
+   "854:13661",
+   "854:13665",
+   "854:13669",
+   "854:13653"
+  ]
+ },
+ "R26 The chowki is the front door #59 #71": {
+  "zone": 8,
+  "score": [
+   0,
+   0.4323156878680713
+  ],
+  "nodes": [
+   "PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC",
+   "FAMILIAR RELATIONSHIP WITH THE POLICE CHOWKI",
+   "INFORMAL NODS AND QUICK APPROVALS"
+  ],
+  "ids": [
+   "854:13677",
+   "854:13693",
+   "854:13697"
+  ]
+ },
+ "B29 Formal checks close the rule gap #59 #71": {
+  "zone": 8,
+  "score": [
+   0,
+   59.451275654626414
+  ],
+  "nodes": [
+   "PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC",
+   "CLASHES ON THE GROUND (SOUND, ROUTES, SPACE)",
+   "GAP TO ONE PLAN AGREED BEFORE SETUP",
+   "FORMAL CHECKS: PMC SINGLE WINDOW, POLICE CONDITIONS"
+  ],
+  "ids": [
+   "854:13677",
+   "854:13661",
+   "854:13665",
+   "854:13673"
+  ]
+ },
+ "B30 One plan for the whole cycle #79": {
+  "zone": 8,
+  "score": [
+   0,
+   1.3544391162379124
+  ],
+  "nodes": [
+   "GAP TO ONE SMOOTH FESTIVAL CYCLE",
+   "\u26054 JOINT WHOLE-CYCLE PLANNING (PMC, POLICE, MANDALS)",
+   "AGENCIES PLANNING STAGE BY STAGE",
+   "PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP"
+  ],
+  "ids": [
+   "854:13705",
+   "854:13709",
+   "854:13645",
+   "854:13701"
+  ]
+ },
+ "B8 Immersion regulation #40 #41 #43": {
+  "zone": 9,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "COURT, NGT AND MPCB RULES",
+   "ECO IDOLS, TANKS",
+   "IDOLS IMMERSED IN THE RIVER",
+   "RIVER POLLUTION (MULA-MUTHA)"
+  ],
+  "ids": [
+   "854:13900",
+   "854:13904",
+   "854:13892",
+   "854:13896"
+  ]
+ },
+ "R19 Community hands rituals to PMC #80": {
+  "zone": 9,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA)",
+   "RESIDENTS' OWN ROLE AND KNOW-HOW",
+   "COMMUNITY KNOW-HOW"
+  ],
+  "ids": [
+   "854:13872",
+   "854:13876",
+   "854:13880"
+  ]
+ },
+ "B18 PMC load pushes tasks back #80": {
+  "zone": 9,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE)",
+   "\u26059 MANDALS AND RESIDENTS TAKING TASKS BACK",
+   "PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA)"
+  ],
+  "ids": [
+   "854:13884",
+   "854:13888",
+   "854:13872"
+  ]
+ },
+ "R17 Capacity borrowed, not built #81": {
+  "zone": 10,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "STAFF AND SERVICES DIVERTED TO THE FESTIVAL",
+   "FESTIVAL HANDLED WITHOUT NEW SYSTEMS",
+   "CASE FOR DEDICATED FESTIVAL CAPACITY"
+  ],
+  "ids": [
+   "854:13964",
+   "854:13980",
+   "854:13984"
+  ]
+ },
+ "R28 Police go where crowds have been #16 #37 #73": {
+  "zone": 10,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS",
+   "SITE SEEN AS SAFE AND MANAGED",
+   "VISITOR FOOTFALL AT THE SITE \u25c7 ZONE 6"
+  ],
+  "ids": [
+   "854:13960",
+   "854:13988",
+   "854:13992"
+  ]
+ },
+ "B31 Cover elsewhere runs thin #16 #37": {
+  "zone": 10,
+  "score": [
+   0,
+   0.0
+  ],
+  "nodes": [
+   "STAFF AND SERVICES DIVERTED TO THE FESTIVAL",
+   "ROUTINE CIVIC AND POLICE SERVICES STRETCHED",
+   "PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK",
+   "POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS"
+  ],
+  "ids": [
+   "854:13964",
+   "854:13968",
+   "854:13972",
+   "854:13960"
+  ]
+ },
+ "B32 Routine services pull staff back #81": {
+  "zone": 10,
+  "score": [
+   0,
+   139.490429481954
+  ],
+  "nodes": [
+   "STAFF AND SERVICES DIVERTED TO THE FESTIVAL",
+   "ROUTINE CIVIC AND POLICE SERVICES STRETCHED",
+   "PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK \u25c7 ALSO IN B31"
+  ],
+  "ids": [
+   "854:13964",
+   "854:13968",
+   "854:13976"
+  ]
+ },
+ "B11 Year-to-year learning #30 ?": {
+  "zone": 11,
+  "score": [
+   0,
+   0.005904973936742101
+  ],
+  "nodes": [
+   "\u26056 LESSONS CARRIED INTO NEXT YEAR",
+   "CHANGES TO FESTIVAL ARRANGEMENTS",
+   "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+   "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) \u25c7 ZONE 7",
+   "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+   "DISRUPTION VISIBLE TO PLANNERS \u25c7 ZONE 7",
+   "RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING)",
+   "GAP TO A SMOOTHER FESTIVAL EACH YEAR"
+  ],
+  "ids": [
+   "854:14083",
+   "854:14087",
+   "854:14091",
+   "854:14095",
+   "854:14099",
+   "854:14071",
+   "854:14075",
+   "854:14079"
+  ]
+ },
+ "B13 The festival ends before the system does #19 #65 #86": {
+  "zone": 11,
+  "score": [
+   0,
+   0.42551146037432525
+  ],
+  "nodes": [
+   "DISMANTLING AND CLEAN-UP CREWS AT WORK",
+   "CLEAN-UP AND DISMANTLING BACKLOG",
+   "GAP TO A RESTORED STREET"
+  ],
+  "ids": [
+   "854:14139",
+   "854:14131",
+   "854:14135"
+  ]
+ },
+ "R20 Bigger setups need specialist crews #53": {
+  "zone": 11,
+  "score": [
+   0,
+   0.0003255208334849158
+  ],
+  "nodes": [
+   "WORKERS SPECIALISING IN FESTIVAL WORK",
+   "MORE ELABORATE SETUPS POSSIBLE",
+   "TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED"
+  ],
+  "ids": [
+   "854:14115",
+   "854:14119",
+   "854:14111"
+  ]
+ },
+ "B21 Crews run out, teardown slips #53": {
+  "zone": 11,
+  "score": [
+   0,
+   8.138020848491578e-05
+  ],
+  "nodes": [
+   "CREWS BOOKED BEYOND THOSE AVAILABLE",
+   "\u26055 WORK PUSHED LATER, INCLUDING DISMANTLING",
+   "TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED"
+  ],
+  "ids": [
+   "854:14123",
+   "854:14127",
+   "854:14111"
+  ]
+ },
+ "B34 Lessons change plans #30": {
+  "zone": 11,
+  "score": [
+   0,
+   56.37955190885791
+  ],
+  "nodes": [
+   "RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING)",
+   "GAP TO A SMOOTHER FESTIVAL EACH YEAR",
+   "LESSONS CARRIED INTO NEXT YEAR \u25c7 ALSO IN B11",
+   "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ALSO IN B11"
+  ],
+  "ids": [
+   "854:14075",
+   "854:14079",
+   "854:14103",
+   "854:14107"
+  ]
+ },
+ "B7 Noise brings checks #48": {
+  "zone": 12,
+  "score": [
+   0,
+   123.10502253310372
+  ],
+  "nodes": [
+   "POLICE CHECKS ON SPEAKERS AND TIMINGS \u25c7 ALSO IN B12, B14",
+   "PROGRAMMES AND THEMED DISPLAYS \u25c7 ZONE 6",
+   "NOISE NEAR HOMES"
+  ],
+  "ids": [
+   "854:14333",
+   "854:14317",
+   "854:14301"
+  ]
+ },
+ "B12 Complaints bring noise checks #48 #69": {
+  "zone": 12,
+  "score": [
+   0,
+   0.0010841603180062702
+  ],
+  "nodes": [
+   "PROGRAMMES AND THEMED DISPLAYS \u25c7 ZONE 6",
+   "NOISE NEAR HOMES",
+   "GAP BEYOND WHAT THEY TOLERATE",
+   "\u26051 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC)",
+   "POLICE CHECKS ON SPEAKERS AND TIMINGS"
+  ],
+  "ids": [
+   "854:14317",
+   "854:14301",
+   "854:14305",
+   "854:14309",
+   "854:14313"
+  ]
+ },
+ "B14 Rehearsal noise and complaints Raheja memo": {
+  "zone": 12,
+  "score": [
+   0,
+   56.491049185146565
+  ],
+  "nodes": [
+   "POLICE CHECKS ON SPEAKERS AND TIMINGS \u25c7 ALSO IN B7, B12",
+   "DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL) \u25c7 ZONE 6",
+   "NOISE NEAR HOMES",
+   "GAP BEYOND WHAT THEY TOLERATE",
+   "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ALSO IN B12, B33"
+  ],
+  "ids": [
+   "854:14325",
+   "854:14329",
+   "854:14301",
+   "854:14305",
+   "854:14321"
+  ]
+ },
+ "B33 Tolerance and noise checks #69": {
+  "zone": 12,
+  "score": [
+   0,
+   61.29091311053984
+  ],
+  "nodes": [
+   "RESIDENTS TAKING PART IN LOCAL CELEBRATIONS \u25c7 ZONE 1",
+   "NOISE NEAR HOMES \u25c7 ALSO IN B7, B12, B14",
+   "GAP BEYOND WHAT THEY TOLERATE",
+   "\u26051 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC)"
+  ],
+  "ids": [
+   "854:14337",
+   "854:14341",
+   "854:14305",
+   "854:14309"
+  ]
+ }
+}

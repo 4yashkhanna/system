@@ -1,0 +1,702 @@
+<title>Festivals × City System Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: one-screen map app. Wide pannable map (the whole open system) + a reading panel on the right;
+   on phones the panel becomes a bottom sheet. Colour carries meaning: vermilion = reinforcing,
+   blue = balancing, violet = shared, marigold = where to act, yellow = goals, capacities and beliefs. */
+:root {
+  --bg: #e9ece6; --paper: #f8f9f5; --sunk: #f0f2ec; --ink: #1b1d22; --ink-2: #474a52; --ink-3: #767a83; --line: #d3d7cf;
+  --rloop: #d1442a; --bloop: #2762c7; --both: #8646b6; --act: #e3a000; --act-ink: #6d4b00;
+  --free: #8b9088; --drv: #2c2e34; --merge-bg: #1e1f26; --merge-fg: #ffffff; --node-bg: #ffffff; --node-ink: #1b1d22;
+  --yel-bg: #fff0b3; --yel-line: #c99b00; --yel-ink: #5f4700;
+  --f-fest: #7650b0; --f-street: #d26d14; --f-every: #1f8f55; --f-plan: #2a66b2;
+  --halo: #f8f9f5; --bound: #50545c;
+  --z1: #f7e3ee; --z2: #fbeed2; --z3: #fbe5d8; --z4: #fdf0d9; --z5: #e2f2e2; --z6: #ebe3f7; --z7: #ddf0e3;
+  --z8: #e0eaf8; --z9: #dcf0f2; --z10: #e5e8f2; --z11: #e6ecfb; --z12: #f8e1df;
+  --zl1: #e8b7cf; --zl2: #ecd29a; --zl3: #efbf9f; --zl4: #f0d4a2; --zl5: #b4dcb5; --zl6: #c9b7ea; --zl7: #aed9ba;
+  --zl8: #b1c9ec; --zl9: #a8d6dc; --zl10: #bfc6dd; --zl11: #bccaf0; --zl12: #ecb6b1;
+  --f-ui: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --f-read: "Newsreader", Georgia, "Times New Roman", serif;
+  --f-code: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --panel-w: 420px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111317; --paper: #181a1f; --sunk: #1f2228; --ink: #ecebe6; --ink-2: #bcbdc2; --ink-3: #8b8e96; --line: #2d3037;
+  --rloop: #ff6a48; --bloop: #5e9cff; --both: #b47ce3; --act: #ffc233; --act-ink: #ffd879;
+  --free: #6e737b; --drv: #c8cad0; --merge-bg: #efede6; --merge-fg: #15161a; --node-bg: #23262d; --node-ink: #ecebe6;
+  --yel-bg: #3a3116; --yel-line: #b48d1b; --yel-ink: #f3d77a;
+  --f-fest: #a989e0; --f-street: #f09a4c; --f-every: #52c487; --f-plan: #6b9fe6;
+  --halo: #181a1f; --bound: #9aa0a8;
+  --z1: #2a1d25; --z2: #2a2418; --z3: #2c1f19; --z4: #2b2519; --z5: #1b271d; --z6: #231e2e; --z7: #1a271f;
+  --z8: #1a2230; --z9: #172629; --z10: #1e2129; --z11: #1d2232; --z12: #2c1c1c;
+  --zl1: #5c3a4c; --zl2: #5c4b2a; --zl3: #5e3b2c; --zl4: #5c4c2c; --zl5: #305234; --zl6: #46395f; --zl7: #2f5139;
+  --zl8: #2f4462; --zl9: #2a4f55; --zl10: #3a4052; --zl11: #364266; --zl12: #5e3533;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #111317; --paper: #181a1f; --sunk: #1f2228; --ink: #ecebe6; --ink-2: #bcbdc2; --ink-3: #8b8e96; --line: #2d3037;
+  --rloop: #ff6a48; --bloop: #5e9cff; --both: #b47ce3; --act: #ffc233; --act-ink: #ffd879;
+  --free: #6e737b; --drv: #c8cad0; --merge-bg: #efede6; --merge-fg: #15161a; --node-bg: #23262d; --node-ink: #ecebe6;
+  --yel-bg: #3a3116; --yel-line: #b48d1b; --yel-ink: #f3d77a;
+  --f-fest: #a989e0; --f-street: #f09a4c; --f-every: #52c487; --f-plan: #6b9fe6;
+  --halo: #181a1f; --bound: #9aa0a8;
+  --z1: #2a1d25; --z2: #2a2418; --z3: #2c1f19; --z4: #2b2519; --z5: #1b271d; --z6: #231e2e; --z7: #1a271f;
+  --z8: #1a2230; --z9: #172629; --z10: #1e2129; --z11: #1d2232; --z12: #2c1c1c;
+  --zl1: #5c3a4c; --zl2: #5c4b2a; --zl3: #5e3b2c; --zl4: #5c4c2c; --zl5: #305234; --zl6: #46395f; --zl7: #2f5139;
+  --zl8: #2f4462; --zl9: #2a4f55; --zl10: #3a4052; --zl11: #364266; --zl12: #5e3533;
+  color-scheme: dark; }
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-ui); margin: 0; overflow: hidden; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--act); outline-offset: 2px; }
+
+.app { display: grid; grid-template-rows: auto 1fr; grid-template-columns: minmax(0, 1fr); height: 100%; width: 100%; overflow: hidden; }
+header.top {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; background: var(--paper); border-bottom: 1px solid var(--line);
+  padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.brand { display: flex; flex-direction: column; gap: 2px; min-width: 0; margin-right: auto; }
+.eyebrow { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+h1 { margin: 0; font-size: 22px; font-weight: 800; font-stretch: 88%; letter-spacing: -.01em; text-wrap: balance; }
+h1 .x { color: var(--rloop); font-weight: 600; }
+.stats { font-family: var(--f-code); font-size: 11.5px; color: var(--ink-2); display: flex; gap: 12px; flex-wrap: wrap; }
+.stats b { color: var(--ink); }
+.search { position: relative; flex: 0 1 300px; min-width: 180px; }
+.search input { width: 100%; box-sizing: border-box; border: 1px solid var(--line); background: var(--sunk); border-radius: 10px; padding: 8px 12px; font-size: 14px; }
+.results { position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; z-index: 30; max-height: 360px; overflow: auto; box-shadow: 0 10px 30px rgb(0 0 0 / .14); }
+.results button { display: flex; gap: 8px; align-items: baseline; width: 100%; text-align: left; border: 0; background: none; padding: 8px 12px; font-size: 13px; }
+.results button:hover, .results button.on { background: var(--sunk); }
+.toggles { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { white-space: nowrap; flex: none; border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 600; display: inline-flex; gap: 6px; align-items: center; }
+.chip[aria-pressed="false"] { opacity: .5; text-decoration: line-through; }
+.chip .sw { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+
+main { display: grid; grid-template-columns: minmax(0, 1fr) var(--panel-w); min-height: 0; min-width: 0; }
+.mapwrap { position: relative; min-width: 0; min-height: 0; overflow: hidden; background: var(--bg); touch-action: none; }
+#map { width: 100%; height: 100%; display: block; cursor: grab; user-select: none; -webkit-user-select: none; }
+#map.dragging { cursor: grabbing; }
+
+/* ---------- map styling ---------- */
+.zone { stroke-width: 3; }
+.zone.z1 { fill: var(--z1); stroke: var(--zl1); } .zone.z2 { fill: var(--z2); stroke: var(--zl2); } .zone.z3 { fill: var(--z3); stroke: var(--zl3); }
+.zone.z4 { fill: var(--z4); stroke: var(--zl4); } .zone.z5 { fill: var(--z5); stroke: var(--zl5); } .zone.z6 { fill: var(--z6); stroke: var(--zl6); }
+.zone.z7 { fill: var(--z7); stroke: var(--zl7); } .zone.z8 { fill: var(--z8); stroke: var(--zl8); } .zone.z9 { fill: var(--z9); stroke: var(--zl9); }
+.zone.z10 { fill: var(--z10); stroke: var(--zl10); } .zone.z11 { fill: var(--z11); stroke: var(--zl11); } .zone.z12 { fill: var(--z12); stroke: var(--zl12); }
+.zt { cursor: pointer; }
+.zt text { text-anchor: middle; fill: var(--ink); paint-order: stroke; stroke: var(--halo); stroke-width: 6px; stroke-linejoin: round; }
+.zt .znum { font-size: 56px; font-weight: 800; fill: var(--ink-3); opacity: .55; font-family: var(--f-ui); }
+.zt .ztitle { font-size: 26px; font-weight: 800; font-stretch: 90%; letter-spacing: .04em; font-family: var(--f-ui); }
+.bound { fill: none; stroke: var(--bound); stroke-width: 3; stroke-dasharray: 18 12; }
+.btitle { font-family: var(--f-ui); font-size: 64px; font-weight: 800; letter-spacing: .3em; fill: var(--ink-2); text-anchor: middle; }
+.bsub { font-family: var(--f-read); font-size: 34px; fill: var(--ink-3); text-anchor: middle; font-style: italic; }
+.flow { cursor: pointer; }
+.flow rect { fill: var(--paper); stroke: var(--line); stroke-width: 2; }
+.flow .farrow { stroke: var(--ink-3); stroke-width: 4; fill: none; stroke-dasharray: 10 8; }
+.flow .ftag { font-family: var(--f-code); font-size: 24px; font-weight: 700; letter-spacing: .12em; fill: var(--ink-3); }
+.flow.in .ftag { fill: var(--f-plan); } .flow.out .ftag { fill: var(--f-street); }
+.flow .ftitle { font-family: var(--f-ui); font-size: 34px; font-weight: 700; fill: var(--ink); }
+.flow:hover rect, .flow.hl rect { stroke: var(--act); stroke-width: 3; }
+
+.edge { fill: none; stroke-width: 2.3; stroke-linecap: round; }
+.edge.r { stroke: var(--rloop); } .edge.b { stroke: var(--bloop); } .edge.both { stroke: var(--both); stroke-width: 3; }
+.edge.free { stroke: var(--free); stroke-dasharray: 5 7; stroke-width: 1.3; opacity: .55; }
+.edge.drv { stroke: var(--drv); stroke-width: 1.3; opacity: .8; }
+.edge.unk { stroke-dasharray: 8 6; }
+.ah-r { fill: var(--rloop); } .ah-b { fill: var(--bloop); } .ah-both { fill: var(--both); } .ah-free { fill: var(--free); }
+.ah-drv { fill: var(--drv); } .ah-turn-r { fill: var(--rloop); } .ah-turn-b { fill: var(--bloop); } .ah-flow { fill: var(--ink-3); }
+.elab text { font-family: var(--f-code); paint-order: stroke; stroke: var(--halo); stroke-width: 3px; }
+.elab .sg { font-size: 13px; font-weight: 700; } .elab .ev { font-size: 9px; fill: var(--ink-3); }
+.elab.r .sg { fill: var(--rloop); } .elab.b .sg { fill: var(--bloop); } .elab.both .sg { fill: var(--both); }
+.elab.free .sg, .elab.drv .sg { fill: var(--ink-3); }
+.delay { stroke: var(--ink); stroke-width: 2.2; }
+
+.node { cursor: pointer; }
+.node rect { fill: var(--node-bg); stroke-width: 2.2; }
+.node .nl { text-anchor: middle; font-weight: 650; fill: var(--node-ink); font-family: var(--f-ui); font-stretch: 84%; letter-spacing: .015em; }
+.f-festival rect { stroke: var(--f-fest); } .f-street rect { stroke: var(--f-street); } .f-everyday rect { stroke: var(--f-every); } .f-planning rect { stroke: var(--f-plan); }
+.node.merge rect { fill: var(--merge-bg); } .node.merge .nl { fill: var(--merge-fg); }
+.node.star rect { stroke: var(--act); stroke-width: 5; }
+.k-goal rect, .k-capacity rect, .k-mental rect, .k-outside rect { fill: var(--yel-bg); stroke: var(--yel-line); stroke-width: 1.4; }
+.k-outside rect { stroke-dasharray: 6 4; }
+.k-goal .nl, .k-capacity .nl, .k-mental .nl, .k-outside .nl { fill: var(--yel-ink); }
+.k-mental .nl { font-style: italic; }
+.ntag { font-size: 8.5px; font-weight: 800; text-anchor: middle; fill: var(--yel-ink); letter-spacing: .12em; font-family: var(--f-ui); opacity: .8; }
+.starb circle { fill: var(--act); } .starb text { font-size: 9px; font-weight: 800; text-anchor: middle; fill: #1b1d22; font-family: var(--f-ui); }
+.node:hover rect { filter: drop-shadow(0 2px 6px rgb(0 0 0 / .25)); }
+
+.lm { cursor: pointer; }
+.lm .halo { fill: var(--halo); opacity: .7; }
+.lm .disc { stroke: var(--halo); stroke-width: 3; }
+.lm.r .disc { fill: var(--rloop); } .lm.b .disc { fill: var(--bloop); }
+.lm .turn { fill: none; stroke-width: 2.4; } .lm.r .turn { stroke: var(--rloop); } .lm.b .turn { stroke: var(--bloop); }
+.lm .code { fill: #fff; font-size: 15px; font-weight: 800; text-anchor: middle; font-family: var(--f-ui); }
+.lm .lname { font-size: 11px; font-weight: 700; text-anchor: middle; font-family: var(--f-ui); paint-order: stroke; stroke: var(--halo); stroke-width: 4px; }
+.lm.r .lname { fill: var(--rloop); } .lm.b .lname { fill: var(--bloop); }
+.lm:hover .disc { stroke: var(--act); }
+
+/* level of detail */
+.lod-far .elab, .lod-far .delay, .lod-mid .elab .ev, .lod-far .lname, .lod-far .ntag { display: none; }
+.lod-far .node .nl { opacity: .0; }
+/* toggles */
+.hide-r .edge.r, .hide-r .elab.r, .hide-r .lm.r { display: none; }
+.hide-b .edge.b, .hide-b .elab.b, .hide-b .lm.b { display: none; }
+.hide-free .edge.free, .hide-free .elab.free { display: none; }
+.hide-drv .edge.drv, .hide-drv .elab.drv, .hide-drv .node.k-goal, .hide-drv .node.k-capacity, .hide-drv .node.k-mental, .hide-drv .node.k-outside { display: none; }
+.hide-signs .elab, .hide-signs .delay { display: none; }
+/* focus */
+.focusing .edge, .focusing .node, .focusing .lm, .focusing .elab, .focusing .delay, .focusing .flow { opacity: .1; transition: opacity .15s; }
+.focusing .edge.hl, .focusing .elab.hl, .focusing .delay.hl, .focusing .lm.hl, .focusing .flow.hl { opacity: 1; }
+.focusing .node.hl { opacity: 1; }
+.focusing .node.hl2 { opacity: .55; }
+.focusing .edge.hl { stroke-width: 3.6; }
+.focusing .node.sel rect { stroke: var(--act); stroke-width: 5; }
+@media (prefers-reduced-motion: reduce) { .focusing .edge, .focusing .node, .focusing .lm { transition: none; } }
+
+/* map chrome */
+.ctrls { position: absolute; left: max(14px, env(safe-area-inset-left, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px)); display: flex; flex-direction: column; gap: 6px; }
+.ctrls button { width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--line); background: var(--paper); font-size: 18px; font-weight: 700; box-shadow: 0 2px 8px rgb(0 0 0 / .08); }
+.legend { position: absolute; left: 64px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); right: 220px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; background: color-mix(in srgb, var(--paper) 88%, transparent); border: 1px solid var(--line); border-radius: 12px; padding: 8px 12px; font-size: 11.5px; color: var(--ink-2); width: fit-content; max-width: calc(100% - 300px); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
+.box { width: 18px; height: 11px; border-radius: 4px; display: inline-block; border: 2px solid var(--ink-3); background: var(--node-bg); }
+.line { width: 22px; height: 0; border-top: 2.5px solid; display: inline-block; }
+#mini { position: absolute; right: max(14px, env(safe-area-inset-right, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px)); width: 190px; height: 170px; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; cursor: pointer; }
+#mini .mbound { fill: none; stroke: var(--bound); stroke-width: 40; stroke-dasharray: 120 80; }
+#mini .mz { stroke: none; } #mini .mz.z1 { fill: var(--zl1); } #mini .mz.z2 { fill: var(--zl2); } #mini .mz.z3 { fill: var(--zl3); } #mini .mz.z4 { fill: var(--zl4); }
+#mini .mz.z5 { fill: var(--zl5); } #mini .mz.z6 { fill: var(--zl6); } #mini .mz.z7 { fill: var(--zl7); } #mini .mz.z8 { fill: var(--zl8); }
+#mini .mz.z9 { fill: var(--zl9); } #mini .mz.z10 { fill: var(--zl10); } #mini .mz.z11 { fill: var(--zl11); } #mini .mz.z12 { fill: var(--zl12); }
+#minivp { fill: none; stroke: var(--act); stroke-width: 60; }
+.zlabels { position: absolute; inset: 0; pointer-events: none; }
+.zlabels button { position: absolute; transform: translate(-50%, -50%); pointer-events: auto; border: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 90%, transparent); border-radius: 999px; padding: 4px 10px 4px 6px; font-size: 12px; font-weight: 800; letter-spacing: .02em; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgb(0 0 0 / .08); }
+.zlabels button b { font-family: var(--f-code); font-size: 11px; background: var(--ink); color: var(--paper); border-radius: 999px; min-width: 18px; height: 18px; display: inline-grid; place-items: center; }
+.zlabels[hidden] { display: none; }
+.lod-far .zt, .lod-mid .zt { display: none; }
+.hint { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 12.5px; color: var(--ink-2); box-shadow: 0 4px 14px rgb(0 0 0 / .08); white-space: nowrap; max-width: calc(100% - 32px); overflow: hidden; text-overflow: ellipsis; }
+
+/* ---------- panel ---------- */
+aside.panel { background: var(--paper); border-left: 1px solid var(--line); display: grid; grid-template-rows: auto auto 1fr; min-height: 0; }
+.sheet-handle { display: none; }
+.tabs { display: flex; gap: 2px; overflow-x: auto; padding: 8px 10px 0; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+.tabs button { border: 0; background: none; padding: 8px 10px 10px; font-size: 13px; font-weight: 700; color: var(--ink-3); border-bottom: 2.5px solid transparent; white-space: nowrap; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--rloop); }
+.pbody { overflow-y: auto; padding: 16px 18px calc(28px + env(safe-area-inset-bottom, 0px)); min-height: 0; }
+.pbody h2 { font-size: 17px; font-weight: 800; margin: 18px 0 8px; font-stretch: 92%; text-wrap: balance; }
+.pbody h2:first-child { margin-top: 0; }
+.pbody h3 { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 18px 0 6px; font-weight: 700; }
+.pbody p, .pbody li { font-family: var(--f-read); font-size: 15.5px; line-height: 1.5; color: var(--ink-2); }
+.pbody p { margin: 0 0 10px; }
+.pbody ul { margin: 0; padding-left: 18px; }
+.north { background: var(--merge-bg); color: var(--merge-fg); border-radius: 14px; padding: 14px 16px; }
+.north .eyebrow { color: inherit; opacity: .7; }
+.north p { color: inherit !important; font-size: 17px !important; margin: 4px 0 0 !important; }
+.code { font-family: var(--f-code); font-size: 12px; font-weight: 700; border-radius: 6px; padding: 1px 6px; border: 0; color: #fff; display: inline-block; line-height: 1.5; vertical-align: 1px; }
+.code.r { background: var(--rloop); } .code.b { background: var(--bloop); }
+.code.big { font-size: 15px; padding: 3px 9px; }
+.ref { font-family: var(--f-code); font-size: 12px; color: var(--ink-3); border-bottom: 1px dotted var(--ink-3); cursor: help; }
+.list { display: flex; flex-direction: column; gap: 4px; }
+.item { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; align-items: start; text-align: left; border: 1px solid transparent; background: none; border-radius: 10px; padding: 8px 10px; }
+.item { cursor: pointer; }
+.item:hover { background: var(--sunk); border-color: var(--line); }
+.item .t { font-weight: 700; font-size: 14px; color: var(--ink); }
+.item .s { grid-column: 2; font-family: var(--f-read); font-size: 14px; color: var(--ink-2); line-height: 1.4; }
+.zhead { display: flex; align-items: center; gap: 8px; margin: 16px 0 4px; font-weight: 800; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
+.zsw { width: 14px; height: 14px; border-radius: 4px; border: 2px solid; flex: none; }
+.zsw.z1 { background: var(--z1); border-color: var(--zl1); } .zsw.z2 { background: var(--z2); border-color: var(--zl2); } .zsw.z3 { background: var(--z3); border-color: var(--zl3); }
+.zsw.z4 { background: var(--z4); border-color: var(--zl4); } .zsw.z5 { background: var(--z5); border-color: var(--zl5); } .zsw.z6 { background: var(--z6); border-color: var(--zl6); }
+.zsw.z7 { background: var(--z7); border-color: var(--zl7); } .zsw.z8 { background: var(--z8); border-color: var(--zl8); } .zsw.z9 { background: var(--z9); border-color: var(--zl9); }
+.zsw.z10 { background: var(--z10); border-color: var(--zl10); } .zsw.z11 { background: var(--z11); border-color: var(--zl11); } .zsw.z12 { background: var(--z12); border-color: var(--zl12); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin-bottom: 8px; }
+.seg button { border: 0; background: none; padding: 6px 12px; font-size: 12.5px; font-weight: 700; color: var(--ink-3); }
+.seg button[aria-pressed="true"] { background: var(--sunk); color: var(--ink); }
+.detail { border: 1px solid var(--line); background: var(--sunk); border-radius: 14px; padding: 14px 14px 10px; margin-bottom: 16px; }
+.detail .dh { display: flex; align-items: center; gap: 10px; }
+.detail .dh h2 { margin: 0; }
+.detail .close { margin-left: auto; border: 1px solid var(--line); background: var(--paper); border-radius: 8px; padding: 2px 9px; font-size: 13px; font-weight: 700; }
+.meta { font-size: 12px; color: var(--ink-3); font-weight: 600; letter-spacing: .02em; margin: 6px 0 8px; display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.chain { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin: 6px 0 10px; }
+.chain .nb { border: 1.5px solid var(--line); background: var(--node-bg); border-radius: 8px; padding: 3px 7px; font-size: 11.5px; font-weight: 700; font-stretch: 88%; text-align: left; }
+.chain .ar { font-family: var(--f-code); font-size: 12px; font-weight: 700; color: var(--ink-3); }
+.chain .ar.neg { color: var(--rloop); }
+.links { display: flex; flex-direction: column; gap: 3px; }
+.links button { text-align: left; border: 0; background: none; padding: 4px 6px; border-radius: 6px; font-size: 13px; display: grid; grid-template-columns: 52px 1fr; gap: 8px; }
+.links button:hover { background: var(--paper); }
+.links .sg { font-family: var(--f-code); font-weight: 700; font-size: 12px; color: var(--ink-3); }
+details { border-top: 1px solid var(--line); padding: 8px 0; }
+details summary { cursor: pointer; font-weight: 700; font-size: 13.5px; }
+details p { font-size: 14.5px !important; margin: 6px 0 0 !important; }
+.lev { font-family: var(--f-code); font-size: 11px; font-weight: 700; color: var(--act-ink); background: color-mix(in srgb, var(--act) 22%, transparent); border-radius: 6px; padding: 2px 6px; white-space: nowrap; }
+.starno { font-family: var(--f-code); font-weight: 800; color: #1b1d22; background: var(--act); border-radius: 999px; padding: 2px 8px; font-size: 12px; white-space: nowrap; }
+.layer { border-left: 4px solid var(--line); padding-left: 10px; margin-bottom: 4px; }
+.layer.l0 { border-color: #9fb8d8; } .layer.l1 { border-color: #6d8fbf; } .layer.l2 { border-color: #3e6aa6; } .layer.l3 { border-color: #1f3f74; }
+.swrow { display: grid; grid-template-columns: 40px 1fr; gap: 8px 12px; align-items: center; font-size: 13.5px; color: var(--ink-2); }
+.swrow svg { overflow: visible; }
+a { color: var(--bloop); }
+
+@media (max-width: 900px) {
+  main { grid-template-columns: minmax(0, 1fr); position: relative; }
+  .hint { white-space: normal; text-align: center; font-size: 12px; border-radius: 12px; width: max-content; }
+  .eyebrow { display: none; }
+  aside.panel { position: absolute; left: 0; right: 0; bottom: 0; height: 52%; border-left: 0; border-top: 1px solid var(--line); border-radius: 16px 16px 0 0; box-shadow: 0 -10px 30px rgb(0 0 0 / .18); z-index: 20; transition: transform .25s; grid-template-rows: auto auto auto 1fr; }
+  aside.panel.collapsed { transform: translateY(calc(100% - 52px - env(safe-area-inset-bottom, 0px))); }
+  .sheet-handle { display: flex; align-items: center; justify-content: center; gap: 8px; border: 0; background: none; padding: 10px; font-weight: 700; font-size: 13px; color: var(--ink-2); }
+  .sheet-handle::before { content: ""; width: 40px; height: 4px; border-radius: 2px; background: var(--line); }
+  .legend { display: none; }
+  #mini { width: 120px; height: 108px; bottom: calc(66px + env(safe-area-inset-bottom, 0px)); }
+  .ctrls { bottom: calc(66px + env(safe-area-inset-bottom, 0px)); }
+  .toggles { order: 3; width: 100%; overflow-x: auto; flex-wrap: nowrap; }
+  .search { flex: 1 1 100%; order: 2; }
+  .stats { display: none; }
+  h1 { font-size: 18px; }
+}
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <span class="eyebrow">Pune Ganeshotsav · System map v6 · merged from v2, v3, v4 and v5</span>
+      <h1>Festivals <span class="x">×</span> City System Map</h1>
+      <div class="stats" id="stats"></div>
+    </div>
+    <div class="search">
+      <input id="q" type="search" placeholder="Find a box or a loop (try “noise”, “R15”)" autocomplete="off" aria-label="Find a box or a loop">
+      <div class="results" id="results" hidden></div>
+    </div>
+    <div class="toggles" id="toggles" role="group" aria-label="Show on the map"></div>
+  </header>
+  <main>
+    <div class="mapwrap" id="wrap">
+      <!--__SVG__-->
+      <div class="zlabels" id="zlabels"></div>
+      <div class="hint" id="hint">Drag to move · scroll or pinch to zoom · click a loop circle or a box to follow it</div>
+      <div class="ctrls">
+        <button id="zin" aria-label="Zoom in">+</button>
+        <button id="zout" aria-label="Zoom out">−</button>
+        <button id="zfit" aria-label="Show the whole map" title="Show the whole map">⤢</button>
+      </div>
+      <div class="legend" aria-label="Legend">
+        <span><i class="dot" style="background:var(--rloop)"></i>Reinforcing loop</span>
+        <span><i class="dot" style="background:var(--bloop)"></i>Balancing loop</span>
+        <span><i class="line" style="border-color:var(--both)"></i>Arrow shared by R and B</span>
+        <span><i class="line" style="border-color:var(--free);border-top-style:dashed"></i>Link outside any loop</span>
+        <span><i class="box" style="background:var(--merge-bg);border-color:var(--merge-bg)"></i>Merge point (3+ loops)</span>
+        <span><i class="box" style="border-color:var(--act);border-width:3px"></i>★ Act here</span>
+        <span><i class="box" style="background:var(--yel-bg);border-color:var(--yel-line)"></i>Goal, capacity, belief, outside push</span>
+      </div>
+      <!--__MINI__-->
+    </div>
+    <aside class="panel" id="panel" aria-label="Reading panel">
+      <button class="sheet-handle" id="handle" aria-expanded="true">Guide and details</button>
+      <nav class="tabs" id="tabs" role="tablist"></nav>
+      <div></div>
+      <div class="pbody" id="pbody"></div>
+    </aside>
+  </main>
+</div>
+
+<script>
+/*__DATA__*/
+(function () {
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const store = { get(k, d) { try { const v = localStorage.getItem('fxc:' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+                  set(k, v) { try { localStorage.setItem('fxc:' + k, JSON.stringify(v)); } catch (e) {} } };
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const NODE = Object.fromEntries(D.nodes.map(n => [n.id, n]));
+  const LOOP = Object.fromEntries(D.loops.map(l => [l.id, l]));
+  const EDGE = Object.fromEntries(D.edges.map(e => [e.id, e]));
+  const EDGEKEY = Object.fromEntries(D.edges.map(e => [e.s + '>' + e.t, e]));
+  const byRef = {};
+  D.loops.forEach(l => (l.refs || []).forEach(r => (byRef[r] = byRef[r] || []).push(l.id)));
+  const ZN = k => D.zones[k].name;
+  const nice = s => s.charAt(0) + s.slice(1).toLowerCase().replace(/\b(pmc|ngt|mpcb|vip|dj|voc|kp|d0\d|ii)\b/g, m => m.toUpperCase())
+                     .replace(/\bmula-mutha\b/i, 'Mula-Mutha').replace(/\bpune\b/i, 'Pune');
+  const nodeName = id => nice(NODE[id].label.replace(/^(GOAL|CAPACITY|MENTAL MODEL): /, ''));
+
+  // ---------- stats ----------
+  const nR = D.loops.filter(l => l.type === 'R').length, nB = D.loops.length - nR;
+  const merges = D.nodes.filter(n => n.loops.length >= 3 && n.kind === 'var').length;
+  $('#stats').innerHTML = `<span><b>${D.loops.length}</b> loops (${nR} R · ${nB} B)</span><span><b>${D.nodes.length}</b> boxes</span><span><b>${D.edges.length}</b> signed links</span><span><b>${merges}</b> merge points</span><span><b>12</b> zones</span>`;
+
+  // ---------- viewport ----------
+  const svg = $('#map'), wrap = $('#wrap'), root = document.documentElement;
+  const W0 = svg.viewBox.baseVal.width, H0 = svg.viewBox.baseVal.height;
+  let vb = { x: 0, y: 0, w: W0, h: H0 };
+  function aspect() { const r = svg.getBoundingClientRect(); return r.height / Math.max(r.width, 1); }
+  function apply() {
+    svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+    const s = svg.getBoundingClientRect().width / vb.w;
+    svg.classList.toggle('lod-far', s < 0.3);
+    svg.classList.toggle('lod-mid', s >= 0.3 && s < 0.6);
+    const zl = $('#zlabels'); zl.hidden = s >= 0.3;
+    if (!zl.hidden) { const r = svg.getBoundingClientRect();
+      $$('button', zl).forEach(bt => { const c = D.zc[bt.dataset.zone]; bt.style.left = ((c[0] - vb.x) / vb.w * r.width) + 'px'; bt.style.top = ((c[1] - vb.y) / vb.h * r.height) + 'px'; }); }
+    const m = $('#minivp'); m.setAttribute('x', vb.x); m.setAttribute('y', vb.y); m.setAttribute('width', vb.w); m.setAttribute('height', vb.h);
+  }
+  function fitBox(x0, y0, x1, y1, animate = true, minW = 900) {
+    const a = aspect();
+    let w = Math.max(x1 - x0, minW), h = y1 - y0;
+    if (h / w > a) w = h / a; else h = w * a;
+    const target = { x: (x0 + x1) / 2 - w / 2, y: (y0 + y1) / 2 - h / 2, w, h };
+    if (!animate || reduce) { vb = target; apply(); return; }
+    const from = { ...vb }, t0 = performance.now(), dur = 420;
+    (function step(t) {
+      const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+      vb = { x: from.x + (target.x - from.x) * e, y: from.y + (target.y - from.y) * e, w: from.w + (target.w - from.w) * e, h: from.h + (target.h - from.h) * e };
+      apply(); if (k < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+  const fitAll = (anim = true) => { const b = D.bounds; fitBox(b[0], b[1], b[2], b[3], anim); };
+  function zoomAt(f, px, py) {
+    const r = svg.getBoundingClientRect();
+    const wx = vb.x + (px - r.left) / r.width * vb.w, wy = vb.y + (py - r.top) / r.height * vb.h;
+    const nw = Math.min(Math.max(vb.w / f, 500), W0 * 2.2);
+    const k = nw / vb.w;
+    vb = { x: wx - (wx - vb.x) * k, y: wy - (wy - vb.y) * k, w: nw, h: vb.h * k }; apply();
+  }
+  new ResizeObserver(() => { const c = { x: vb.x + vb.w / 2, y: vb.y + vb.h / 2 }; vb.h = vb.w * aspect(); vb.x = c.x - vb.w / 2; vb.y = c.y - vb.h / 2; apply(); }).observe(svg);
+
+  const pts = new Map(); let drag = null, moved = 0, downTarget = null;
+  svg.addEventListener('pointerdown', e => {
+    svg.setPointerCapture(e.pointerId); pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pts.size === 1) { drag = { x: e.clientX, y: e.clientY }; moved = 0; downTarget = e.target; }
+    hideHint();
+  });
+  svg.addEventListener('pointermove', e => {
+    if (!pts.has(e.pointerId)) return;
+    const prev = pts.get(e.pointerId); pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    const r = svg.getBoundingClientRect();
+    if (pts.size === 1) {
+      const dx = e.clientX - prev.x, dy = e.clientY - prev.y; moved += Math.abs(dx) + Math.abs(dy);
+      if (moved > 4) svg.classList.add('dragging');
+      vb.x -= dx / r.width * vb.w; vb.y -= dy / r.height * vb.h; apply();
+    } else if (pts.size === 2) {
+      const [a, b] = Array.from(pts.values()); const other = a === pts.get(e.pointerId) ? b : a;
+      const d0 = Math.hypot(prev.x - other.x, prev.y - other.y), d1 = Math.hypot(e.clientX - other.x, e.clientY - other.y);
+      if (d0 > 0) zoomAt(d1 / d0, (e.clientX + other.x) / 2, (e.clientY + other.y) / 2); moved += 10;
+    }
+  });
+  const up = e => {
+    pts.delete(e.pointerId); svg.classList.remove('dragging');
+    if (pts.size === 0 && moved < 5 && downTarget) clickOn(downTarget);
+    if (pts.size === 0) downTarget = null;
+  };
+  svg.addEventListener('pointerup', up); svg.addEventListener('pointercancel', e => { pts.delete(e.pointerId); downTarget = null; });
+  svg.addEventListener('wheel', e => { e.preventDefault(); hideHint(); zoomAt(Math.exp(-e.deltaY * (e.ctrlKey ? 0.01 : 0.0016)), e.clientX, e.clientY); }, { passive: false });
+  $('#zin').onclick = () => { const r = svg.getBoundingClientRect(); zoomAt(1.4, r.left + r.width / 2, r.top + r.height / 2); };
+  $('#zout').onclick = () => { const r = svg.getBoundingClientRect(); zoomAt(1 / 1.4, r.left + r.width / 2, r.top + r.height / 2); };
+  $('#zfit').onclick = () => fitAll();
+  $('#mini').addEventListener('click', e => {
+    const r = e.currentTarget.getBoundingClientRect(), mvb = e.currentTarget.viewBox.baseVal;
+    const s = Math.min(r.width / mvb.width, r.height / mvb.height), ox = (r.width - mvb.width * s) / 2, oy = (r.height - mvb.height * s) / 2;
+    const wx = (e.clientX - r.left - ox) / s, wy = (e.clientY - r.top - oy) / s;
+    fitBox(wx - vb.w / 2, wy - vb.h / 2, wx + vb.w / 2, wy + vb.h / 2, true, vb.w);
+  });
+  let hinted = false; function hideHint() { if (!hinted) { hinted = true; $('#hint').hidden = true; } }
+
+  $('#zlabels').innerHTML = Object.keys(D.zshort).map(z => `<button data-zone="${z}" aria-label="Zone ${z}: ${esc(D.zones[z].name)}"><b>${z}</b>${esc(D.zshort[z])}</button>`).join('');
+  $('#zlabels').addEventListener('click', e => { const b = e.target.closest('[data-zone]'); b && select('zone', b.dataset.zone); });
+
+  // ---------- toggles ----------
+  const TOG = [['r', 'R loops', 'var(--rloop)'], ['b', 'B loops', 'var(--bloop)'], ['free', 'Links outside loops', 'var(--free)'],
+               ['drv', 'Goals, capacities and beliefs', 'var(--yel-line)'], ['signs', '+/− signs', 'var(--ink-3)']];
+  const togState = store.get('tog', {});
+  $('#toggles').innerHTML = TOG.map(([k, l, c]) => `<button class="chip" data-t="${k}" aria-pressed="${togState[k] !== false}"><i class="sw" style="background:${c}"></i>${l}</button>`).join('');
+  function applyTog() { TOG.forEach(([k]) => svg.classList.toggle('hide-' + k, togState[k] === false)); }
+  $$('#toggles .chip').forEach(b => b.onclick = () => { const k = b.dataset.t; togState[k] = togState[k] === false; b.setAttribute('aria-pressed', togState[k] !== false); store.set('tog', togState); applyTog(); });
+  applyTog();
+
+  // ---------- focus ----------
+  let current = null;
+  function clearFocus() {
+    svg.classList.remove('focusing'); $$('.hl, .hl2, .sel', svg).forEach(el => el.classList.remove('hl', 'hl2', 'sel'));
+  }
+  function focus({ nodes = [], edges = [], loops = [], faint = [], flows = [], sel = null }) {
+    clearFocus(); svg.classList.add('focusing');
+    nodes.forEach(id => { const el = document.getElementById('n-' + id); el && el.classList.add('hl'); });
+    faint.forEach(id => { const el = document.getElementById('n-' + id); el && !el.classList.contains('hl') && el.classList.add('hl2'); });
+    if (sel) { const el = document.getElementById('n-' + sel); el && el.classList.add('sel'); }
+    edges.forEach(id => { const el = document.getElementById(id); el && el.classList.add('hl'); $$(`[data-edge="${id}"]`, svg).forEach(x => x.classList.add('hl')); });
+    loops.forEach(id => { const el = document.getElementById('m-' + id); el && el.classList.add('hl'); });
+    flows.forEach(i => { const el = $(`.flow[data-flow="${i}"]`, svg); el && el.classList.add('hl'); });
+  }
+  function loopEdges(l) { const out = []; for (let i = 0; i < l.nodes.length; i++) { const e = EDGEKEY[l.nodes[i] + '>' + l.nodes[(i + 1) % l.nodes.length]]; e && out.push(e.id); } return out; }
+  function boxOf(ids, lids = []) {
+    const xs = [], ys = [];
+    ids.forEach(id => { const p = D.pos[id]; if (p) { xs.push(p[0]); ys.push(p[1]); } });
+    lids.forEach(id => { const p = D.lpos[id]; if (p) { xs.push(p[0]); ys.push(p[1]); } });
+    return [Math.min(...xs) - 260, Math.min(...ys) - 220, Math.max(...xs) + 260, Math.max(...ys) + 220];
+  }
+  function focusLoops(lids, zoom = true) {
+    const nodes = new Set(), edges = [];
+    lids.forEach(id => { const l = LOOP[id]; l.nodes.forEach(n => nodes.add(n)); edges.push(...loopEdges(l)); });
+    focus({ nodes: [...nodes], edges, loops: lids });
+    if (zoom && nodes.size) { const b = boxOf([...nodes], lids); fitBox(...b); }
+  }
+
+  // ---------- selection ----------
+  function select(kind, id, zoom = true) {
+    current = { kind, id };
+    if (kind === 'loop') { focusLoops([id], zoom); showDetail(loopDetail(id)); setHash(id); }
+    else if (kind === 'node') {
+      const n = NODE[id], inc = D.edges.filter(e => e.s === id || e.t === id);
+      const nb = new Set([id]); inc.forEach(e => { nb.add(e.s); nb.add(e.t); });
+      const faint = new Set(); n.loops.forEach(l => LOOP[l].nodes.forEach(x => faint.add(x)));
+      focus({ nodes: [...nb], edges: inc.map(e => e.id), loops: n.loops, faint: [...faint], sel: id });
+      if (zoom) fitBox(...boxOf([...nb], n.loops), true, 1300);
+      showDetail(nodeDetail(id)); setHash('box-' + id.slice(0, 40));
+    } else if (kind === 'zone') {
+      const ids = D.nodes.filter(n => n.zone == id).map(n => n.id), set = new Set(ids);
+      const lids = D.loops.filter(l => l.zone == id).map(l => l.id);
+      focus({ nodes: ids, edges: D.edges.filter(e => set.has(e.s) && set.has(e.t)).map(e => e.id), loops: lids });
+      if (zoom) fitBox(...boxOf(ids, lids));
+      showDetail(zoneDetail(id)); setHash('zone' + id);
+    } else if (kind === 'flow') {
+      const f = D.flows[id], set = new Set(f.targets);
+      focus({ nodes: f.targets, edges: D.edges.filter(e => set.has(e.s) || set.has(e.t)).map(e => e.id), flows: [id],
+              loops: [...new Set(f.targets.flatMap(t => NODE[t].loops))] });
+      showDetail(flowDetail(id));
+    } else if (kind === 'set') { focusLoops(id.loops, zoom); showDetail(id.html); }
+  }
+  function clearSel() { current = null; clearFocus(); $('#detail') && $('#detail').remove(); setHash(''); }
+  function setHash(h) { try { history.replaceState(null, '', h ? '#' + h : location.pathname + location.search); } catch (e) {} }
+  function clickOn(t) {
+    const lm = t.closest('.lm'), nd = t.closest('.node'), fl = t.closest('.flow'), zt = t.closest('.zt');
+    if (lm) select('loop', lm.dataset.loop);
+    else if (nd) select('node', nd.dataset.id);
+    else if (fl) select('flow', +fl.dataset.flow);
+    else if (zt) select('zone', zt.dataset.zone);
+    else if (current) clearSel();
+  }
+  // hover preview of a loop when nothing is selected
+  svg.addEventListener('pointerover', e => { if (current || pts.size) return; const lm = e.target.closest('.lm'); if (lm) focusLoops([lm.dataset.loop], false); });
+  svg.addEventListener('pointerout', e => { if (current || pts.size) return; const lm = e.target.closest('.lm'); if (lm) clearFocus(); });
+  svg.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.closest('.flow')) select('flow', +e.target.closest('.flow').dataset.flow); });
+  document.addEventListener('keydown', e => {
+    if (e.target.matches('input')) return;
+    if (e.key === 'Escape') clearSel();
+    if (e.key === '+' || e.key === '=') $('#zin').click();
+    if (e.key === '-') $('#zout').click();
+    if (e.key === '0') fitAll();
+  });
+
+  // ---------- text helpers ----------
+  function linkify(t) {
+    return esc(t).replace(/\b([RB]\d{1,2})\b/g, (m, c) => LOOP[c] ? `<button class="code ${LOOP[c].type.toLowerCase()}" data-loop="${c}">${c}</button>` : m)
+      .replace(/(#\d{1,2})\b/g, (m, r) => D.iceberg[r] ? `<span class="ref" title="${esc(r + ' ' + D.iceberg[r].title)}">${r}</span>` : m);
+  }
+  const loopChip = id => `<button class="code ${LOOP[id].type.toLowerCase()}" data-loop="${id}">${id}</button>`;
+  const nodeBtn = id => `<button class="nb" data-node="${id}">${esc(nodeName(id))}</button>`;
+  function signText(e) { return `${e.sign}${e.ev ? ' ' + e.ev : ''}${e.src ? ' · ' + e.src : ''}${e.delay ? ' ‖' : ''}`; }
+
+  function loopDetail(id) {
+    const l = LOOP[id], neg = loopEdges(l).filter(e => EDGE[e].sign === '−').length;
+    let chain = '';
+    l.nodes.forEach((n, i) => {
+      const e = EDGEKEY[n + '>' + l.nodes[(i + 1) % l.nodes.length]];
+      chain += nodeBtn(n) + `<span class="ar ${e.sign === '−' ? 'neg' : ''}">→ ${esc(e.sign)}${e.ev ? e.ev : ''}${e.delay ? '‖' : ''}</span>`;
+    });
+    chain += `<span class="ar">back to start</span>`;
+    const refs = l.refs.map(r => D.iceberg[r] ? `<details><summary>${r} ${esc(D.iceberg[r].title)}</summary><p><b>Event.</b> ${esc(D.iceberg[r].event)}</p><p><b>Pattern.</b> ${esc(D.iceberg[r].pattern)}</p><p><b>Hypothesis.</b> ${esc(D.iceberg[r].hyp)}</p></details>` : '').join('');
+    const ev = D.layers.events.filter(x => x.refs.some(r => l.refs.includes(r)));
+    const st = D.layers.structures.filter(x => x.refs.some(r => l.refs.includes(r)));
+    const mm = D.mental.filter(m => m.codes.includes(id)).map(m => `“${esc(m.belief)}”`);
+    const ar = D.arche.filter(a => a.codes.includes(id)).map(a => a.name);
+    const ac = D.act.filter(a => a.codes.includes(id));
+    const zones = l.zones.map(z => `<div class="item" role="button" tabindex="0" data-zone="${z}" style="display:inline-flex;padding:2px 6px"><span class="zsw z${z}"></span>${esc(ZN(z))}</div>`).join(' ');
+    return `<div class="dh">${loopChip(id).replace('class="code', 'class="code big')}<h2>${esc(l.name)}</h2><button class="close" data-close>Close</button></div>
+      <div class="meta"><span>${l.type === 'R' ? 'Reinforcing' : 'Balancing'} · ${l.nodes.length} boxes · ${neg} negative link${neg === 1 ? '' : 's'} (${neg % 2 ? 'odd, so balancing' : 'even, so reinforcing'})</span>
+      <span>${l.src === 'v2' ? 'Restored from System Map v2 (Deep)' : 'From System Maps v4 and v5'}${l.refs_full ? ' · ' + esc(l.refs_full) : ''}</span>${l.unknown ? '<span>Contains a link whose sign we do not know yet (?)</span>' : ''}</div>
+      <h3>Read it round</h3><div class="chain">${chain}</div>
+      ${l.text ? `<p>${linkify(l.text)}</p>` : ''}
+      <h3>Zones it runs through</h3><div>${zones}</div>
+      ${ac.length ? `<h3>Where to act</h3>${ac.map(a => `<p><span class="starno">★${a.n}</span> ${linkify(a.text)}</p>`).join('')}` : ''}
+      ${mm.length ? `<h3>Held in place by</h3><p>${mm.join(', ')}</p>` : ''}
+      ${ar.length ? `<h3>Archetype</h3><p>${[...new Set(ar)].join(', ')}</p>` : ''}
+      ${ev.length ? `<h3>Evidence on the board</h3><ul>${ev.map(x => `<li>${esc(x.text)} <span class="ref">${x.refs.join(' ')}</span></li>`).join('')}</ul>` : ''}
+      ${st.length ? `<h3>Structures behind it</h3><ul>${st.map(x => `<li>${x.star ? '★ ' : ''}${esc(x.text)}</li>`).join('')}</ul>` : ''}
+      ${refs ? `<h3>Iceberg loops (event, pattern, hypothesis)</h3>${refs}` : ''}`;
+  }
+  function nodeDetail(id) {
+    const n = NODE[id];
+    const out = D.edges.filter(e => e.s === id), inn = D.edges.filter(e => e.t === id);
+    const row = (e, other) => `<button data-node="${other}"><span class="sg">${esc(signText(e))}</span><span>${esc(nodeName(other))}</span></button>`;
+    const kinds = { var: 'Variable', goal: 'Goal', capacity: 'Capacity', mental: 'Mental model', outside: 'Outside push' };
+    const fams = { festival: 'Festival', street: 'Street', everyday: 'Everyday city', planning: 'Planning and governance' };
+    const star = n.star ? D.act.find(a => a.n === n.star) : null;
+    return `<div class="dh"><h2>${esc(nodeName(id))}</h2><button class="close" data-close>Close</button></div>
+      <div class="meta"><span>${kinds[n.kind]}${n.kind === 'var' ? ' · ' + fams[n.fam] : ''}</span><span>Zone ${n.zone} · ${esc(ZN(n.zone))}</span>${n.loops.length >= 3 && n.kind === 'var' ? '<span>◆ Merge point</span>' : ''}${n.v2 ? '<span>Restored from v2 (Deep)</span>' : ''}</div>
+      ${star ? `<p><span class="starno">★${star.n}</span> ${linkify(star.text)}</p>` : ''}
+      <h3>On ${n.loops.length} loop${n.loops.length === 1 ? '' : 's'}</h3><div>${n.loops.map(loopChip).join(' ') || '<p>None. This box pushes on the loops from outside.</p>'}</div>
+      <h3>Leads to</h3><div class="links">${out.map(e => row(e, e.t)).join('') || '<p>Nothing on the map.</p>'}</div>
+      <h3>Comes from</h3><div class="links">${inn.map(e => row(e, e.s)).join('') || '<p>Nothing on the map.</p>'}</div>
+      <p style="font-size:13px;margin-top:10px">Sign, then E (evidence on our board), H (our hypothesis) or ? (sign unknown), then the source code. ‖ marks a delay.</p>`;
+  }
+  function zoneDetail(z) {
+    const ls = D.loops.filter(l => l.zone == z), xs = D.loops.filter(l => l.zone != z && l.zones.includes(+z));
+    return `<div class="dh"><span class="zsw z${z}" style="width:18px;height:18px"></span><h2>${z} · ${esc(ZN(z))}</h2><button class="close" data-close>Close</button></div>
+      <p>${esc(D.zones[z].blurb)}</p><h3>Loops that live here</h3><div class="list">${ls.map(l => `<div class="item" role="button" tabindex="0" data-loop="${l.id}">${loopChip(l.id)}<span class="t">${esc(l.name)}</span></div>`).join('')}</div>
+      ${xs.length ? `<h3>Loops from other zones that pass through</h3><div>${xs.map(l => loopChip(l.id)).join(' ')}</div>` : ''}`;
+  }
+  function flowDetail(i) {
+    const f = D.flows[i];
+    return `<div class="dh"><h2>${f.dir === 'in' ? 'Inflow' : 'Outflow'}: ${esc(f.title)}</h2><button class="close" data-close>Close</button></div>
+      <p>${esc(f.detail)}</p><h3>Where it crosses into the map</h3><div class="chain">${f.targets.map(nodeBtn).join('')}</div>`;
+  }
+  function showDetail(html) {
+    let d = $('#detail'); if (!d) { d = document.createElement('section'); d.id = 'detail'; d.className = 'detail'; $('#pbody').prepend(d); }
+    d.innerHTML = html; $('#pbody').scrollTop = 0;
+    if (window.matchMedia('(max-width: 900px)').matches) setSheet(true);
+  }
+
+  // ---------- panel tabs ----------
+  const TABS = { guide: 'Guide', loops: 'Loops', zones: 'Zones', act: 'Where to act', iceberg: 'Iceberg', patterns: 'Patterns', boundary: 'Open system', unknowns: 'Unknowns', method: 'Method' };
+  let tab = store.get('tab', 'guide'); if (!TABS[tab]) tab = 'guide';
+  $('#tabs').innerHTML = Object.entries(TABS).map(([k, v]) => `<button role="tab" data-tab="${k}" aria-selected="${k === tab}">${v}</button>`).join('');
+  $$('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; store.set('tab', tab); $$('#tabs button').forEach(x => x.setAttribute('aria-selected', x === b)); renderTab(); });
+  let loopFilter = 'all';
+  const swatch = (inner, w = 40, h = 20) => `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${inner}</svg>`;
+  function renderTab() {
+    const keep = $('#detail'); const b = $('#pbody'); let h = '';
+    if (tab === 'guide') h = `
+      <div class="north"><span class="eyebrow">North Star</span><p>To enable neighbourhoods and festivals to adapt to each other while maintaining a balance between celebration and everyday city life.</p></div>
+      <h2>What this map is</h2>
+      <p>Every loop from the board in one connected picture. Each of the 77 feedback loops is drawn as its own ring with its name circle in the middle, and every box appears once, so where loops share a box their rings meet there. The rings sit in 12 topic zones, and the whole thing sits inside a system boundary with flows coming in and going out, because the festival is an open system that borrows people, money, rules and capacity from the city around it.</p>
+      <h2>How to read it</h2>
+      <div class="swrow">
+        ${swatch('<circle cx="20" cy="10" r="9" fill="var(--rloop)"/>')}<span><b>Reinforcing loop (R).</b> Change keeps building in the same direction. An even number of − links.</span>
+        ${swatch('<circle cx="20" cy="10" r="9" fill="var(--bloop)"/>')}<span><b>Balancing loop (B).</b> Change gets pushed back toward a goal or limit. An odd number of − links.</span>
+        ${swatch('<path d="M2 14 Q20 0 38 14" stroke="var(--rloop)" stroke-width="2.5" fill="none"/>')}<span>Arrow colour follows its loop: red only on R rings, blue only on B rings, <b style="color:var(--both)">violet</b> where an R and a B ring share the arrow.</span>
+        ${swatch('<path d="M2 10 L38 10" stroke="var(--free)" stroke-width="2" stroke-dasharray="5 6"/>')}<span>Grey dashed: a link that is on no loop. Dashed coloured: a loop link whose sign we do not know yet.</span>
+        ${swatch('<text x="4" y="15" font-family="JetBrains Mono" font-weight="700" font-size="13" fill="var(--ink-2)">+ E</text>')}<span><b>+</b> both move the same way, <b>−</b> opposite ways. <b>E</b> evidence on our board, <b>H</b> our hypothesis, <b>?</b> sign unknown. Shown by the arrowhead.</span>
+        ${swatch('<path d="M2 10 L38 10" stroke="var(--ink-3)" stroke-width="2"/><path d="M17 3 L17 17 M23 3 L23 17" stroke="var(--ink)" stroke-width="2"/>')}<span>‖ a delay: the effect lands later, often next season.</span>
+        ${swatch('<rect x="2" y="3" width="36" height="14" rx="5" fill="var(--merge-bg)"/>')}<span><b>Merge point.</b> Three or more loops run through this box.</span>
+        ${swatch('<rect x="3" y="3" width="34" height="14" rx="5" fill="var(--node-bg)" stroke="var(--act)" stroke-width="3"/>')}<span><b>★ Act here.</b> Moving this box moves us toward the North Star (see Where to act).</span>
+        ${swatch('<rect x="3" y="3" width="34" height="14" rx="3" fill="var(--yel-bg)" stroke="var(--yel-line)"/>')}<span>Goals, capacities, beliefs (mental models) and outside pushes. Their black arrows push on a loop but do not count in its sign.</span>
+        ${swatch('<rect x="3" y="3" width="34" height="14" rx="5" fill="var(--node-bg)" stroke="var(--f-fest)" stroke-width="2"/>')}<span>Box outline shows the family: <b style="color:var(--f-fest)">festival</b>, <b style="color:var(--f-street)">street</b>, <b style="color:var(--f-every)">everyday city</b>, <b style="color:var(--f-plan)">planning and governance</b>.</span>
+      </div>
+      <h2>Ways in</h2>
+      <p>Click a loop circle to light up its ring and read it round. Click a box to see every loop it sits on and every link in and out. Click a zone title to zoom to it. Any loop code in the text, like ${loopChip('R15')}, is a link.</p>
+      <h2>The system in sentences</h2><p>${linkify(D.sentences)}</p>
+      <h2>How the loops merge</h2><p>${linkify(D.merge)}</p>
+      <h2>What is new in this version</h2>
+      <ul><li>Built from v4 and v5: all 63 of their loops, with v5's rings and zones and v4's single boxes (no repeats).</li>
+      <li>14 loops restored from System Map v2 (Deep) that the later maps dropped: prestige escalation, attention magnet, belonging, patronage, the festival marketplace, the transport squeeze, overloaded enforcement, noise restriction, tolerance depletion, access and revenue, volunteer capacity, media backlash, waste and bins, and the safety response (${['R30','R31','R32','R33','R34','R35','R36','B35','B36','B37','B38','B39','B40','B41'].map(loopChip).join(' ')}).</li>
+      <li>21 v2 boxes back on the map, such as political patronage, media coverage, crowd safety risk, buses and autos, seasonal vendors, DJs, resident goodwill, toilets and bins, and VIP visits.</li>
+      <li>Every loop's sign was checked: each R ring has an even number of − links and each B ring an odd number.</li>
+      <li>The open-system boundary, with what flows in from the city and out of the festival.</li></ul>`;
+    else if (tab === 'loops') {
+      h = `<h2>All ${D.loops.length} loops</h2><div class="seg" role="group" aria-label="Filter loops">${['all', 'R', 'B', 'v2'].map(k => `<button data-lf="${k}" aria-pressed="${loopFilter === k}">${{ all: 'All', R: 'Reinforcing', B: 'Balancing', v2: 'Restored from v2' }[k]}</button>`).join('')}</div>`;
+      Object.keys(D.zones).forEach(z => {
+        const ls = D.loops.filter(l => l.zone == z && (loopFilter === 'all' || l.type === loopFilter || (loopFilter === 'v2' && l.src === 'v2')));
+        if (!ls.length) return;
+        h += `<div class="zhead"><span class="zsw z${z}"></span>${z} · ${esc(ZN(z))}</div><div class="list">${ls.map(l => `<div class="item" role="button" tabindex="0" data-loop="${l.id}">${loopChip(l.id)}<span class="t">${esc(l.name)}</span><span class="s">${esc(l.nodes.map(nodeName).join(' → '))}</span></div>`).join('')}</div>`;
+      });
+    } else if (tab === 'zones') {
+      h = `<h2>Twelve zones</h2><p>Each zone is a part of the system that hangs together. Loops that cross zones are the joints between them.</p><div class="list">` +
+        Object.entries(D.zones).map(([z, v]) => `<div class="item" role="button" tabindex="0" data-zone="${z}"><span class="zsw z${z}"></span><span class="t">${z} · ${esc(v.name)}</span><span class="s">${esc(v.blurb)}</span></div>`).join('') + '</div>';
+    } else if (tab === 'act') {
+      h = `<h2>Where to act</h2><p>The ★ boxes on the map. Each one is placed on Donella Meadows' scale of leverage points (12 is the weakest place to intervene, 1 the strongest). Click one to light up the loops it works through.</p><div class="list">` +
+        D.act.map(a => `<div class="item" role="button" tabindex="0" data-set="act:${a.n}"><span class="starno">★${a.n}</span><span class="t">${linkify(a.text)}</span><span class="s"><span class="lev">Leverage ${a.meadows[0]} · ${a.meadows[1]}</span></span></div>`).join('') + `</div>
+        <h3>Reading the leverage</h3><p>Most of the moves sit at information flows (6) and rules (5): letting quiet adjustment reach planners, recording lessons, putting access into the theme and site decisions. Delays (9) matter for teardown, where the three-day rule slips to weeks. The deepest lever is the mental models in the Patterns tab: "every year it should be bigger" drives the growth engines R2 to R5, and changing that goal (3) or paradigm (2) would change more than any single fix.</p>`;
+    } else if (tab === 'iceberg') {
+      const L = (k, title, sub, cls) => `<h3>${title}</h3><p style="font-size:13.5px">${sub}</p><div class="list">${D.layers[k].map((x, i) => `<button class="item layer ${cls}" data-set="ice:${k}:${i}"><span class="t">${x.star ? '★ ' : ''}${esc(x.text)}</span><span class="s">${x.refs.map(r => `<span class="ref" title="${esc(D.iceberg[r] ? D.iceberg[r].title : '')}">${r}</span>`).join(' ')}</span></button>`).join('')}</div>`;
+      h = `<h2>The iceberg</h2><p>What we saw, what keeps happening, what causes it and what holds it in place. The numbers are the 86 iceberg loops on the board; clicking an item lights up the loops on this map built from them.</p>` +
+        L('events', 'Events', 'What we saw or found in sources. React.', 'l0') + L('structures', 'Structures', 'Rules, layouts and routines behind the loops. Design.', 'l2') + L('mental', 'Mental models', 'Beliefs that keep the structures in place. Shift.', 'l3');
+    } else if (tab === 'patterns') {
+      h = `<h2>Archetypes we think we see</h2><div class="list">${D.arche.map((a, i) => `<div class="item" role="button" tabindex="0" data-set="arch:${i}"><span class="t">${esc(a.name)}</span><span class="s">${linkify(a.text)}</span></div>`).join('')}</div>
+        <h2>Mental models holding the loops in place</h2><div class="list">${D.mental.map((m, i) => `<div class="item" role="button" tabindex="0" data-set="mm:${i}"><span class="t">“${esc(m.belief)}”</span><span class="s">${m.codes.map(loopChip).join(' ')}</span></div>`).join('')}</div>`;
+    } else if (tab === 'boundary') {
+      h = `<h2>An open system</h2><p>A festival street does not run on its own. It takes in visitors, money, rules, materials and borrowed capacity from the city, and it sends traffic, waste, noise, stretched services and precedent back out. Those flows cross the dashed boundary around the map. Inside it is what we mapped: the festival streets of Dagdusheth and Koregaon Park, their surrounding routes, and the agencies, courts and river they touch.</p>
+        <h3>Inflows</h3><div class="list">${D.flows.map((f, i) => f.dir === 'in' ? `<div class="item" role="button" tabindex="0" data-flow="${i}"><span class="t">${esc(f.title)}</span><span class="s">${esc(f.detail)}</span></div>` : '').join('')}</div>
+        <h3>Outflows</h3><div class="list">${D.flows.map((f, i) => f.dir === 'out' ? `<div class="item" role="button" tabindex="0" data-flow="${i}"><span class="t">${esc(f.title)}</span><span class="s">${esc(f.detail)}</span></div>` : '').join('')}</div>
+        <h3>The time boundary</h3><p>The map also crosses years. Carried-over sites, reused layouts and lessons (or the lack of them) are how this year's festival shapes next year's, and most balancing loops act a season late (‖).</p>`;
+    } else if (tab === 'unknowns') {
+      h = `<h2>What we still don't know</h2><p>Questions the map cannot answer yet. Each names the loops it would change.</p><ul>${D.unknowns.map(u => `<li>${linkify(u)}</li>`).join('')}</ul>`;
+    } else if (tab === 'method') {
+      h = `<h2>How this map was made</h2>
+        <p>Everything here comes from the Systems thinking FigJam board: the 86 iceberg loops, the field research at Dagdusheth and Koregaon Park, and System Maps v2 (Deep), Expanded, v3, v4 and v5.</p>
+        <ul><li><b>Boxes and links.</b> Taken from v4 and v5 (159 boxes, 267 signed links), plus the v2 boxes and links the later maps dropped. Names that differ between versions were matched by hand, so each box appears once. Signs, evidence tags (E, H, ?), source codes and delays come from the board.</li>
+        <li><b>Loops.</b> v5 draws each of the 63 loops as its own ring, so each ring's boxes were read off v5's layout. 14 more come from v2, closed through three or more boxes. Every loop was checked: an R loop has an even number of − links, a B loop an odd number.</li>
+        <li><b>Layout.</b> Each loop is held as a regular ring with its name circle at the centre, and boxes shared by several loops sit where those rings meet. Each zone keeps its boxes together, and loops that cross zones sit on the borders between them.</li>
+        <li><b>Boundary.</b> The dashed line is the system boundary. The flows across it are taken from the board's evidence (visitor numbers, nirmalya tonnage, PMC and police capacity).</li></ul>
+        <h2>Conventions we followed</h2>
+        <ul><li><b>Causal loop diagrams.</b> Variables are things that can rise or fall. Every link has a polarity, every loop gets an R or B identifier that turns the same way as the loop, and delays are marked on the link. A loop's type comes from counting its negative links.</li>
+        <li><b>Open systems.</b> A city system exchanges people, money, matter and information across its boundary. Naming the boundary and its flows shows what the festival depends on and what it pushes onto the rest of the city.</li>
+        <li><b>The iceberg.</b> Events, patterns, structures, mental models. The loops are the structure layer; the beliefs in yellow are the mental models that keep them in place.</li>
+        <li><b>Archetypes.</b> Recurring loop shapes such as limits to growth, fixes that fail, shifting the burden, eroding goals and success to the successful.</li>
+        <li><b>Leverage points.</b> Meadows ranks twelve places to intervene, from numbers and buffers (weakest) through delays, feedback loops, information flows, rules and self-organisation to goals and paradigms (strongest).</li></ul>
+        <h2>Limits</h2><p>Signs marked H are our hypotheses, not findings. No link is measured, so the map says what pushes what, not by how much. Loop dominance (which loop wins in a given year) needs data the board does not have yet.</p>
+        <h3>Source codes on links</h3><p>D01 to D07 Dagdusheth findings; KP, KP01 to KP07 Koregaon Park visit; PR primary research insight; Obs our observations; Raw raw data; VoC voice of customer; News secondary sources (police and PMC notices, court rulings, the Raheja Reserve memo, 2022 complaint data); PMC civic figures; SA stakeholder analysis and ecosystem maps.</p>
+        <h3>Further reading</h3>
+        <ul><li><a href="https://en.wikipedia.org/wiki/Twelve_leverage_points" target="_blank" rel="noopener">Twelve leverage points (Meadows)</a></li>
+        <li><a href="https://cascadeinstitute.org/wp-content/uploads/2024/06/Causal-Loop-Diagrams-Handbook-Summary.pdf" target="_blank" rel="noopener">Causal loop diagrams handbook summary (Cascade Institute)</a></li>
+        <li><a href="https://www.iseesystems.com/resources/help/v1-4/Content/03-BuildingModels/Causal_Loop_Diagrams/Creating_CLDs.htm" target="_blank" rel="noopener">Creating causal loop diagrams (isee systems)</a></li>
+        <li><a href="https://www.qub.ac.uk/sites/who/Filestore/Introduction%20to%20systems%20maps%20and%20causal%20loop%20diagrams%20-%20Session%202.pdf" target="_blank" rel="noopener">Introduction to systems maps and causal loop diagrams (Queen's University Belfast)</a></li>
+        <li><a href="https://sfu.ca/complex-systems-frameworks/frameworks/unpacking-complexity/places-to-intervene.html" target="_blank" rel="noopener">Places to intervene (SFU complex systems frameworks)</a></li></ul>`;
+    }
+    b.innerHTML = h; if (keep) b.prepend(keep);
+  }
+  function setLoopsFor(key) {
+    const [k, a, c] = key.split(':');
+    if (k === 'act') { const x = D.act.find(y => y.n == a); const starNodes = D.nodes.filter(n => n.star == a).map(n => n.id);
+      return { loops: x.codes.filter(c => LOOP[c]), html: `<div class="dh"><span class="starno">★${a}</span><h2>Where to act</h2><button class="close" data-close>Close</button></div><p>${linkify(x.text)}</p><p><span class="lev">Leverage ${x.meadows[0]} · ${x.meadows[1]}</span></p>${starNodes.length ? `<h3>★ boxes</h3><div class="chain">${starNodes.map(nodeBtn).join('')}</div>` : ''}` }; }
+    if (k === 'arch') { const x = D.arche[a]; return { loops: x.codes.filter(c => LOOP[c]), html: `<div class="dh"><h2>${esc(x.name)}</h2><button class="close" data-close>Close</button></div><p>${linkify(x.text)}</p>` }; }
+    if (k === 'mm') { const x = D.mental[a]; return { loops: x.codes.filter(c => LOOP[c]), html: `<div class="dh"><h2>“${esc(x.belief)}”</h2><button class="close" data-close>Close</button></div><p>A belief that holds these loops in place: ${x.codes.map(loopChip).join(' ')}</p>` }; }
+    if (k === 'ice') { const x = D.layers[a][c]; const ls = [...new Set(x.refs.flatMap(r => byRef[r] || []))];
+      return { loops: ls, html: `<div class="dh"><h2>${x.star ? '★ ' : ''}${esc(x.text)}</h2><button class="close" data-close>Close</button></div>
+        <p>${ls.length ? 'Loops on this map built from ' : 'None of '}${x.refs.join(', ')}${ls.length ? ': ' + ls.map(loopChip).join(' ') : ' are drawn as loops on this map yet.'}</p>
+        ${x.refs.map(r => D.iceberg[r] ? `<details><summary>${r} ${esc(D.iceberg[r].title)}</summary><p><b>Event.</b> ${esc(D.iceberg[r].event)}</p><p><b>Pattern.</b> ${esc(D.iceberg[r].pattern)}</p><p><b>Hypothesis.</b> ${esc(D.iceberg[r].hyp)}</p></details>` : '').join('')}` }; }
+  }
+  $('#pbody').addEventListener('click', e => {
+    const t = e.target.closest('[data-loop],[data-node],[data-zone],[data-set],[data-flow],[data-close],[data-lf]'); if (!t) return;
+    if (t.dataset.close !== undefined) return clearSel();
+    if (t.dataset.lf) { loopFilter = t.dataset.lf; return renderTab(); }
+    if (t.dataset.loop) return select('loop', t.dataset.loop);
+    if (t.dataset.node) return select('node', t.dataset.node);
+    if (t.dataset.zone) return select('zone', t.dataset.zone);
+    if (t.dataset.flow) return select('flow', +t.dataset.flow);
+    if (t.dataset.set) { const s = setLoopsFor(t.dataset.set); if (s.loops.length) select('set', s, true); else showDetail(s.html); }
+  });
+
+  $('#pbody').addEventListener('keydown', e => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.item[role="button"]')) { e.preventDefault(); e.target.click(); }
+  });
+
+  // ---------- search ----------
+  const q = $('#q'), res = $('#results'); let hits = [], hi = 0;
+  function runSearch() {
+    const s = q.value.trim().toLowerCase(); if (!s) { res.hidden = true; return; }
+    hits = [...D.loops.filter(l => l.id.toLowerCase() === s || l.name.toLowerCase().includes(s)).map(l => ({ k: 'loop', id: l.id, t: l.name })),
+            ...D.nodes.filter(n => n.label.toLowerCase().includes(s)).map(n => ({ k: 'node', id: n.id, t: nodeName(n.id) }))].slice(0, 14);
+    hi = 0;
+    res.innerHTML = hits.length ? hits.map((h, i) => `<button data-i="${i}" class="${i === 0 ? 'on' : ''}">${h.k === 'loop' ? loopChip(h.id).replace('<button', '<span').replace('</button>', '</span>') : '<span class="ref">box</span>'}<span>${esc(h.t)}</span></button>`).join('') : '<button disabled>No box or loop matches</button>';
+    res.hidden = false;
+  }
+  q.addEventListener('input', runSearch);
+  q.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); hi = (hi + (e.key === 'ArrowDown' ? 1 : hits.length - 1)) % Math.max(hits.length, 1); $$('button', res).forEach((b, i) => b.classList.toggle('on', i === hi)); }
+    if (e.key === 'Enter' && hits[hi]) { select(hits[hi].k, hits[hi].id); res.hidden = true; q.blur(); }
+    if (e.key === 'Escape') { res.hidden = true; q.value = ''; }
+  });
+  res.addEventListener('click', e => { const b = e.target.closest('[data-i]'); if (!b) return; const h = hits[+b.dataset.i]; select(h.k, h.id); res.hidden = true; });
+  document.addEventListener('click', e => { if (!e.target.closest('.search')) res.hidden = true; });
+
+  // ---------- bottom sheet ----------
+  function setSheet(open) { $('#panel').classList.toggle('collapsed', !open); $('#handle').setAttribute('aria-expanded', open); }
+  $('#handle').onclick = () => setSheet($('#panel').classList.contains('collapsed'));
+  if (window.matchMedia('(max-width: 900px)').matches) setSheet(false);
+
+  // ---------- start ----------
+  renderTab();
+  vb.h = vb.w * aspect(); fitAll(false);
+  const h0 = decodeURIComponent(location.hash.slice(1));
+  if (h0) { if (LOOP[h0]) select('loop', h0); else if (/^zone\d+$/.test(h0) && D.zones[h0.slice(4)]) select('zone', h0.slice(4)); }
+})();
+</script>

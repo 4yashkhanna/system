@@ -1,0 +1,3268 @@
+{
+"nodes": {
+"854:12419": {
+"id": "854:12419",
+"zone": 1,
+"text": "NUMBER OF SMALL PANDALS IN THE AREA",
+"x": 1410.0,
+"y": 1455.6663818359375,
+"w": 380.0
+},
+"854:12423": {
+"id": "854:12423",
+"zone": 1,
+"text": "SHARED SUPPLIERS, WORKERS AND KNOW-HOW",
+"x": 1776.40625,
+"y": 2048.90576171875,
+"w": 380.0
+},
+"854:12427": {
+"id": "854:12427",
+"zone": 1,
+"text": "EASIER TO SET UP ANOTHER PANDAL",
+"x": 1057.078125,
+"y": 2013.673828125,
+"w": 380.0
+},
+"854:12431": {
+"id": "854:12431",
+"zone": 1,
+"text": "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+"x": 890.0,
+"y": 1455.6663818359375,
+"w": 380.0
+},
+"854:12435": {
+"id": "854:12435",
+"zone": 1,
+"text": "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) \u25c7 ZONE 7",
+"x": 630.0,
+"y": 1005.3331909179688,
+"w": 380.0
+},
+"854:12439": {
+"id": "854:12439",
+"zone": 1,
+"text": "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+"x": 890.0,
+"y": 555.0,
+"w": 380.0
+},
+"854:12443": {
+"id": "854:12443",
+"zone": 1,
+"text": "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ZONE 12",
+"x": 1410.0,
+"y": 555.0,
+"w": 380.0
+},
+"854:12447": {
+"id": "854:12447",
+"zone": 1,
+"text": "ENFORCEMENT OF ROAD AND FOOTPATH RULES \u25c7 ZONE 2",
+"x": 1589.265625,
+"y": 958.0146484375,
+"w": 380.0
+},
+"854:12451": {
+"id": "854:12451",
+"zone": 1,
+"text": "RESIDENTS TAKING PART IN LOCAL CELEBRATIONS",
+"x": 1870.734375,
+"y": 1122.9853515625,
+"w": 380.0
+},
+"854:12455": {
+"id": "854:12455",
+"zone": 1,
+"text": "NEIGHBOURS MEETING AT THE CELEBRATION",
+"x": 2170.0,
+"y": 1455.6663818359375,
+"w": 380.0
+},
+"854:12459": {
+"id": "854:12459",
+"zone": 1,
+"text": "ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL",
+"x": 1792.359375,
+"y": 1799.06103515625,
+"w": 380.0
+},
+"854:12463": {
+"id": "854:12463",
+"zone": 1,
+"text": "SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) \u25c7 ZONE 2",
+"x": 926.875,
+"y": 1738.83447265625,
+"w": 380.0
+},
+"854:12467": {
+"id": "854:12467",
+"zone": 1,
+"text": "DONATIONS AND SPONSORSHIP \u25c7 ZONE 6",
+"x": 1398.75,
+"y": 2181.009765625,
+"w": 380.0
+},
+"854:12471": {
+"id": "854:12471",
+"zone": 1,
+"text": "RESIDENTS' OWN ROLE AND KNOW-HOW \u25c7 ZONE 9",
+"x": 2150.875,
+"y": 2263.8818359375,
+"w": 380.0
+},
+"854:12559": {
+"id": "854:12559",
+"zone": 2,
+"text": "\u26052 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026)",
+"x": 1927.828125,
+"y": 1324.302734375,
+"w": 380.0
+},
+"854:12563": {
+"id": "854:12563",
+"zone": 2,
+"text": "FESTIVAL SCALE AND SPECTACLE \u25c7 ZONE 6",
+"x": 2256.92138671875,
+"y": 1894.3028564453125,
+"w": 380.0
+},
+"854:12567": {
+"id": "854:12567",
+"zone": 2,
+"text": "STREET SPACE TAKEN BY THE FESTIVAL",
+"x": 1598.734375,
+"y": 1894.302734375,
+"w": 380.0
+},
+"854:12571": {
+"id": "854:12571",
+"zone": 2,
+"text": "PANDAL LAYOUT PLANNED FOR THE SITE",
+"x": 1357.828125,
+"y": 995.21337890625,
+"w": 380.0
+},
+"854:12575": {
+"id": "854:12575",
+"zone": 2,
+"text": "SAME LAYOUT REUSED EACH YEAR",
+"x": 1927.828125,
+"y": 666.12353515625,
+"w": 380.0
+},
+"854:12579": {
+"id": "854:12579",
+"zone": 2,
+"text": "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) \u25c7 ZONE 7",
+"x": 1293.09375,
+"y": 2314.99169921875,
+"w": 380.0
+},
+"854:12583": {
+"id": "854:12583",
+"zone": 2,
+"text": "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+"x": 798.546875,
+"y": 2154.302734375,
+"w": 380.0
+},
+"854:12587": {
+"id": "854:12587",
+"zone": 2,
+"text": "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ZONE 12",
+"x": 798.546875,
+"y": 1634.302734375,
+"w": 380.0
+},
+"854:12591": {
+"id": "854:12591",
+"zone": 2,
+"text": "ENFORCEMENT OF ROAD AND FOOTPATH RULES",
+"x": 1293.09375,
+"y": 1473.614013671875,
+"w": 380.0
+},
+"854:12595": {
+"id": "854:12595",
+"zone": 2,
+"text": "RESIDENTS AND VISITORS EXPECTING IT THERE",
+"x": 2432.03125,
+"y": 901.2333984375,
+"w": 380.0
+},
+"854:12599": {
+"id": "854:12599",
+"zone": 2,
+"text": "SITE TREATED AS THE MANDAL'S OWN",
+"x": 2546.3125,
+"y": 1549.41357421875,
+"w": 380.0
+},
+"854:12603": {
+"id": "854:12603",
+"zone": 2,
+"text": "FOOTPRINT ON ROAD, DRAINS AND CROSSWALKS",
+"x": 917.625,
+"y": 1303.4541015625,
+"w": 380.0
+},
+"854:12607": {
+"id": "854:12607",
+"zone": 2,
+"text": "GAP TO CLEAR PATHS (GOAL: PMC, NGT 2022)",
+"x": 609.375,
+"y": 863.24072265625,
+"w": 380.0
+},
+"854:12611": {
+"id": "854:12611",
+"zone": 2,
+"text": "LAYOUT TRIMMED TO THE SITE",
+"x": 1049.59375,
+"y": 555.0,
+"w": 380.0
+},
+"854:12615": {
+"id": "854:12615",
+"zone": 2,
+"text": "\u26052 PANDAL PLACED ON A MAIN ROAD",
+"x": 1128.46875,
+"y": 3413.1708984375,
+"w": 380.0
+},
+"854:12619": {
+"id": "854:12619",
+"zone": 2,
+"text": "PASSERS-BY AND ROADSIDE CROWDS",
+"x": 1457.5625,
+"y": 3983.1708984375,
+"w": 380.0
+},
+"854:12623": {
+"id": "854:12623",
+"zone": 2,
+"text": "MANDAL VALUING THE VISIBLE SPOT",
+"x": 799.375,
+"y": 3983.1708984375,
+"w": 380.0
+},
+"854:12627": {
+"id": "854:12627",
+"zone": 2,
+"text": "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3",
+"x": 609.375,
+"y": 3274.0810546875,
+"w": 380.0
+},
+"854:12631": {
+"id": "854:12631",
+"zone": 2,
+"text": "GAP TO NORMAL MOVEMENT",
+"x": 748.46875,
+"y": 2754.9921875,
+"w": 380.0
+},
+"854:12635": {
+"id": "854:12635",
+"zone": 2,
+"text": "SITES MOVED TO GROUNDS OR COMPOUNDS",
+"x": 1267.5625,
+"y": 2894.0810546875,
+"w": 380.0
+},
+"854:12639": {
+"id": "854:12639",
+"zone": 2,
+"text": "ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY TRUST LEADERSHIP) \u25c7 ZONE 6",
+"x": 1797.78125,
+"y": 2275.46484375,
+"w": 380.0
+},
+"854:12771": {
+"id": "854:12771",
+"zone": 3,
+"text": "CONGESTION AT THE SITE",
+"x": 2670.6875,
+"y": 1231.18212890625,
+"w": 380.0
+},
+"854:12775": {
+"id": "854:12775",
+"zone": 3,
+"text": "EMERGENCY TRAVEL TIME THROUGH THE AREA",
+"x": 3050.6875,
+"y": 1611.18212890625,
+"w": 380.0
+},
+"854:12779": {
+"id": "854:12779",
+"zone": 3,
+"text": "\u260510 PROTECTED EMERGENCY CORRIDORS",
+"x": 2670.6875,
+"y": 1991.18212890625,
+"w": 380.0
+},
+"854:12783": {
+"id": "854:12783",
+"zone": 3,
+"text": "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+"x": 2290.6875,
+"y": 1611.18212890625,
+"w": 380.0
+},
+"854:12787": {
+"id": "854:12787",
+"zone": 3,
+"text": "BLOCKED JUNCTIONS ON KEY ROUTES",
+"x": 3496.34375,
+"y": 2624.4755859375,
+"w": 380.0
+},
+"854:12791": {
+"id": "854:12791",
+"zone": 3,
+"text": "POLICE BARRICADES AND DIVERSIONS",
+"x": 2100.6875,
+"y": 902.0924682617188,
+"w": 380.0
+},
+"854:12795": {
+"id": "854:12795",
+"zone": 3,
+"text": "CROWD CHANNELLED INTO BARRICADED LANES",
+"x": 2670.6875,
+"y": 573.0027770996094,
+"w": 380.0
+},
+"854:12799": {
+"id": "854:12799",
+"zone": 3,
+"text": "DEDICATED SPACE FOR THE CROWD",
+"x": 1961.59375,
+"y": 1421.18212890625,
+"w": 380.0
+},
+"854:12803": {
+"id": "854:12803",
+"zone": 3,
+"text": "CROWD SPILLING ONTO THE CARRIAGEWAY",
+"x": 1450.28125,
+"y": 1283.2998046875,
+"w": 380.0
+},
+"854:12807": {
+"id": "854:12807",
+"zone": 3,
+"text": "GAP TO SEPARATED FLOWS (CROWD AND VEHICLES)",
+"x": 1574.796875,
+"y": 768.34033203125,
+"w": 380.0
+},
+"854:12811": {
+"id": "854:12811",
+"zone": 3,
+"text": "VISITORS ASKING VOLUNTEERS FOR DIRECTIONS",
+"x": 1579.828125,
+"y": 3722.654296875,
+"w": 380.0
+},
+"854:12815": {
+"id": "854:12815",
+"zone": 3,
+"text": "VOLUNTEERS ACTING AS THE SIGNAGE",
+"x": 1908.90625,
+"y": 4292.654296875,
+"w": 380.0
+},
+"854:12819": {
+"id": "854:12819",
+"zone": 3,
+"text": "\u26058 INVESTMENT IN CLEAR SIGNS",
+"x": 1250.734375,
+"y": 4292.654296875,
+"w": 380.0
+},
+"854:12823": {
+"id": "854:12823",
+"zone": 3,
+"text": "VOLUNTEER WORKLOAD AT JUNCTIONS",
+"x": 1009.828125,
+"y": 3393.564453125,
+"w": 380.0
+},
+"854:12827": {
+"id": "854:12827",
+"zone": 3,
+"text": "VISITORS GUESSING OR FOLLOWING OTHERS",
+"x": 1579.828125,
+"y": 3064.4755859375,
+"w": 380.0
+},
+"854:12831": {
+"id": "854:12831",
+"zone": 3,
+"text": "PANDAL PLACED ON A MAIN ROAD \u25c7 ZONE 2",
+"x": 1009.828125,
+"y": 1214.9140625,
+"w": 380.0
+},
+"854:12835": {
+"id": "854:12835",
+"zone": 3,
+"text": "VISITOR FOOTFALL AT THE SITE \u25c7 ZONE 6",
+"x": 1095.40625,
+"y": 1535.89990234375,
+"w": 380.0
+},
+"854:12839": {
+"id": "854:12839",
+"zone": 3,
+"text": "LENGTH AND DURATION OF THE PROCESSION \u25c7 ZONE 6",
+"x": 1846.515625,
+"y": 555.0,
+"w": 380.0
+},
+"854:12843": {
+"id": "854:12843",
+"zone": 3,
+"text": "CROWD GUIDANCE BY VOLUNTEERS",
+"x": 2538.90625,
+"y": 3064.4755859375,
+"w": 380.0
+},
+"854:12964": {
+"id": "854:12964",
+"zone": 4,
+"text": "CONGESTION ON SURROUNDING ROUTES",
+"x": 1428.312255859375,
+"y": 1218.5074462890625,
+"w": 380.0
+},
+"854:12968": {
+"id": "854:12968",
+"zone": 4,
+"text": "CONGESTION VISITORS EXPECT",
+"x": 1796.6875,
+"y": 1593.17919921875,
+"w": 380.0
+},
+"854:12972": {
+"id": "854:12972",
+"zone": 4,
+"text": "GAP TO A BEARABLE TRIP (VISITORS)",
+"x": 1416.6875,
+"y": 1973.17919921875,
+"w": 380.0
+},
+"854:12976": {
+"id": "854:12976",
+"zone": 4,
+"text": "VISITORS SHIFTING TIME, ROUTE OR MODE",
+"x": 1036.6875,
+"y": 1593.17919921875,
+"w": 380.0
+},
+"854:12980": {
+"id": "854:12980",
+"zone": 4,
+"text": "CROWDING ON THE SAME ALTERNATIVE ROUTES",
+"x": 340.0,
+"y": 1984.4117431640625,
+"w": 380.0
+},
+"854:12984": {
+"id": "854:12984",
+"zone": 4,
+"text": "CONGESTION VISITORS EXPECT \u25c7 ALSO IN B3",
+"x": 870.125,
+"y": 2607.2841796875,
+"w": 380.0
+},
+"854:12988": {
+"id": "854:12988",
+"zone": 4,
+"text": "CARS ARRIVING AT THE PEAK",
+"x": 1072.109375,
+"y": 1055.23486328125,
+"w": 380.0
+},
+"854:12992": {
+"id": "854:12992",
+"zone": 4,
+"text": "GAP TO A BEARABLE TRIP (VISITORS) \u25c7 ALSO IN B3, R13",
+"x": 548.171875,
+"y": 1010.9853515625,
+"w": 380.0
+},
+"854:12996": {
+"id": "854:12996",
+"zone": 4,
+"text": "ADVISORIES ISSUED BY TRAFFIC POLICE",
+"x": 501.328125,
+"y": 1546.341796875,
+"w": 380.0
+},
+"854:13000": {
+"id": "854:13000",
+"zone": 4,
+"text": "POLICE PULLED TO NEW HOTSPOTS",
+"x": 1416.6875,
+"y": 555.0,
+"w": 380.0
+},
+"854:13004": {
+"id": "854:13004",
+"zone": 4,
+"text": "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3",
+"x": 1986.6875,
+"y": 884.08984375,
+"w": 380.0
+},
+"854:13008": {
+"id": "854:13008",
+"zone": 4,
+"text": "DRIVERS ON ALTERNATIVE ROUTES",
+"x": 2644.875,
+"y": 884.08984375,
+"w": 380.0
+},
+"854:13012": {
+"id": "854:13012",
+"zone": 4,
+"text": "NEW BOTTLENECKS ON SIDE ROADS",
+"x": 2315.78125,
+"y": 1454.08984375,
+"w": 380.0
+},
+"854:13016": {
+"id": "854:13016",
+"zone": 4,
+"text": "CONGESTION AT THE SITE \u25c7 ZONE 3",
+"x": 3214.875,
+"y": 555.0,
+"w": 380.0
+},
+"854:13020": {
+"id": "854:13020",
+"zone": 4,
+"text": "GAP TO AN ACCEPTABLE TRAVEL TIME",
+"x": 3214.875,
+"y": 1213.17919921875,
+"w": 380.0
+},
+"854:13024": {
+"id": "854:13024",
+"zone": 4,
+"text": "VISITORS SHIFTING TIME, ROUTE OR MODE \u25c7 ALSO IN B3, R13, B26",
+"x": 669.09375,
+"y": 3047.2841796875,
+"w": 380.0
+},
+"854:13028": {
+"id": "854:13028",
+"zone": 4,
+"text": "JAMS AVOIDED BY THOSE WHO CHECKED",
+"x": 998.171875,
+"y": 3617.2841796875,
+"w": 380.0
+},
+"854:13032": {
+"id": "854:13032",
+"zone": 4,
+"text": "TRUST IN TRAFFIC ADVISORIES",
+"x": 340.0,
+"y": 3617.2841796875,
+"w": 380.0
+},
+"854:13036": {
+"id": "854:13036",
+"zone": 4,
+"text": "MANDALS IN THE MAIN PROCESSION \u25c7 ZONE 6",
+"x": 1050.890625,
+"y": 786.2509765625,
+"w": 380.0
+},
+"854:13164": {
+"id": "854:13164",
+"zone": 5,
+"text": "VISITOR FOOTFALL AT THE SITE \u25c7 ZONE 6",
+"x": 1349.09375,
+"y": 1755.0,
+"w": 380.0
+},
+"854:13168": {
+"id": "854:13168",
+"zone": 5,
+"text": "INCOME FOR SHOPS AND FLOWER VENDORS",
+"x": 1678.171875,
+"y": 2325.0,
+"w": 380.0
+},
+"854:13172": {
+"id": "854:13172",
+"zone": 5,
+"text": "SHOPS FACING THE CROWD BACKING THE FESTIVAL",
+"x": 1020.0,
+"y": 2325.0,
+"w": 380.0
+},
+"854:13176": {
+"id": "854:13176",
+"zone": 5,
+"text": "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3",
+"x": 1400.0,
+"y": 555.0,
+"w": 380.0
+},
+"854:13180": {
+"id": "854:13180",
+"zone": 5,
+"text": "DISPLACEMENT OF HAWKERS",
+"x": 1780.0,
+"y": 935.0,
+"w": 380.0
+},
+"854:13184": {
+"id": "854:13184",
+"zone": 5,
+"text": "HAWKERS SETTING UP AT THE CROWD'S EDGE",
+"x": 1400.0,
+"y": 1315.0,
+"w": 380.0
+},
+"854:13188": {
+"id": "854:13188",
+"zone": 5,
+"text": "CONGESTION AT THE SITE \u25c7 ZONE 3",
+"x": 1020.0,
+"y": 935.0,
+"w": 380.0
+},
+"854:13229": {
+"id": "854:13229",
+"zone": 6,
+"text": "FESTIVAL SCALE AND SPECTACLE",
+"x": 1296.75,
+"y": 1289.4384765625,
+"w": 380.0
+},
+"854:13233": {
+"id": "854:13233",
+"zone": 6,
+"text": "FESTIVAL VISIBILITY ACROSS THE CITY",
+"x": 1676.75,
+"y": 1669.4384765625,
+"w": 380.0
+},
+"854:13237": {
+"id": "854:13237",
+"zone": 6,
+"text": "VISITOR FOOTFALL AT THE SITE",
+"x": 1296.75,
+"y": 2049.4384765625,
+"w": 380.0
+},
+"854:13241": {
+"id": "854:13241",
+"zone": 6,
+"text": "DONATIONS AND SPONSORSHIP",
+"x": 916.75,
+"y": 1669.4384765625,
+"w": 380.0
+},
+"854:13245": {
+"id": "854:13245",
+"zone": 6,
+"text": "TRIPS TO THE BIG CENTRAL MANDALS",
+"x": 2420.90625,
+"y": 1446.0390625,
+"w": 380.0
+},
+"854:13249": {
+"id": "854:13249",
+"zone": 6,
+"text": "VISITOR FOOTFALL AT THE SITE \u25c7 ALSO IN R4, R12",
+"x": 2358.734375,
+"y": 665.7744140625,
+"w": 380.0
+},
+"854:13253": {
+"id": "854:13253",
+"zone": 6,
+"text": "DONATIONS AND SPONSORSHIP \u25c7 ALSO IN R4, R12",
+"x": 1583.890625,
+"y": 555.0,
+"w": 380.0
+},
+"854:13257": {
+"id": "854:13257",
+"zone": 6,
+"text": "PROGRAMMES AND THEMED DISPLAYS",
+"x": 340.0,
+"y": 2495.61865234375,
+"w": 380.0
+},
+"854:13261": {
+"id": "854:13261",
+"zone": 6,
+"text": "MANDALS APPLYING TO JOIN THE PROCESSION",
+"x": 2246.75,
+"y": 1998.5283203125,
+"w": 380.0
+},
+"854:13265": {
+"id": "854:13265",
+"zone": 6,
+"text": "MANDALS IN THE MAIN PROCESSION",
+"x": 1676.75,
+"y": 2327.6181640625,
+"w": 380.0
+},
+"854:13269": {
+"id": "854:13269",
+"zone": 6,
+"text": "LENGTH AND DURATION OF THE PROCESSION",
+"x": 1679.53125,
+"y": 3092.361328125,
+"w": 380.0
+},
+"854:13273": {
+"id": "854:13273",
+"zone": 6,
+"text": "\u26057 GAP BEYOND ONE DAY OF SECURITY AND TRAFFIC CAPACITY",
+"x": 2446.0625,
+"y": 3267.0869140625,
+"w": 380.0
+},
+"854:13277": {
+"id": "854:13277",
+"zone": 6,
+"text": "MANDALS DENIED ENTRY TO THE PROCESSION",
+"x": 2815.703125,
+"y": 2573.212890625,
+"w": 380.0
+},
+"854:13281": {
+"id": "854:13281",
+"zone": 6,
+"text": "PRESTIGE OF JOINING THE PROCESSION",
+"x": 2167.578125,
+"y": 2437.5498046875,
+"w": 380.0
+},
+"854:13285": {
+"id": "854:13285",
+"zone": 6,
+"text": "VISITOR EXPECTATIONS OF A \"GOOD\" FESTIVAL",
+"x": 638.5625,
+"y": 1289.4384765625,
+"w": 380.0
+},
+"854:13289": {
+"id": "854:13289",
+"zone": 6,
+"text": "ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY TRUST LEADERSHIP)",
+"x": 967.65625,
+"y": 719.4384765625,
+"w": 380.0
+},
+"854:13293": {
+"id": "854:13293",
+"zone": 6,
+"text": "DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL)",
+"x": 669.09375,
+"y": 3707.0869140625,
+"w": 380.0
+},
+"854:13297": {
+"id": "854:13297",
+"zone": 6,
+"text": "PATHAK PERFORMANCES IN PROCESSIONS",
+"x": 998.171875,
+"y": 4277.087890625,
+"w": 380.0
+},
+"854:13301": {
+"id": "854:13301",
+"zone": 6,
+"text": "YOUTH PRIDE IN THE PATHAKS",
+"x": 340.0,
+"y": 4277.08740234375,
+"w": 380.0
+},
+"854:13432": {
+"id": "854:13432",
+"zone": 7,
+"text": "DISRUPTION FELT BY NON-PARTICIPANTS",
+"x": 2085.15625,
+"y": 1808.392578125,
+"w": 380.0
+},
+"854:13436": {
+"id": "854:13436",
+"zone": 7,
+"text": "\u26051 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS",
+"x": 2535.484375,
+"y": 2068.392578125,
+"w": 380.0
+},
+"854:13440": {
+"id": "854:13440",
+"zone": 7,
+"text": "\u26051 DISRUPTION VISIBLE TO PLANNERS",
+"x": 2535.484375,
+"y": 2588.392578125,
+"w": 380.0
+},
+"854:13444": {
+"id": "854:13444",
+"zone": 7,
+"text": "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ZONE 11",
+"x": 2085.15625,
+"y": 2848.392578125,
+"w": 380.0
+},
+"854:13448": {
+"id": "854:13448",
+"zone": 7,
+"text": "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+"x": 1634.828125,
+"y": 2588.392578125,
+"w": 380.0
+},
+"854:13452": {
+"id": "854:13452",
+"zone": 7,
+"text": "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES)",
+"x": 1634.828125,
+"y": 2068.392578125,
+"w": 380.0
+},
+"854:13456": {
+"id": "854:13456",
+"zone": 7,
+"text": "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ZONE 12",
+"x": 2254.6875,
+"y": 1016.0869140625,
+"w": 380.0
+},
+"854:13460": {
+"id": "854:13460",
+"zone": 7,
+"text": "DISRUPTION VISIBLE TO PLANNERS \u25c7 ALSO IN R15, R29",
+"x": 1659.96875,
+"y": 555.0,
+"w": 380.0
+},
+"854:13464": {
+"id": "854:13464",
+"zone": 7,
+"text": "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ZONE 11",
+"x": 941.953125,
+"y": 890.591796875,
+"w": 380.0
+},
+"854:13468": {
+"id": "854:13468",
+"zone": 7,
+"text": "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+"x": 925.984375,
+"y": 1680.7197265625,
+"w": 380.0
+},
+"854:13472": {
+"id": "854:13472",
+"zone": 7,
+"text": "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ZONE 11",
+"x": 3580.1875,
+"y": 2215.255859375,
+"w": 380.0
+},
+"854:13476": {
+"id": "854:13476",
+"zone": 7,
+"text": "\u26056 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE)",
+"x": 2725.8125,
+"y": 1806.9033203125,
+"w": 380.0
+},
+"854:13480": {
+"id": "854:13480",
+"zone": 7,
+"text": "SURPRISE DISRUPTIONS",
+"x": 2400.21875,
+"y": 1250.0,
+"w": 380.0
+},
+"854:13484": {
+"id": "854:13484",
+"zone": 7,
+"text": "OWN DELAY AND DISCOMFORT",
+"x": 3171.5,
+"y": 1844.7705078125,
+"w": 380.0
+},
+"854:13488": {
+"id": "854:13488",
+"zone": 7,
+"text": "GAP TO A NORMAL ROUTINE (GOAL: NORMAL TRAVEL TIME)",
+"x": 2686.3125,
+"y": 1444.7275390625,
+"w": 380.0
+},
+"854:13492": {
+"id": "854:13492",
+"zone": 7,
+"text": "PRIVATE ADAPTATION BY RESIDENTS AND WORKERS \u25c7 ALSO IN R15, B19, R29",
+"x": 1305.984375,
+"y": 3288.392578125,
+"w": 380.0
+},
+"854:13496": {
+"id": "854:13496",
+"zone": 7,
+"text": "TRIPS THROUGH THE RESTRICTED AREA",
+"x": 1685.984375,
+"y": 3668.392578125,
+"w": 380.0
+},
+"854:13500": {
+"id": "854:13500",
+"zone": 7,
+"text": "DELAYS ON USUAL ROUTES (ERRANDS, DELIVERIES)",
+"x": 1305.984375,
+"y": 4048.392578125,
+"w": 380.0
+},
+"854:13504": {
+"id": "854:13504",
+"zone": 7,
+"text": "GAP TO DEADLINES AND ERRANDS",
+"x": 925.984375,
+"y": 3668.392578125,
+"w": 380.0
+},
+"854:13508": {
+"id": "854:13508",
+"zone": 7,
+"text": "POLICE BARRICADES AND DIVERSIONS \u25c7 ZONE 3",
+"x": 1305.984375,
+"y": 4478.392578125,
+"w": 380.0
+},
+"854:13512": {
+"id": "854:13512",
+"zone": 7,
+"text": "CONGESTION AT THE SITE \u25c7 ZONE 3",
+"x": 1222.59375,
+"y": 2188.6640625,
+"w": 380.0
+},
+"854:13516": {
+"id": "854:13516",
+"zone": 7,
+"text": "CONGESTION ON SURROUNDING ROUTES \u25c7 ZONE 4",
+"x": 1091.921875,
+"y": 1931.087890625,
+"w": 380.0
+},
+"854:13645": {
+"id": "854:13645",
+"zone": 8,
+"text": "AGENCIES PLANNING STAGE BY STAGE",
+"x": 2174.09375,
+"y": 1137.193359375,
+"w": 380.0
+},
+"854:13649": {
+"id": "854:13649",
+"zone": 8,
+"text": "MISSED HAND-OFFS BETWEEN STAGES",
+"x": 2509.046875,
+"y": 1699.41015625,
+"w": 380.0
+},
+"854:13653": {
+"id": "854:13653",
+"zone": 8,
+"text": "COORDINATION BETWEEN MANDALS, POLICE AND PMC",
+"x": 1845.0,
+"y": 1707.193359375,
+"w": 380.0
+},
+"854:13657": {
+"id": "854:13657",
+"zone": 8,
+"text": "FIREFIGHTING AT EACH STAGE",
+"x": 3121.875,
+"y": 855.7509765625,
+"w": 380.0
+},
+"854:13661": {
+"id": "854:13661",
+"zone": 8,
+"text": "CLASHES ON THE GROUND (SOUND, ROUTES, SPACE)",
+"x": 1408.96875,
+"y": 2047.9609375,
+"w": 380.0
+},
+"854:13665": {
+"id": "854:13665",
+"zone": 8,
+"text": "GAP TO ONE PLAN AGREED BEFORE SETUP",
+"x": 1085.0,
+"y": 1707.193359375,
+"w": 380.0
+},
+"854:13669": {
+"id": "854:13669",
+"zone": 8,
+"text": "EXTRA MEETINGS AND FOLLOW-UPS",
+"x": 1461.796875,
+"y": 1331.5751953125,
+"w": 380.0
+},
+"854:13673": {
+"id": "854:13673",
+"zone": 8,
+"text": "FORMAL CHECKS: PMC SINGLE WINDOW, POLICE CONDITIONS",
+"x": 432.984375,
+"y": 2209.8837890625,
+"w": 380.0
+},
+"854:13677": {
+"id": "854:13677",
+"zone": 8,
+"text": "PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC",
+"x": 1028.828125,
+"y": 2766.072265625,
+"w": 380.0
+},
+"854:13681": {
+"id": "854:13681",
+"zone": 8,
+"text": "ADVANCE NOTICE TO AFFECTED PEOPLE",
+"x": 2326.1875,
+"y": 1942.0927734375,
+"w": 380.0
+},
+"854:13685": {
+"id": "854:13685",
+"zone": 8,
+"text": "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+"x": 2104.9375,
+"y": 2421.3603515625,
+"w": 380.0
+},
+"854:13689": {
+"id": "854:13689",
+"zone": 8,
+"text": "DISRUPTION VISIBLE TO PLANNERS \u25c7 ZONE 7",
+"x": 1673.921875,
+"y": 2233.478515625,
+"w": 380.0
+},
+"854:13693": {
+"id": "854:13693",
+"zone": 8,
+"text": "FAMILIAR RELATIONSHIP WITH THE POLICE CHOWKI",
+"x": 1647.3125,
+"y": 2991.18359375,
+"w": 380.0
+},
+"854:13697": {
+"id": "854:13697",
+"zone": 8,
+"text": "INFORMAL NODS AND QUICK APPROVALS",
+"x": 1141.796875,
+"y": 3414.240234375,
+"w": 380.0
+},
+"854:13701": {
+"id": "854:13701",
+"zone": 8,
+"text": "PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP",
+"x": 1641.953125,
+"y": 1085.974609375,
+"w": 380.0
+},
+"854:13705": {
+"id": "854:13705",
+"zone": 8,
+"text": "GAP TO ONE SMOOTH FESTIVAL CYCLE",
+"x": 1685.578125,
+"y": 555.0,
+"w": 380.0
+},
+"854:13709": {
+"id": "854:13709",
+"zone": 8,
+"text": "\u26054 JOINT WHOLE-CYCLE PLANNING (PMC, POLICE, MANDALS)",
+"x": 2220.9375,
+"y": 601.837890625,
+"w": 380.0
+},
+"854:13713": {
+"id": "854:13713",
+"zone": 8,
+"text": "COORDINATION BETWEEN MANDALS, POLICE AND PMC \u25c7 ALSO IN B15, B17, B28",
+"x": 762.078125,
+"y": 3858.5546875,
+"w": 380.0
+},
+"854:13717": {
+"id": "854:13717",
+"zone": 8,
+"text": "TRUST BETWEEN MANDALS AND POLICE",
+"x": 1091.171875,
+"y": 4428.5546875,
+"w": 380.0
+},
+"854:13721": {
+"id": "854:13721",
+"zone": 8,
+"text": "SHARED PLANS: ROUTES, SOUND, PERMISSIONS",
+"x": 432.984375,
+"y": 4428.5546875,
+"w": 380.0
+},
+"854:13725": {
+"id": "854:13725",
+"zone": 8,
+"text": "SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) \u25c7 ZONE 2",
+"x": 1601.0308837890625,
+"y": 3418.55419921875,
+"w": 380.0
+},
+"854:13729": {
+"id": "854:13729",
+"zone": 8,
+"text": "LENGTH AND DURATION OF THE PROCESSION \u25c7 ZONE 6",
+"x": 1355.03125,
+"y": 767.2353515625,
+"w": 380.0
+},
+"854:13872": {
+"id": "854:13872",
+"zone": 9,
+"text": "PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA)",
+"x": 1520.453125,
+"y": 1213.1796875,
+"w": 380.0
+},
+"854:13876": {
+"id": "854:13876",
+"zone": 9,
+"text": "RESIDENTS' OWN ROLE AND KNOW-HOW",
+"x": 1849.546875,
+"y": 1783.1796875,
+"w": 380.0
+},
+"854:13880": {
+"id": "854:13880",
+"zone": 9,
+"text": "COMMUNITY KNOW-HOW",
+"x": 1191.359375,
+"y": 1783.1796875,
+"w": 380.0
+},
+"854:13884": {
+"id": "854:13884",
+"zone": 9,
+"text": "LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE)",
+"x": 950.453125,
+"y": 884.08984375,
+"w": 380.0
+},
+"854:13888": {
+"id": "854:13888",
+"zone": 9,
+"text": "\u26059 MANDALS AND RESIDENTS TAKING TASKS BACK",
+"x": 1520.453125,
+"y": 555.0,
+"w": 380.0
+},
+"854:13892": {
+"id": "854:13892",
+"zone": 9,
+"text": "IDOLS IMMERSED IN THE RIVER",
+"x": 1330.453125,
+"y": 2223.1796875,
+"w": 380.0
+},
+"854:13896": {
+"id": "854:13896",
+"zone": 9,
+"text": "RIVER POLLUTION (MULA-MUTHA)",
+"x": 1710.453125,
+"y": 2603.1796875,
+"w": 380.0
+},
+"854:13900": {
+"id": "854:13900",
+"zone": 9,
+"text": "COURT, NGT AND MPCB RULES",
+"x": 1330.453125,
+"y": 2983.1796875,
+"w": 380.0
+},
+"854:13904": {
+"id": "854:13904",
+"zone": 9,
+"text": "ECO IDOLS, TANKS",
+"x": 950.453125,
+"y": 2603.1796875,
+"w": 380.0
+},
+"854:13960": {
+"id": "854:13960",
+"zone": 10,
+"text": "POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS",
+"x": 1356.203125,
+"y": 1213.1796875,
+"w": 380.0
+},
+"854:13964": {
+"id": "854:13964",
+"zone": 10,
+"text": "STAFF AND SERVICES DIVERTED TO THE FESTIVAL",
+"x": 1736.203125,
+"y": 1593.1796875,
+"w": 380.0
+},
+"854:13968": {
+"id": "854:13968",
+"zone": 10,
+"text": "ROUTINE CIVIC AND POLICE SERVICES STRETCHED",
+"x": 1356.203125,
+"y": 1973.1796875,
+"w": 380.0
+},
+"854:13972": {
+"id": "854:13972",
+"zone": 10,
+"text": "PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK",
+"x": 976.203125,
+"y": 1593.1796875,
+"w": 380.0
+},
+"854:13976": {
+"id": "854:13976",
+"zone": 10,
+"text": "PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK \u25c7 ALSO IN B31",
+"x": 2369.5,
+"y": 2418.83984375,
+"w": 380.0
+},
+"854:13980": {
+"id": "854:13980",
+"zone": 10,
+"text": "FESTIVAL HANDLED WITHOUT NEW SYSTEMS",
+"x": 1736.203125,
+"y": 935.0,
+"w": 380.0
+},
+"854:13984": {
+"id": "854:13984",
+"zone": 10,
+"text": "CASE FOR DEDICATED FESTIVAL CAPACITY",
+"x": 2306.203125,
+"y": 1264.08984375,
+"w": 380.0
+},
+"854:13988": {
+"id": "854:13988",
+"zone": 10,
+"text": "SITE SEEN AS SAFE AND MANAGED",
+"x": 786.203125,
+"y": 884.08984375,
+"w": 380.0
+},
+"854:13992": {
+"id": "854:13992",
+"zone": 10,
+"text": "VISITOR FOOTFALL AT THE SITE \u25c7 ZONE 6",
+"x": 1356.203125,
+"y": 555.0,
+"w": 380.0
+},
+"854:13996": {
+"id": "854:13996",
+"zone": 10,
+"text": "LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) \u25c7 ZONE 9",
+"x": 1175.875,
+"y": 2363.541015625,
+"w": 380.0
+},
+"854:14071": {
+"id": "854:14071",
+"zone": 11,
+"text": "DISRUPTION VISIBLE TO PLANNERS \u25c7 ZONE 7",
+"x": 1019.40625,
+"y": 825.150390625,
+"w": 380.0
+},
+"854:14075": {
+"id": "854:14075",
+"zone": 11,
+"text": "RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING)",
+"x": 1499.828125,
+"y": 1024.146484375,
+"w": 380.0
+},
+"854:14079": {
+"id": "854:14079",
+"zone": 11,
+"text": "GAP TO A SMOOTHER FESTIVAL EACH YEAR",
+"x": 1698.828125,
+"y": 1504.5625,
+"w": 380.0
+},
+"854:14083": {
+"id": "854:14083",
+"zone": 11,
+"text": "\u26056 LESSONS CARRIED INTO NEXT YEAR",
+"x": 1499.828125,
+"y": 1984.98046875,
+"w": 380.0
+},
+"854:14087": {
+"id": "854:14087",
+"zone": 11,
+"text": "CHANGES TO FESTIVAL ARRANGEMENTS",
+"x": 1019.40625,
+"y": 2183.9765625,
+"w": 380.0
+},
+"854:14091": {
+"id": "854:14091",
+"zone": 11,
+"text": "STREET SPACE TAKEN BY THE FESTIVAL \u25c7 ZONE 2",
+"x": 539.0,
+"y": 1984.98046875,
+"w": 380.0
+},
+"854:14095": {
+"id": "854:14095",
+"zone": 11,
+"text": "EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) \u25c7 ZONE 7",
+"x": 340.0,
+"y": 1504.5625,
+"w": 380.0
+},
+"854:14099": {
+"id": "854:14099",
+"zone": 11,
+"text": "DISRUPTION FELT BY NON-PARTICIPANTS \u25c7 ZONE 7",
+"x": 539.0,
+"y": 1024.146484375,
+"w": 380.0
+},
+"854:14103": {
+"id": "854:14103",
+"zone": 11,
+"text": "LESSONS CARRIED INTO NEXT YEAR \u25c7 ALSO IN B11",
+"x": 2461.421875,
+"y": 1255.384765625,
+"w": 380.0
+},
+"854:14107": {
+"id": "854:14107",
+"zone": 11,
+"text": "CHANGES TO FESTIVAL ARRANGEMENTS \u25c7 ALSO IN B11",
+"x": 2107.359375,
+"y": 555.0,
+"w": 380.0
+},
+"854:14111": {
+"id": "854:14111",
+"zone": 11,
+"text": "TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED",
+"x": 910.0,
+"y": 3661.12255859375,
+"w": 380.0
+},
+"854:14115": {
+"id": "854:14115",
+"zone": 11,
+"text": "WORKERS SPECIALISING IN FESTIVAL WORK",
+"x": 1239.09375,
+"y": 4231.123046875,
+"w": 380.0
+},
+"854:14119": {
+"id": "854:14119",
+"zone": 11,
+"text": "MORE ELABORATE SETUPS POSSIBLE",
+"x": 580.90625,
+"y": 4231.123046875,
+"w": 380.0
+},
+"854:14123": {
+"id": "854:14123",
+"zone": 11,
+"text": "CREWS BOOKED BEYOND THOSE AVAILABLE",
+"x": 340.0,
+"y": 3332.032958984375,
+"w": 380.0
+},
+"854:14127": {
+"id": "854:14127",
+"zone": 11,
+"text": "\u26055 WORK PUSHED LATER, INCLUDING DISMANTLING",
+"x": 910.0,
+"y": 3002.943115234375,
+"w": 380.0
+},
+"854:14131": {
+"id": "854:14131",
+"zone": 11,
+"text": "CLEAN-UP AND DISMANTLING BACKLOG",
+"x": 3837.078125,
+"y": 1255.0,
+"w": 380.0
+},
+"854:14135": {
+"id": "854:14135",
+"zone": 11,
+"text": "GAP TO A RESTORED STREET",
+"x": 4166.171142578125,
+"y": 1825.0,
+"w": 380.0
+},
+"854:14139": {
+"id": "854:14139",
+"zone": 11,
+"text": "DISMANTLING AND CLEAN-UP CREWS AT WORK",
+"x": 3509.21875,
+"y": 1825.328125,
+"w": 380.0
+},
+"854:14143": {
+"id": "854:14143",
+"zone": 11,
+"text": "LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) \u25c7 ZONE 9",
+"x": 3837.078125,
+"y": 825.0,
+"w": 380.0
+},
+"854:14147": {
+"id": "854:14147",
+"zone": 11,
+"text": "ROUTINE CIVIC AND POLICE SERVICES STRETCHED \u25c7 ZONE 10",
+"x": 3135.59375,
+"y": 2040.0,
+"w": 380.0
+},
+"854:14151": {
+"id": "854:14151",
+"zone": 11,
+"text": "PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP \u25c7 ZONE 8",
+"x": 1492.1875,
+"y": 594.2138671875,
+"w": 380.0
+},
+"854:14155": {
+"id": "854:14155",
+"zone": 11,
+"text": "STAFF AND SERVICES DIVERTED TO THE FESTIVAL \u25c7 ZONE 10",
+"x": 3091.421875,
+"y": 1713.380859375,
+"w": 380.0
+},
+"854:14159": {
+"id": "854:14159",
+"zone": 11,
+"text": "MISSED HAND-OFFS BETWEEN STAGES \u25c7 ZONE 8",
+"x": 3837.078125,
+"y": 555.0,
+"w": 380.0
+},
+"854:14163": {
+"id": "854:14163",
+"zone": 11,
+"text": "SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) \u25c7 ZONE 2",
+"x": 816.234375,
+"y": 2562.943359375,
+"w": 380.0
+},
+"854:14301": {
+"id": "854:14301",
+"zone": 12,
+"text": "NOISE NEAR HOMES",
+"x": 1596.234375,
+"y": 1511.11328125,
+"w": 380.0
+},
+"854:14305": {
+"id": "854:14305",
+"zone": 12,
+"text": "GAP BEYOND WHAT THEY TOLERATE",
+"x": 2016.921875,
+"y": 1816.76171875,
+"w": 380.0
+},
+"854:14309": {
+"id": "854:14309",
+"zone": 12,
+"text": "\u26051 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC)",
+"x": 1856.2340087890625,
+"y": 2311.311767578125,
+"w": 380.0
+},
+"854:14313": {
+"id": "854:14313",
+"zone": 12,
+"text": "POLICE CHECKS ON SPEAKERS AND TIMINGS",
+"x": 1336.2340087890625,
+"y": 2311.311767578125,
+"w": 380.0
+},
+"854:14317": {
+"id": "854:14317",
+"zone": 12,
+"text": "PROGRAMMES AND THEMED DISPLAYS \u25c7 ZONE 6",
+"x": 1175.546875,
+"y": 1816.76171875,
+"w": 380.0
+},
+"854:14321": {
+"id": "854:14321",
+"zone": 12,
+"text": "ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) \u25c7 ALSO IN B12, B33",
+"x": 2695.8125,
+"y": 1310.99609375,
+"w": 380.0
+},
+"854:14325": {
+"id": "854:14325",
+"zone": 12,
+"text": "POLICE CHECKS ON SPEAKERS AND TIMINGS \u25c7 ALSO IN B7, B12",
+"x": 2376.0625,
+"y": 555.0,
+"w": 380.0
+},
+"854:14329": {
+"id": "854:14329",
+"zone": 12,
+"text": "DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL) \u25c7 ZONE 6",
+"x": 1571.015625,
+"y": 715.2529296875,
+"w": 380.0
+},
+"854:14333": {
+"id": "854:14333",
+"zone": 12,
+"text": "POLICE CHECKS ON SPEAKERS AND TIMINGS \u25c7 ALSO IN B12, B14",
+"x": 731.234375,
+"y": 980.06640625,
+"w": 380.0
+},
+"854:14337": {
+"id": "854:14337",
+"zone": 12,
+"text": "RESIDENTS TAKING PART IN LOCAL CELEBRATIONS \u25c7 ZONE 1",
+"x": 2575.59375,
+"y": 2695.146484375,
+"w": 380.0
+},
+"854:14341": {
+"id": "854:14341",
+"zone": 12,
+"text": "NOISE NEAR HOMES \u25c7 ALSO IN B7, B12, B14",
+"x": 2823.640625,
+"y": 1919.544921875,
+"w": 380.0
+},
+"854:14345": {
+"id": "854:14345",
+"zone": 12,
+"text": "Mental model: \"noise is part of the celebration\"",
+"x": 1442.296875,
+"y": 1109.611328125,
+"w": 380.0
+}
+},
+"labels": [
+{
+"id": "854:12547",
+"zone": 1,
+"text": "R8 Small pandals multiply #76",
+"x": 1410.0,
+"y": 1835.6663818359375
+},
+{
+"id": "854:12550",
+"zone": 1,
+"text": "B4 Street space holds pandals down #76",
+"x": 1150.0,
+"y": 1005.3331909179688
+},
+{
+"id": "854:12553",
+"zone": 1,
+"text": "R14 Neighbourhood belonging #69 C&E 11",
+"x": 1790.0,
+"y": 1455.6663818359375
+},
+{
+"id": "854:12747",
+"zone": 2,
+"text": "R9 Site lock-in #28 #62 #84",
+"x": 1927.828125,
+"y": 1704.302734375
+},
+{
+"id": "854:12750",
+"zone": 2,
+"text": "B9 Rules enforced on the street #62 #76",
+"x": 1156.40625,
+"y": 1894.302734375
+},
+{
+"id": "854:12753",
+"zone": 2,
+"text": "R21 Sites follow tradition #28",
+"x": 2302.0625,
+"y": 1258.31640625
+},
+{
+"id": "854:12756",
+"zone": 2,
+"text": "R22 Layout reused, precedent hardens #62",
+"x": 1737.828125,
+"y": 995.21337890625
+},
+{
+"id": "854:12759",
+"zone": 2,
+"text": "B22 Footprint spills onto paths #62",
+"x": 983.609375,
+"y": 929.22705078125
+},
+{
+"id": "854:12762",
+"zone": 2,
+"text": "R23 Visible spot pulls crowds #84",
+"x": 1128.46875,
+"y": 3793.1708984375
+},
+{
+"id": "854:12765",
+"zone": 2,
+"text": "B23 Site choice locks in closures #84",
+"x": 938.46875,
+"y": 3084.0810546875
+},
+{
+"id": "854:12943",
+"zone": 3,
+"text": "R1 Volunteers become the signage #39 #61",
+"x": 1579.828125,
+"y": 4102.654296875
+},
+{
+"id": "854:12946",
+"zone": 3,
+"text": "B1 Volunteers overloaded #13 #39",
+"x": 1389.828125,
+"y": 3393.564453125
+},
+{
+"id": "854:12949",
+"zone": 3,
+"text": "B5 Crowd control #14 #15 #73",
+"x": 2480.6875,
+"y": 902.0924682617188
+},
+{
+"id": "854:12952",
+"zone": 3,
+"text": "B6 Emergency access #38 #85 ?",
+"x": 2670.6875,
+"y": 1611.18212890625
+},
+{
+"id": "854:12955",
+"zone": 3,
+"text": "B24 Barricades compact the crowd #14 #60",
+"x": 1771.59375,
+"y": 1092.09228515625
+},
+{
+"id": "854:12958",
+"zone": 3,
+"text": "B27 Corridors keep junctions open #85",
+"x": 3150.6875,
+"y": 2191.18212890625
+},
+{
+"id": "854:13140",
+"zone": 4,
+"text": "R7 Advisories build trust #35",
+"x": 669.09375,
+"y": 3427.2841796875
+},
+{
+"id": "854:13143",
+"zone": 4,
+"text": "B3 Visitors anticipate and adapt #3",
+"x": 1416.6875,
+"y": 1593.17919921875
+},
+{
+"id": "854:13146",
+"zone": 4,
+"text": "R11 Diversion ripple #20 #32 #37",
+"x": 1606.6875,
+"y": 884.08984375
+},
+{
+"id": "854:13149",
+"zone": 4,
+"text": "R13 Everyone takes the same detour #21 VoC",
+"x": 866.6875,
+"y": 2073.17919921875
+},
+{
+"id": "854:13152",
+"zone": 4,
+"text": "R24 Diversions spread the jam #20 #32",
+"x": 2315.78125,
+"y": 1074.08984375
+},
+{
+"id": "854:13155",
+"zone": 4,
+"text": "B25 Drivers divert to save time #20 #32",
+"x": 3024.875,
+"y": 884.08984375
+},
+{
+"id": "854:13158",
+"zone": 4,
+"text": "B26 Advisories ease the peak #35",
+"x": 792.421875,
+"y": 1302.08251953125
+},
+{
+"id": "854:13220",
+"zone": 5,
+"text": "R6 Benefits spread unevenly #74",
+"x": 1349.09375,
+"y": 2135.0
+},
+{
+"id": "854:13223",
+"zone": 5,
+"text": "R10 Hawkers follow the crowd #9 #26 #57 ?",
+"x": 1400.0,
+"y": 935.0
+},
+{
+"id": "854:13405",
+"zone": 6,
+"text": "R2 Procession raises visibility #63",
+"x": 1866.75,
+"y": 1998.5283203125
+},
+{
+"id": "854:13408",
+"zone": 6,
+"text": "B2 Procession capped by capacity #63",
+"x": 2177.0625,
+"y": 2678.396484375
+},
+{
+"id": "854:13411",
+"zone": 6,
+"text": "R27 Prestige of joining #63",
+"x": 2017.265625,
+"y": 2211.029296875
+},
+{
+"id": "854:13414",
+"zone": 6,
+"text": "R3 Rising expectations #17 #24",
+"x": 967.65625,
+"y": 1099.4384765625
+},
+{
+"id": "854:13417",
+"zone": 6,
+"text": "R4 Spectacle spiral #33 #55",
+"x": 1296.75,
+"y": 1669.4384765625
+},
+{
+"id": "854:13420",
+"zone": 6,
+"text": "R5 Pull of the big mandals #78",
+"x": 1902.0625,
+"y": 1094.76171875
+},
+{
+"id": "854:13423",
+"zone": 6,
+"text": "R12 Programmes draw crowds #48",
+"x": 746.75,
+"y": 2149.4384765625
+},
+{
+"id": "854:13426",
+"zone": 6,
+"text": "R16 Pathak pride Raheja memo",
+"x": 669.09375,
+"y": 4087.0869140625
+},
+{
+"id": "854:13624",
+"zone": 7,
+"text": "R15 Silent adaptation #7 #23 #82",
+"x": 2085.15625,
+"y": 2328.392578125
+},
+{
+"id": "854:13627",
+"zone": 7,
+"text": "B10 Visible pushback #77 Raheja",
+"x": 1569.984375,
+"y": 1298.392578125
+},
+{
+"id": "854:13630",
+"zone": 7,
+"text": "B16 Familiarity lowers felt disruption #83",
+"x": 2424.25,
+"y": 1635.712890625
+},
+{
+"id": "854:13633",
+"zone": 7,
+"text": "B19 Residents work around it #7 #82",
+"x": 2847.046875,
+"y": 2028.435546875
+},
+{
+"id": "854:13636",
+"zone": 7,
+"text": "B20 Errands and deliveries rerouted #23 #56",
+"x": 1305.984375,
+"y": 3668.392578125
+},
+{
+"id": "854:13639",
+"zone": 7,
+"text": "R29 Silent adaptation hides the problem #7 #82",
+"x": 3025.484375,
+"y": 2268.392578125
+},
+{
+"id": "854:13845",
+"zone": 8,
+"text": "B15 Coordinated response #29 #59 ?",
+"x": 1974.96875,
+"y": 2064.27734375
+},
+{
+"id": "854:13848",
+"zone": 8,
+"text": "R18 Each agency at its own stage #79",
+"x": 2678.640380859375,
+"y": 1162.1937255859375
+},
+{
+"id": "854:13851",
+"zone": 8,
+"text": "B17 Hand-offs push coordination #79",
+"x": 2174.09375,
+"y": 1517.193359375
+},
+{
+"id": "854:13854",
+"zone": 8,
+"text": "R25 Coordination builds trust #29",
+"x": 762.078125,
+"y": 4238.5546875
+},
+{
+"id": "854:13857",
+"zone": 8,
+"text": "B28 Clashes push joint plans #29",
+"x": 1465.0,
+"y": 1707.193359375
+},
+{
+"id": "854:13860",
+"zone": 8,
+"text": "R26 The chowki is the front door #59 #71",
+"x": 1273.078125,
+"y": 3057.169921875
+},
+{
+"id": "854:13863",
+"zone": 8,
+"text": "B29 Formal checks close the rule gap #59 #71",
+"x": 965.0,
+"y": 2237.193359375
+},
+{
+"id": "854:13866",
+"zone": 8,
+"text": "B30 One plan for the whole cycle #79",
+"x": 1929.84375,
+"y": 846.0966796875
+},
+{
+"id": "854:13948",
+"zone": 9,
+"text": "B8 Immersion regulation #40 #41 #43",
+"x": 1330.453125,
+"y": 2603.1796875
+},
+{
+"id": "854:13951",
+"zone": 9,
+"text": "R19 Community hands rituals to PMC #80",
+"x": 1520.453125,
+"y": 1593.1796875
+},
+{
+"id": "854:13954",
+"zone": 9,
+"text": "B18 PMC load pushes tasks back #80",
+"x": 1330.453125,
+"y": 884.08984375
+},
+{
+"id": "854:14056",
+"zone": 10,
+"text": "R17 Capacity borrowed, not built #81",
+"x": 1926.203125,
+"y": 1264.08984375
+},
+{
+"id": "854:14059",
+"zone": 10,
+"text": "R28 Police go where crowds have been #16 #37 #73",
+"x": 1166.203125,
+"y": 884.08984375
+},
+{
+"id": "854:14062",
+"zone": 10,
+"text": "B31 Cover elsewhere runs thin #16 #37",
+"x": 1356.203125,
+"y": 1593.1796875
+},
+{
+"id": "854:14065",
+"zone": 10,
+"text": "B32 Routine services pull staff back #81",
+"x": 1936.203125,
+"y": 2073.1796875
+},
+{
+"id": "854:14283",
+"zone": 11,
+"text": "B11 Year-to-year learning #30 ?",
+"x": 1019.40625,
+"y": 1504.5625
+},
+{
+"id": "854:14286",
+"zone": 11,
+"text": "B13 The festival ends before the system does #19 #65 #86",
+"x": 3837.078125,
+"y": 1635.0
+},
+{
+"id": "854:14289",
+"zone": 11,
+"text": "R20 Bigger setups need specialist crews #53",
+"x": 910.0,
+"y": 4041.12255859375
+},
+{
+"id": "854:14292",
+"zone": 11,
+"text": "B21 Crews run out, teardown slips #53",
+"x": 720.0,
+"y": 3332.032958984375
+},
+{
+"id": "854:14295",
+"zone": 11,
+"text": "B34 Lessons change plans #30",
+"x": 1989.328125,
+"y": 1054.353515625
+},
+{
+"id": "854:14409",
+"zone": 12,
+"text": "B7 Noise brings checks #48",
+"x": 1075.890625,
+"y": 1353.9375
+},
+{
+"id": "854:14412",
+"zone": 12,
+"text": "B12 Complaints bring noise checks #48 #69",
+"x": 1596.234375,
+"y": 1953.453125
+},
+{
+"id": "854:14415",
+"zone": 12,
+"text": "B14 Rehearsal noise and complaints Raheja memo",
+"x": 2071.90625,
+"y": 1129.26171875
+},
+{
+"id": "854:14418",
+"zone": 12,
+"text": "B33 Tolerance and noise checks #69",
+"x": 2376.578369140625,
+"y": 2204.037109375
+}
+],
+"edges": [
+[
+"854:12419",
+"854:12423",
+1
+],
+[
+"854:12427",
+"854:12419",
+1
+],
+[
+"854:12423",
+"854:12427",
+1
+],
+[
+"854:12419",
+"854:12431",
+1
+],
+[
+"854:12431",
+"854:12435",
+1
+],
+[
+"854:12435",
+"854:12439",
+1
+],
+[
+"854:12439",
+"854:12443",
+1
+],
+[
+"854:12447",
+"854:12419",
+1
+],
+[
+"854:12443",
+"854:12447",
+1
+],
+[
+"854:12419",
+"854:12451",
+1
+],
+[
+"854:12451",
+"854:12455",
+1
+],
+[
+"854:12459",
+"854:12439",
+1
+],
+[
+"854:12451",
+"854:12459",
+1
+],
+[
+"854:12459",
+"854:12419",
+1
+],
+[
+"854:12455",
+"854:12459",
+1
+],
+[
+"854:12463",
+"854:12419",
+1
+],
+[
+"854:12467",
+"854:12419",
+1
+],
+[
+"854:12471",
+"854:12459",
+1
+],
+[
+"854:12559",
+"854:12563",
+2
+],
+[
+"854:12567",
+"854:12559",
+2
+],
+[
+"854:12563",
+"854:12567",
+2
+],
+[
+"854:12559",
+"854:12571",
+2
+],
+[
+"854:12575",
+"854:12559",
+2
+],
+[
+"854:12571",
+"854:12575",
+2
+],
+[
+"854:12567",
+"854:12579",
+2
+],
+[
+"854:12579",
+"854:12583",
+2
+],
+[
+"854:12583",
+"854:12587",
+2
+],
+[
+"854:12591",
+"854:12567",
+2
+],
+[
+"854:12587",
+"854:12591",
+2
+],
+[
+"854:12559",
+"854:12595",
+2
+],
+[
+"854:12599",
+"854:12559",
+2
+],
+[
+"854:12595",
+"854:12599",
+2
+],
+[
+"854:12571",
+"854:12603",
+2
+],
+[
+"854:12603",
+"854:12607",
+2
+],
+[
+"854:12611",
+"854:12571",
+2
+],
+[
+"854:12607",
+"854:12611",
+2
+],
+[
+"854:12615",
+"854:12619",
+2
+],
+[
+"854:12623",
+"854:12615",
+2
+],
+[
+"854:12619",
+"854:12623",
+2
+],
+[
+"854:12615",
+"854:12627",
+2
+],
+[
+"854:12627",
+"854:12631",
+2
+],
+[
+"854:12635",
+"854:12615",
+2
+],
+[
+"854:12631",
+"854:12635",
+2
+],
+[
+"854:12639",
+"854:12567",
+2
+],
+[
+"854:12771",
+"854:12775",
+3
+],
+[
+"854:12775",
+"854:12779",
+3
+],
+[
+"854:12783",
+"854:12771",
+3
+],
+[
+"854:12779",
+"854:12783",
+3
+],
+[
+"854:12787",
+"854:12775",
+3
+],
+[
+"854:12779",
+"854:12787",
+3
+],
+[
+"854:12771",
+"854:12791",
+3
+],
+[
+"854:12795",
+"854:12771",
+3
+],
+[
+"854:12791",
+"854:12795",
+3
+],
+[
+"854:12791",
+"854:12799",
+3
+],
+[
+"854:12799",
+"854:12803",
+3
+],
+[
+"854:12807",
+"854:12791",
+3
+],
+[
+"854:12803",
+"854:12807",
+3
+],
+[
+"854:12811",
+"854:12815",
+3
+],
+[
+"854:12819",
+"854:12811",
+3
+],
+[
+"854:12815",
+"854:12819",
+3
+],
+[
+"854:12811",
+"854:12823",
+3
+],
+[
+"854:12827",
+"854:12811",
+3
+],
+[
+"854:12823",
+"854:12827",
+3
+],
+[
+"854:12831",
+"854:12803",
+3
+],
+[
+"854:12835",
+"854:12771",
+3
+],
+[
+"854:12835",
+"854:12811",
+3
+],
+[
+"854:12835",
+"854:12803",
+3
+],
+[
+"854:12839",
+"854:12791",
+3
+],
+[
+"854:12964",
+"854:12968",
+4
+],
+[
+"854:12968",
+"854:12972",
+4
+],
+[
+"854:12976",
+"854:12964",
+4
+],
+[
+"854:12972",
+"854:12976",
+4
+],
+[
+"854:12976",
+"854:12980",
+4
+],
+[
+"854:12984",
+"854:12972",
+4
+],
+[
+"854:12980",
+"854:12984",
+4
+],
+[
+"854:12976",
+"854:12988",
+4
+],
+[
+"854:12988",
+"854:12992",
+4
+],
+[
+"854:12996",
+"854:12976",
+4
+],
+[
+"854:12992",
+"854:12996",
+4
+],
+[
+"854:12964",
+"854:13000",
+4
+],
+[
+"854:13004",
+"854:12996",
+4
+],
+[
+"854:13000",
+"854:13004",
+4
+],
+[
+"854:13004",
+"854:12964",
+4
+],
+[
+"854:13004",
+"854:13008",
+4
+],
+[
+"854:13012",
+"854:13004",
+4
+],
+[
+"854:13008",
+"854:13012",
+4
+],
+[
+"854:13008",
+"854:13016",
+4
+],
+[
+"854:13020",
+"854:13008",
+4
+],
+[
+"854:13016",
+"854:13020",
+4
+],
+[
+"854:13024",
+"854:13028",
+4
+],
+[
+"854:13032",
+"854:13024",
+4
+],
+[
+"854:13028",
+"854:13032",
+4
+],
+[
+"854:13036",
+"854:12964",
+4
+],
+[
+"854:13164",
+"854:13168",
+5
+],
+[
+"854:13172",
+"854:13164",
+5
+],
+[
+"854:13168",
+"854:13172",
+5
+],
+[
+"854:13176",
+"854:13180",
+5
+],
+[
+"854:13180",
+"854:13184",
+5
+],
+[
+"854:13188",
+"854:13176",
+5
+],
+[
+"854:13184",
+"854:13188",
+5
+],
+[
+"854:13229",
+"854:13233",
+6
+],
+[
+"854:13233",
+"854:13237",
+6
+],
+[
+"854:13241",
+"854:13229",
+6
+],
+[
+"854:13237",
+"854:13241",
+6
+],
+[
+"854:13233",
+"854:13245",
+6
+],
+[
+"854:13245",
+"854:13249",
+6
+],
+[
+"854:13253",
+"854:13229",
+6
+],
+[
+"854:13249",
+"854:13253",
+6
+],
+[
+"854:13257",
+"854:13237",
+6
+],
+[
+"854:13241",
+"854:13257",
+6
+],
+[
+"854:13233",
+"854:13261",
+6
+],
+[
+"854:13261",
+"854:13265",
+6
+],
+[
+"854:13265",
+"854:13233",
+6
+],
+[
+"854:13265",
+"854:13269",
+6
+],
+[
+"854:13269",
+"854:13273",
+6
+],
+[
+"854:13277",
+"854:13261",
+6
+],
+[
+"854:13273",
+"854:13277",
+6
+],
+[
+"854:13281",
+"854:13261",
+6
+],
+[
+"854:13265",
+"854:13281",
+6
+],
+[
+"854:13229",
+"854:13285",
+6
+],
+[
+"854:13289",
+"854:13229",
+6
+],
+[
+"854:13285",
+"854:13289",
+6
+],
+[
+"854:13293",
+"854:13297",
+6
+],
+[
+"854:13301",
+"854:13293",
+6
+],
+[
+"854:13297",
+"854:13301",
+6
+],
+[
+"854:13432",
+"854:13436",
+7
+],
+[
+"854:13436",
+"854:13440",
+7
+],
+[
+"854:13440",
+"854:13444",
+7
+],
+[
+"854:13444",
+"854:13448",
+7
+],
+[
+"854:13452",
+"854:13432",
+7
+],
+[
+"854:13448",
+"854:13452",
+7
+],
+[
+"854:13432",
+"854:13456",
+7
+],
+[
+"854:13456",
+"854:13460",
+7
+],
+[
+"854:13460",
+"854:13464",
+7
+],
+[
+"854:13468",
+"854:13452",
+7
+],
+[
+"854:13464",
+"854:13468",
+7
+],
+[
+"854:13472",
+"854:13436",
+7
+],
+[
+"854:13440",
+"854:13472",
+7
+],
+[
+"854:13432",
+"854:13476",
+7
+],
+[
+"854:13480",
+"854:13432",
+7
+],
+[
+"854:13476",
+"854:13480",
+7
+],
+[
+"854:13436",
+"854:13484",
+7
+],
+[
+"854:13488",
+"854:13436",
+7
+],
+[
+"854:13484",
+"854:13488",
+7
+],
+[
+"854:13492",
+"854:13496",
+7
+],
+[
+"854:13496",
+"854:13500",
+7
+],
+[
+"854:13504",
+"854:13492",
+7
+],
+[
+"854:13500",
+"854:13504",
+7
+],
+[
+"854:13508",
+"854:13500",
+7
+],
+[
+"854:13512",
+"854:13452",
+7
+],
+[
+"854:13516",
+"854:13452",
+7
+],
+[
+"854:13645",
+"854:13649",
+8
+],
+[
+"854:13653",
+"854:13645",
+8
+],
+[
+"854:13649",
+"854:13653",
+8
+],
+[
+"854:13657",
+"854:13645",
+8
+],
+[
+"854:13649",
+"854:13657",
+8
+],
+[
+"854:13653",
+"854:13661",
+8
+],
+[
+"854:13661",
+"854:13665",
+8
+],
+[
+"854:13669",
+"854:13653",
+8
+],
+[
+"854:13665",
+"854:13669",
+8
+],
+[
+"854:13665",
+"854:13673",
+8
+],
+[
+"854:13673",
+"854:13677",
+8
+],
+[
+"854:13677",
+"854:13661",
+8
+],
+[
+"854:13653",
+"854:13681",
+8
+],
+[
+"854:13681",
+"854:13685",
+8
+],
+[
+"854:13685",
+"854:13689",
+8
+],
+[
+"854:13689",
+"854:13653",
+8
+],
+[
+"854:13677",
+"854:13693",
+8
+],
+[
+"854:13697",
+"854:13677",
+8
+],
+[
+"854:13693",
+"854:13697",
+8
+],
+[
+"854:13645",
+"854:13701",
+8
+],
+[
+"854:13701",
+"854:13705",
+8
+],
+[
+"854:13709",
+"854:13645",
+8
+],
+[
+"854:13705",
+"854:13709",
+8
+],
+[
+"854:13713",
+"854:13717",
+8
+],
+[
+"854:13721",
+"854:13713",
+8
+],
+[
+"854:13717",
+"854:13721",
+8
+],
+[
+"854:13725",
+"854:13693",
+8
+],
+[
+"854:13729",
+"854:13701",
+8
+],
+[
+"854:13872",
+"854:13876",
+9
+],
+[
+"854:13880",
+"854:13872",
+9
+],
+[
+"854:13876",
+"854:13880",
+9
+],
+[
+"854:13872",
+"854:13884",
+9
+],
+[
+"854:13888",
+"854:13872",
+9
+],
+[
+"854:13884",
+"854:13888",
+9
+],
+[
+"854:13892",
+"854:13896",
+9
+],
+[
+"854:13896",
+"854:13900",
+9
+],
+[
+"854:13904",
+"854:13892",
+9
+],
+[
+"854:13900",
+"854:13904",
+9
+],
+[
+"854:13960",
+"854:13964",
+10
+],
+[
+"854:13964",
+"854:13968",
+10
+],
+[
+"854:13972",
+"854:13960",
+10
+],
+[
+"854:13968",
+"854:13972",
+10
+],
+[
+"854:13976",
+"854:13964",
+10
+],
+[
+"854:13968",
+"854:13976",
+10
+],
+[
+"854:13964",
+"854:13980",
+10
+],
+[
+"854:13984",
+"854:13964",
+10
+],
+[
+"854:13980",
+"854:13984",
+10
+],
+[
+"854:13960",
+"854:13988",
+10
+],
+[
+"854:13988",
+"854:13992",
+10
+],
+[
+"854:13992",
+"854:13960",
+10
+],
+[
+"854:13996",
+"854:13964",
+10
+],
+[
+"854:13996",
+"854:13968",
+10
+],
+[
+"854:14071",
+"854:14075",
+11
+],
+[
+"854:14075",
+"854:14079",
+11
+],
+[
+"854:14079",
+"854:14083",
+11
+],
+[
+"854:14083",
+"854:14087",
+11
+],
+[
+"854:14087",
+"854:14091",
+11
+],
+[
+"854:14091",
+"854:14095",
+11
+],
+[
+"854:14099",
+"854:14071",
+11
+],
+[
+"854:14095",
+"854:14099",
+11
+],
+[
+"854:14079",
+"854:14103",
+11
+],
+[
+"854:14107",
+"854:14075",
+11
+],
+[
+"854:14103",
+"854:14107",
+11
+],
+[
+"854:14111",
+"854:14115",
+11
+],
+[
+"854:14119",
+"854:14111",
+11
+],
+[
+"854:14115",
+"854:14119",
+11
+],
+[
+"854:14111",
+"854:14123",
+11
+],
+[
+"854:14127",
+"854:14111",
+11
+],
+[
+"854:14123",
+"854:14127",
+11
+],
+[
+"854:14091",
+"854:14131",
+11
+],
+[
+"854:14131",
+"854:14095",
+11
+],
+[
+"854:14131",
+"854:14135",
+11
+],
+[
+"854:14139",
+"854:14131",
+11
+],
+[
+"854:14135",
+"854:14139",
+11
+],
+[
+"854:14143",
+"854:14131",
+11
+],
+[
+"854:14147",
+"854:14139",
+11
+],
+[
+"854:14131",
+"854:14151",
+11
+],
+[
+"854:14151",
+"854:14075",
+11
+],
+[
+"854:14155",
+"854:14139",
+11
+],
+[
+"854:14159",
+"854:14131",
+11
+],
+[
+"854:14163",
+"854:14087",
+11
+],
+[
+"854:14301",
+"854:14305",
+12
+],
+[
+"854:14305",
+"854:14309",
+12
+],
+[
+"854:14309",
+"854:14313",
+12
+],
+[
+"854:14313",
+"854:14317",
+12
+],
+[
+"854:14317",
+"854:14301",
+12
+],
+[
+"854:14305",
+"854:14321",
+12
+],
+[
+"854:14321",
+"854:14325",
+12
+],
+[
+"854:14325",
+"854:14329",
+12
+],
+[
+"854:14329",
+"854:14301",
+12
+],
+[
+"854:14333",
+"854:14317",
+12
+],
+[
+"854:14301",
+"854:14333",
+12
+],
+[
+"854:14309",
+"854:14337",
+12
+],
+[
+"854:14341",
+"854:14305",
+12
+],
+[
+"854:14337",
+"854:14341",
+12
+],
+[
+"854:14345",
+"854:14301",
+12
+]
+]
+}

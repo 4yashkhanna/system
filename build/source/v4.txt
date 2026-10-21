@@ -1,0 +1,536 @@
+## Z1 LOCAL PANDALS AND BELONGING
+  T: 1 LOCAL PANDALS AND BELONGING
+  T: Residents take part, attachment grows and small pandals multiply because each one makes the next easier (R8, R14). Limits to growth: street space and enforcement hold the number down (B4).
+  [837:9866] RESIDENTS TAKING PART IN LOCAL CELEBRATIONS
+  [837:9870] NEIGHBOURS MEETING AT THE CELEBRATION
+  [837:9874] ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL
+  [837:9878] NUMBER OF SMALL PANDALS IN THE AREA
+  [837:9882] SHARED SUPPLIERS, WORKERS AND KNOW-HOW
+  [837:9886] EASIER TO SET UP ANOTHER PANDAL
+## Z2 SPACE AND THE SITE
+  T: 2 SPACE AND THE SITE
+  T: Sites that worked are carried over, layouts are reused and a visible main-road spot pulls crowds, so the site locks in its own closures (R9, R21, R22·B22, R23·B23). Success to the successful.
+  [837:9890] RESIDENTS AND VISITORS EXPECTING IT THERE
+  [837:9894] SITE TREATED AS THE MANDAL'S OWN
+  [837:9898] SAME LAYOUT REUSED EACH YEAR
+  [837:9902] LAYOUT TRIMMED TO THE SITE
+  [837:9906] GAP TO CLEAR PATHS (GOAL: PMC, NGT 2022)
+  [837:9910] Mental model: "this is where we always do it"
+  [837:9914] ★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026)
+  [837:9918] PANDAL LAYOUT PLANNED FOR THE SITE
+  [837:9922] FOOTPRINT ON ROAD, DRAINS AND CROSSWALKS
+  [837:9926] MANDAL VALUING THE VISIBLE SPOT
+  [837:9930] ★2 PANDAL PLACED ON A MAIN ROAD
+  [837:9934] GAP TO NORMAL MOVEMENT
+  [837:9938] ENFORCEMENT OF ROAD AND FOOTPATH RULES
+  [837:9942] STREET SPACE TAKEN BY THE FESTIVAL
+  [837:9946] PASSERS-BY AND ROADSIDE CROWDS
+  [837:9950] SITES MOVED TO GROUNDS OR COMPOUNDS
+## Z3 CROWDS, CLOSURES AND EMERGENCY ACCESS
+  T: 3 CROWDS, CLOSURES AND EMERGENCY ACCESS
+  T: Barricades clear the site and compact the crowd, volunteers stand in for signs, and congestion slows ambulances (B5, B24, R1·B1, B6, B27). Fixes that fail; shifting the burden.
+  [837:9954] GOAL: ambulances get through in time
+  [837:9958] CROWD CHANNELLED INTO BARRICADED LANES
+  [837:9962] GOAL: traffic keeps moving (police)
+  [837:9966] Mental model: "order means police and barricades"
+  [837:9970] CAPACITY: mandal volunteers available (#13)
+  [837:9974] ★10 PROTECTED EMERGENCY CORRIDORS
+  [837:9978] CONGESTION AT THE SITE
+  [837:9982] POLICE BARRICADES AND DIVERSIONS
+  [837:9986] DEDICATED SPACE FOR THE CROWD
+  [837:9990] VOLUNTEER WORKLOAD AT JUNCTIONS
+  [837:9994] Mental model: "ask a volunteer, not a sign"
+  [837:9998] EMERGENCY TRAVEL TIME THROUGH THE AREA
+  [837:10002] BLOCKED JUNCTIONS ON KEY ROUTES
+  [837:10006] GAP TO SEPARATED FLOWS (CROWD AND VEHICLES)
+  [837:10010] CROWD SPILLING ONTO THE CARRIAGEWAY
+  [837:10014] VISITORS GUESSING OR FOLLOWING OTHERS
+  [837:10018] VISITORS ASKING VOLUNTEERS FOR DIRECTIONS
+  [837:10022] CROWD GUIDANCE BY VOLUNTEERS
+  [837:10026] ★8 INVESTMENT IN CLEAR SIGNS
+  [837:10030] VOLUNTEERS ACTING AS THE SIGNAGE
+## Z4 TRAFFIC, DETOURS AND ADVISORIES
+  T: 4 TRAFFIC, DETOURS AND ADVISORIES
+  T: Diversions push jams onto side roads; visitors steer around them with advisories until everyone takes the same detour (R11, R24·B25, R7·B3, B26, R13). Fixes that fail.
+  [837:10034] NEW BOTTLENECKS ON SIDE ROADS
+  [837:10038] GAP TO AN ACCEPTABLE TRAVEL TIME
+  [837:10042] TRUST IN TRAFFIC ADVISORIES
+  [837:10046] JAMS AVOIDED BY THOSE WHO CHECKED
+  [837:10050] CAPACITY: metro (till 2 am), buses and walking routes
+  [837:10054] DRIVERS ON ALTERNATIVE ROUTES
+  [837:10058] CONGESTION ON SURROUNDING ROUTES
+  [837:10062] VISITORS SHIFTING TIME, ROUTE OR MODE
+  [837:10066] CARS ARRIVING AT THE PEAK
+  [837:10070] POLICE PULLED TO NEW HOTSPOTS
+  [837:10074] ADVISORIES ISSUED BY TRAFFIC POLICE
+  [837:10078] GAP TO A BEARABLE TRIP (VISITORS)
+  [837:10082] CROWDING ON THE SAME ALTERNATIVE ROUTES
+  [837:10086] CONGESTION VISITORS EXPECT
+## Z5 SHOPS AND STREET TRADE
+  T: 5 SHOPS AND STREET TRADE
+  T: Footfall brings income to shops facing the crowd, which back the festival, while hawkers are moved on and may follow the crowd (R6, R10 ?). Success to the successful.
+  [837:10166] INCOME FOR SHOPS AND FLOWER VENDORS
+  [837:10170] Mental model: "the festival is good for business"
+  [837:10174] SHOPS FACING THE CROWD BACKING THE FESTIVAL
+  [837:10178] DISPLACEMENT OF HAWKERS
+  [837:10182] ★11 Designated spots for displaced hawkers (none yet)
+  [837:10186] HAWKERS SETTING UP AT THE CROWD'S EDGE
+## Z6 THE FESTIVAL ENGINE
+  T: 6 THE FESTIVAL ENGINE
+  T: A bigger festival is more visible, draws visitors and donations, raises expectations and funds the next one (R2·R27·B2, R3, R4, R5, R12·B7, R16·B14). Grants, patrons and elections add outside money.
+  [837:10090] PRESTIGE OF JOINING THE PROCESSION
+  [837:10094] VISITOR EXPECTATIONS OF A "GOOD" FESTIVAL
+  [837:10098] ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY TRUST LEADERSHIP)
+  [837:10102] ★3 Access and traffic needs in the theme decision (#17)
+  [837:10106] PATHAK PERFORMANCES IN PROCESSIONS
+  [837:10110] Mental model: "noise is part of the celebration"
+  [837:10114] MANDALS APPLYING TO JOIN THE PROCESSION
+  [837:10118] MANDALS IN THE MAIN PROCESSION
+  [837:10122] FESTIVAL SCALE AND SPECTACLE
+  [837:10126] Mental model: "every year it should be bigger"
+  [837:10130] YOUTH PRIDE IN THE PATHAKS
+  [837:10134] Mental model: "a proper darshan means the famous mandal"
+  [837:10138] FESTIVAL VISIBILITY ACROSS THE CITY
+  [837:10142] DONATIONS AND SPONSORSHIP
+  [837:10146] DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL)
+  [837:10150] TRIPS TO THE BIG CENTRAL MANDALS
+  [837:10154] VISITOR FOOTFALL AT THE SITE
+  [837:10158] PROGRAMMES AND THEMED DISPLAYS
+  [837:10162] State festival grants (2025), patrons and election season
+## Z7 RESIDENTS WHO ABSORB IT
+  T: 7 RESIDENTS WHO ABSORB IT
+  T: Most disruption is absorbed privately and never reaches planners (R15, R29, B19, B20). Only organised complaints push back on space, noise and enforcement (B9, B10, B12, B33). Shifting the burden.
+  [837:10190] NOISE NEAR HOMES
+  [837:10194] GAP BEYOND WHAT THEY TOLERATE
+  [837:10198] EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES)
+  [837:10202] POLICE CHECKS ON SPEAKERS AND TIMINGS
+  [837:10206] ★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC)
+  [837:10210] ★1 DISRUPTION VISIBLE TO PLANNERS
+  [837:10214] GOAL: 55 dB by day, 45 dB at night (noise rules)
+  [837:10218] Mental model: "complaining would be disrespectful"
+  [837:10222] DISRUPTION FELT BY NON-PARTICIPANTS
+  [837:10226] OWN DELAY AND DISCOMFORT
+  [837:10230] GAP TO A NORMAL ROUTINE (GOAL: NORMAL TRAVEL TIME)
+  [837:10234] GOAL: a normal routine (residents)
+  [837:10238] SURPRISE DISRUPTIONS
+  [837:10242] ★6 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE)
+  [837:10246] ★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS
+  [837:10250] GAP TO DEADLINES AND ERRANDS
+  [837:10254] Mental model: "every neighbourhood will learn to live with it"
+  [837:10258] Familiarity: years the festival has run here
+  [837:10262] TRIPS THROUGH THE RESTRICTED AREA
+  [837:10266] DELAYS ON USUAL ROUTES (ERRANDS, DELIVERIES)
+## Z8 PERMISSIONS AND COORDINATION
+  T: 8 PERMISSIONS AND COORDINATION
+  T: Permissions run through the chowki and the single window, and clashes push joint plans, but agencies still plan one stage at a time (R26·B29, R25·B28, R18·B17, B30, B15).
+  [837:10270] FAMILIAR RELATIONSHIP WITH THE POLICE CHOWKI
+  [837:10274] PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC
+  [837:10278] FORMAL CHECKS: PMC SINGLE WINDOW, POLICE CONDITIONS
+  [837:10282] SHARED PLANS: ROUTES, SOUND, PERMISSIONS
+  [837:10286] INFORMAL NODS AND QUICK APPROVALS
+  [837:10290] CLASHES ON THE GROUND (SOUND, ROUTES, SPACE)
+  [837:10294] GAP TO ONE PLAN AGREED BEFORE SETUP
+  [837:10298] TRUST BETWEEN MANDALS AND POLICE
+  [837:10302] COORDINATION BETWEEN MANDALS, POLICE AND PMC
+  [837:10306] EXTRA MEETINGS AND FOLLOW-UPS
+  [837:10310] Mental model: "we manage it as it comes"
+  [837:10314] ADVANCE NOTICE TO AFFECTED PEOPLE
+  [837:10318] ★4 JOINT WHOLE-CYCLE PLANNING (PMC, POLICE, MANDALS)
+  [837:10322] FIREFIGHTING AT EACH STAGE
+  [837:10326] Responsibility split across agencies
+  [837:10330] GAP TO ONE SMOOTH FESTIVAL CYCLE
+  [837:10334] PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP
+  [837:10338] AGENCIES PLANNING STAGE BY STAGE
+  [837:10342] MISSED HAND-OFFS BETWEEN STAGES
+## Z9 IMMERSION, RITUALS AND THE RIVER
+  T: 9 IMMERSION, RITUALS AND THE RIVER
+  T: Court and NGT rules brought tanks and eco idols (B8), which moved community tasks to PMC until its load pushes some back (R19·B18). Shifting the burden.
+  [837:10454] Idols installed in homes and mandals (10 to 12 lakh immersions)
+  [837:10458] Mental model: "immersion is PMC's job now"
+  [837:10462] ★9 MANDALS AND RESIDENTS TAKING TASKS BACK
+  [837:10466] CAPACITY: PMC workers and sites (3,970 workers, 241 collection centres)
+  [837:10470] IDOLS IMMERSED IN THE RIVER
+  [837:10474] ECO IDOLS, TANKS
+  [837:10478] PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA)
+  [837:10482] LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE)
+  [837:10486] RIVER POLLUTION (MULA-MUTHA)
+  [837:10490] COURT, NGT AND MPCB RULES
+  [837:10494] RESIDENTS' OWN ROLE AND KNOW-HOW
+  [837:10498] COMMUNITY KNOW-HOW
+## Z10 POLICE, PROCESSION AND BORROWED CAPACITY
+  T: 10 POLICE, PROCESSION AND BORROWED CAPACITY
+  T: The procession grows against one day of police capacity, police go where crowds have been, and borrowed staff mean dedicated capacity is never built (B2, R28, B31·B32, R17). Limits to growth; shifting the burden.
+  [837:10346] MANDALS DENIED ENTRY TO THE PROCESSION
+  [837:10350] SITE SEEN AS SAFE AND MANAGED
+  [837:10354] POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS
+  [837:10358] LENGTH AND DURATION OF THE PROCESSION
+  [837:10362] ★7 GAP BEYOND ONE DAY OF SECURITY AND TRAFFIC CAPACITY
+  [837:10366] PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK
+  [837:10370] CAPACITY: one day of security and traffic (police)
+  [837:10374] STAFF AND SERVICES DIVERTED TO THE FESTIVAL
+  [837:10378] ROUTINE CIVIC AND POLICE SERVICES STRETCHED
+  [837:10382] FESTIVAL HANDLED WITHOUT NEW SYSTEMS
+  [837:10386] CASE FOR DEDICATED FESTIVAL CAPACITY
+## Z11 AFTER THE FESTIVAL: CLEAN-UP AND LEARNING
+  T: 11 AFTER THE FESTIVAL: CLEAN-UP AND LEARNING
+  T: The festival ends before the system does: teardown slips past the three-day rule, and lessons only change plans if problems are seen and recorded (B13, R20·B21, B11, B34). Eroding goals.
+  [837:10390] Staff turnover in police and mandals
+  [837:10394] CHANGES TO FESTIVAL ARRANGEMENTS
+  [837:10398] RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING)
+  [837:10402] GOAL: street restored within 3 days (PMC rule)
+  [837:10406] ★6 LESSONS CARRIED INTO NEXT YEAR
+  [837:10410] GAP TO A SMOOTHER FESTIVAL EACH YEAR
+  [837:10414] GOAL: a festival that runs without affecting the city (organisers, VoC)
+  [837:10418] CLEAN-UP AND DISMANTLING BACKLOG
+  [837:10422] GAP TO A RESTORED STREET
+  [837:10426] MORE ELABORATE SETUPS POSSIBLE
+  [837:10430] ★5 WORK PUSHED LATER, INCLUDING DISMANTLING
+  [837:10434] DISMANTLING AND CLEAN-UP CREWS AT WORK
+  [837:10438] WORKERS SPECIALISING IN FESTIVAL WORK
+  [837:10442] TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED
+  [837:10446] CREWS BOOKED BEYOND THOSE AVAILABLE
+  [837:10450] Mental model: "once it ends, the street fixes itself"
+[841:10985] R1 · B1 MERGE: R + B Volunteers stand in for signs #39 #13 #61
+[841:10988] R2 · R27 · B2 MERGE: R + B Procession prestige and cap #63
+[841:10991] R3 REINFORCING Rising expectations #17 #24
+[841:10994] R4 REINFORCING Spectacle spiral #33 #55
+[841:10997] R5 REINFORCING Pull of the big mandals #78
+[841:11000] R6 REINFORCING Benefits spread unevenly #74
+[841:11003] R7 · B3 MERGE: R + B Visitors steer around jams #3 #35
+[841:11006] R8 · B4 MERGE: R + B Small pandals multiply #76
+[841:11009] R9 REINFORCING Site lock-in #28 #62 #84
+[841:11012] B5 BALANCING Crowd control #14 #15 #73
+[841:11015] B6 BALANCING Emergency access #38 #85
+[841:11018] R10 REINFORCING Hawkers follow the crowd (?) #9 #26 #57
+[841:11021] R11 REINFORCING Diversion ripple #20 #32 #37
+[841:11024] R12 · B7 MERGE: R + B Programmes and noise #48
+[841:11027] R13 REINFORCING Everyone takes the same detour #21 · VoC
+[841:11030] B8 BALANCING Immersion regulation #40 #41 #43
+[841:11033] R14 REINFORCING Neighbourhood belonging #69 · C&E 11
+[841:11036] R15 REINFORCING Silent adaptation #7 #23 #82
+[841:11039] B9 BALANCING Rules enforced on the street #62 #76 · PMC 2026
+[841:11042] B10 BALANCING Visible pushback #77 · Raheja memo
+[841:11045] B11 BALANCING Year-to-year learning #30
+[841:11048] B12 BALANCING Complaints bring noise checks #48 #69 · 1,043 complaints
+[841:11051] B13 BALANCING The festival ends before the system does #19 #65 #86
+[841:11054] R16 · B14 MERGE: R + B Pathak pride and rehearsal noise Raheja memo
+[841:11057] B15 BALANCING Coordinated response #29 #59
+[841:11060] B16 BALANCING Familiarity lowers felt disruption #83
+[841:11063] R17 REINFORCING Capacity borrowed, not built #81
+[841:11066] R18 · B17 MERGE: R + B Stage-by-stage firefighting #79
+[841:11069] R19 · B18 MERGE: R + B Community tasks drift to PMC #80
+[841:11072] B19 BALANCING Residents work around it #7 #82
+[841:11075] B20 BALANCING Errands and deliveries rerouted #23 #56
+[841:11078] R20 · B21 MERGE: R + B Specialist crews, teardown slips #53
+[841:11081] R21 REINFORCING Sites follow tradition #28
+[841:11084] R22 · B22 MERGE: R + B Layout reused, footprint spills #62
+[841:11087] R23 · B23 MERGE: R + B Visible spot locks in closures #84
+[841:11090] B24 BALANCING Barricades compact the crowd #14 #60
+[841:11093] R24 · B25 MERGE: R + B Diversions spread, drivers divert #20 #32
+[841:11096] B26 BALANCING Advisories ease the peak #35
+[841:11099] B27 BALANCING Corridors keep junctions open #85
+[841:11102] R25 · B28 MERGE: R + B Trust and joint plans #29
+[841:11105] R26 · B29 MERGE: R + B The chowki and formal checks #59 #71
+[841:11108] B30 BALANCING One plan for the whole cycle #79
+[841:11111] R28 REINFORCING Police go where crowds have been #16 #37 #73
+[841:11114] B31 · B32 BALANCING Staff pulled back to routine work #16 #37 #81
+[841:11117] R29 REINFORCING Silent adaptation hides the problem #7 #82
+[841:11120] B33 BALANCING Tolerance and noise checks #69
+[841:11123] B34 BALANCING Lessons change plans #30
+T: SYSTEM MAP v4: FESTIVALS x EVERYDAY CITY LIFE (MERGED)
+T: The Expanded map's depth inside v3's readability. Every box, arrow, sign, source code, delay and mental model from the Expanded map, rebuilt in 11 zones with v3's merge points and gap variables, plus the 26 loops only v3 had. 159 boxes, 267 arrows, 63 loops under 47 markers. Boundary: the festival street and its surrounding routes (Dagdusheth and Koregaon Park), plus the agencies, courts and river it touches.
+[844:11078] NORTH STAR To enable neighbourhoods and festivals to adapt to each other while maintaining a balance between celebration and everyday city life.
+T: HOW TO READ IT
+T: Boxes are things that can rise or fall. + means both move the same way, − means they move in opposite ways. E is evidence on our board, H our hypothesis, ? a sign we do not know yet. ‖ marks a delay. Each numbered zone is a sub-system. Start with the engine (6) in the middle, then read the zones around it. Box outline shows the family: violet festival, orange street, green everyday city, blue planning and governance. Arrow colour shows the loop: red runs only in reinforcing loops, blue only in balancing loops, violet in both. Dashed coloured arrows have a sign we do not know yet. Grey dashed arrows are links outside any loop. Black arrows come from yellow boxes (goals, capacities, outside pushes, mental models) and are not counted in a loop's sign. Dark boxes ◆ are merge points: four or more loops pass through them. Thick yellow outline and ★n mark where acting moves us toward the North Star (see the list on the right). Circles name the loops: red reinforcing, blue balancing, white MERGE where a reinforcing and a balancing loop share boxes. A loop is reinforcing with an even number of − signs and balancing with an odd number. Every loop runs through at least three boxes. Source codes after E: D01 to D07 Dagdusheth findings; KP, KP01 to KP07 K.P. visit; PR primary research insight; Obs our observations; Raw raw data; VoC voice of customer; News secondary sources (police and PMC notices, court rulings, the Raheja Reserve memo, 2022 complaint data); PMC civic figures; SA stakeholder analysis and ecosystem maps; #n iceberg loop.
+[844:11087] Festival
+[844:11091] Street
+[844:11095] Everyday city
+[844:11099] Planning
+[844:11103] Goal, capacity, mental model
+[844:11107] ◆ Merge point
+[844:11111] ★ Act here
+[844:11115] R
+[844:11118] B
+[844:11121] MERGE R + B
+T: THE SYSTEM IN SENTENCES (FOR PRESENTING)
+T: The festival grows through several engines at once. A bigger celebration becomes more visible, which brings visitors and donations that fund the next one (R4). Expectations of a good festival rise with it and push a more elaborate theme and the space it needs (R3), decided on site by the trust leadership (D07), seemingly without access and traffic being part of that decision. The famous central mandals pull trips from every neighbourhood (R5), and the procession draws mandals through prestige until one day of police capacity caps it (R2 · R27 · B2). State grants, patrons and election season add money from outside. Locally, attachment keeps pandals going (R14) and small pandals multiply because each one makes the next easier (R8 · B4). Sites that worked are carried over with their permissions (R9, R21), layouts are reused until the footprint spills onto paths (R22 · B22), and a visible main-road spot pulls crowds that lock in its closures (R23 · B23). On the street, more space taken and more people raise congestion. Barricades channel the crowd and clear the site (B5) and compact it into dedicated space (B24), but diversions push congestion onto surrounding routes and side roads, pulling police to new hotspots (R11, R24). Drivers divert to save time (B25) and visitors steer around jams using the metro and advisories (R7 · B3, B26), until everyone takes the same detour (R13). Volunteers guide crowds, yet because they act as the signage nobody invests in signs, and their workload caps what they can do (R1 · B1). Congestion and blocked junctions slow ambulances, which may lead to kept-clear corridors (B6, B27). Hawkers who are moved on may set up at the crowd's edge, though our evidence is mixed (R10). The costs land on people who did not choose them. Most residents and delivery workers adapt privately, rerouting trips and errands (B19, B20), which keeps the disruption out of sight, so arrangements stay the same (R15, R29). When it becomes an organised complaint, as with the Raheja Reserve memo on dhol-tasha rehearsals, it reaches planners and pushes back on space, noise and enforcement (B9, B10, B12, B33, R16 · B14). The belief that complaining would be disrespectful, and routines learned over the years (B16), tilt the system towards silence. Permissions run through the familiar police chowki, where informal nods keep it the front door, while the single window and formal checks close the rule gap (R26 · B29). Clashes on the ground push joint plans and build trust (R25 · B28, B15), but agencies still plan one stage at a time and firefight at each (R18 · B17); one plan for the whole cycle is the balancing response (B30). Police go where crowds have been (R28), and borrowed staff stretch routine services until they are pulled back (B31 · B32), so the festival is handled without new systems and the case for dedicated capacity never builds (R17). After visarjan the festival ends for participants but not for the system: crews close the gap to a restored street slowly, against a three-day rule that slips to weeks (B13), and crews booked beyond those available push teardown later (R20 · B21). Immersion is the one area where rules visibly changed practice (B8), and it moves community tasks to PMC (R19 · B18). Whether any of this becomes a lesson for next year depends on problems being seen and recorded (B11, B34), and is still the biggest unknown on the map.
+T: THE 63 LOOPS BY ZONE (47 MARKERS)
+T: 1 LOCAL PANDALS AND BELONGING R14 Neighbourhood belonging (#69, C&E 11): residents take part and meet neighbours, attachment grows, and attachment keeps more pandals going. R8 · B4 Small pandals multiply (#76): shared suppliers and know-how make another pandal easier (R8); more pandals take street space, cut everyday access, and complaints and enforcement hold the number down (B4). 2 SPACE AND THE SITE R9 Site lock-in (#28 #62 #84): carried-over sites support scale, scale takes street space at the same spot, and the spot is carried over again. R21 Sites follow tradition (#28): the same site every year means people expect it there, the mandal treats it as its own, and it is carried over again. R22 · B22 Layout reused, footprint spills (#62): a layout planned for the site is reused and hardens the precedent (R22); its footprint on road, drains and crosswalks widens the gap to clear paths, which trims the layout (B22). R23 · B23 Visible spot locks in closures (#84): a main-road pandal draws passers-by, so the mandal values the visible spot (R23); it brings closures and a gap to normal movement, which can move sites to grounds or compounds (B23). B9 Rules enforced on the street (#62 #76, PMC 2026): street space cuts everyday access, disruption becomes complaints, complaints bring enforcement, and less space is taken. 3 CROWDS, CLOSURES AND EMERGENCY ACCESS B5 Crowd control (#14 #15 #73): congestion brings barricades and diversions, which channel the crowd into lanes and clear the site. B24 Barricades compact the crowd (#14 #60): barricades create dedicated space, less crowd spills onto the carriageway, and the gap to separated flows closes. R1 · B1 Volunteers stand in for signs (#39 #13 #61): visitors ask volunteers, volunteers act as the signage, so less goes into signs (R1); workload grows against the volunteers available until visitors guess or follow others (B1). B6 Emergency access (#38 #85, ?): congestion slows emergency travel, which may lead to protected corridors that limit street space. B27 Corridors keep junctions open (#85): kept-clear corridors cut blocked junctions, which cuts ambulance travel time. R10 Hawkers follow the crowd (#9 #26 #57, ?): barricades displace hawkers, who may set up at the crowd's edge. D02 says they cannot set up nearby; vendors say if the crowd moves, they move. 4 TRAFFIC, DETOURS AND ADVISORIES R11 Diversion ripple (#20 #32 #37): diversions push congestion onto surrounding routes, pulling police to new hotspots and more diversions. R24 · B25 Diversions spread, drivers divert (#20 #32): drivers on alternative routes create bottlenecks on side roads that bring more closures (R24); drivers leaving ease the closed corridor and close the gap to an acceptable travel time (B25). R7 · B3 Visitors steer around jams (#3 #35): those who shift and avoid jams trust advisories more (R7); expected congestion widens the gap to a bearable trip, visitors shift, and congestion eases (B3). B26 Advisories ease the peak (#35): visitors who adapt cut cars at the peak, and the gap to a bearable trip drives the advisories police issue. R13 Everyone takes the same detour (#21, VoC): shifting sends everyone to the same alternative routes, which raises expected congestion and more shifting. 5 SHOPS AND STREET TRADE R6 Benefits spread unevenly (#74): footfall brings income, shops facing the crowd back the festival, and footfall grows; hawkers and other shops lose out. 6 THE FESTIVAL ENGINE R4 Spectacle spiral (#33 #55): bigger means more visible, more footfall and donations, and a bigger festival next time. R3 Rising expectations (#17 #24): scale raises what visitors expect, which pushes a more elaborate theme and the space it needs. R5 Pull of the big mandals (#78): visibility draws trips to the central mandals, adding footfall, donations and scale. R2 · R27 · B2 Procession prestige and cap (#63): mandals in the procession add visibility and prestige, which draw more to apply (R2, R27); a longer procession widens the gap beyond one day of security and traffic capacity, more are denied, fewer apply (B2). R12 · B7 Programmes and noise (#48): programmes draw visitors and donations that fund more (R12); their noise near homes brings police checks that cut them back (B7). R16 · B14 Pathak pride and rehearsal noise (Raheja memo): rehearsals lead to performances and youth pride (R16); rehearsal noise beyond what residents tolerate brings complaints and checks (B14; whether checks curb rehearsals is unknown). 7 RESIDENTS WHO ABSORB IT R15 Silent adaptation (#7 #23 #82): disruption makes residents adapt privately, planners see less, arrangements stay, and disruption carries on. R29 Silent adaptation hides the problem (#7 #82): private adaptation keeps disruption from authorities, so arrangements do not change and adaptation continues. B19 Residents work around it (#7 #82): adapting cuts own delay and the gap to a normal routine. B20 Errands and deliveries rerouted (#23 #56): rerouting cuts trips through the restricted area, delays on usual routes and the gap to deadlines. B10 Visible pushback (#77, Raheja memo): disruption becomes an organised complaint, reaches planners, and arrangements give space back. B12 Complaints bring noise checks (#48 #69, 1,043 complaints in 2022): noise beyond tolerance becomes complaints, which bring checks that cut programmes and noise. B33 Tolerance and noise checks (#69): local celebrations make noise, noise beyond tolerance brings complaints, and complaints cool participation. B16 Familiarity lowers felt disruption (#83): disruption builds learned routines, routines cut surprises, and the next year feels lighter. 8 PERMISSIONS AND COORDINATION R26 · B29 The chowki and formal checks (#59 #71): permissions sought through the chowki build familiarity and quick nods (R26); clashes widen the gap to one agreed plan, which brings the single window and formal checks (B29). R25 · B28 Trust and joint plans (#29): coordination builds trust and shared plans (R25); clashes on the ground push extra meetings and more coordination (B28). B15 Coordinated response (#29 #59, ?): visible disruption improves coordination, which brings advance notice and lowers disruption felt. R18 · B17 Stage-by-stage firefighting (#79): stage-by-stage planning misses hand-offs and firefights, which keeps the habit (R18); missed hand-offs push coordination that reduces it (B17). B30 One plan for the whole cycle (#79): problems at stage boundaries widen the gap to one smooth cycle, which pushes joint whole-cycle planning. 9 IMMERSION, RITUALS AND THE RIVER B8 Immersion regulation (#40 #41 #43): idols pollute the river, courts and NGT respond, and tanks and eco idols cut what reaches it. R19 · B18 Community tasks drift to PMC (#80): PMC doing immersion and nirmalya weakens residents' role and know-how (R19); once the load outgrows PMC's workers and sites, mandals and residents take tasks back (B18). 10 POLICE, PROCESSION AND BORROWED CAPACITY R28 Police go where crowds have been (#16 #37 #73): crowds bring police to known sites, the site is seen as safe and managed, and crowds grow there. B31 · B32 Staff pulled back to routine work (#16 #37 #81): staff diverted to the festival stretch routine services, which pulls officers (B31) and staff (B32) back. R17 Capacity borrowed, not built (#81): diverted staff mean the festival is handled without new systems, so the case for dedicated capacity never builds. 11 AFTER THE FESTIVAL: CLEAN-UP AND LEARNING B13 The festival ends before the system does (#19 #65 #86): the backlog widens the gap to a restored street, crews close it slowly, and the three-day rule is missed by weeks. R20 · B21 Specialist crews, teardown slips (#53): hired crews specialise and make bigger setups possible (R20); crews booked beyond those available push work, including dismantling, later (B21). B11 Year-to-year learning (#30, ?): visible disruption becomes recurring problems planners see, the gap to a smoother festival becomes lessons, and lessons change arrangements, if they are recorded at all. B34 Lessons change plans (#30): changed arrangements cut recurring problems, which shrinks the gap and the pressure to learn.
+T: HOW THE LOOPS MERGE
+T: Silent adaptation: R15, R29, B19 and B20 all pass through private adaptation (◆). The more people adjust quietly, the less reaches planners. Complaints (B10, B12, B33) and familiarity (B16) feed the same point. Disruption felt (◆): the busiest box on the map. R15, B4, B9, B10, B11, B15 and B16 all pass through it. Closures: barricades and diversions (◆) carry B5, B23, B24, R10, R11 and R24. Links reach errands (B20), advisories (B26), volunteer signage (R1) and emergency access (B27). Site precedent: R9, R21 and R22 run through the carried-over site, which also feeds the main-road choice (R23 · B23) and the chowki (R26). Coordination: R25 · B28 and R26 · B29 share clashes on the ground and the gap to one agreed plan. Coordination (◆) feeds whole-cycle planning (B30). Borrowed capacity: B31, B32 and R17 share staff diverted, stretched services and pulling staff back. Stretched services slow the B13 clean-up, and B21 pushes teardown later. Learning: R15, R29, B10, B11 and B34 share changes to arrangements (◆). Problems only feed B11 when they are visible, and R15, R29 and B16 keep them out of sight. The engine: scale (◆) and footfall (◆) tie R3, R4, R5, R6, R9, R12 and R28 together, which is why growth shows up in every zone.
+T: MENTAL MODELS HOLDING THE LOOPS IN PLACE
+T: Each belief is a yellow box on the map, with a black arrow into the loop it holds in place. "Every year it should be bigger": R2, R3, R4 "This is where we always do it": R8, R9, R21 "A proper darshan means the famous mandal": R5 "Order means police and barricades": B5, R11, B24 "Complaining would be disrespectful": R15, B10 "Every neighbourhood will learn to live with it": B16 "Ask a volunteer, not a sign": R1 "Immersion is PMC's job now": R19 "We manage it as it comes": R17, R18, B30 "Once it ends, the street fixes itself": B13 "Noise is part of the celebration": R12, R16 "The festival is good for business": R6
+T: ARCHETYPES WE THINK WE SEE
+T: Limits to growth: small pandals multiply until street space and enforcement hold them back (R8 · B4); the procession grows until one day of police capacity caps it (R2 · B2); bigger setups grow until crews run out (R20 · B21). Fixes that fail: barricades clear the site but load surrounding routes (B5 with R11 and R24); detours fill up once everyone takes them (R13); firefighting each stage keeps agencies planning stage by stage (R18 · B17). Shifting the burden: residents absorb disruption privately instead of the arrangement changing (R15, R29 against B10); PMC takes over community tasks (R19 · B18); volunteers stand in for signs (R1 · B1); borrowed staff stand in for dedicated capacity (R17, B31 · B32). Eroding goals: the three-day removal rule has drifted to about 15 days, and weeks in practice (B13, D01). Success to the successful: the famous mandals pull ever more visitors (R5); carried-over and main-road sites keep their place (R9, R21, R23); police go where crowds have been (R28).
+T: WHERE TO ACT (★ ON THE MAP)
+T: ★1 Give private adjustment a voice so it reaches planners: R15, R29, B10, B15. ★2 Make site choice a yearly decision that weighs access and traffic, not a carry-over: R9, R21, R22, R23 · B23. ★3 Bring access and traffic needs into the on-site theme decision (#17). ★4 One plan for the whole cycle, setup to clean-up, shared by police, PMC and mandals: B30, R18 · B17, B13. ★5 Plan teardown crews and dates together with setup: B13, R20 · B21, R17. ★6 Record lessons each year so learning does not reset with new staff: B11, B34, B16. ★7 Size the procession to capacity before the day: R2 · B2. ★8 Put up signs as well as volunteers: R1 · B1. ★9 Keep a community role in rituals alongside PMC: R19 · B18. ★10 A kept-clear emergency corridor with response time measured: B6, B27. ★11 Designated spots for displaced hawkers (a gap on our dependency map): R10.
+T: WHAT WE STILL DON'T KNOW
+T: Do hawkers who are moved on set up at the crowd's edge, or leave? (R10, ?) Do police checks actually cut dhol-tasha rehearsals? (R16 · B14, ?) Do lessons from one year change next year's plan? (B11, B34, ?) Does advance notice reduce felt disruption, or only shift it? (B15, ?) Is there real pressure for kept-clear emergency corridors? (B6, B27, ?) Do informal nods at the chowki speed permissions, or route around the single window? (R26, ?) Does dedicated crowd space reduce spill onto the carriageway? (B24, ?) Who besides the trust leadership shapes the theme, and is access ever part of it? (D07) Is familiarity lowering disruption, or are residents just quieter? (B16 against R15, R29) Still only on System Map v2 (Deep): bus rerouting and autos, VIP visits, toilets, water and bins, crowd safety risk.
+---CONNECTORS
+RESIDENTS TAKING PART IN LOCAL CELEBRATIONS -> NEIGHBOURS MEETING AT THE CELEBRATION | x8607>NEIGHBOURS | caps NONE/ARROW_EQUILATERAL
+NEIGHBOURS MEETING AT THE CELEBRATION -> ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL | NEIGHBOURS>x8611 | caps NONE/ARROW_EQUILATERAL
+RESIDENTS TAKING PART IN LOCAL CELEBRATIONS -> ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL | x8607>x8611 | caps NONE/ARROW_EQUILATERAL
+NUMBER OF SMALL PANDALS IN THE AREA -> RESIDENTS TAKING PART IN LOCAL CELEBRATIONS | x8675>x8607 | caps NONE/ARROW_EQUILATERAL
+ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL -> NUMBER OF SMALL PANDALS IN THE AREA | x8611>x8675 | caps NONE/ARROW_EQUILATERAL
+NUMBER OF SMALL PANDALS IN THE AREA -> SHARED SUPPLIERS, WORKERS AND KNOW-HOW | x8675>x8679 | caps NONE/ARROW_EQUILATERAL
+SHARED SUPPLIERS, WORKERS AND KNOW-HOW -> EASIER TO SET UP ANOTHER PANDAL | x8679>x9075 | caps NONE/ARROW_EQUILATERAL
+EASIER TO SET UP ANOTHER PANDAL -> NUMBER OF SMALL PANDALS IN THE AREA | x9075>x8675 | caps NONE/ARROW_EQUILATERAL
+RESIDENTS AND VISITORS EXPECTING IT THERE -> SITE TREATED AS THE MANDAL'S OWN | EXPECT>OWN_SITE | caps NONE/ARROW_EQUILATERAL
+GAP TO CLEAR PATHS (GOAL: PMC, NGT 2022) -> LAYOUT TRIMMED TO THE SITE | GAP_PATHS>TRIMMED | caps NONE/ARROW_EQUILATERAL
+SAME LAYOUT REUSED EACH YEAR -> ★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) | SAME_LAYOUT>x8376 | caps NONE/ARROW_EQUILATERAL
+SITE TREATED AS THE MANDAL'S OWN -> ★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) | OWN_SITE>x8376 | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> RESIDENTS AND VISITORS EXPECTING IT THERE | x8376>EXPECT | caps NONE/ARROW_EQUILATERAL
+Mental model: "this is where we always do it" -> ★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) | x9800>x8376 | caps NONE/ARROW_EQUILATERAL
+LAYOUT TRIMMED TO THE SITE -> PANDAL LAYOUT PLANNED FOR THE SITE | TRIMMED>LAYOUT | caps NONE/ARROW_EQUILATERAL
+PANDAL LAYOUT PLANNED FOR THE SITE -> SAME LAYOUT REUSED EACH YEAR | LAYOUT>SAME_LAYOUT | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> PANDAL LAYOUT PLANNED FOR THE SITE | x8376>LAYOUT | caps NONE/ARROW_EQUILATERAL
+FOOTPRINT ON ROAD, DRAINS AND CROSSWALKS -> GAP TO CLEAR PATHS (GOAL: PMC, NGT 2022) | FOOTPRINT>GAP_PATHS | caps NONE/ARROW_EQUILATERAL
+PANDAL LAYOUT PLANNED FOR THE SITE -> FOOTPRINT ON ROAD, DRAINS AND CROSSWALKS | LAYOUT>FOOTPRINT | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> ★2 PANDAL PLACED ON A MAIN ROAD | x8376>MAINROAD | caps NONE/ARROW_EQUILATERAL
+MANDAL VALUING THE VISIBLE SPOT -> ★2 PANDAL PLACED ON A MAIN ROAD | VALUE>MAINROAD | caps NONE/ARROW_EQUILATERAL
+ENFORCEMENT OF ROAD AND FOOTPATH RULES -> STREET SPACE TAKEN BY THE FESTIVAL | x8891>x8382 | caps NONE/ARROW_EQUILATERAL
+STREET SPACE TAKEN BY THE FESTIVAL -> ★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) | x8382>x8376 | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> PASSERS-BY AND ROADSIDE CROWDS | x8376>PASSERSBY | caps NONE/ARROW_EQUILATERAL
+PASSERS-BY AND ROADSIDE CROWDS -> MANDAL VALUING THE VISIBLE SPOT | PASSERSBY>VALUE | caps NONE/ARROW_EQUILATERAL
+★2 PANDAL PLACED ON A MAIN ROAD -> PASSERS-BY AND ROADSIDE CROWDS | MAINROAD>PASSERSBY | caps NONE/ARROW_EQUILATERAL
+SITES MOVED TO GROUNDS OR COMPOUNDS -> ★2 PANDAL PLACED ON A MAIN ROAD | SITES_MOVED>MAINROAD | caps NONE/ARROW_EQUILATERAL
+GAP TO NORMAL MOVEMENT -> SITES MOVED TO GROUNDS OR COMPOUNDS | GAP_MOVEMENT>SITES_MOVED | caps NONE/ARROW_EQUILATERAL
+ENFORCEMENT OF ROAD AND FOOTPATH RULES -> NUMBER OF SMALL PANDALS IN THE AREA | x8891>x8675 | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> NUMBER OF SMALL PANDALS IN THE AREA | x8376>x8675 | caps NONE/ARROW_EQUILATERAL
+NUMBER OF SMALL PANDALS IN THE AREA -> STREET SPACE TAKEN BY THE FESTIVAL | x8675>x8382 | caps NONE/ARROW_EQUILATERAL
+GOAL: ambulances get through in time -> ★10 PROTECTED EMERGENCY CORRIDORS | x8429>x8396 | caps NONE/ARROW_EQUILATERAL
+CROWD CHANNELLED INTO BARRICADED LANES -> CONGESTION AT THE SITE | x9059>x8384 | caps NONE/ARROW_EQUILATERAL
+Mental model: "order means police and barricades" -> POLICE BARRICADES AND DIVERSIONS | x9814>x8387 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> CROWD CHANNELLED INTO BARRICADED LANES | x8387>x9059 | caps NONE/ARROW_EQUILATERAL
+GOAL: traffic keeps moving (police) -> POLICE BARRICADES AND DIVERSIONS | x8425>x8387 | caps NONE/ARROW_EQUILATERAL
+CONGESTION AT THE SITE -> POLICE BARRICADES AND DIVERSIONS | x8384>x8387 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> DEDICATED SPACE FOR THE CROWD | x8387>DEDICATED | caps NONE/ARROW_EQUILATERAL
+CAPACITY: mandal volunteers available (#13) -> VOLUNTEER WORKLOAD AT JUNCTIONS | x9870>x8591 | caps NONE/ARROW_EQUILATERAL
+EMERGENCY TRAVEL TIME THROUGH THE AREA -> ★10 PROTECTED EMERGENCY CORRIDORS | x8394>x8396 | caps NONE/ARROW_EQUILATERAL
+CONGESTION AT THE SITE -> EMERGENCY TRAVEL TIME THROUGH THE AREA | x8384>x8394 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> BLOCKED JUNCTIONS ON KEY ROUTES | x8387>BLOCKED | caps NONE/ARROW_EQUILATERAL
+BLOCKED JUNCTIONS ON KEY ROUTES -> EMERGENCY TRAVEL TIME THROUGH THE AREA | BLOCKED>x8394 | caps NONE/ARROW_EQUILATERAL
+★10 PROTECTED EMERGENCY CORRIDORS -> BLOCKED JUNCTIONS ON KEY ROUTES | x8396>BLOCKED | caps NONE/ARROW_EQUILATERAL
+GAP TO SEPARATED FLOWS (CROWD AND VEHICLES) -> POLICE BARRICADES AND DIVERSIONS | GAP_SEP>x8387 | caps NONE/ARROW_EQUILATERAL
+CROWD SPILLING ONTO THE CARRIAGEWAY -> GAP TO SEPARATED FLOWS (CROWD AND VEHICLES) | CROWD_SPILL>GAP_SEP | caps NONE/ARROW_EQUILATERAL
+DEDICATED SPACE FOR THE CROWD -> CROWD SPILLING ONTO THE CARRIAGEWAY | DEDICATED>CROWD_SPILL | caps NONE/ARROW_EQUILATERAL
+VOLUNTEER WORKLOAD AT JUNCTIONS -> VISITORS GUESSING OR FOLLOWING OTHERS | x8591>x9055 | caps NONE/ARROW_EQUILATERAL
+Mental model: "ask a volunteer, not a sign" -> VISITORS ASKING VOLUNTEERS FOR DIRECTIONS | x9828>x8583 | caps NONE/ARROW_EQUILATERAL
+VISITORS GUESSING OR FOLLOWING OTHERS -> VISITORS ASKING VOLUNTEERS FOR DIRECTIONS | x9055>x8583 | caps NONE/ARROW_EQUILATERAL
+VISITORS ASKING VOLUNTEERS FOR DIRECTIONS -> VOLUNTEER WORKLOAD AT JUNCTIONS | x8583>x8591 | caps NONE/ARROW_EQUILATERAL
+VOLUNTEER WORKLOAD AT JUNCTIONS -> CROWD GUIDANCE BY VOLUNTEERS | x8591>x8839 | caps NONE/ARROW_EQUILATERAL
+CROWD GUIDANCE BY VOLUNTEERS -> CONGESTION AT THE SITE | x8839>x8384 | caps NONE/ARROW_EQUILATERAL
+★8 INVESTMENT IN CLEAR SIGNS -> VISITORS ASKING VOLUNTEERS FOR DIRECTIONS | x8587>x8583 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> VOLUNTEERS ACTING AS THE SIGNAGE | x8387>x9051 | caps NONE/ARROW_EQUILATERAL
+VISITORS ASKING VOLUNTEERS FOR DIRECTIONS -> VOLUNTEERS ACTING AS THE SIGNAGE | x8583>x9051 | caps NONE/ARROW_EQUILATERAL
+VOLUNTEERS ACTING AS THE SIGNAGE -> ★8 INVESTMENT IN CLEAR SIGNS | x9051>x8587 | caps NONE/ARROW_EQUILATERAL
+★2 PANDAL PLACED ON A MAIN ROAD -> CROWD SPILLING ONTO THE CARRIAGEWAY | MAINROAD>CROWD_SPILL | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> GAP TO NORMAL MOVEMENT | x8387>GAP_MOVEMENT | caps NONE/ARROW_EQUILATERAL
+★2 PANDAL PLACED ON A MAIN ROAD -> POLICE BARRICADES AND DIVERSIONS | MAINROAD>x8387 | caps NONE/ARROW_EQUILATERAL
+★10 PROTECTED EMERGENCY CORRIDORS -> STREET SPACE TAKEN BY THE FESTIVAL | x8396>x8382 | caps NONE/ARROW_EQUILATERAL
+STREET SPACE TAKEN BY THE FESTIVAL -> CONGESTION AT THE SITE | x8382>x8384 | caps NONE/ARROW_EQUILATERAL
+JAMS AVOIDED BY THOSE WHO CHECKED -> TRUST IN TRAFFIC ADVISORIES | x9067>x8579 | caps NONE/ARROW_EQUILATERAL
+GAP TO AN ACCEPTABLE TRAVEL TIME -> DRIVERS ON ALTERNATIVE ROUTES | GAP_DRIVE>DRIVERS | caps NONE/ARROW_EQUILATERAL
+DRIVERS ON ALTERNATIVE ROUTES -> NEW BOTTLENECKS ON SIDE ROADS | DRIVERS>SIDE | caps NONE/ARROW_EQUILATERAL
+VISITORS SHIFTING TIME, ROUTE OR MODE -> JAMS AVOIDED BY THOSE WHO CHECKED | x8575>x9067 | caps NONE/ARROW_EQUILATERAL
+CAPACITY: metro (till 2 am), buses and walking routes -> VISITORS SHIFTING TIME, ROUTE OR MODE | x8895>x8575 | caps NONE/ARROW_EQUILATERAL
+TRUST IN TRAFFIC ADVISORIES -> VISITORS SHIFTING TIME, ROUTE OR MODE | x8579>x8575 | caps NONE/ARROW_EQUILATERAL
+VISITORS SHIFTING TIME, ROUTE OR MODE -> CONGESTION ON SURROUNDING ROUTES | x8575>x8391 | caps NONE/ARROW_EQUILATERAL
+VISITORS SHIFTING TIME, ROUTE OR MODE -> CARS ARRIVING AT THE PEAK | x8575>CARS | caps NONE/ARROW_EQUILATERAL
+CONGESTION ON SURROUNDING ROUTES -> POLICE PULLED TO NEW HOTSPOTS | x8391>x9063 | caps NONE/ARROW_EQUILATERAL
+ADVISORIES ISSUED BY TRAFFIC POLICE -> VISITORS SHIFTING TIME, ROUTE OR MODE | ADV>x8575 | caps NONE/ARROW_EQUILATERAL
+GAP TO A BEARABLE TRIP (VISITORS) -> VISITORS SHIFTING TIME, ROUTE OR MODE | GAP_BEAR>x8575 | caps NONE/ARROW_EQUILATERAL
+GAP TO A BEARABLE TRIP (VISITORS) -> ADVISORIES ISSUED BY TRAFFIC POLICE | GAP_BEAR>ADV | caps NONE/ARROW_EQUILATERAL
+CARS ARRIVING AT THE PEAK -> GAP TO A BEARABLE TRIP (VISITORS) | CARS>GAP_BEAR | caps NONE/ARROW_EQUILATERAL
+VISITORS SHIFTING TIME, ROUTE OR MODE -> CROWDING ON THE SAME ALTERNATIVE ROUTES | x8575>x8899 | caps NONE/ARROW_EQUILATERAL
+ADVISORIES ISSUED BY TRAFFIC POLICE -> CONGESTION VISITORS EXPECT | ADV>x8571 | caps NONE/ARROW_EQUILATERAL
+CONGESTION VISITORS EXPECT -> GAP TO A BEARABLE TRIP (VISITORS) | x8571>GAP_BEAR | caps NONE/ARROW_EQUILATERAL
+CROWDING ON THE SAME ALTERNATIVE ROUTES -> CONGESTION VISITORS EXPECT | x8899>x8571 | caps NONE/ARROW_EQUILATERAL
+CONGESTION ON SURROUNDING ROUTES -> CONGESTION VISITORS EXPECT | x8391>x8571 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> ADVISORIES ISSUED BY TRAFFIC POLICE | x8387>ADV | caps NONE/ARROW_EQUILATERAL
+CONGESTION AT THE SITE -> GAP TO AN ACCEPTABLE TRAVEL TIME | x8384>GAP_DRIVE | caps NONE/ARROW_EQUILATERAL
+DRIVERS ON ALTERNATIVE ROUTES -> CONGESTION AT THE SITE | DRIVERS>x8384 | caps NONE/ARROW_EQUILATERAL
+NEW BOTTLENECKS ON SIDE ROADS -> POLICE BARRICADES AND DIVERSIONS | SIDE>x8387 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> DRIVERS ON ALTERNATIVE ROUTES | x8387>DRIVERS | caps NONE/ARROW_EQUILATERAL
+POLICE PULLED TO NEW HOTSPOTS -> POLICE BARRICADES AND DIVERSIONS | x9063>x8387 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> CONGESTION ON SURROUNDING ROUTES | x8387>x8391 | caps NONE/ARROW_EQUILATERAL
+Mental model: "the festival is good for business" -> SHOPS FACING THE CROWD BACKING THE FESTIVAL | x9863>x8683 | caps NONE/ARROW_EQUILATERAL
+INCOME FOR SHOPS AND FLOWER VENDORS -> SHOPS FACING THE CROWD BACKING THE FESTIVAL | x8379>x8683 | caps NONE/ARROW_EQUILATERAL
+★11 Designated spots for displaced hawkers (none yet) -> HAWKERS SETTING UP AT THE CROWD'S EDGE | x8847>x8843 | caps NONE/ARROW_EQUILATERAL
+DISPLACEMENT OF HAWKERS -> HAWKERS SETTING UP AT THE CROWD'S EDGE | x8381>x8843 | caps NONE/ARROW_EQUILATERAL
+HAWKERS SETTING UP AT THE CROWD'S EDGE -> CONGESTION AT THE SITE | x8843>x8384 | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> DISPLACEMENT OF HAWKERS | x8387>x8381 | caps NONE/ARROW_EQUILATERAL
+VISITOR EXPECTATIONS OF A "GOOD" FESTIVAL -> ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY T | x8373>x8903 | caps NONE/ARROW_EQUILATERAL
+★3 Access and traffic needs in the theme decision (#17) -> ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY T | x8907>x8903 | caps NONE/ARROW_EQUILATERAL
+PRESTIGE OF JOINING THE PROCESSION -> MANDALS APPLYING TO JOIN THE PROCESSION | PRESTIGE>x9071 | caps NONE/ARROW_EQUILATERAL
+MANDALS IN THE MAIN PROCESSION -> PRESTIGE OF JOINING THE PROCESSION | x8595>PRESTIGE | caps NONE/ARROW_EQUILATERAL
+MANDALS APPLYING TO JOIN THE PROCESSION -> MANDALS IN THE MAIN PROCESSION | x9071>x8595 | caps NONE/ARROW_EQUILATERAL
+ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY T -> FESTIVAL SCALE AND SPECTACLE | x8903>x8365 | caps NONE/ARROW_EQUILATERAL
+FESTIVAL SCALE AND SPECTACLE -> VISITOR EXPECTATIONS OF A "GOOD" FESTIVAL | x8365>x8373 | caps NONE/ARROW_EQUILATERAL
+Mental model: "every year it should be bigger" -> FESTIVAL SCALE AND SPECTACLE | x9793>x8365 | caps NONE/ARROW_EQUILATERAL
+PATHAK PERFORMANCES IN PROCESSIONS -> YOUTH PRIDE IN THE PATHAKS | x9079>x8863 | caps NONE/ARROW_EQUILATERAL
+FESTIVAL VISIBILITY ACROSS THE CITY -> MANDALS APPLYING TO JOIN THE PROCESSION | x8366>x9071 | caps NONE/ARROW_EQUILATERAL
+MANDALS IN THE MAIN PROCESSION -> FESTIVAL VISIBILITY ACROSS THE CITY | x8595>x8366 | caps NONE/ARROW_EQUILATERAL
+FESTIVAL SCALE AND SPECTACLE -> FESTIVAL VISIBILITY ACROSS THE CITY | x8365>x8366 | caps NONE/ARROW_EQUILATERAL
+DONATIONS AND SPONSORSHIP -> FESTIVAL SCALE AND SPECTACLE | x8370>x8365 | caps NONE/ARROW_EQUILATERAL
+DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL) -> PATHAK PERFORMANCES IN PROCESSIONS | x8859>x9079 | caps NONE/ARROW_EQUILATERAL
+YOUTH PRIDE IN THE PATHAKS -> DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL) | x8863>x8859 | caps NONE/ARROW_EQUILATERAL
+Mental model: "a proper darshan means the famous mandal" -> TRIPS TO THE BIG CENTRAL MANDALS | x9807>x8615 | caps NONE/ARROW_EQUILATERAL
+FESTIVAL VISIBILITY ACROSS THE CITY -> TRIPS TO THE BIG CENTRAL MANDALS | x8366>x8615 | caps NONE/ARROW_EQUILATERAL
+TRIPS TO THE BIG CENTRAL MANDALS -> VISITOR FOOTFALL AT THE SITE | x8615>x8368 | caps NONE/ARROW_EQUILATERAL
+VISITOR FOOTFALL AT THE SITE -> DONATIONS AND SPONSORSHIP | x8368>x8370 | caps NONE/ARROW_EQUILATERAL
+FESTIVAL VISIBILITY ACROSS THE CITY -> VISITOR FOOTFALL AT THE SITE | x8366>x8368 | caps NONE/ARROW_EQUILATERAL
+PROGRAMMES AND THEMED DISPLAYS -> VISITOR FOOTFALL AT THE SITE | x8659>x8368 | caps NONE/ARROW_EQUILATERAL
+DONATIONS AND SPONSORSHIP -> PROGRAMMES AND THEMED DISPLAYS | x8370>x8659 | caps NONE/ARROW_EQUILATERAL
+State festival grants (2025), patrons and election season -> DONATIONS AND SPONSORSHIP | x8887>x8370 | caps NONE/ARROW_EQUILATERAL
+VISITOR FOOTFALL AT THE SITE -> CROWD SPILLING ONTO THE CARRIAGEWAY | x8368>CROWD_SPILL | caps NONE/ARROW_EQUILATERAL
+ELABORATE THEME AND THE SPACE IT NEEDS (DECIDED ON SITE BY T -> STREET SPACE TAKEN BY THE FESTIVAL | x8903>x8382 | caps NONE/ARROW_EQUILATERAL
+SHOPS FACING THE CROWD BACKING THE FESTIVAL -> VISITOR FOOTFALL AT THE SITE | x8683>x8368 | caps NONE/ARROW_EQUILATERAL
+DONATIONS AND SPONSORSHIP -> NUMBER OF SMALL PANDALS IN THE AREA | x8370>x8675 | caps NONE/ARROW_EQUILATERAL
+MANDALS IN THE MAIN PROCESSION -> CONGESTION ON SURROUNDING ROUTES | x8595>x8391 | caps NONE/ARROW_EQUILATERAL
+VISITOR FOOTFALL AT THE SITE -> VISITORS ASKING VOLUNTEERS FOR DIRECTIONS | x8368>x8583 | caps NONE/ARROW_EQUILATERAL
+VISITOR FOOTFALL AT THE SITE -> CONGESTION AT THE SITE | x8368>x8384 | caps NONE/ARROW_EQUILATERAL
+FESTIVAL SCALE AND SPECTACLE -> STREET SPACE TAKEN BY THE FESTIVAL | x8365>x8382 | caps NONE/ARROW_EQUILATERAL
+VISITOR FOOTFALL AT THE SITE -> INCOME FOR SHOPS AND FLOWER VENDORS | x8368>x8379 | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> FESTIVAL SCALE AND SPECTACLE | x8376>x8365 | caps NONE/ARROW_EQUILATERAL
+NOISE NEAR HOMES -> GAP BEYOND WHAT THEY TOLERATE | x8663>GAP_TOL | caps NONE/ARROW_EQUILATERAL
+NOISE NEAR HOMES -> POLICE CHECKS ON SPEAKERS AND TIMINGS | x8663>x8667 | caps NONE/ARROW_EQUILATERAL
+GAP BEYOND WHAT THEY TOLERATE -> ★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) | GAP_TOL>x8851 | caps NONE/ARROW_EQUILATERAL
+★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) -> POLICE CHECKS ON SPEAKERS AND TIMINGS | x8851>x8667 | caps NONE/ARROW_EQUILATERAL
+★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) -> ★1 DISRUPTION VISIBLE TO PLANNERS | x8851>x8410 | caps NONE/ARROW_EQUILATERAL
+GOAL: 55 dB by day, 45 dB at night (noise rules) -> POLICE CHECKS ON SPEAKERS AND TIMINGS | x8671>x8667 | caps NONE/ARROW_EQUILATERAL
+Mental model: "complaining would be disrespectful" -> ★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) | x8855>x8851 | caps NONE/ARROW_EQUILATERAL
+DISRUPTION FELT BY NON-PARTICIPANTS -> ★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) | x8406>x8851 | caps NONE/ARROW_EQUILATERAL
+NOISE NEAR HOMES -> DISRUPTION FELT BY NON-PARTICIPANTS | x8663>x8406 | caps NONE/ARROW_EQUILATERAL
+DISRUPTION FELT BY NON-PARTICIPANTS -> ★1 DISRUPTION VISIBLE TO PLANNERS | x8406>x8410 | caps NONE/ARROW_EQUILATERAL
+EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) -> DISRUPTION FELT BY NON-PARTICIPANTS | x8401>x8406 | caps NONE/ARROW_EQUILATERAL
+OWN DELAY AND DISCOMFORT -> GAP TO A NORMAL ROUTINE (GOAL: NORMAL TRAVEL TIME) | OWN_DELAY>GAP_ROUTINE | caps NONE/ARROW_EQUILATERAL
+GOAL: a normal routine (residents) -> GAP TO A NORMAL ROUTINE (GOAL: NORMAL TRAVEL TIME) | x8427>GAP_ROUTINE | caps NONE/ARROW_EQUILATERAL
+SURPRISE DISRUPTIONS -> DISRUPTION FELT BY NON-PARTICIPANTS | x9103>x8406 | caps NONE/ARROW_EQUILATERAL
+★6 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE) -> SURPRISE DISRUPTIONS | x8655>x9103 | caps NONE/ARROW_EQUILATERAL
+DISRUPTION FELT BY NON-PARTICIPANTS -> ★6 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE) | x8406>x8655 | caps NONE/ARROW_EQUILATERAL
+★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS -> ★6 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE) | x8408>x8655 | caps NONE/ARROW_EQUILATERAL
+GAP TO A NORMAL ROUTINE (GOAL: NORMAL TRAVEL TIME) -> ★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS | GAP_ROUTINE>x8408 | caps NONE/ARROW_EQUILATERAL
+★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS -> OWN DELAY AND DISCOMFORT | x8408>OWN_DELAY | caps NONE/ARROW_EQUILATERAL
+★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS -> ★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) | x8408>x8851 | caps NONE/ARROW_EQUILATERAL
+★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS -> ★1 DISRUPTION VISIBLE TO PLANNERS | x8408>x8410 | caps NONE/ARROW_EQUILATERAL
+DISRUPTION FELT BY NON-PARTICIPANTS -> ★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS | x8406>x8408 | caps NONE/ARROW_EQUILATERAL
+GAP TO DEADLINES AND ERRANDS -> ★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS | GAP_DL>x8408 | caps NONE/ARROW_EQUILATERAL
+Mental model: "every neighbourhood will learn to live with i -> ★6 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE) | x9821>x8655 | caps NONE/ARROW_EQUILATERAL
+Familiarity: years the festival has run here -> ★6 LEARNED ROUTINES (RESIDENTS, SHOPS, POLICE) | x8431>x8655 | caps NONE/ARROW_EQUILATERAL
+★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS -> TRIPS THROUGH THE RESTRICTED AREA | x8408>TRIPS | caps NONE/ARROW_EQUILATERAL
+DELAYS ON USUAL ROUTES (ERRANDS, DELIVERIES) -> GAP TO DEADLINES AND ERRANDS | DELAYS>GAP_DL | caps NONE/ARROW_EQUILATERAL
+TRIPS THROUGH THE RESTRICTED AREA -> DELAYS ON USUAL ROUTES (ERRANDS, DELIVERIES) | TRIPS>DELAYS | caps NONE/ARROW_EQUILATERAL
+POLICE BARRICADES AND DIVERSIONS -> DELAYS ON USUAL ROUTES (ERRANDS, DELIVERIES) | x8387>DELAYS | caps NONE/ARROW_EQUILATERAL
+★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) -> RESIDENTS TAKING PART IN LOCAL CELEBRATIONS | x8851>x8607 | caps NONE/ARROW_EQUILATERAL
+RESIDENTS TAKING PART IN LOCAL CELEBRATIONS -> NOISE NEAR HOMES | x8607>x8663 | caps NONE/ARROW_EQUILATERAL
+Mental model: "noise is part of the celebration" -> NOISE NEAR HOMES | x9856>x8663 | caps NONE/ARROW_EQUILATERAL
+★1 ORGANISED COMPLAINTS (RESIDENTS' GROUPS, POLICE, PMC) -> ENFORCEMENT OF ROAD AND FOOTPATH RULES | x8851>x8891 | caps NONE/ARROW_EQUILATERAL
+DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL) -> NOISE NEAR HOMES | x8859>x8663 | caps NONE/ARROW_EQUILATERAL
+POLICE CHECKS ON SPEAKERS AND TIMINGS -> DHOL-TASHA REHEARSALS (WEEKS BEFORE THE FESTIVAL) | x8667>x8859 | caps NONE/ARROW_EQUILATERAL
+POLICE CHECKS ON SPEAKERS AND TIMINGS -> PROGRAMMES AND THEMED DISPLAYS | x8667>x8659 | caps NONE/ARROW_EQUILATERAL
+PROGRAMMES AND THEMED DISPLAYS -> NOISE NEAR HOMES | x8659>x8663 | caps NONE/ARROW_EQUILATERAL
+ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL -> DISRUPTION FELT BY NON-PARTICIPANTS | x8611>x8406 | caps NONE/ARROW_EQUILATERAL
+CONGESTION AT THE SITE -> EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) | x8384>x8401 | caps NONE/ARROW_EQUILATERAL
+STREET SPACE TAKEN BY THE FESTIVAL -> EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) | x8382>x8401 | caps NONE/ARROW_EQUILATERAL
+CONGESTION ON SURROUNDING ROUTES -> EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) | x8391>x8401 | caps NONE/ARROW_EQUILATERAL
+PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC -> FAMILIAR RELATIONSHIP WITH THE POLICE CHOWKI | PERM>CHOWKI | caps NONE/ARROW_EQUILATERAL
+FORMAL CHECKS: PMC SINGLE WINDOW, POLICE CONDITIONS -> PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC | PORTAL>PERM | caps NONE/ARROW_EQUILATERAL
+INFORMAL NODS AND QUICK APPROVALS -> PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC | NODS>PERM | caps NONE/ARROW_EQUILATERAL
+FAMILIAR RELATIONSHIP WITH THE POLICE CHOWKI -> INFORMAL NODS AND QUICK APPROVALS | CHOWKI>NODS | caps NONE/ARROW_EQUILATERAL
+PERMISSIONS SOUGHT THROUGH THE CHOWKI AND PMC -> CLASHES ON THE GROUND (SOUND, ROUTES, SPACE) | PERM>CLASHES | caps NONE/ARROW_EQUILATERAL
+GAP TO ONE PLAN AGREED BEFORE SETUP -> FORMAL CHECKS: PMC SINGLE WINDOW, POLICE CONDITIONS | GAP_PLAN>PORTAL | caps NONE/ARROW_EQUILATERAL
+CLASHES ON THE GROUND (SOUND, ROUTES, SPACE) -> GAP TO ONE PLAN AGREED BEFORE SETUP | CLASHES>GAP_PLAN | caps NONE/ARROW_EQUILATERAL
+FAMILIAR RELATIONSHIP WITH THE POLICE CHOWKI -> TRUST BETWEEN MANDALS AND POLICE | CHOWKI>TRUST | caps NONE/ARROW_EQUILATERAL
+TRUST BETWEEN MANDALS AND POLICE -> SHARED PLANS: ROUTES, SOUND, PERMISSIONS | TRUST>SHARED | caps NONE/ARROW_EQUILATERAL
+COORDINATION BETWEEN MANDALS, POLICE AND PMC -> CLASHES ON THE GROUND (SOUND, ROUTES, SPACE) | x8420>CLASHES | caps NONE/ARROW_EQUILATERAL
+SHARED PLANS: ROUTES, SOUND, PERMISSIONS -> COORDINATION BETWEEN MANDALS, POLICE AND PMC | SHARED>x8420 | caps NONE/ARROW_EQUILATERAL
+COORDINATION BETWEEN MANDALS, POLICE AND PMC -> TRUST BETWEEN MANDALS AND POLICE | x8420>TRUST | caps NONE/ARROW_EQUILATERAL
+FORMAL CHECKS: PMC SINGLE WINDOW, POLICE CONDITIONS -> EXTRA MEETINGS AND FOLLOW-UPS | PORTAL>MEETINGS | caps NONE/ARROW_EQUILATERAL
+EXTRA MEETINGS AND FOLLOW-UPS -> COORDINATION BETWEEN MANDALS, POLICE AND PMC | MEETINGS>x8420 | caps NONE/ARROW_EQUILATERAL
+GAP TO ONE PLAN AGREED BEFORE SETUP -> EXTRA MEETINGS AND FOLLOW-UPS | GAP_PLAN>MEETINGS | caps NONE/ARROW_EQUILATERAL
+COORDINATION BETWEEN MANDALS, POLICE AND PMC -> ADVANCE NOTICE TO AFFECTED PEOPLE | x8420>x8422 | caps NONE/ARROW_EQUILATERAL
+FORMAL CHECKS: PMC SINGLE WINDOW, POLICE CONDITIONS -> ★4 JOINT WHOLE-CYCLE PLANNING (PMC, POLICE, MANDALS) | PORTAL>WHOLE | caps NONE/ARROW_EQUILATERAL
+COORDINATION BETWEEN MANDALS, POLICE AND PMC -> ★4 JOINT WHOLE-CYCLE PLANNING (PMC, POLICE, MANDALS) | x8420>WHOLE | caps NONE/ARROW_EQUILATERAL
+Responsibility split across agencies -> COORDINATION BETWEEN MANDALS, POLICE AND PMC | x8433>x8420 | caps NONE/ARROW_EQUILATERAL
+GAP TO ONE SMOOTH FESTIVAL CYCLE -> ★4 JOINT WHOLE-CYCLE PLANNING (PMC, POLICE, MANDALS) | GAP_CYCLE>WHOLE | caps NONE/ARROW_EQUILATERAL
+PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP -> GAP TO ONE SMOOTH FESTIVAL CYCLE | STAGE>GAP_CYCLE | caps NONE/ARROW_EQUILATERAL
+★4 JOINT WHOLE-CYCLE PLANNING (PMC, POLICE, MANDALS) -> AGENCIES PLANNING STAGE BY STAGE | WHOLE>x8619 | caps NONE/ARROW_EQUILATERAL
+AGENCIES PLANNING STAGE BY STAGE -> PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP | x8619>STAGE | caps NONE/ARROW_EQUILATERAL
+Mental model: "we manage it as it comes" -> AGENCIES PLANNING STAGE BY STAGE | x9842>x8619 | caps NONE/ARROW_EQUILATERAL
+FIREFIGHTING AT EACH STAGE -> AGENCIES PLANNING STAGE BY STAGE | x9083>x8619 | caps NONE/ARROW_EQUILATERAL
+Responsibility split across agencies -> AGENCIES PLANNING STAGE BY STAGE | x8433>x8619 | caps NONE/ARROW_EQUILATERAL
+COORDINATION BETWEEN MANDALS, POLICE AND PMC -> AGENCIES PLANNING STAGE BY STAGE | x8420>x8619 | caps NONE/ARROW_EQUILATERAL
+MISSED HAND-OFFS BETWEEN STAGES -> FIREFIGHTING AT EACH STAGE | x8623>x9083 | caps NONE/ARROW_EQUILATERAL
+AGENCIES PLANNING STAGE BY STAGE -> MISSED HAND-OFFS BETWEEN STAGES | x8619>x8623 | caps NONE/ARROW_EQUILATERAL
+MISSED HAND-OFFS BETWEEN STAGES -> COORDINATION BETWEEN MANDALS, POLICE AND PMC | x8623>x8420 | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> FAMILIAR RELATIONSHIP WITH THE POLICE CHOWKI | x8376>CHOWKI | caps NONE/ARROW_EQUILATERAL
+ADVANCE NOTICE TO AFFECTED PEOPLE -> DISRUPTION FELT BY NON-PARTICIPANTS | x8422>x8406 | caps NONE/ARROW_EQUILATERAL
+★1 DISRUPTION VISIBLE TO PLANNERS -> COORDINATION BETWEEN MANDALS, POLICE AND PMC | x8410>x8420 | caps NONE/ARROW_EQUILATERAL
+Idols installed in homes and mandals (10 to 12 lakh immersio -> IDOLS IMMERSED IN THE RIVER | x8867>x8871 | caps NONE/ARROW_EQUILATERAL
+ECO IDOLS, TANKS -> IDOLS IMMERSED IN THE RIVER | x8883>x8871 | caps NONE/ARROW_EQUILATERAL
+Mental model: "immersion is PMC's job now" -> PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA) | x9835>x8627 | caps NONE/ARROW_EQUILATERAL
+★9 MANDALS AND RESIDENTS TAKING TASKS BACK -> PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA) | x9091>x8627 | caps NONE/ARROW_EQUILATERAL
+ECO IDOLS, TANKS -> PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA) | x8883>x8627 | caps NONE/ARROW_EQUILATERAL
+CAPACITY: PMC workers and sites (3,970 workers, 241 collecti -> LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) | x9884>x8635 | caps NONE/ARROW_EQUILATERAL
+LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) -> ★9 MANDALS AND RESIDENTS TAKING TASKS BACK | x8635>x9091 | caps NONE/ARROW_EQUILATERAL
+PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA) -> LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) | x8627>x8635 | caps NONE/ARROW_EQUILATERAL
+IDOLS IMMERSED IN THE RIVER -> RIVER POLLUTION (MULA-MUTHA) | x8871>x8875 | caps NONE/ARROW_EQUILATERAL
+COURT, NGT AND MPCB RULES -> ECO IDOLS, TANKS | x8879>x8883 | caps NONE/ARROW_EQUILATERAL
+RIVER POLLUTION (MULA-MUTHA) -> COURT, NGT AND MPCB RULES | x8875>x8879 | caps NONE/ARROW_EQUILATERAL
+PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA) -> RESIDENTS' OWN ROLE AND KNOW-HOW | x8627>x8631 | caps NONE/ARROW_EQUILATERAL
+RESIDENTS' OWN ROLE AND KNOW-HOW -> COMMUNITY KNOW-HOW | x8631>x9087 | caps NONE/ARROW_EQUILATERAL
+COMMUNITY KNOW-HOW -> PMC DOING COMMUNITY TASKS (IMMERSION, NIRMALYA) | x9087>x8627 | caps NONE/ARROW_EQUILATERAL
+RESIDENTS' OWN ROLE AND KNOW-HOW -> ATTACHMENT TO THE NEIGHBOURHOOD'S FESTIVAL | x8631>x8611 | caps NONE/ARROW_EQUILATERAL
+POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS -> SITE SEEN AS SAFE AND MANAGED | POLICE>SEEN | caps NONE/ARROW_EQUILATERAL
+★7 GAP BEYOND ONE DAY OF SECURITY AND TRAFFIC CAPACITY -> MANDALS DENIED ENTRY TO THE PROCESSION | GAP_SEC>x8599 | caps NONE/ARROW_EQUILATERAL
+LENGTH AND DURATION OF THE PROCESSION -> ★7 GAP BEYOND ONE DAY OF SECURITY AND TRAFFIC CAPACITY | PROC_LENGTH>GAP_SEC | caps NONE/ARROW_EQUILATERAL
+PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK -> POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS | PULL>POLICE | caps NONE/ARROW_EQUILATERAL
+CAPACITY: one day of security and traffic (police) -> ★7 GAP BEYOND ONE DAY OF SECURITY AND TRAFFIC CAPACITY | x8603>GAP_SEC | caps NONE/ARROW_EQUILATERAL
+LENGTH AND DURATION OF THE PROCESSION -> STAFF AND SERVICES DIVERTED TO THE FESTIVAL | PROC_LENGTH>x8639 | caps NONE/ARROW_EQUILATERAL
+PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK -> STAFF AND SERVICES DIVERTED TO THE FESTIVAL | PULL>x8639 | caps NONE/ARROW_EQUILATERAL
+POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS -> STAFF AND SERVICES DIVERTED TO THE FESTIVAL | POLICE>x8639 | caps NONE/ARROW_EQUILATERAL
+ROUTINE CIVIC AND POLICE SERVICES STRETCHED -> PULLING STAFF AND OFFICERS BACK TO ROUTINE WORK | STRETCHED>PULL | caps NONE/ARROW_EQUILATERAL
+STAFF AND SERVICES DIVERTED TO THE FESTIVAL -> ROUTINE CIVIC AND POLICE SERVICES STRETCHED | x8639>STRETCHED | caps NONE/ARROW_EQUILATERAL
+STAFF AND SERVICES DIVERTED TO THE FESTIVAL -> FESTIVAL HANDLED WITHOUT NEW SYSTEMS | x8639>x9095 | caps NONE/ARROW_EQUILATERAL
+FESTIVAL HANDLED WITHOUT NEW SYSTEMS -> CASE FOR DEDICATED FESTIVAL CAPACITY | x9095>x8643 | caps NONE/ARROW_EQUILATERAL
+CASE FOR DEDICATED FESTIVAL CAPACITY -> STAFF AND SERVICES DIVERTED TO THE FESTIVAL | x8643>x8639 | caps NONE/ARROW_EQUILATERAL
+LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) -> ROUTINE CIVIC AND POLICE SERVICES STRETCHED | x8635>STRETCHED | caps NONE/ARROW_EQUILATERAL
+LENGTH AND DURATION OF THE PROCESSION -> POLICE BARRICADES AND DIVERSIONS | PROC_LENGTH>x8387 | caps NONE/ARROW_EQUILATERAL
+LENGTH AND DURATION OF THE PROCESSION -> PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP | PROC_LENGTH>STAGE | caps NONE/ARROW_EQUILATERAL
+SITE SEEN AS SAFE AND MANAGED -> VISITOR FOOTFALL AT THE SITE | SEEN>x8368 | caps NONE/ARROW_EQUILATERAL
+VISITOR FOOTFALL AT THE SITE -> POLICE DEPLOYED AT KNOWN BIG SITES AND HOTSPOTS | x8368>POLICE | caps NONE/ARROW_EQUILATERAL
+MANDALS IN THE MAIN PROCESSION -> LENGTH AND DURATION OF THE PROCESSION | x8595>PROC_LENGTH | caps NONE/ARROW_EQUILATERAL
+MANDALS DENIED ENTRY TO THE PROCESSION -> MANDALS APPLYING TO JOIN THE PROCESSION | x8599>x9071 | caps NONE/ARROW_EQUILATERAL
+LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) -> STAFF AND SERVICES DIVERTED TO THE FESTIVAL | x8635>x8639 | caps NONE/ARROW_EQUILATERAL
+CHANGES TO FESTIVAL ARRANGEMENTS -> RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING) | x8413>RECURRING | caps NONE/ARROW_EQUILATERAL
+Staff turnover in police and mandals -> ★6 LESSONS CARRIED INTO NEXT YEAR | STAFF_TURNOVER>x8417 | caps NONE/ARROW_EQUILATERAL
+★6 LESSONS CARRIED INTO NEXT YEAR -> CHANGES TO FESTIVAL ARRANGEMENTS | x8417>x8413 | caps NONE/ARROW_EQUILATERAL
+GAP TO A SMOOTHER FESTIVAL EACH YEAR -> ★6 LESSONS CARRIED INTO NEXT YEAR | GAP_SMOOTH>x8417 | caps NONE/ARROW_EQUILATERAL
+RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING) -> GAP TO A SMOOTHER FESTIVAL EACH YEAR | RECURRING>GAP_SMOOTH | caps NONE/ARROW_EQUILATERAL
+GOAL: a festival that runs without affecting the city (organ -> GAP TO A SMOOTHER FESTIVAL EACH YEAR | x9877>GAP_SMOOTH | caps NONE/ARROW_EQUILATERAL
+CLEAN-UP AND DISMANTLING BACKLOG -> GAP TO A RESTORED STREET | x8399>x9099 | caps NONE/ARROW_EQUILATERAL
+GOAL: street restored within 3 days (PMC rule) -> GAP TO A RESTORED STREET | x8651>x9099 | caps NONE/ARROW_EQUILATERAL
+★5 WORK PUSHED LATER, INCLUDING DISMANTLING -> DISMANTLING AND CLEAN-UP CREWS AT WORK | WP>x8647 | caps NONE/ARROW_EQUILATERAL
+GAP TO A RESTORED STREET -> DISMANTLING AND CLEAN-UP CREWS AT WORK | x9099>x8647 | caps NONE/ARROW_EQUILATERAL
+DISMANTLING AND CLEAN-UP CREWS AT WORK -> CLEAN-UP AND DISMANTLING BACKLOG | x8647>x8399 | caps NONE/ARROW_EQUILATERAL
+WORKERS SPECIALISING IN FESTIVAL WORK -> MORE ELABORATE SETUPS POSSIBLE | SPEC>ELAB | caps NONE/ARROW_EQUILATERAL
+★5 WORK PUSHED LATER, INCLUDING DISMANTLING -> TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED | WP>WORKERS | caps NONE/ARROW_EQUILATERAL
+MORE ELABORATE SETUPS POSSIBLE -> TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED | ELAB>WORKERS | caps NONE/ARROW_EQUILATERAL
+TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED -> WORKERS SPECIALISING IN FESTIVAL WORK | WORKERS>SPEC | caps NONE/ARROW_EQUILATERAL
+CREWS BOOKED BEYOND THOSE AVAILABLE -> ★5 WORK PUSHED LATER, INCLUDING DISMANTLING | GAP_CREWS>WP | caps NONE/ARROW_EQUILATERAL
+TEMPORARY DECOR, SOUND AND LIGHT CREWS HIRED -> CREWS BOOKED BEYOND THOSE AVAILABLE | WORKERS>GAP_CREWS | caps NONE/ARROW_EQUILATERAL
+Mental model: "once it ends, the street fixes itself" -> DISMANTLING AND CLEAN-UP CREWS AT WORK | x9849>x8647 | caps NONE/ARROW_EQUILATERAL
+LOAD ON CIVIC SERVICES (WASTE, TRAFFIC, POLICE) -> CLEAN-UP AND DISMANTLING BACKLOG | x8635>x8399 | caps NONE/ARROW_EQUILATERAL
+ROUTINE CIVIC AND POLICE SERVICES STRETCHED -> DISMANTLING AND CLEAN-UP CREWS AT WORK | STRETCHED>x8647 | caps NONE/ARROW_EQUILATERAL
+PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP -> RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING) | STAGE>RECURRING | caps NONE/ARROW_EQUILATERAL
+CLEAN-UP AND DISMANTLING BACKLOG -> PROBLEMS AT STAGE BOUNDARIES: SETUP, VISARJAN, CLEAN-UP | x8399>STAGE | caps NONE/ARROW_EQUILATERAL
+★1 DISRUPTION VISIBLE TO PLANNERS -> RECURRING PROBLEMS PLANNERS SEE (JAMS, CROWDING) | x8410>RECURRING | caps NONE/ARROW_EQUILATERAL
+CHANGES TO FESTIVAL ARRANGEMENTS -> ★1 PRIVATE ADAPTATION BY RESIDENTS AND WORKERS | x8413>x8408 | caps NONE/ARROW_EQUILATERAL
+STAFF AND SERVICES DIVERTED TO THE FESTIVAL -> DISMANTLING AND CLEAN-UP CREWS AT WORK | x8639>x8647 | caps NONE/ARROW_EQUILATERAL
+MISSED HAND-OFFS BETWEEN STAGES -> CLEAN-UP AND DISMANTLING BACKLOG | x8623>x8399 | caps NONE/ARROW_EQUILATERAL
+★2 SITE CARRY-OVER AND PERMISSION PRECEDENT (2019 TO 2026) -> CHANGES TO FESTIVAL ARRANGEMENTS | x8376>x8413 | caps NONE/ARROW_EQUILATERAL
+★1 DISRUPTION VISIBLE TO PLANNERS -> CHANGES TO FESTIVAL ARRANGEMENTS | x8410>x8413 | caps NONE/ARROW_EQUILATERAL
+CHANGES TO FESTIVAL ARRANGEMENTS -> STREET SPACE TAKEN BY THE FESTIVAL | x8413>x8382 | caps NONE/ARROW_EQUILATERAL
+CLEAN-UP AND DISMANTLING BACKLOG -> EVERYDAY ACCESS (HOMES, SHOPS, DELIVERIES) | x8399>x8401 | caps NONE/ARROW_EQUILATERAL
+STREET SPACE TAKEN BY THE FESTIVAL -> CLEAN-UP AND DISMANTLING BACKLOG | x8382>x8399 | caps NONE/ARROW_EQUILATERAL
