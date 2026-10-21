@@ -171,16 +171,14 @@ for k, e in enumerate(M['edges']):
     loops_attr = ' '.join(ls)
     eg.append(f'<path id="{eid}" class="edge {cls}{dash}" d="{d}" data-s="{a}" data-t="{b}" data-loops="{loops_attr}" marker-end="url(#ah-{cls})"/>')
     # sign near the arrowhead (CLD convention), evidence tag beside it
-    pi = max(0, len(pts) - 1 - max(3, len(pts) // 7))
+    # sign badge sits on the arrow, a little back from the arrowhead (CLD convention: polarity at the head)
+    pi = max(1, min(len(pts) - 2, int(round(len(pts) * 0.74))))
     px, py = pts[pi]
-    qx, qy = pts[min(pi + 1, len(pts) - 1)]
-    tx, ty = qx - px, qy - py
-    tl = math.hypot(tx, ty) + 1e-6
-    ox, oy = -ty / tl * 11, tx / tl * 11
     sg = e['sign']
     tag = e['ev']
-    lg.append(f'<g class="elab {cls}" data-edge="{eid}"><text class="sg" x="{f(px + ox)}" y="{f(py + oy + 4)}">{sg}</text>'
-              + (f'<text class="ev" x="{f(px + ox + 8)}" y="{f(py + oy + 4)}">{esc(tag)}</text>' if tag else '') + '</g>')
+    lg.append(f'<g class="elab {cls}" data-edge="{eid}" transform="translate({f(px)},{f(py)})"><g class="sb">'
+              f'<circle r="13"/><text class="sg" y="6.4">{sg}</text>'
+              + (f'<text class="ev" x="16" y="5">{esc(tag)}</text>' if tag else '') + '</g></g>')
     if e['delay']:
         mi = len(pts) // 2
         mx, my = pts[mi]
